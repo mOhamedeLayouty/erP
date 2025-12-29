@@ -11,6 +11,9 @@ import { invoicingRouter } from './modules/invoicing/invoicing.routes.js';
 import { inventoryRouter } from './modules/inventory/inventory.routes.js';
 import { auditRouter } from './modules/control-audit/control-audit.routes.js';
 import { crmRouter } from './modules/crm/crm.routes.js';
+import { carsRouter } from './modules/cars/cars.routes.js';
+import { hrRouter } from './modules/hr/hr.routes.js';
+import { generalLedgerRouter } from './modules/general-ledger/general-ledger.routes.js';
 
 export function buildRoutes(app: Express) {
   // Health
@@ -31,4 +34,7 @@ export function buildRoutes(app: Express) {
   app.use('/api/inventory', inventoryRouter(permissionGuard));
   app.use('/api/audit', auditRouter(permissionGuard));
   app.use('/api/crm', crmRouter(permissionGuard));
+  app.use('/api/cars', carsRouter(permissionGuard));
+  app.use('/api/hr', hrRouter(permissionGuard));
+  app.use('/api/general-ledger', generalLedgerRouter(permissionGuard));
 }

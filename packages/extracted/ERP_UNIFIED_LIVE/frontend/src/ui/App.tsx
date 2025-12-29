@@ -11,6 +11,9 @@ import InventoryRequests from './pages/InventoryRequests';
 import InventoryReports from './pages/InventoryReports';
 import Audit from './pages/Audit';
 import CRMCustomers from './pages/CRMCustomers';
+import Cars from './pages/Cars';
+import HR from './pages/HR';
+import GeneralLedger from './pages/GeneralLedger';
 import Login from './pages/Login';
 
 export default function App() {
@@ -30,6 +33,9 @@ export default function App() {
               <Link to="/inventory-reports">Inventory Reports</Link>
               <Link to="/audit">Audit</Link>
               <Link to="/crm/customers">CRM Customers</Link>
+              <Link to="/cars">Cars</Link>
+              <Link to="/hr">HR</Link>
+              <Link to="/general-ledger">General Ledger</Link>
             </nav>
             <div style={{ marginLeft: 'auto' }}>
               <Link to="/login">Login</Link>
@@ -48,6 +54,9 @@ export default function App() {
             <Route path="/inventory-reports" element={<InventoryReports />} />
             <Route path="/audit" element={<Audit />} />
             <Route path="/crm/customers" element={<CRMCustomers />} />
+            <Route path="/cars" element={<Cars />} />
+            <Route path="/hr" element={<HR />} />
+            <Route path="/general-ledger" element={<GeneralLedger />} />
             <Route path="*" element={<div>Not Found</div>} />
           </Routes>
         </div>
