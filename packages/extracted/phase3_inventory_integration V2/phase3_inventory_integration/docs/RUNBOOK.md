@@ -17,7 +17,6 @@ cp .env.example .env
 
 2) عدّل `.env`:
 - `ODBC_CONNECTION_STRING=...` (إجباري)
-- `DEFER_RBAC=true` (اختياري – لتجاوز الصلاحيات أثناء التطوير)
 
 ### تشغيل
 ```bash
@@ -58,7 +57,10 @@ npm run dev
 
 ## Troubleshooting
 - لو ظهر خطأ ODBC: تأكد من Driver + Connection String.
-- لو الصلاحيات مانعة: فعّل `DEFER_RBAC=true` في backend.
+
+## ملاحظة هامة عن الصلاحيات
+- كل الموديولز تعمل مؤقتًا بدون صلاحيات (RBAC متعطل بالكامل).
+- ده إجراء مؤقت لحد ما مراجعة كل موديول تكتمل ويتم إعادة تفعيل الصلاحيات.
 
 
 ## Stock Workflows (Inventory الحقيقي)
