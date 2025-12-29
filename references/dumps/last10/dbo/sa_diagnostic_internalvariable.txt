@@ -1,0 +1,6 @@
+TABLE: dbo.sa_diagnostic_internalvariable
+ORDER_BY: logging_session_id
+COLUMNS: logging_session_id, request_id, rowvariable_id, variable_domain, variable_name, variable_value
+ROWS: 0
+---
+[]

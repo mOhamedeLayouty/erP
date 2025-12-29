@@ -1,0 +1,6 @@
+TABLE: DBA.temp
+ORDER_BY: (none)
+COLUMNS: name, code
+ROWS: 0
+---
+[]

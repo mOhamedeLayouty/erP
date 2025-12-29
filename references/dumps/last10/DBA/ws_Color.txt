@@ -1,0 +1,127 @@
+TABLE: DBA.ws_Color
+ORDER_BY: entry_date
+COLUMNS: Colorid, name_e, name_a, user_id, entry_date, color_code, brand, old_Colorid, is_incolor, colorgroup_id
+ROWS: 10
+---
+[
+  {
+    "Colorid": 202,
+    "name_e": "314",
+    "name_a": "���� ����",
+    "user_id": "mina.maged",
+    "entry_date": "2025-07-31 12:07:57.667000",
+    "color_code": "314",
+    "brand": 1,
+    "old_Colorid": null,
+    "is_incolor": 0,
+    "colorgroup_id": 51
+  },
+  {
+    "Colorid": 203,
+    "name_e": "107",
+    "name_a": "107",
+    "user_id": "mina.maged",
+    "entry_date": "2025-07-30 16:14:19.860000",
+    "color_code": "107",
+    "brand": 1,
+    "old_Colorid": null,
+    "is_incolor": 1,
+    "colorgroup_id": 3
+  },
+  {
+    "Colorid": 201,
+    "name_e": "����",
+    "name_a": "����",
+    "user_id": "mina.maged",
+    "entry_date": "2025-06-30 10:08:37.010000",
+    "color_code": "108",
+    "brand": 1,
+    "old_Colorid": null,
+    "is_incolor": 1,
+    "colorgroup_id": null
+  },
+  {
+    "Colorid": 200,
+    "name_e": "������",
+    "name_a": "������",
+    "user_id": "mina.maged",
+    "entry_date": "2025-06-30 10:01:10.102000",
+    "color_code": "125",
+    "brand": 1,
+    "old_Colorid": null,
+    "is_incolor": 0,
+    "colorgroup_id": 50
+  },
+  {
+    "Colorid": 199,
+    "name_e": "����� ����",
+    "name_a": "����� ����",
+    "user_id": "mina.maged",
+    "entry_date": "2025-06-30 09:51:05.090000",
+    "color_code": "861",
+    "brand": 1,
+    "old_Colorid": null,
+    "is_incolor": 0,
+    "colorgroup_id": null
+  },
+  {
+    "Colorid": 198,
+    "name_e": "����",
+    "name_a": "����",
+    "user_id": "mina.maged",
+    "entry_date": "2025-03-25 11:24:11.671000",
+    "color_code": "����",
+    "brand": 1,
+    "old_Colorid": null,
+    "is_incolor": 1,
+    "colorgroup_id": null
+  },
+  {
+    "Colorid": 197,
+    "name_e": "691",
+    "name_a": "691",
+    "user_id": "mina.maged",
+    "entry_date": "2025-03-12 12:04:48.685000",
+    "color_code": "691",
+    "brand": 1,
+    "old_Colorid": null,
+    "is_incolor": 0,
+    "colorgroup_id": null
+  },
+  {
+    "Colorid": 196,
+    "name_e": "549",
+    "name_a": "549",
+    "user_id": "mina.maged",
+    "entry_date": "2025-03-12 12:04:25.284000",
+    "color_code": "549",
+    "brand": 1,
+    "old_Colorid": null,
+    "is_incolor": 0,
+    "colorgroup_id": null
+  },
+  {
+    "Colorid": 195,
+    "name_e": "541",
+    "name_a": "549",
+    "user_id": "mina.maged",
+    "entry_date": "2025-03-12 12:03:00.241000",
+    "color_code": "541",
+    "brand": 1,
+    "old_Colorid": null,
+    "is_incolor": 0,
+    "colorgroup_id": null
+  },
+  {
+    "Colorid": 194,
+    "name_e": "113",
+    "name_a": "113",
+    "user_id": "mina.maged",
+    "entry_date": "2025-03-12 11:59:53.144000",
+    "color_code": "196",
+    "brand": 1,
+    "old_Colorid": null,
+    "is_incolor": 1,
+    "colorgroup_id": null
+  }
+]

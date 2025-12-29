@@ -1,0 +1,6 @@
+TABLE: DBA.vehicle_add_specs
+ORDER_BY: vehicle_id
+COLUMNS: vehicle_id, log_store, specs_id, brand, buy_price, buy_tax_perc, buy_tax_value, sell_price, sell_tax_perc, sell_tax_value
+ROWS: 0
+---
+[]

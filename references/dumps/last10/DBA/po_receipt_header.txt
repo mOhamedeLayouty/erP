@@ -1,0 +1,6 @@
+TABLE: DBA.po_receipt_header
+ORDER_BY: entry_date
+COLUMNS: receipt_id, receipt_date, currency_id, currency_rate, payment_type, cash_id, receipt_amount, card_number, cardexpirydate, entry_date, entry_user, edit_date, edit_user, delete_flag, delete_user, delete_date, delete_reason, vend_code, post_flag, receipttypeid, receipt_number, description, pay_type
+ROWS: 0
+---
+[]

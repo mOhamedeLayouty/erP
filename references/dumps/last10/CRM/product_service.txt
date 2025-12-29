@@ -1,0 +1,6 @@
+TABLE: CRM.product_service
+ORDER_BY: (none)
+COLUMNS: client_code, ps_code, ps_name, ps_type, description, retail_price, sale_price, sale_start, sale_end, discount_rules, tax_rate, supplier, cost_price, specification
+ROWS: 0
+---
+[]

@@ -1,0 +1,25 @@
+TABLE: HR.emp_appraisal
+ORDER_BY: entry_date
+COLUMNS: appraisal_code, entry_date, user_id, emp_code, exp_date, actual_date, exp_appraisal_make, actual_appraisal_make, discussed, general_comments, responsibilities, accomplishment, performance, strengths, development, nots
+ROWS: 1
+---
+[
+  {
+    "appraisal_code": 1,
+    "entry_date": "2022-07-05 15:53:00.364000",
+    "user_id": null,
+    "emp_code": "5124",
+    "exp_date": "2022-07-05",
+    "actual_date": null,
+    "exp_appraisal_make": "5185",
+    "actual_appraisal_make": null,
+    "discussed": "Y",
+    "general_comments": "����",
+    "responsibilities": null,
+    "accomplishment": null,
+    "performance": null,
+    "strengths": null,
+    "development": "����",
+    "nots": "�� ����"
+  }
+]

@@ -1,0 +1,39 @@
+TABLE: HR.tbkey
+ORDER_BY: (none)
+COLUMNS: prename, onekey
+ROWS: 8
+---
+[
+  {
+    "prename": "SREF",
+    "onekey": 0
+  },
+  {
+    "prename": "FENREF",
+    "onekey": 0
+  },
+  {
+    "prename": "LOGREF",
+    "onekey": 0
+  },
+  {
+    "prename": "SREF",
+    "onekey": 0
+  },
+  {
+    "prename": "FENREF",
+    "onekey": 0
+  },
+  {
+    "prename": "LOGREF",
+    "onekey": 0
+  },
+  {
+    "prename": "OUTLOGBY",
+    "onekey": 1
+  },
+  {
+    "prename": "OUTFILEGBY",
+    "onekey": 0
+  }
+]

@@ -1,0 +1,137 @@
+TABLE: HR.checkinout
+ORDER_BY: (none)
+COLUMNS: userid, checktime, checktype, verifycode, sensorid, workcode, sn, memoinfo, UserExtFmt, Remarks, IsManual
+ROWS: 10
+---
+[
+  {
+    "userid": 39,
+    "checktime": "2018-03-25 07:46:53.000000",
+    "checktype": "O",
+    "verifycode": 1,
+    "sensorid": "1",
+    "workcode": 0,
+    "sn": "3189152200070",
+    "memoinfo": null,
+    "UserExtFmt": 1,
+    "Remarks": null,
+    "IsManual": 0
+  },
+  {
+    "userid": 75,
+    "checktime": "2018-03-25 07:47:03.000000",
+    "checktype": "O",
+    "verifycode": 1,
+    "sensorid": "1",
+    "workcode": 0,
+    "sn": "3189152200070",
+    "memoinfo": null,
+    "UserExtFmt": 1,
+    "Remarks": null,
+    "IsManual": 0
+  },
+  {
+    "userid": 75,
+    "checktime": "2018-03-25 07:47:05.000000",
+    "checktype": "O",
+    "verifycode": 1,
+    "sensorid": "1",
+    "workcode": 0,
+    "sn": "3189152200070",
+    "memoinfo": null,
+    "UserExtFmt": 1,
+    "Remarks": null,
+    "IsManual": 0
+  },
+  {
+    "userid": 73,
+    "checktime": "2018-03-25 07:47:14.000000",
+    "checktype": "O",
+    "verifycode": 1,
+    "sensorid": "1",
+    "workcode": 0,
+    "sn": "3189152200070",
+    "memoinfo": null,
+    "UserExtFmt": 1,
+    "Remarks": null,
+    "IsManual": 0
+  },
+  {
+    "userid": 29,
+    "checktime": "2018-03-25 07:47:20.000000",
+    "checktype": "O",
+    "verifycode": 1,
+    "sensorid": "1",
+    "workcode": 0,
+    "sn": "3189152200070",
+    "memoinfo": null,
+    "UserExtFmt": 1,
+    "Remarks": null,
+    "IsManual": 0
+  },
+  {
+    "userid": 29,
+    "checktime": "2018-03-25 07:47:23.000000",
+    "checktype": "O",
+    "verifycode": 1,
+    "sensorid": "1",
+    "workcode": 0,
+    "sn": "3189152200070",
+    "memoinfo": null,
+    "UserExtFmt": 1,
+    "Remarks": null,
+    "IsManual": 0
+  },
+  {
+    "userid": 5,
+    "checktime": "2018-03-25 07:47:27.000000",
+    "checktype": "O",
+    "verifycode": 1,
+    "sensorid": "1",
+    "workcode": 0,
+    "sn": "3189152200070",
+    "memoinfo": null,
+    "UserExtFmt": 1,
+    "Remarks": null,
+    "IsManual": 0
+  },
+  {
+    "userid": 66,
+    "checktime": "2018-03-25 07:47:32.000000",
+    "checktype": "O",
+    "verifycode": 1,
+    "sensorid": "1",
+    "workcode": 0,
+    "sn": "3189152200070",
+    "memoinfo": null,
+    "UserExtFmt": 1,
+    "Remarks": null,
+    "IsManual": 0
+  },
+  {
+    "userid": 25,
+    "checktime": "2018-03-25 07:47:37.000000",
+    "checktype": "O",
+    "verifycode": 1,
+    "sensorid": "1",
+    "workcode": 0,
+    "sn": "3189152200070",
+    "memoinfo": null,
+    "UserExtFmt": 1,
+    "Remarks": null,
+    "IsManual": 0
+  },
+  {
+    "userid": 65,
+    "checktime": "2018-03-25 07:48:08.000000",
+    "checktype": "O",
+    "verifycode": 1,
+    "sensorid": "1",
+    "workcode": 0,
+    "sn": "3189152200070",
+    "memoinfo": null,
+    "UserExtFmt": 1,
+    "Remarks": null,
+    "IsManual": 0
+  }
+]

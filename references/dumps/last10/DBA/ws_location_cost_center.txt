@@ -1,0 +1,6 @@
+TABLE: DBA.ws_location_cost_center
+ORDER_BY: location_id
+COLUMNS: location_id, center_id, gl_cost_center
+ROWS: 0
+---
+[]

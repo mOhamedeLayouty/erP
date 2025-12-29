@@ -1,0 +1,77 @@
+TABLE: HR.dbs_s_scngrad
+ORDER_BY: entry_date
+COLUMNS: grad_code, grad_desc_e, grad_desc_a, entry_date, user_id
+ROWS: 10
+---
+[
+  {
+    "grad_code": 20,
+    "grad_desc_e": "��������� ���� ������ ������",
+    "grad_desc_a": "��������� ���� ������ ������",
+    "entry_date": "2013-01-29 21:39:32.186000",
+    "user_id": "����"
+  },
+  {
+    "grad_code": 19,
+    "grad_desc_e": "��������� ���� ���",
+    "grad_desc_a": "��������� ���� ���",
+    "entry_date": "2002-08-13 12:42:19.328000",
+    "user_id": "HR"
+  },
+  {
+    "grad_code": 18,
+    "grad_desc_e": "���� ��� ������",
+    "grad_desc_a": "���� ��� ������",
+    "entry_date": "2002-08-06 14:14:40.949000",
+    "user_id": "HR"
+  },
+  {
+    "grad_code": 17,
+    "grad_desc_e": "����� ����",
+    "grad_desc_a": "����� ����",
+    "entry_date": "2002-08-06 14:14:00.619000",
+    "user_id": "HR"
+  },
+  {
+    "grad_code": 16,
+    "grad_desc_e": "����� �����",
+    "grad_desc_a": "����� �����",
+    "entry_date": "2002-08-06 14:13:51.212000",
+    "user_id": "HR"
+  },
+  {
+    "grad_code": 15,
+    "grad_desc_e": "���� �����",
+    "grad_desc_a": "���� ��� �����",
+    "entry_date": "2002-08-06 14:13:21.148000",
+    "user_id": "HR"
+  },
+  {
+    "grad_code": 14,
+    "grad_desc_e": "���� ����� �����",
+    "grad_desc_a": "���� ����� �����",
+    "entry_date": "2002-03-25 15:09:50.140000",
+    "user_id": "HR"
+  },
+  {
+    "grad_code": 13,
+    "grad_desc_e": "����� ����",
+    "grad_desc_a": "����� ����",
+    "entry_date": "2002-03-25 15:09:40.453000",
+    "user_id": "HR"
+  },
+  {
+    "grad_code": 12,
+    "grad_desc_e": "����� ����",
+    "grad_desc_a": "����� ����",
+    "entry_date": "2002-03-25 15:09:09.046000",
+    "user_id": "HR"
+  },
+  {
+    "grad_code": 11,
+    "grad_desc_e": "��������� �����",
+    "grad_desc_a": "��������� �����",
+    "entry_date": "2002-03-25 15:07:36.984000",
+    "user_id": "HR"
+  }
+]

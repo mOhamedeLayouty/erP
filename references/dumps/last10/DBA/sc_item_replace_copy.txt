@@ -1,0 +1,6 @@
+TABLE: DBA.sc_item_replace_copy
+ORDER_BY: (none)
+COLUMNS: item_code, item_rep_code, item_rep_per, rep_type, service_center, price
+ROWS: 0
+---
+[]

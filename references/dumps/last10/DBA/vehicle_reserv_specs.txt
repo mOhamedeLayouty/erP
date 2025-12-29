@@ -1,0 +1,6 @@
+TABLE: DBA.vehicle_reserv_specs
+ORDER_BY: reserv_id
+COLUMNS: reserv_id, log_store, specs_id, brand
+ROWS: 0
+---
+[]

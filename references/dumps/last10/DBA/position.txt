@@ -1,0 +1,57 @@
+TABLE: DBA.position
+ORDER_BY: (none)
+COLUMNS: position_code, description, description_a
+ROWS: 10
+---
+[
+  {
+    "position_code": "1",
+    "description": "General Manager",
+    "description_a": "���� ���"
+  },
+  {
+    "position_code": "11",
+    "description": "pharmacist",
+    "description_a": "����� "
+  },
+  {
+    "position_code": "12",
+    "description": "artist",
+    "description_a": "����"
+  },
+  {
+    "position_code": "13",
+    "description": "lawyer",
+    "description_a": "�����"
+  },
+  {
+    "position_code": "14",
+    "description": "owner",
+    "description_a": "����"
+  },
+  {
+    "position_code": "15",
+    "description": "Teacher",
+    "description_a": "����"
+  },
+  {
+    "position_code": "16",
+    "description": "Jornalist",
+    "description_a": "����"
+  },
+  {
+    "position_code": "17",
+    "description": "Manager",
+    "description_a": "����"
+  },
+  {
+    "position_code": "18",
+    "description": "university Doctor",
+    "description_a": "����� �����"
+  },
+  {
+    "position_code": "19",
+    "description": "officer",
+    "description_a": "����"
+  }
+]

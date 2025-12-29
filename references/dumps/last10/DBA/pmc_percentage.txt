@@ -1,0 +1,6 @@
+TABLE: DBA.pmc_percentage
+ORDER_BY: (none)
+COLUMNS: pmc_code, percentage
+ROWS: 0
+---
+[]

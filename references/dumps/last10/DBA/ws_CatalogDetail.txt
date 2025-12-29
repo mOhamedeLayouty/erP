@@ -1,0 +1,137 @@
+TABLE: DBA.ws_CatalogDetail
+ORDER_BY: entry_date
+COLUMNS: CatalogID, OperationID, FlatRate, user_id, entry_date, OperationCode, service_center, interval_days, interval_km, km2, km3
+ROWS: 10
+---
+[
+  {
+    "CatalogID": 31,
+    "OperationID": 5252,
+    "FlatRate": 0.1,
+    "user_id": "ahmed.hashad",
+    "entry_date": "2025-12-20 12:56:10.299000",
+    "OperationCode": "6438",
+    "service_center": 1,
+    "interval_days": null,
+    "interval_km": null,
+    "km2": null,
+    "km3": null
+  },
+  {
+    "CatalogID": 31,
+    "OperationID": 34,
+    "FlatRate": 0.05,
+    "user_id": "ahmed.hashad",
+    "entry_date": "2025-12-20 11:33:45.576000",
+    "OperationCode": "0520G20",
+    "service_center": 1,
+    "interval_days": null,
+    "interval_km": null,
+    "km2": null,
+    "km3": null
+  },
+  {
+    "CatalogID": 31,
+    "OperationID": 554,
+    "FlatRate": 0.2,
+    "user_id": "ahmed.hashad",
+    "entry_date": "2025-12-20 11:33:12.154000",
+    "OperationCode": "5530B10",
+    "service_center": 1,
+    "interval_days": null,
+    "interval_km": null,
+    "km2": null,
+    "km3": null
+  },
+  {
+    "CatalogID": 33,
+    "OperationID": 4845,
+    "FlatRate": 3.45,
+    "user_id": "ahmed.mahmoudk",
+    "entry_date": "2025-12-09 13:31:11.342000",
+    "OperationCode": "0010K12",
+    "service_center": 1,
+    "interval_days": null,
+    "interval_km": null,
+    "km2": null,
+    "km3": null
+  },
+  {
+    "CatalogID": 33,
+    "OperationID": 4868,
+    "FlatRate": 1.45,
+    "user_id": "ahmed.mahmoudk",
+    "entry_date": "2025-12-09 13:30:49.654000",
+    "OperationCode": "0010R11",
+    "service_center": 1,
+    "interval_days": null,
+    "interval_km": null,
+    "km2": null,
+    "km3": null
+  },
+  {
+    "CatalogID": 33,
+    "OperationID": 4879,
+    "FlatRate": 2.53,
+    "user_id": "ahmed.mahmoudk",
+    "entry_date": "2025-12-09 13:30:15.583000",
+    "OperationCode": "0010L10",
+    "service_center": 1,
+    "interval_days": null,
+    "interval_km": null,
+    "km2": null,
+    "km3": null
+  },
+  {
+    "CatalogID": 33,
+    "OperationID": 4878,
+    "FlatRate": 1.45,
+    "user_id": "ahmed.mahmoudk",
+    "entry_date": "2025-12-09 13:29:43.783000",
+    "OperationCode": "0010L09",
+    "service_center": 1,
+    "interval_days": null,
+    "interval_km": null,
+    "km2": null,
+    "km3": null
+  },
+  {
+    "CatalogID": 33,
+    "OperationID": 4877,
+    "FlatRate": 2.85,
+    "user_id": "ahmed.mahmoudk",
+    "entry_date": "2025-12-09 13:29:20.529000",
+    "OperationCode": "0010L08",
+    "service_center": 1,
+    "interval_days": null,
+    "interval_km": null,
+    "km2": null,
+    "km3": null
+  },
+  {
+    "CatalogID": 33,
+    "OperationID": 4840,
+    "FlatRate": 1.45,
+    "user_id": "ahmed.mahmoudk",
+    "entry_date": "2025-12-09 13:28:52.880000",
+    "OperationCode": "0010K07",
+    "service_center": 1,
+    "interval_days": null,
+    "interval_km": null,
+    "km2": null,
+    "km3": null
+  },
+  {
+    "CatalogID": 33,
+    "OperationID": 4839,
+    "FlatRate": 3.45,
+    "user_id": "ahmed.mahmoudk",
+    "entry_date": "2025-12-09 13:28:35.098000",
+    "OperationCode": "0010K06",
+    "service_center": 1,
+    "interval_days": null,
+    "interval_km": null,
+    "km2": null,
+    "km3": null
+  }
+]

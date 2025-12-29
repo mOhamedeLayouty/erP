@@ -1,0 +1,57 @@
+TABLE: HR.income_natural
+ORDER_BY: (none)
+COLUMNS: line_no, description, description_a
+ROWS: 10
+---
+[
+  {
+    "line_no": 1,
+    "description": "Basic",
+    "description_a": "���������� Basic"
+  },
+  {
+    "line_no": 2,
+    "description": "����",
+    "description_a": "��� �����"
+  },
+  {
+    "line_no": 3,
+    "description": "�����",
+    "description_a": "��� ����"
+  },
+  {
+    "line_no": 4,
+    "description": "�����",
+    "description_a": "�����"
+  },
+  {
+    "line_no": 5,
+    "description": "������������ ���������������",
+    "description_a": "������ ���������"
+  },
+  {
+    "line_no": 6,
+    "description": "��������� ������������������",
+    "description_a": "������ ���"
+  },
+  {
+    "line_no": 7,
+    "description": "�����",
+    "description_a": "�����"
+  },
+  {
+    "line_no": 8,
+    "description": "������ ����������������",
+    "description_a": "������ �����������"
+  },
+  {
+    "line_no": 9,
+    "description": "������ �����",
+    "description_a": "������ �����"
+  },
+  {
+    "line_no": 10,
+    "description": "����",
+    "description_a": "����"
+  }
+]

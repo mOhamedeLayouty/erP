@@ -1,0 +1,27 @@
+﻿# dump_queries_views
+# generated_at: 2025-12-29T13:12:07.256Z
+
+OK  CRM.Opencalls  ->  dumps/queries/views/CRM/Opencalls.sql
+OK  DBA.all_balances  ->  dumps/queries/views/DBA/all_balances.sql
+OK  DBA.car_account_transaction  ->  dumps/queries/views/DBA/car_account_transaction.sql
+OK  DBA.car_cash_move  ->  dumps/queries/views/DBA/car_cash_move.sql
+OK  DBA.cash_move  ->  dumps/queries/views/DBA/cash_move.sql
+OK  DBA.erp_account_transaction  ->  dumps/queries/views/DBA/erp_account_transaction.sql
+OK  DBA.fill_rate  ->  dumps/queries/views/DBA/fill_rate.sql
+OK  DBA.month_balance_view  ->  dumps/queries/views/DBA/month_balance_view.sql
+OK  DBA.monthly_sales_avg  ->  dumps/queries/views/DBA/monthly_sales_avg.sql
+OK  DBA.po_reservation  ->  dumps/queries/views/DBA/po_reservation.sql
+OK  DBA.Repreted_SP  ->  dumps/queries/views/DBA/Repreted_SP.sql
+OK  DBA.sc_auto_reorder_view  ->  dumps/queries/views/DBA/sc_auto_reorder_view.sql
+OK  DBA.sc_items_cost_price  ->  dumps/queries/views/DBA/sc_items_cost_price.sql
+OK  DBA.sc_items_transaction  ->  dumps/queries/views/DBA/sc_items_transaction.sql
+OK  DBA.v_detail_revenue  ->  dumps/queries/views/DBA/v_detail_revenue.sql
+OK  DBA.v_incom_ana  ->  dumps/queries/views/DBA/v_incom_ana.sql
+OK  DBA.v_items_debit_return  ->  dumps/queries/views/DBA/v_items_debit_return.sql
+OK  DBA.v_kpi_monthly  ->  dumps/queries/views/DBA/v_kpi_monthly.sql
+OK  DBA.v_transaction  ->  dumps/queries/views/DBA/v_transaction.sql
+OK  DBA.v_user_privilege  ->  dumps/queries/views/DBA/v_user_privilege.sql
+OK  DBA.v_vehicles_transactions  ->  dumps/queries/views/DBA/v_vehicles_transactions.sql
+OK  DBA.vi_bal  ->  dumps/queries/views/DBA/vi_bal.sql
+OK  Ledger.v_acc_bal_period  ->  dumps/queries/views/Ledger/v_acc_bal_period.sql
+OK  Ledger.vi_bal  ->  dumps/queries/views/Ledger/vi_bal.sql

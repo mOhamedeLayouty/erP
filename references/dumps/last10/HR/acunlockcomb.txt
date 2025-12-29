@@ -1,0 +1,97 @@
+TABLE: HR.acunlockcomb
+ORDER_BY: (none)
+COLUMNS: unlockcombid, name, group01, group02, group03, group04, group05
+ROWS: 10
+---
+[
+  {
+    "unlockcombid": 1,
+    "name": null,
+    "group01": 1,
+    "group02": null,
+    "group03": null,
+    "group04": null,
+    "group05": null
+  },
+  {
+    "unlockcombid": 2,
+    "name": null,
+    "group01": null,
+    "group02": null,
+    "group03": null,
+    "group04": null,
+    "group05": null
+  },
+  {
+    "unlockcombid": 3,
+    "name": null,
+    "group01": null,
+    "group02": null,
+    "group03": null,
+    "group04": null,
+    "group05": null
+  },
+  {
+    "unlockcombid": 4,
+    "name": null,
+    "group01": null,
+    "group02": null,
+    "group03": null,
+    "group04": null,
+    "group05": null
+  },
+  {
+    "unlockcombid": 5,
+    "name": null,
+    "group01": null,
+    "group02": null,
+    "group03": null,
+    "group04": null,
+    "group05": null
+  },
+  {
+    "unlockcombid": 6,
+    "name": null,
+    "group01": null,
+    "group02": null,
+    "group03": null,
+    "group04": null,
+    "group05": null
+  },
+  {
+    "unlockcombid": 7,
+    "name": null,
+    "group01": null,
+    "group02": null,
+    "group03": null,
+    "group04": null,
+    "group05": null
+  },
+  {
+    "unlockcombid": 8,
+    "name": null,
+    "group01": null,
+    "group02": null,
+    "group03": null,
+    "group04": null,
+    "group05": null
+  },
+  {
+    "unlockcombid": 9,
+    "name": null,
+    "group01": null,
+    "group02": null,
+    "group03": null,
+    "group04": null,
+    "group05": null
+  },
+  {
+    "unlockcombid": 10,
+    "name": null,
+    "group01": null,
+    "group02": null,
+    "group03": null,
+    "group04": null,
+    "group05": null
+  }
+]

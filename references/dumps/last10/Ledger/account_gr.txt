@@ -1,0 +1,6 @@
+TABLE: Ledger.account_gr
+ORDER_BY: (none)
+COLUMNS: g_type, g_acc, g_name, acc_no, acc_name, rem, company_code
+ROWS: 0
+---
+[]

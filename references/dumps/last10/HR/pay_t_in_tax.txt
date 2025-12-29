@@ -1,0 +1,106 @@
+TABLE: HR.pay_t_in_tax
+ORDER_BY: entry_date
+COLUMNS: tax_code, in_code, income_deduction, in_tax_per, in_max_per_sal, in_tax_max_val, accum_group, entry_date, user_id
+ROWS: 9
+---
+[
+  {
+    "tax_code": 1,
+    "in_code": 5,
+    "income_deduction": "I",
+    "in_tax_per": 100,
+    "in_max_per_sal": null,
+    "in_tax_max_val": 0,
+    "accum_group": null,
+    "entry_date": "2003-05-29 12:26:20.609000",
+    "user_id": "HR"
+  },
+  {
+    "tax_code": 1,
+    "in_code": 35,
+    "income_deduction": "I",
+    "in_tax_per": 100,
+    "in_max_per_sal": null,
+    "in_tax_max_val": 0,
+    "accum_group": null,
+    "entry_date": "2003-05-29 12:25:53.967000",
+    "user_id": "HR"
+  },
+  {
+    "tax_code": 1,
+    "in_code": 30,
+    "income_deduction": "I",
+    "in_tax_per": 100,
+    "in_max_per_sal": null,
+    "in_tax_max_val": 0,
+    "accum_group": null,
+    "entry_date": "2003-05-29 12:25:44.889000",
+    "user_id": "HR"
+  },
+  {
+    "tax_code": 1,
+    "in_code": 31,
+    "income_deduction": "I",
+    "in_tax_per": 100,
+    "in_max_per_sal": null,
+    "in_tax_max_val": 0,
+    "accum_group": null,
+    "entry_date": "2003-05-29 12:25:06.387000",
+    "user_id": "HR"
+  },
+  {
+    "tax_code": 1,
+    "in_code": 3,
+    "income_deduction": "I",
+    "in_tax_per": 100,
+    "in_max_per_sal": null,
+    "in_tax_max_val": 2496,
+    "accum_group": null,
+    "entry_date": "2002-10-06 07:26:16.537000",
+    "user_id": "hr"
+  },
+  {
+    "tax_code": 1,
+    "in_code": 28,
+    "income_deduction": "I",
+    "in_tax_per": 100,
+    "in_max_per_sal": null,
+    "in_tax_max_val": 0,
+    "accum_group": null,
+    "entry_date": "2002-10-06 07:02:48.328000",
+    "user_id": "hr"
+  },
+  {
+    "tax_code": 1,
+    "in_code": 27,
+    "income_deduction": "I",
+    "in_tax_per": 100,
+    "in_max_per_sal": null,
+    "in_tax_max_val": 960,
+    "accum_group": null,
+    "entry_date": "2002-10-06 06:56:24.183000",
+    "user_id": "hr"
+  },
+  {
+    "tax_code": 1,
+    "in_code": 25,
+    "income_deduction": "I",
+    "in_tax_per": 100,
+    "in_max_per_sal": null,
+    "in_tax_max_val": 480,
+    "accum_group": null,
+    "entry_date": "2002-10-06 06:47:55.120000",
+    "user_id": "hr"
+  },
+  {
+    "tax_code": 1,
+    "in_code": 23,
+    "income_deduction": "D",
+    "in_tax_per": 100,
+    "in_max_per_sal": null,
+    "in_tax_max_val": 999999,
+    "accum_group": null,
+    "entry_date": "2002-09-16 14:49:41.942000",
+    "user_id": "hr"
+  }
+]

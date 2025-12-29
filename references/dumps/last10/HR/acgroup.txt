@@ -1,0 +1,47 @@
+TABLE: HR.acgroup
+ORDER_BY: (none)
+COLUMNS: groupid, name, timezone1, timezone2, timezone3, verifystyle
+ROWS: 5
+---
+[
+  {
+    "groupid": 1,
+    "name": null,
+    "timezone1": 1,
+    "timezone2": 0,
+    "timezone3": 0,
+    "verifystyle": null
+  },
+  {
+    "groupid": 2,
+    "name": null,
+    "timezone1": 0,
+    "timezone2": 0,
+    "timezone3": 0,
+    "verifystyle": null
+  },
+  {
+    "groupid": 3,
+    "name": null,
+    "timezone1": 0,
+    "timezone2": 0,
+    "timezone3": 0,
+    "verifystyle": null
+  },
+  {
+    "groupid": 4,
+    "name": null,
+    "timezone1": 0,
+    "timezone2": 0,
+    "timezone3": 0,
+    "verifystyle": null
+  },
+  {
+    "groupid": 5,
+    "name": null,
+    "timezone1": 0,
+    "timezone2": 0,
+    "timezone3": 0,
+    "verifystyle": null
+  }
+]

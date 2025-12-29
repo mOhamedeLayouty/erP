@@ -1,0 +1,6 @@
+TABLE: HR.country
+ORDER_BY: (none)
+COLUMNS: country_code, description, description_a
+ROWS: 0
+---
+[]

@@ -1,0 +1,16 @@
+TABLE: HR.emp_experiences
+ORDER_BY: experience_id
+COLUMNS: experience_id, emp_code, job_code, from_date, to_date, company, notes
+ROWS: 1
+---
+[
+  {
+    "experience_id": 1,
+    "emp_code": "5029",
+    "job_code": 59,
+    "from_date": "2005-01-01",
+    "to_date": "2019-01-01",
+    "company": "0",
+    "notes": null
+  }
+]

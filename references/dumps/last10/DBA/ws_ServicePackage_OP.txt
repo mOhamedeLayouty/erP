@@ -1,0 +1,23 @@
+TABLE: DBA.ws_ServicePackage_OP
+ORDER_BY: location_id
+COLUMNS: ServicePackageId, OpertationId, service_center, location_id, brand, log_store
+ROWS: 2
+---
+[
+  {
+    "ServicePackageId": "1",
+    "OpertationId": 3172,
+    "service_center": 1,
+    "location_id": 1,
+    "brand": null,
+    "log_store": null
+  },
+  {
+    "ServicePackageId": "1",
+    "OpertationId": 3171,
+    "service_center": 1,
+    "location_id": 1,
+    "brand": null,
+    "log_store": null
+  }
+]

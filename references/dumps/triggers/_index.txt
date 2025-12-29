@@ -1,0 +1,42 @@
+# dump_triggers
+# generated_at: 2025-12-29T13:52:33.617Z
+# SYS.SYSTRIGGER cols: trigger_id, table_id, object_id, event, trigger_time, trigger_order, foreign_table_id, foreign_key_id, referential_action, trigger_name, trigger_defn, remarks, source
+
+OK  DBA.insert_car_credit  ->  dumps/triggers/DBA/insert_car_credit.sql
+OK  DBA.delete_credit_stock_number  ->  dumps/triggers/DBA/delete_credit_stock_number.sql
+OK  DBA.delete_pay  ->  dumps/triggers/DBA/delete_pay.sql
+OK  DBA.insert_pay  ->  dumps/triggers/DBA/insert_pay.sql
+OK  DBA.modify_pay  ->  dumps/triggers/DBA/modify_pay.sql
+OK  DBA.sc_credit_header_trig_i  ->  dumps/triggers/DBA/sc_credit_header_trig_i.sql
+OK  DBA.tu_ws_sales  ->  dumps/triggers/DBA/tu_ws_sales.sql
+OK  DBA.tu_checks  ->  dumps/triggers/DBA/tu_checks.sql
+OK  DBA.items_secial_price_hist_trig_d  ->  dumps/triggers/DBA/items_secial_price_hist_trig_d.sql
+OK  DBA.sc_letter_detail  ->  dumps/triggers/DBA/sc_letter_detail.sql
+OK  DBA.sc_sup_inv_detail  ->  dumps/triggers/DBA/sc_sup_inv_detail.sql
+OK  DBA.tr_buyorder_header  ->  dumps/triggers/DBA/tr_buyorder_header.sql
+OK  DBA.tr_refund_header  ->  dumps/triggers/DBA/tr_refund_header.sql
+OK  DBA.tr_update_joborder_reason  ->  dumps/triggers/DBA/tr_update_joborder_reason.sql
+OK  DBA.tr_doc_son_check  ->  dumps/triggers/DBA/tr_doc_son_check.sql
+OK  DBA.tr_Receipt_check  ->  dumps/triggers/DBA/tr_Receipt_check.sql
+OK  DBA.copy_delete  ->  dumps/triggers/DBA/copy_delete.sql
+OK  DBA.tr_sc_buyorder_header  ->  dumps/triggers/DBA/tr_sc_buyorder_header.sql
+OK  DBA.tr_sc_transfer_header  ->  dumps/triggers/DBA/tr_sc_transfer_header.sql
+OK  DBA.tr_car_doc_son_rec  ->  dumps/triggers/DBA/tr_car_doc_son_rec.sql
+OK  DBA.tr_doc_son_rec_request  ->  dumps/triggers/DBA/tr_doc_son_rec_request.sql
+OK  DBA.tr_sc_ret_header  ->  dumps/triggers/DBA/tr_sc_ret_header.sql
+OK  DBA.tr_CalalogChangeOpCode  ->  dumps/triggers/DBA/tr_CalalogChangeOpCode.sql
+OK  DBA.tr_sc_itemchanges_log  ->  dumps/triggers/DBA/tr_sc_itemchanges_log.sql
+OK  DBA.calc_balance  ->  dumps/triggers/DBA/calc_balance.sql
+OK  DBA.tr_fill_depreciation  ->  dumps/triggers/DBA/tr_fill_depreciation.sql
+OK  DBA.tr_car_inv_edit  ->  dumps/triggers/DBA/tr_car_inv_edit.sql
+OK  DBA.tr_update_job_returnreason  ->  dumps/triggers/DBA/tr_update_job_returnreason.sql
+OK  DBA.tr_doc_son_details_paidamount  ->  dumps/triggers/DBA/tr_doc_son_details_paidamount.sql
+OK  DBA.tr_doc_son_paidamount  ->  dumps/triggers/DBA/tr_doc_son_paidamount.sql
+OK  DBA.tr_ws_joborder_editdate  ->  dumps/triggers/DBA/tr_ws_joborder_editdate.sql
+OK  DBA.tr_ws_Eqpt_Category_parent  ->  dumps/triggers/DBA/tr_ws_Eqpt_Category_parent.sql
+OK  Ledger.adj_open  ->  dumps/triggers/Ledger/adj_open.sql
+OK  Ledger.tu_jrnl_father  ->  dumps/triggers/Ledger/tu_jrnl_father.sql
+OK  HR.update attendance  ->  dumps/triggers/HR/update attendance.sql
+OK  CRM.tr_INSERT_CALLS_TO_HISTORY  ->  dumps/triggers/CRM/tr_INSERT_CALLS_TO_HISTORY.sql
+OK  HR.tr_ft_general_log  ->  dumps/triggers/HR/tr_ft_general_log.sql
+OK  dbo.null  ->  dumps/triggers/dbo/null.sql

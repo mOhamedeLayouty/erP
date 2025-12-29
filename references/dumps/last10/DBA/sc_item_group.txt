@@ -1,0 +1,42 @@
+TABLE: DBA.sc_item_group
+ORDER_BY: item_group_id
+COLUMNS: item_group_id, item_group_name, item_parent, item_group_name_e, service_center
+ROWS: 5
+---
+[
+  {
+    "item_group_id": "UNIV",
+    "item_group_name": "UNIV",
+    "item_parent": null,
+    "item_group_name_e": "UNIV",
+    "service_center": 1
+  },
+  {
+    "item_group_id": "JEEP",
+    "item_group_name": "JEEP",
+    "item_parent": null,
+    "item_group_name_e": "JEEP",
+    "service_center": 1
+  },
+  {
+    "item_group_id": "Fiat Professional",
+    "item_group_name": "Fiat Professional",
+    "item_parent": null,
+    "item_group_name_e": "Fiat Professional",
+    "service_center": 1
+  },
+  {
+    "item_group_id": "FIAT",
+    "item_group_name": "FIAT",
+    "item_parent": null,
+    "item_group_name_e": "FIAT",
+    "service_center": 1
+  },
+  {
+    "item_group_id": "Alfa Romeo",
+    "item_group_name": "Alfa Romeo",
+    "item_parent": null,
+    "item_group_name_e": "Alfa Romeo",
+    "service_center": 1
+  }
+]

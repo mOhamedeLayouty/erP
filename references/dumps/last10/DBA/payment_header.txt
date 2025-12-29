@@ -1,0 +1,6 @@
+TABLE: DBA.payment_header
+ORDER_BY: payment_date
+COLUMNS: payment_seial, payment_date, payment_method, vendor_code, check_no, check_date, payment_amount, payment_ccy, payment_notes
+ROWS: 0
+---
+[]

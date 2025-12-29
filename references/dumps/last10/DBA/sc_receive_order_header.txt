@@ -1,0 +1,6 @@
+TABLE: DBA.sc_receive_order_header
+ORDER_BY: store_id
+COLUMNS: receive_header, buy_header, vend_code, store_id, manual_number, receive_date, notes
+ROWS: 0
+---
+[]

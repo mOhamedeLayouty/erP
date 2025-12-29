@@ -1,0 +1,6 @@
+TABLE: DBA.fx_change_location
+ORDER_BY: branch_id
+COLUMNS: line_code, branch_id, asset_code, old_location, new_location, user_id, change_date
+ROWS: 0
+---
+[]

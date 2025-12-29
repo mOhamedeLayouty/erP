@@ -1,0 +1,6 @@
+TABLE: CRM.HazemRep
+ORDER_BY: customer_Delivery_date
+COLUMNS: Customer_Name, customer_address, customer_address_area, customer_Telephone, customer_Mobile, customer_Delivery_date, Company_Name, Company_address, Company_Telephone, Company_Fax, ADSL_Phone_No, ADSL_Line_Owner, Package_Model, Value_, Payment_Method, Installment_Duration, Facilitating_Bank, Downpayment, ADSL_Upgrade_Cost
+ROWS: 0
+---
+[]

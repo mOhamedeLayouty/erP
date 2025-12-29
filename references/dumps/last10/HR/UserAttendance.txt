@@ -1,0 +1,6 @@
+TABLE: HR.UserAttendance
+ORDER_BY: (none)
+COLUMNS: UserId, EarlyAbsent, LateAbsent, MinsEarly, MinsEarlyAbsent, MinsLate, TMinsout, MinsLateAbsent, MinsNoIn, MinsNoOut, MinsWorkDay, MinsWorkDay1, NoInAbsent, NoOutAbsent, weekends, WeekenFullDayOT, IntervalOfAfterOT, AllowAfterOT, AllowEarlyOT, IntervalOfEarlyOT, IntervalOfEarlyOT_AsOT, IntervalOfAfterOT_AsOT, LimitEarlyMaxOT, LimitAfterMaxOT, LimitTotalMaxOT, EarlyMaxOT, AfterMaxOT, TotalMaxOT, WeekendReportSymbol, WeekendReportColor
+ROWS: 0
+---
+[]

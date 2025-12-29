@@ -1,0 +1,6 @@
+TABLE: HR.pay_s_taxslid
+ORDER_BY: entry_date
+COLUMNS: tax_code, tax_slid_index, from_value, to_value, tax_per, remark, entry_date, user_id
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: DBA.po_purchase_header
+ORDER_BY: entry_date
+COLUMNS: purchase_id, quotation_id, requisition_id, purchase_date, response_date, delivery_date, vend_code, vend_group, delivery_place, payment_terms, terms_conditions, remarks, entry_date, entry_user, edit_date, edit_user, rfq_id
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: HR.dbs_s_empcc
+ORDER_BY: user_id
+COLUMNS: cc_code, emp_code, emp_cc_per, user_id
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: DBA.mf_auto_reorder
+ORDER_BY: serial_id
+COLUMNS: serial_id, product_id, item_id, product_demend_qty, product_demend_qty1, product_demend_qty2, product_demend_qty3, product_demend_qty4, product_demend_qty5, product_demend_qty6, product_demend_qty7, product_demend_qty8, product_demend_qty9, product_demend_qty10, product_demend_qty11, product_demend_qty12, item_demend_qty, item_demend_qty1, item_demend_qty2, item_demend_qty3, item_demend_qty4, item_demend_qty5, item_demend_qty6, item_demend_qty7, item_demend_qty8, item_demend_qty9, item_demend_qty10, item_demend_qty11, item_demend_qty12, lead_time, safety_stock_time, product_on_hand, product_on_order, product_back_order, product_ord_factor, item_on_hand, item_on_order, item_back_order, item_ord_factor
+ROWS: 0
+---
+[]

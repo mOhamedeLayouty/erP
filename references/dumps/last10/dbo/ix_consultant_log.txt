@@ -1,0 +1,6 @@
+TABLE: dbo.ix_consultant_log
+ORDER_BY: message_id
+COLUMNS: message_id, message_time, master_id, phase_id, workload_id, msg_type, sql_code, log_message
+ROWS: 0
+---
+[]

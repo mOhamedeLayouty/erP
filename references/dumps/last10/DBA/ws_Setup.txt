@@ -1,0 +1,6 @@
+TABLE: DBA.ws_Setup
+ORDER_BY: (none)
+COLUMNS: LaberDefualtItem, ItemPercent, SetupID, DebitTrans, CreaditTrans
+ROWS: 0
+---
+[]

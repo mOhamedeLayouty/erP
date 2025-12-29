@@ -1,0 +1,17 @@
+TABLE: DBA.car_servicepackage_type
+ORDER_BY: (none)
+COLUMNS: value, name, name_e
+ROWS: 2
+---
+[
+  {
+    "value": 0,
+    "name": "����",
+    "name_e": "Without"
+  },
+  {
+    "value": 1,
+    "name": "�����",
+    "name_e": "Complimentary "
+  }
+]

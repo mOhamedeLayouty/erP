@@ -1,0 +1,23 @@
+TABLE: DBA.section_family
+ORDER_BY: (none)
+COLUMNS: section_code, family_code
+ROWS: 4
+---
+[
+  {
+    "section_code": 1,
+    "family_code": "O"
+  },
+  {
+    "section_code": 2,
+    "family_code": "O"
+  },
+  {
+    "section_code": 3,
+    "family_code": "O"
+  },
+  {
+    "section_code": 4,
+    "family_code": "O"
+  }
+]

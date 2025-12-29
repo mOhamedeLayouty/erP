@@ -1,0 +1,57 @@
+TABLE: HR.attparam
+ORDER_BY: (none)
+COLUMNS: paraname, paratype, paravalue
+ROWS: 10
+---
+[
+  {
+    "paraname": "DBVersion",
+    "paratype": null,
+    "paravalue": "379"
+  },
+  {
+    "paraname": "CheckInColor",
+    "paratype": null,
+    "paravalue": "16777151"
+  },
+  {
+    "paraname": "CheckOutColor",
+    "paratype": null,
+    "paravalue": "12910591"
+  },
+  {
+    "paraname": "MinsEarly",
+    "paratype": null,
+    "paravalue": "5"
+  },
+  {
+    "paraname": "MinsLate",
+    "paratype": null,
+    "paravalue": "10"
+  },
+  {
+    "paraname": "MinsNoBreakIn",
+    "paratype": null,
+    "paravalue": "60"
+  },
+  {
+    "paraname": "MinsNoBreakOut",
+    "paratype": null,
+    "paravalue": "60"
+  },
+  {
+    "paraname": "MinsNoIn",
+    "paratype": null,
+    "paravalue": "60"
+  },
+  {
+    "paraname": "MinsNoLeave",
+    "paratype": null,
+    "paravalue": "60"
+  },
+  {
+    "paraname": "MinsNotOverTime",
+    "paratype": null,
+    "paravalue": "60"
+  }
+]

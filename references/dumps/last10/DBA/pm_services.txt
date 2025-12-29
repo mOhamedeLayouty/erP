@@ -1,0 +1,6 @@
+TABLE: DBA.pm_services
+ORDER_BY: (none)
+COLUMNS: service_no, services_name, interval_km, interval_days, sevice_due, services_name_a, pm_time, pm_cost_hour, services_family, standard_cost, service_code
+ROWS: 0
+---
+[]

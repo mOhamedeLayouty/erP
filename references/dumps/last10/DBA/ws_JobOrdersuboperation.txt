@@ -1,0 +1,49 @@
+TABLE: DBA.ws_JobOrdersuboperation
+ORDER_BY: location_id
+COLUMNS: JobOrderID, operationid, subopertationid, service_center, location_id
+ROWS: 6
+---
+[
+  {
+    "JobOrderID": "606",
+    "operationid": 1490,
+    "subopertationid": 2,
+    "service_center": 1,
+    "location_id": 14
+  },
+  {
+    "JobOrderID": "606",
+    "operationid": 1490,
+    "subopertationid": 1,
+    "service_center": 1,
+    "location_id": 14
+  },
+  {
+    "JobOrderID": "62883",
+    "operationid": 4915,
+    "subopertationid": 6,
+    "service_center": 1,
+    "location_id": 2
+  },
+  {
+    "JobOrderID": "62883",
+    "operationid": 4915,
+    "subopertationid": 11,
+    "service_center": 1,
+    "location_id": 2
+  },
+  {
+    "JobOrderID": "62883",
+    "operationid": 4915,
+    "subopertationid": 5,
+    "service_center": 1,
+    "location_id": 2
+  },
+  {
+    "JobOrderID": "56257",
+    "operationid": 5236,
+    "subopertationid": 16,
+    "service_center": 1,
+    "location_id": 2
+  }
+]

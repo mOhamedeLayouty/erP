@@ -1,0 +1,6 @@
+TABLE: HR.security_info
+ORDER_BY: control_id
+COLUMNS: control_id, user_name, info_view, info_update, info_delete, info_insert
+ROWS: 0
+---
+[]

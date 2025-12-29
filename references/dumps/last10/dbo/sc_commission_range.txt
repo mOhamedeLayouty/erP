@@ -1,0 +1,6 @@
+TABLE: dbo.sc_commission_range
+ORDER_BY: entry_date
+COLUMNS: detail_id, salesman_id, from_value, to_value, commission_percent, commission_value, entry_date, entry_user, edit_date, edit_user
+ROWS: 0
+---
+[]

@@ -1,0 +1,13 @@
+TABLE: HR.pay_s_tax_group
+ORDER_BY: (none)
+COLUMNS: group_code, group_desc, group_desc_a, group_value
+ROWS: 1
+---
+[
+  {
+    "group_code": 1,
+    "group_desc": null,
+    "group_desc_a": "����� �������",
+    "group_value": 4000
+  }
+]

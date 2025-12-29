@@ -1,0 +1,6 @@
+TABLE: HR.dbs_t_ccyrate
+ORDER_BY: entry_date
+COLUMNS: ccy_code, ex_date, ex_rate, entry_date, user_id
+ROWS: 0
+---
+[]

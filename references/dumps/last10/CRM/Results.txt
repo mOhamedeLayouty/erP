@@ -1,0 +1,6 @@
+TABLE: CRM.Results
+ORDER_BY: due_date
+COLUMNS: customer_code, customer_name, home_add, home_area, home_city, home_country, customer_type, home_phon, mob1, email, notes, district, home_fax, status, source, phon2, phon3, emp_count, website, customer_ind, customer_name_a, home_add_a, po_box, address_2, market_sector, sub_segment, site_type, x86_pcs, x86_servers, developers_number, parenting_level, last_profiled, in_call, busy, wrong_number, agent, call_status, site, corp_area, due_date, due_group, industry_category, phon4, phon5, head_add, office_hours, capital_issued, capital_authorized, admin, member_of, year_of_established, comm_registry, ind_registry, legal_sector, legal_form, export_countries, import_countries, under_license, trade_names, fax_2, busy_count, parent_name, rep_corp
+ROWS: 0
+---
+[]

@@ -1,0 +1,34 @@
+TABLE: DBA.sc_item_change_price
+ORDER_BY: change_date
+COLUMNS: serial, user_name, change_date, change_time, change_type, change_per, service_center
+ROWS: 3
+---
+[
+  {
+    "serial": 2,
+    "user_name": "tamer.gabr",
+    "change_date": "2023-05-07",
+    "change_time": "18:00:00",
+    "change_type": "Increment",
+    "change_per": 10,
+    "service_center": 1
+  },
+  {
+    "serial": 3,
+    "user_name": "tamer.gabr",
+    "change_date": "2023-05-07",
+    "change_time": "18:03:20",
+    "change_type": "Increment",
+    "change_per": 10,
+    "service_center": 1
+  },
+  {
+    "serial": 1,
+    "user_name": "tamer.gabr",
+    "change_date": "2023-05-07",
+    "change_time": "16:22:29",
+    "change_type": "Increment",
+    "change_per": 0.01,
+    "service_center": 1
+  }
+]

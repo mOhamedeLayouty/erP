@@ -1,0 +1,147 @@
+TABLE: HR.pay_t_emp_in
+ORDER_BY: entry_date
+COLUMNS: in_code, income_deduction, emp_code, emp_in_ser, emp_in_year, emp_in_month, in_val, in_ent_method, income_calc_flag, entry_date, user_id, in_flag
+ROWS: 10
+---
+[
+  {
+    "in_code": 13,
+    "income_deduction": "D",
+    "emp_code": "5002",
+    "emp_in_ser": 4318,
+    "emp_in_year": 2024,
+    "emp_in_month": 6,
+    "in_val": 0.25,
+    "in_ent_method": "D",
+    "income_calc_flag": "V",
+    "entry_date": "2024-07-02 12:37:29.694000",
+    "user_id": "loay.s",
+    "in_flag": "I"
+  },
+  {
+    "in_code": 11,
+    "income_deduction": "D",
+    "emp_code": "5002",
+    "emp_in_ser": 4317,
+    "emp_in_year": 2024,
+    "emp_in_month": 6,
+    "in_val": 0.1,
+    "in_ent_method": "D",
+    "income_calc_flag": "V",
+    "entry_date": "2024-07-02 12:37:29.616000",
+    "user_id": "loay.s",
+    "in_flag": "I"
+  },
+  {
+    "in_code": 10,
+    "income_deduction": "D",
+    "emp_code": "5002",
+    "emp_in_ser": 4316,
+    "emp_in_year": 2024,
+    "emp_in_month": 6,
+    "in_val": 0.1,
+    "in_ent_method": "D",
+    "income_calc_flag": "V",
+    "entry_date": "2024-07-02 12:37:29.522000",
+    "user_id": "loay.s",
+    "in_flag": "I"
+  },
+  {
+    "in_code": 12,
+    "income_deduction": "D",
+    "emp_code": "5002",
+    "emp_in_ser": 4315,
+    "emp_in_year": 2024,
+    "emp_in_month": 6,
+    "in_val": 0.1,
+    "in_ent_method": "D",
+    "income_calc_flag": "V",
+    "entry_date": "2024-07-02 12:37:29.444000",
+    "user_id": "loay.s",
+    "in_flag": "I"
+  },
+  {
+    "in_code": 4,
+    "income_deduction": "D",
+    "emp_code": "5002",
+    "emp_in_ser": 4314,
+    "emp_in_year": 2024,
+    "emp_in_month": 6,
+    "in_val": 0.1,
+    "in_ent_method": "D",
+    "income_calc_flag": "V",
+    "entry_date": "2024-07-02 12:37:29.350000",
+    "user_id": "loay.s",
+    "in_flag": "I"
+  },
+  {
+    "in_code": 108,
+    "income_deduction": "D",
+    "emp_code": "5001",
+    "emp_in_ser": 4313,
+    "emp_in_year": 2024,
+    "emp_in_month": 6,
+    "in_val": 2,
+    "in_ent_method": "D",
+    "income_calc_flag": "F",
+    "entry_date": "2024-07-02 12:37:28.585000",
+    "user_id": "loay.s",
+    "in_flag": "I"
+  },
+  {
+    "in_code": 107,
+    "income_deduction": "D",
+    "emp_code": "5001",
+    "emp_in_ser": 4312,
+    "emp_in_year": 2024,
+    "emp_in_month": 6,
+    "in_val": 2,
+    "in_ent_method": "D",
+    "income_calc_flag": "F",
+    "entry_date": "2024-07-02 12:37:28.444000",
+    "user_id": "loay.s",
+    "in_flag": "I"
+  },
+  {
+    "in_code": 46,
+    "income_deduction": "D",
+    "emp_code": "5001",
+    "emp_in_ser": 4311,
+    "emp_in_year": 2024,
+    "emp_in_month": 6,
+    "in_val": 0,
+    "in_ent_method": "D",
+    "income_calc_flag": "V",
+    "entry_date": "2024-07-02 12:37:28.257000",
+    "user_id": "loay.s",
+    "in_flag": "I"
+  },
+  {
+    "in_code": 45,
+    "income_deduction": "D",
+    "emp_code": "5001",
+    "emp_in_ser": 4310,
+    "emp_in_year": 2024,
+    "emp_in_month": 6,
+    "in_val": 0,
+    "in_ent_method": "D",
+    "income_calc_flag": "V",
+    "entry_date": "2024-07-02 12:37:28.147000",
+    "user_id": "loay.s",
+    "in_flag": "I"
+  },
+  {
+    "in_code": 44,
+    "income_deduction": "D",
+    "emp_code": "5001",
+    "emp_in_ser": 4309,
+    "emp_in_year": 2024,
+    "emp_in_month": 6,
+    "in_val": 0,
+    "in_ent_method": "D",
+    "income_calc_flag": "V",
+    "entry_date": "2024-07-02 12:37:28.038000",
+    "user_id": "loay.s",
+    "in_flag": "I"
+  }
+]

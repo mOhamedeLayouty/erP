@@ -1,0 +1,6 @@
+TABLE: dbo.sa_diagnostic_query
+ORDER_BY: logging_session_id
+COLUMNS: logging_session_id, query_id, statement_id, user_object_id, start_time, cache_size_bytes, optimization_goal, optimization_level, user_estimates, optimization_workload, available_requests, active_requests, max_tasks, used_bypass, estimated_cost_ms, plan_explain, plan_xml, sql_rewritten
+ROWS: 0
+---
+[]

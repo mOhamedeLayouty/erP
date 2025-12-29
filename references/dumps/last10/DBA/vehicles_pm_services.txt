@@ -1,0 +1,6 @@
+TABLE: DBA.vehicles_pm_services
+ORDER_BY: (none)
+COLUMNS: car_make, car_model, service_code, service_family, interval_days, interval_km, km2, km3
+ROWS: 0
+---
+[]

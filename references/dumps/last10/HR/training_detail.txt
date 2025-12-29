@@ -1,0 +1,6 @@
+TABLE: HR.training_detail
+ORDER_BY: approved_date
+COLUMNS: training_detail, notes, training_header, emp_code, requisition_code, approved_date, status, end_date, rating
+ROWS: 0
+---
+[]

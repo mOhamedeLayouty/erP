@@ -1,0 +1,6 @@
+TABLE: CRM.color
+ORDER_BY: id
+COLUMNS: id, description, description_a
+ROWS: 0
+---
+[]

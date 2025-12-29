@@ -1,0 +1,6 @@
+TABLE: dbo.migrate_sql_defn
+ORDER_BY: id
+COLUMNS: id, et_table_id, unld_str
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: CRM.client_po_delivery
+ORDER_BY: delivery_date_time
+COLUMNS: po_no, client_code, delivery_date_time, comments
+ROWS: 0
+---
+[]

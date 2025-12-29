@@ -1,0 +1,6 @@
+TABLE: CRM.pbcatfmt
+ORDER_BY: (none)
+COLUMNS: pbf_name, pbf_frmt, pbf_type, pbf_cntr
+ROWS: 0
+---
+[]

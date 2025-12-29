@@ -1,0 +1,6 @@
+TABLE: DBA.po_receipt_detail
+ORDER_BY: receiptdetail_id
+COLUMNS: receiptdetail_id, receipt_id, invoice_id, payment_amount
+ROWS: 0
+---
+[]

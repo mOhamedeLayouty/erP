@@ -1,0 +1,12 @@
+{"ts":"2025-12-29T08:30:18.877Z","method":"POST","path":"/api/job-orders","ip":"::1","status":401,"body":{"JobOrderID":"TEST-001","OrderStatus":"NEW","service_center":1,"location_id":1}}
+{"ts":"2025-12-29T08:30:28.249Z","method":"POST","path":"/api/job-orders","ip":"::1","status":401,"body":{"JobOrderID":"TEST-001","OrderStatus":"NEW","service_center":1,"location_id":1}}
+{"ts":"2025-12-29T08:30:36.381Z","method":"POST","path":"/api/job-orders","ip":"::1","status":401,"body":{"JobOrderID":"TEST-001","CustomerID":"01025555","OrderStatus":"NEW","service_center":1,"location_id":1}}
+{"ts":"2025-12-29T08:37:30.108Z","method":"POST","path":"/login","ip":"::1","status":200,"body":{}}
+{"ts":"2025-12-29T08:39:04.201Z","method":"POST","path":"/login","ip":"::1","status":200,"body":{}}
+{"ts":"2025-12-29T08:39:20.833Z","method":"POST","path":"/login","ip":"::1","status":200,"body":{"username":"admin","password":"admin"}}
+{"ts":"2025-12-29T08:39:29.132Z","method":"POST","path":"/login","ip":"::1","status":200,"body":{"username":"admin","password":"admin"}}
+{"ts":"2025-12-29T08:39:56.958Z","method":"POST","path":"/login","ip":"::1","status":200,"body":{}}
+{"ts":"2025-12-29T08:44:02.287Z","method":"POST","path":"/login","ip":"::1","status":200,"body":{}}
+{"ts":"2025-12-29T08:44:09.057Z","method":"POST","path":"/login","ip":"::1","status":200,"body":{"username":"admin","password":"admin"}}
+{"ts":"2025-12-29T08:47:18.098Z","method":"POST","path":"/login","ip":"::1","status":200,"body":{"username":"admin","password":"admin"}}
+{"ts":"2025-12-29T10:20:00.197Z","method":"POST","path":"/auth/login","ip":"::1","status":400,"body":{"username":"admin","password":"admin"}}

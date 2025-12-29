@@ -1,0 +1,13 @@
+TABLE: CRM.district
+ORDER_BY: id
+COLUMNS: id, description, description_a, initial
+ROWS: 1
+---
+[
+  {
+    "id": "1",
+    "description": "Nassem",
+    "description_a": "Nassem",
+    "initial": "N"
+  }
+]

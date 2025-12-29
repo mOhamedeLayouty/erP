@@ -1,0 +1,6 @@
+TABLE: CRM.corporate_client_link
+ORDER_BY: user_id
+COLUMNS: customer_code, client_code, link_date, user_id
+ROWS: 0
+---
+[]

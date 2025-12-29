@@ -1,0 +1,35 @@
+TABLE: HR.end_hir_reason
+ORDER_BY: entry_date
+COLUMNS: code, desc_e, desc_a, entry_date, user_id
+ROWS: 4
+---
+[
+  {
+    "code": 4,
+    "desc_e": "������ �� �����",
+    "desc_a": "������ �� �����",
+    "entry_date": "2019-03-26 12:10:10.899000",
+    "user_id": "ahmed.samy"
+  },
+  {
+    "code": 3,
+    "desc_e": "�������",
+    "desc_a": "���������",
+    "entry_date": "2008-09-19 01:59:44.562000",
+    "user_id": "hr"
+  },
+  {
+    "code": 2,
+    "desc_e": "����� �����",
+    "desc_a": "�����",
+    "entry_date": "2008-01-23 17:11:53.444000",
+    "user_id": "khaled"
+  },
+  {
+    "code": 1,
+    "desc_e": "Dead",
+    "desc_a": "������",
+    "entry_date": "2008-01-23 17:11:40.835000",
+    "user_id": "khaled"
+  }
+]

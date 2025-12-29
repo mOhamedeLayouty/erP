@@ -1,0 +1,106 @@
+TABLE: DBA.ws_ServicePackage_SP
+ORDER_BY: location_id
+COLUMNS: ServicePackageId, OpertationId, ItemId, Qty, Price, service_center, location_id, brand, log_store
+ROWS: 9
+---
+[
+  {
+    "ServicePackageId": "1",
+    "OpertationId": 3171,
+    "ItemId": "8456",
+    "Qty": 2,
+    "Price": 388,
+    "service_center": 1,
+    "location_id": 1,
+    "brand": null,
+    "log_store": null
+  },
+  {
+    "ServicePackageId": "1",
+    "OpertationId": 3171,
+    "ItemId": "1178",
+    "Qty": 1,
+    "Price": 547,
+    "service_center": 1,
+    "location_id": 1,
+    "brand": null,
+    "log_store": null
+  },
+  {
+    "ServicePackageId": "1",
+    "OpertationId": 3171,
+    "ItemId": "3203",
+    "Qty": 1,
+    "Price": 735,
+    "service_center": 1,
+    "location_id": 1,
+    "brand": null,
+    "log_store": null
+  },
+  {
+    "ServicePackageId": "1",
+    "OpertationId": 3171,
+    "ItemId": "2485",
+    "Qty": 4,
+    "Price": 342,
+    "service_center": 1,
+    "location_id": 1,
+    "brand": null,
+    "log_store": null
+  },
+  {
+    "ServicePackageId": "1",
+    "OpertationId": 3171,
+    "ItemId": "4664",
+    "Qty": 2,
+    "Price": 31,
+    "service_center": 1,
+    "location_id": 1,
+    "brand": null,
+    "log_store": null
+  },
+  {
+    "ServicePackageId": "1",
+    "OpertationId": 3171,
+    "ItemId": "4672",
+    "Qty": 2,
+    "Price": 20,
+    "service_center": 1,
+    "location_id": 1,
+    "brand": null,
+    "log_store": null
+  },
+  {
+    "ServicePackageId": "1",
+    "OpertationId": 3171,
+    "ItemId": "1251",
+    "Qty": 1,
+    "Price": 1232,
+    "service_center": 1,
+    "location_id": 1,
+    "brand": null,
+    "log_store": null
+  },
+  {
+    "ServicePackageId": "1",
+    "OpertationId": 3171,
+    "ItemId": "4673",
+    "Qty": 1,
+    "Price": 95,
+    "service_center": 1,
+    "location_id": 1,
+    "brand": null,
+    "log_store": null
+  },
+  {
+    "ServicePackageId": "1",
+    "OpertationId": 3171,
+    "ItemId": "7058",
+    "Qty": 8,
+    "Price": 456,
+    "service_center": 1,
+    "location_id": 1,
+    "brand": null,
+    "log_store": null
+  }
+]

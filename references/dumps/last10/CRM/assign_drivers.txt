@@ -1,0 +1,6 @@
+TABLE: CRM.assign_drivers
+ORDER_BY: (none)
+COLUMNS: client_code, driver_code, status, work_from, work_to, gate_no, bb_code, bb_name, work_from_time, work_to_time, serial, zone
+ROWS: 0
+---
+[]

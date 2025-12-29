@@ -1,0 +1,6 @@
+TABLE: CRM.client_service_price
+ORDER_BY: (none)
+COLUMNS: client_code, serial_code, service_code, product_code, service_km, service_period, labor_cost, spare_oil_cost, total_cost, service_hours
+ROWS: 0
+---
+[]

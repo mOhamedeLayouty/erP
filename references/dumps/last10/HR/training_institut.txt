@@ -1,0 +1,6 @@
+TABLE: HR.training_institut
+ORDER_BY: entry_date
+COLUMNS: institut_code, b_cntry_code, b_cty_code, lev_code, institut_e, institut_a, institut_address_e, institut_address_a, institut_tel_no1, institut_tel_no2, institut_mob_no, institut_email, entry_date, user_id, id_cntry_code, id_cty_code
+ROWS: 0
+---
+[]

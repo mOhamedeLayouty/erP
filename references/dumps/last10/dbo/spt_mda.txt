@@ -1,0 +1,97 @@
+TABLE: dbo.spt_mda
+ORDER_BY: (none)
+COLUMNS: mdinfo, querytype, query, mdaver_start, mdaver_end, srvver_start, srvver_end
+ROWS: 10
+---
+[
+  {
+    "mdinfo": "CLASSFORNAME",
+    "querytype": 1,
+    "query": "dbo.sp_jdbc_class_for_name(?)",
+    "mdaver_start": 1,
+    "mdaver_end": 7,
+    "srvver_start": 6,
+    "srvver_end": -1
+  },
+  {
+    "mdinfo": "CLASSESINJAR",
+    "querytype": 1,
+    "query": "dbo.sp_jdbc_classes_in_jar(?)",
+    "mdaver_start": 1,
+    "mdaver_end": 7,
+    "srvver_start": 6,
+    "srvver_end": -1
+  },
+  {
+    "mdinfo": "CANRETURNJARS",
+    "querytype": 2,
+    "query": "select 0",
+    "mdaver_start": 1,
+    "mdaver_end": 3,
+    "srvver_start": 0,
+    "srvver_end": -1
+  },
+  {
+    "mdinfo": "CANRETURNJARS",
+    "querytype": 4,
+    "query": "0",
+    "mdaver_start": 4,
+    "mdaver_end": 7,
+    "srvver_start": 0,
+    "srvver_end": -1
+  },
+  {
+    "mdinfo": "FUNCTIONCALL",
+    "querytype": 1,
+    "query": "dbo.sp_jdbc_function_escapes",
+    "mdaver_start": 1,
+    "mdaver_end": 7,
+    "srvver_start": 0,
+    "srvver_end": -1
+  },
+  {
+    "mdinfo": "TYPEINFO",
+    "querytype": 1,
+    "query": "dbo.sp_jdbc_datatype_info",
+    "mdaver_start": 1,
+    "mdaver_end": 7,
+    "srvver_start": 0,
+    "srvver_end": -1
+  },
+  {
+    "mdinfo": "TABLES",
+    "querytype": 1,
+    "query": "dbo.sp_jdbc_tables(?,?,?,?)",
+    "mdaver_start": 1,
+    "mdaver_end": 7,
+    "srvver_start": 0,
+    "srvver_end": -1
+  },
+  {
+    "mdinfo": "COLUMNS",
+    "querytype": 1,
+    "query": "dbo.sp_jdbc_columns(?,?,?,?)",
+    "mdaver_start": 1,
+    "mdaver_end": 7,
+    "srvver_start": 0,
+    "srvver_end": -1
+  },
+  {
+    "mdinfo": "IMPORTEDKEYS",
+    "querytype": 1,
+    "query": "dbo.sp_jdbc_importkey(?,?,?)",
+    "mdaver_start": 1,
+    "mdaver_end": 7,
+    "srvver_start": 0,
+    "srvver_end": -1
+  },
+  {
+    "mdinfo": "EXPORTEDKEYS",
+    "querytype": 1,
+    "query": "dbo.sp_jdbc_exportkey(?,?,?)",
+    "mdaver_start": 1,
+    "mdaver_end": 7,
+    "srvver_start": 0,
+    "srvver_end": -1
+  }
+]

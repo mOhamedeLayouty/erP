@@ -1,0 +1,6 @@
+TABLE: DBA.sc_po_request_header
+ORDER_BY: store_id
+COLUMNS: buy_header, vend_code, store_id, manual_number, order_date, exp_date, notes, approved, approved_by
+ROWS: 0
+---
+[]

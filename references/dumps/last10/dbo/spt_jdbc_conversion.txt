@@ -1,0 +1,47 @@
+TABLE: dbo.spt_jdbc_conversion
+ORDER_BY: (none)
+COLUMNS: datatype, conversion
+ROWS: 10
+---
+[
+  {
+    "datatype": 0,
+    "conversion": "11111110111111110001"
+  },
+  {
+    "datatype": 1,
+    "conversion": "11111100011111110000"
+  },
+  {
+    "datatype": 2,
+    "conversion": "11111100011111110000"
+  },
+  {
+    "datatype": 9,
+    "conversion": "11111100011111110000"
+  },
+  {
+    "datatype": 10,
+    "conversion": "11111100011111110000"
+  },
+  {
+    "datatype": 11,
+    "conversion": "11111100011111110000"
+  },
+  {
+    "datatype": 12,
+    "conversion": "11111100011111110000"
+  },
+  {
+    "datatype": 13,
+    "conversion": "11111100011111110000"
+  },
+  {
+    "datatype": 14,
+    "conversion": "11111100011111110000"
+  },
+  {
+    "datatype": 15,
+    "conversion": "11111100011111110000"
+  }
+]

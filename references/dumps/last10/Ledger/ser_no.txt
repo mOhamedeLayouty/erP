@@ -1,0 +1,32 @@
+TABLE: Ledger.ser_no
+ORDER_BY: (none)
+COLUMNS: col_type, col_no, company_code
+ROWS: 5
+---
+[
+  {
+    "col_type": "JJ",
+    "col_no": 75241,
+    "company_code": 1
+  },
+  {
+    "col_type": "JJ",
+    "col_no": 36,
+    "company_code": 2
+  },
+  {
+    "col_type": "JJ",
+    "col_no": 4380,
+    "company_code": 3
+  },
+  {
+    "col_type": "JJ",
+    "col_no": 3501,
+    "company_code": 5
+  },
+  {
+    "col_type": "JJ",
+    "col_no": 143,
+    "company_code": 4
+  }
+]

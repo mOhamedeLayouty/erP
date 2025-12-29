@@ -1,0 +1,6 @@
+TABLE: CRM.user_group
+ORDER_BY: (none)
+COLUMNS: group_code, decription, decription_a
+ROWS: 0
+---
+[]

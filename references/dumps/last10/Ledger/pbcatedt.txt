@@ -1,0 +1,6 @@
+TABLE: Ledger.pbcatedt
+ORDER_BY: (none)
+COLUMNS: pbe_name, pbe_edit, pbe_type, pbe_cntr, pbe_seqn, pbe_flag, pbe_work
+ROWS: 0
+---
+[]

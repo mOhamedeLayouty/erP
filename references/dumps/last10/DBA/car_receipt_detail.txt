@@ -1,0 +1,127 @@
+TABLE: DBA.car_receipt_detail
+ORDER_BY: receipt_id
+COLUMNS: receipt_id, log_store, detail_id, sales_order_code, payment_no, payment_amount, invoice_no, sales_order_log_store, brand, insurance_id
+ROWS: 10
+---
+[
+  {
+    "receipt_id": "999",
+    "log_store": 5,
+    "detail_id": 1,
+    "sales_order_code": "826",
+    "payment_no": null,
+    "payment_amount": 50000,
+    "invoice_no": null,
+    "sales_order_log_store": 5,
+    "brand": 1,
+    "insurance_id": null
+  },
+  {
+    "receipt_id": "999",
+    "log_store": 2,
+    "detail_id": 1,
+    "sales_order_code": "879",
+    "payment_no": null,
+    "payment_amount": 50000,
+    "invoice_no": null,
+    "sales_order_log_store": 2,
+    "brand": 1,
+    "insurance_id": null
+  },
+  {
+    "receipt_id": "999",
+    "log_store": 1,
+    "detail_id": 1,
+    "sales_order_code": "621",
+    "payment_no": null,
+    "payment_amount": 25000,
+    "invoice_no": "",
+    "sales_order_log_store": 1,
+    "brand": 1,
+    "insurance_id": null
+  },
+  {
+    "receipt_id": "998",
+    "log_store": 5,
+    "detail_id": 1,
+    "sales_order_code": "825",
+    "payment_no": null,
+    "payment_amount": 50000,
+    "invoice_no": null,
+    "sales_order_log_store": 5,
+    "brand": 1,
+    "insurance_id": null
+  },
+  {
+    "receipt_id": "998",
+    "log_store": 2,
+    "detail_id": 1,
+    "sales_order_code": "879",
+    "payment_no": null,
+    "payment_amount": 940000,
+    "invoice_no": null,
+    "sales_order_log_store": 2,
+    "brand": 1,
+    "insurance_id": null
+  },
+  {
+    "receipt_id": "998",
+    "log_store": 1,
+    "detail_id": 1,
+    "sales_order_code": "627",
+    "payment_no": null,
+    "payment_amount": 315000,
+    "invoice_no": "",
+    "sales_order_log_store": 1,
+    "brand": 1,
+    "insurance_id": null
+  },
+  {
+    "receipt_id": "997",
+    "log_store": 5,
+    "detail_id": 1,
+    "sales_order_code": "873",
+    "payment_no": null,
+    "payment_amount": 160,
+    "invoice_no": "",
+    "sales_order_log_store": 5,
+    "brand": 1,
+    "insurance_id": null
+  },
+  {
+    "receipt_id": "997",
+    "log_store": 2,
+    "detail_id": 1,
+    "sales_order_code": "878",
+    "payment_no": null,
+    "payment_amount": 1475000,
+    "invoice_no": null,
+    "sales_order_log_store": 2,
+    "brand": 1,
+    "insurance_id": null
+  },
+  {
+    "receipt_id": "997",
+    "log_store": 1,
+    "detail_id": 1,
+    "sales_order_code": "626",
+    "payment_no": null,
+    "payment_amount": 435000,
+    "invoice_no": "",
+    "sales_order_log_store": 1,
+    "brand": 1,
+    "insurance_id": null
+  },
+  {
+    "receipt_id": "996",
+    "log_store": 15,
+    "detail_id": 1,
+    "sales_order_code": "1165",
+    "payment_no": null,
+    "payment_amount": 115200,
+    "invoice_no": null,
+    "sales_order_log_store": 1,
+    "brand": 1,
+    "insurance_id": null
+  }
+]

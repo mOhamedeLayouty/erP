@@ -1,0 +1,61 @@
+TABLE: DBA.bank
+ORDER_BY: (none)
+COLUMNS: bank_code, name_e, name_a, bank_address, contact_name, tel_no, acc_no
+ROWS: 6
+---
+[
+  {
+    "bank_code": "1",
+    "name_e": "CIB",
+    "name_a": "Bank NCB",
+    "bank_address": null,
+    "contact_name": null,
+    "tel_no": null,
+    "acc_no": "1010103004"
+  },
+  {
+    "bank_code": "2",
+    "name_e": "��� ������� ��� 00010016103 ",
+    "name_a": "��� ������� ��� 00010016103 ",
+    "bank_address": null,
+    "contact_name": null,
+    "tel_no": null,
+    "acc_no": "102020102"
+  },
+  {
+    "bank_code": "3",
+    "name_e": "��� ������� ��� 00010016105",
+    "name_a": "��� ������� ��� 00010016105",
+    "bank_address": null,
+    "contact_name": null,
+    "tel_no": null,
+    "acc_no": "102020104"
+  },
+  {
+    "bank_code": "4",
+    "name_e": "��� ������� 01554120000015 ",
+    "name_a": "��� ������� 01554120000015 ",
+    "bank_address": null,
+    "contact_name": null,
+    "tel_no": null,
+    "acc_no": "102020115"
+  },
+  {
+    "bank_code": "5",
+    "name_e": "��� ��� EGP ���� ��� 1400199000000715",
+    "name_a": "��� ��� EGP ���� ��� 1400199000000715",
+    "bank_address": null,
+    "contact_name": null,
+    "tel_no": null,
+    "acc_no": "102020116"
+  },
+  {
+    "bank_code": "6",
+    "name_e": "NBK Bank",
+    "name_a": "��� ������ ������ - NBK",
+    "bank_address": null,
+    "contact_name": null,
+    "tel_no": null,
+    "acc_no": null
+  }
+]

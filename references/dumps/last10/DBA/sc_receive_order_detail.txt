@@ -1,0 +1,6 @@
+TABLE: DBA.sc_receive_order_detail
+ORDER_BY: item_id
+COLUMNS: receive_detail, receive_header, price, qty, notes, item_id, exp
+ROWS: 0
+---
+[]

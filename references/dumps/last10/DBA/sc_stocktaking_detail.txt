@@ -1,0 +1,77 @@
+TABLE: DBA.sc_stocktaking_detail
+ORDER_BY: stocktaking_id
+COLUMNS: stocktaking_id, item_id, store_loc_id, existing_balance, actual_balance
+ROWS: 10
+---
+[
+  {
+    "stocktaking_id": 149,
+    "item_id": "9316",
+    "store_loc_id": 8498,
+    "existing_balance": 4,
+    "actual_balance": 4
+  },
+  {
+    "stocktaking_id": 149,
+    "item_id": "9199",
+    "store_loc_id": 8498,
+    "existing_balance": 46,
+    "actual_balance": 44
+  },
+  {
+    "stocktaking_id": 149,
+    "item_id": "9179",
+    "store_loc_id": 8498,
+    "existing_balance": 2000,
+    "actual_balance": 2000
+  },
+  {
+    "stocktaking_id": 149,
+    "item_id": "9174",
+    "store_loc_id": 5409,
+    "existing_balance": 4600,
+    "actual_balance": 5000
+  },
+  {
+    "stocktaking_id": 149,
+    "item_id": "9173",
+    "store_loc_id": 8498,
+    "existing_balance": 8800,
+    "actual_balance": 8800
+  },
+  {
+    "stocktaking_id": 149,
+    "item_id": "9162",
+    "store_loc_id": 8498,
+    "existing_balance": 4000,
+    "actual_balance": 4000
+  },
+  {
+    "stocktaking_id": 149,
+    "item_id": "9161",
+    "store_loc_id": 8498,
+    "existing_balance": 400,
+    "actual_balance": 400
+  },
+  {
+    "stocktaking_id": 149,
+    "item_id": "9160",
+    "store_loc_id": 8498,
+    "existing_balance": 700,
+    "actual_balance": 700
+  },
+  {
+    "stocktaking_id": 149,
+    "item_id": "9147",
+    "store_loc_id": 8498,
+    "existing_balance": 2000,
+    "actual_balance": 2000
+  },
+  {
+    "stocktaking_id": 149,
+    "item_id": "8743",
+    "store_loc_id": 8498,
+    "existing_balance": 2,
+    "actual_balance": 1
+  }
+]

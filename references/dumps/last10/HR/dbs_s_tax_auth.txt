@@ -1,0 +1,19 @@
+TABLE: HR.dbs_s_tax_auth
+ORDER_BY: entry_date
+COLUMNS: tax_auth_code, acc_no, tax_auth_desc_e, tax_auth_desc_a, tax_auth_address1, tax_auth_address2, tax_auth_phone, tax_auth_fax, user_id, entry_date
+ROWS: 1
+---
+[
+  {
+    "tax_auth_code": 1,
+    "acc_no": null,
+    "tax_auth_desc_e": "Emp Tax",
+    "tax_auth_desc_a": "����� ��� �����",
+    "tax_auth_address1": null,
+    "tax_auth_address2": null,
+    "tax_auth_phone": null,
+    "tax_auth_fax": null,
+    "user_id": "HR",
+    "entry_date": "2002-08-06 11:43:21.539000"
+  }
+]

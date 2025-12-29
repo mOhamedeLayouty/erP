@@ -1,0 +1,6 @@
+TABLE: CRM.Bavaria_tmp
+ORDER_BY: (none)
+COLUMNS: phon2, corp_area, home_phon, old_home_phon
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: DBA.fx_change_department
+ORDER_BY: branch_id
+COLUMNS: line_code, branch_id, asset_code, old_department, new_department, user_id, change_date
+ROWS: 0
+---
+[]

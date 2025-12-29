@@ -1,0 +1,42 @@
+TABLE: HR.dbs_s_account
+ORDER_BY: entry_date
+COLUMNS: acc_no, acc_desc_e, acc_desc_a, entry_date, user_id
+ROWS: 5
+---
+[
+  {
+    "acc_no": "5",
+    "acc_desc_e": "Housing Loan",
+    "acc_desc_a": "Housing Loan",
+    "entry_date": "2014-05-26 09:29:14.917000",
+    "user_id": "1"
+  },
+  {
+    "acc_no": "4",
+    "acc_desc_e": "Advance Salary",
+    "acc_desc_a": "Advance Salary",
+    "entry_date": "2014-05-26 09:28:57.904000",
+    "user_id": "1"
+  },
+  {
+    "acc_no": "3",
+    "acc_desc_e": "Housing",
+    "acc_desc_a": "Housing",
+    "entry_date": "2014-05-26 09:28:47.045000",
+    "user_id": "1"
+  },
+  {
+    "acc_no": "2",
+    "acc_desc_e": "Transport",
+    "acc_desc_a": "Transport",
+    "entry_date": "2014-05-26 09:28:34.453000",
+    "user_id": "1"
+  },
+  {
+    "acc_no": "1",
+    "acc_desc_e": "Basic Salary",
+    "acc_desc_a": "Basic Salary",
+    "entry_date": "2014-05-26 09:27:57.669000",
+    "user_id": "1"
+  }
+]

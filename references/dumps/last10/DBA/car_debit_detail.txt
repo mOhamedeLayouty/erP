@@ -1,0 +1,107 @@
+TABLE: DBA.car_debit_detail
+ORDER_BY: vehicle_id
+COLUMNS: debit_detail, log_stock, vin, debit_header, sales_order_code, sales_price, brand, vehicle_id
+ROWS: 10
+---
+[
+  {
+    "debit_detail": 1,
+    "log_stock": 6,
+    "vin": "ZFAAF8AP5M6U21722",
+    "debit_header": 37,
+    "sales_order_code": "141",
+    "sales_price": 262900,
+    "brand": 1,
+    "vehicle_id": "9980"
+  },
+  {
+    "debit_detail": 79,
+    "log_stock": 7,
+    "vin": "ZFA35600006S15675",
+    "debit_header": 2,
+    "sales_order_code": "611",
+    "sales_price": 265900,
+    "brand": 1,
+    "vehicle_id": "997"
+  },
+  {
+    "debit_detail": 1,
+    "log_stock": 1,
+    "vin": "ZFAAF8AP8M6U21438",
+    "debit_header": 3,
+    "sales_order_code": "470",
+    "sales_price": 262900,
+    "brand": 1,
+    "vehicle_id": "9922"
+  },
+  {
+    "debit_detail": 493,
+    "log_stock": 7,
+    "vin": "ZFA35600006S10650",
+    "debit_header": 2,
+    "sales_order_code": "639",
+    "sales_price": 265900,
+    "brand": 1,
+    "vehicle_id": "99"
+  },
+  {
+    "debit_detail": 1,
+    "log_stock": 2,
+    "vin": "ZFAAF8AP8M6U03263",
+    "debit_header": 14,
+    "sales_order_code": "80",
+    "sales_price": 262900,
+    "brand": 1,
+    "vehicle_id": "9795"
+  },
+  {
+    "debit_detail": 1,
+    "log_stock": 2,
+    "vin": "ZFA26300006U00177",
+    "debit_header": 131,
+    "sales_order_code": "207",
+    "sales_price": 340000,
+    "brand": 1,
+    "vehicle_id": "9612"
+  },
+  {
+    "debit_detail": 5,
+    "log_stock": 7,
+    "vin": "ZFA26300006T94155",
+    "debit_header": 73,
+    "sales_order_code": "2904",
+    "sales_price": 313500,
+    "brand": 1,
+    "vehicle_id": "9611"
+  },
+  {
+    "debit_detail": 4,
+    "log_stock": 7,
+    "vin": "ZFA26300006U00578",
+    "debit_header": 73,
+    "sales_order_code": "2903",
+    "sales_price": 313500,
+    "brand": 1,
+    "vehicle_id": "9610"
+  },
+  {
+    "debit_detail": 1,
+    "log_stock": 5,
+    "vin": "ZFA26300006U00633",
+    "debit_header": 357,
+    "sales_order_code": "920",
+    "sales_price": 333000,
+    "brand": 1,
+    "vehicle_id": "9609"
+  },
+  {
+    "debit_detail": 1,
+    "log_stock": 6,
+    "vin": "ZFA26300006U01842",
+    "debit_header": 164,
+    "sales_order_code": "255",
+    "sales_price": 330000,
+    "brand": 1,
+    "vehicle_id": "9608"
+  }
+]

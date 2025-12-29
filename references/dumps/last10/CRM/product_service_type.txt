@@ -1,0 +1,6 @@
+TABLE: CRM.product_service_type
+ORDER_BY: (none)
+COLUMNS: type_code, description_e, description_a
+ROWS: 0
+---
+[]

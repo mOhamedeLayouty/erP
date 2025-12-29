@@ -1,0 +1,57 @@
+TABLE: DBA.location_users
+ORDER_BY: location_id
+COLUMNS: user_name, location_id, isdefault
+ROWS: 10
+---
+[
+  {
+    "user_name": "hany adly",
+    "location_id": 15,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "cashier.hurghada",
+    "location_id": 15,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "mohamed.galalh",
+    "location_id": 15,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "sa.hurghada",
+    "location_id": 15,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "tamer.elsaify",
+    "location_id": 15,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "sp.hurghada",
+    "location_id": 15,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "haroon.ahmed",
+    "location_id": 15,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "account.hurghada",
+    "location_id": 15,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "loading.hurghada",
+    "location_id": 15,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "mohamed.galalhu",
+    "location_id": 15,
+    "isdefault": "Y"
+  }
+]

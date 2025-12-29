@@ -1,0 +1,6 @@
+TABLE: CRM.starfone_agent
+ORDER_BY: id
+COLUMNS: id, agent_name, agent_code, agent_profile, preffered_language, country_called, rate_offered_for, service_type, credit_limit, customer_first_name, customer_last_name, address, city, zip_code, state, promotion, land_line1, additional_land_line, additional_numbers, ssn, contact_person, tpv, pin_number, email_address, submit_date, activated, billing_address, additional_numbers_new, credit_card_exp_year, credit_card_exp_month, call_back_no1, call_back_no2, call_back_no3, destination_no1, destination_no2, destination_no3, credit_card_sec_code, promotion_insert, team_leader_name
+ROWS: 0
+---
+[]

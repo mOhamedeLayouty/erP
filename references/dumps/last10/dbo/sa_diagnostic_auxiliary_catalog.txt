@@ -1,0 +1,6 @@
+TABLE: dbo.sa_diagnostic_auxiliary_catalog
+ORDER_BY: original_object_id
+COLUMNS: original_object_id, local_object_id, pages_if_table, rows_if_table
+ROWS: 0
+---
+[]

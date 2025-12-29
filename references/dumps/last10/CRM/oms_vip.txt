@@ -1,0 +1,6 @@
+TABLE: CRM.oms_vip
+ORDER_BY: (none)
+COLUMNS: #, Affiliates, Industry, Product, Sector, Organization (Holding/Group), PCs, F8, F9, F10, F11, F12, F13, F14, F15, F16, F17, F18, F19, F20, F21, F22, F23, F24, F25, F26, F27
+ROWS: 0
+---
+[]

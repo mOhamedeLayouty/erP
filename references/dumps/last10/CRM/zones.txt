@@ -1,0 +1,6 @@
+TABLE: CRM.zones
+ORDER_BY: (none)
+COLUMNS: zone, gate_no, client_code, zone_no
+ROWS: 0
+---
+[]

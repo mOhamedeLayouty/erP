@@ -1,0 +1,16 @@
+TABLE: HR.dbs_s_ccy
+ORDER_BY: entry_date
+COLUMNS: ccy_code, ccy_desc_e, ccy_desc_a, cct_lst_rat, cct_def_rat, entry_date, user_id
+ROWS: 1
+---
+[
+  {
+    "ccy_code": 1,
+    "ccy_desc_e": "LEP",
+    "ccy_desc_a": "����",
+    "cct_lst_rat": 1,
+    "cct_def_rat": 1,
+    "entry_date": "2014-05-26 09:34:50.660000",
+    "user_id": "1"
+  }
+]

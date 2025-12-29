@@ -1,0 +1,6 @@
+TABLE: CRM.client_po_header
+ORDER_BY: po_date
+COLUMNS: po_no, client_code, po_date, customer_type, customer_code, customer_name, customer_name_a, contact_name, department, cust_address, cust_address_a, district, city, phon1, phon2, email, del_time, re_ord_time, comments, total_price, po_status, corp_area, agent, gate_no, building_no, cabin_no, floor, landmark, phon3, outer_po, call_org, notes, check_status, supervisor_comments, right_product, order_detail, store, contact_phone, agent_notes, someone_called, email_to, email_cc, order_delivered, on_time, same_size, same_color, same_quantity, same_model
+ROWS: 0
+---
+[]

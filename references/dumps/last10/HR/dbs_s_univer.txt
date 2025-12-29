@@ -1,0 +1,77 @@
+TABLE: HR.dbs_s_univer
+ORDER_BY: entry_date
+COLUMNS: univer_code, univer_desc_e, univer_desc_a, entry_date, user_id
+ROWS: 10
+---
+[
+  {
+    "univer_code": 18,
+    "univer_desc_e": "������",
+    "univer_desc_a": "������",
+    "entry_date": "2013-01-29 21:40:42.437000",
+    "user_id": "����"
+  },
+  {
+    "univer_code": 17,
+    "univer_desc_e": "�����",
+    "univer_desc_a": "�����",
+    "entry_date": "2013-01-29 21:40:32.567000",
+    "user_id": "����"
+  },
+  {
+    "univer_code": 16,
+    "univer_desc_e": "������ �������",
+    "univer_desc_a": "������ �������",
+    "entry_date": "2013-01-29 21:40:18.717000",
+    "user_id": "����"
+  },
+  {
+    "univer_code": 15,
+    "univer_desc_e": "������ ������ ��������",
+    "univer_desc_a": "������ ������ ��������",
+    "entry_date": "2013-01-29 21:40:01.518000",
+    "user_id": "����"
+  },
+  {
+    "univer_code": 14,
+    "univer_desc_e": "���� ������� ������ ������ ���������� ",
+    "univer_desc_a": "���� ������� ������ ������ ���������� ",
+    "entry_date": "2002-08-13 12:41:40.826000",
+    "user_id": "HR"
+  },
+  {
+    "univer_code": 13,
+    "univer_desc_e": "������ ���������� ������ ",
+    "univer_desc_a": "������ ���������� ������ ",
+    "entry_date": "2002-08-13 12:00:39.185000",
+    "user_id": "HR"
+  },
+  {
+    "univer_code": 12,
+    "univer_desc_e": "������ ������ �������� ��������� ",
+    "univer_desc_a": "������ ������ �������� ��������� ",
+    "entry_date": "2002-08-13 11:40:59.937000",
+    "user_id": "HR"
+  },
+  {
+    "univer_code": 11,
+    "univer_desc_e": "���� �������� �������� ������ ",
+    "univer_desc_a": "���� �������� �������� ������ ",
+    "entry_date": "2002-08-06 14:50:31.872000",
+    "user_id": "HR"
+  },
+  {
+    "univer_code": 7,
+    "univer_desc_e": "��������",
+    "univer_desc_a": "��������",
+    "entry_date": "2002-07-17 11:23:03.817000",
+    "user_id": "HR"
+  },
+  {
+    "univer_code": 6,
+    "univer_desc_e": "������� ���������",
+    "univer_desc_a": "������� ���������",
+    "entry_date": "2002-03-25 15:03:02.078000",
+    "user_id": "HR"
+  }
+]

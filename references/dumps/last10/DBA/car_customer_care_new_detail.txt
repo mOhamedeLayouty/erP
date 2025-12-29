@@ -1,0 +1,6 @@
+TABLE: DBA.car_customer_care_new_detail
+ORDER_BY: conf_id
+COLUMNS: conf_id, brand, log_store, question_id, answer_value, customer_id
+ROWS: 0
+---
+[]

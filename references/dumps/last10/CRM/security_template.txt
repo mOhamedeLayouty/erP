@@ -1,0 +1,97 @@
+TABLE: CRM.security_template
+ORDER_BY: control_id
+COLUMNS: control_id, description_e, description_a, parent_id, standard, advanced, enterprise
+ROWS: 10
+---
+[
+  {
+    "control_id": "Web Visitors",
+    "description_e": "Web Visitors",
+    "description_a": "Web Visitors",
+    "parent_id": "CRM",
+    "standard": 1,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "u_ws_reservation_times_monitor",
+    "description_e": "Reservations Times Follow Up",
+    "description_a": "������ ����� �����",
+    "parent_id": "Follow Up",
+    "standard": 1,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "u_ws_reservation_monitor",
+    "description_e": "WS Reservation Follow Up",
+    "description_a": "������ ��� ������",
+    "parent_id": "Follow Up",
+    "standard": 1,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "u_ws_reservation",
+    "description_e": "WS Reservation",
+    "description_a": "��� ������",
+    "parent_id": "Tickets Log",
+    "standard": 1,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "u_ws_reception_monitor",
+    "description_e": "WS Reception Follow Up",
+    "description_a": "������ ����� �������",
+    "parent_id": "Follow Up",
+    "standard": 1,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "u_ws_expected_pm_followup",
+    "description_e": "PM Follow Up",
+    "description_a": "������ ���� ������� ",
+    "parent_id": "Follow Up",
+    "standard": 1,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "u_ws_customer_visits_followup",
+    "description_e": "customer Visits Follow Up",
+    "description_a": "������ �� ������ �������",
+    "parent_id": "Follow Up",
+    "standard": 1,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "u_ws_customer_care_fill",
+    "description_e": "Customer Cars",
+    "description_a": "���������",
+    "parent_id": "Tickets Log",
+    "standard": 1,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "u_ws_customer_care",
+    "description_e": "After Sales Support",
+    "description_a": "������ �� ��� �������",
+    "parent_id": "Follow Up",
+    "standard": 1,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "u_web_visitor_monitor",
+    "description_e": "Web Visitors Monitoring",
+    "description_a": "Web Visitors Monitoring",
+    "parent_id": "Web Visitors",
+    "standard": 1,
+    "advanced": 1,
+    "enterprise": 1
+  }
+]

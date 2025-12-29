@@ -1,0 +1,17 @@
+TABLE: DBA.currency
+ORDER_BY: id
+COLUMNS: id, desc_e, desc_a
+ROWS: 2
+---
+[
+  {
+    "id": "2",
+    "desc_e": "USD",
+    "desc_a": "�����"
+  },
+  {
+    "id": "1",
+    "desc_e": "LE",
+    "desc_a": "����"
+  }
+]

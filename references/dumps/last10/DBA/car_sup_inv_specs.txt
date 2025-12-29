@@ -1,0 +1,6 @@
+TABLE: DBA.car_sup_inv_specs
+ORDER_BY: specs_id
+COLUMNS: sup_header, sup_detail, specs_id, log_stock, brand
+ROWS: 0
+---
+[]

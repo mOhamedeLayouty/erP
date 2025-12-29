@@ -1,0 +1,77 @@
+TABLE: DBA.sc_item_grp
+ORDER_BY: (none)
+COLUMNS: group_code, group_desc, group_desc_a, service_center, group_number
+ROWS: 10
+---
+[
+  {
+    "group_code": "1",
+    "group_desc": "ARG",
+    "group_desc_a": "ARG",
+    "service_center": 1,
+    "group_number": 2
+  },
+  {
+    "group_code": "2",
+    "group_desc": "PNC",
+    "group_desc_a": "PNC",
+    "service_center": 1,
+    "group_number": 2
+  },
+  {
+    "group_code": "3",
+    "group_desc": "ACC",
+    "group_desc_a": "ACC",
+    "service_center": 1,
+    "group_number": 2
+  },
+  {
+    "group_code": "4",
+    "group_desc": "SIN",
+    "group_desc_a": "SIN",
+    "service_center": 1,
+    "group_number": 2
+  },
+  {
+    "group_code": "5",
+    "group_desc": "LIN",
+    "group_desc_a": "LIN",
+    "service_center": 1,
+    "group_number": 2
+  },
+  {
+    "group_code": "6",
+    "group_desc": "TIPO",
+    "group_desc_a": "TIPO",
+    "service_center": 1,
+    "group_number": 2
+  },
+  {
+    "group_code": "7",
+    "group_desc": "DD",
+    "group_desc_a": "DD",
+    "service_center": 1,
+    "group_number": 2
+  },
+  {
+    "group_code": "8",
+    "group_desc": "BRAVO",
+    "group_desc_a": "BRAVO",
+    "service_center": 1,
+    "group_number": 2
+  },
+  {
+    "group_code": "9",
+    "group_desc": "500X",
+    "group_desc_a": "500X",
+    "service_center": 1,
+    "group_number": 2
+  },
+  {
+    "group_code": "10",
+    "group_desc": "500",
+    "group_desc_a": "500",
+    "service_center": 1,
+    "group_number": 2
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: DBA.ws_joborderitems_auto
+ORDER_BY: entry_date
+COLUMNS: joborderid, operationid, itemid, qty, user_id, entry_date, costprice, debitorder, job_ser, service_center, location_id
+ROWS: 0
+---
+[]

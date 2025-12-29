@@ -1,0 +1,19 @@
+TABLE: DBA.sms_send_level
+ORDER_BY: (none)
+COLUMNS: send_level, written, fax, email, internet, telephone, SMSAPI, SMSUser, SMSPass, SMSFrom
+ROWS: 1
+---
+[
+  {
+    "send_level": "0",
+    "written": "N",
+    "fax": "N",
+    "email": "N",
+    "internet": "N",
+    "telephone": "N",
+    "SMSAPI": "http://www.yamamah.com",
+    "SMSUser": "966505479731",
+    "SMSPass": "505479731",
+    "SMSFrom": "MG KSA"
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: DBA.sc_debit_header_request
+ORDER_BY: trans_id
+COLUMNS: debit_header, trans_id, manual_number, notes, invoice_number, confirm_date, store_id, cus_code, debit_date, customer_order, status, joborderid, trans_flag, debit_type, trans_time, sell_way, credit_manual_number, vendor_code, customer_name, post_flag, request_created, service_center, location_id
+ROWS: 0
+---
+[]

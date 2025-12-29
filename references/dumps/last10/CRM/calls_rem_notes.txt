@@ -1,0 +1,137 @@
+TABLE: CRM.calls_rem_notes
+ORDER_BY: due_date
+COLUMNS: client_code, call_no, call_org, due_date, call_date, serial, notes, details, agent, assigned_to, call_status
+ROWS: 10
+---
+[
+  {
+    "client_code": "1",
+    "call_no": 35,
+    "call_org": "dw_complaint",
+    "due_date": "2024-02-27 14:03:00.000000",
+    "call_date": "1900-01-01 00:00:00.000000",
+    "serial": 15,
+    "notes": null,
+    "details": "�� ������ ������� � ��� ������� ��� � �� �� ������� ",
+    "agent": null,
+    "assigned_to": "3",
+    "call_status": "1"
+  },
+  {
+    "client_code": "1",
+    "call_no": 34,
+    "call_org": "dw_call_log_aftersales",
+    "due_date": "2024-02-27 13:43:00.000000",
+    "call_date": "1900-01-01 00:00:00.000000",
+    "serial": 14,
+    "notes": null,
+    "details": null,
+    "agent": "Mohamed Aziz",
+    "assigned_to": "17",
+    "call_status": null
+  },
+  {
+    "client_code": "1",
+    "call_no": 15,
+    "call_org": "dw_call_log_aftersales",
+    "due_date": "2024-02-18 12:32:00.000000",
+    "call_date": "1900-01-01 00:00:00.000000",
+    "serial": 13,
+    "notes": "",
+    "details": "test",
+    "agent": "Mohamed Aziz",
+    "assigned_to": "17",
+    "call_status": null
+  },
+  {
+    "client_code": "1",
+    "call_no": 31,
+    "call_org": "dw_call_log_aftersales",
+    "due_date": "2024-02-08 12:31:00.000000",
+    "call_date": "1900-01-01 00:00:00.000000",
+    "serial": 12,
+    "notes": null,
+    "details": null,
+    "agent": "Ahmed Salah",
+    "assigned_to": "17",
+    "call_status": null
+  },
+  {
+    "client_code": "1",
+    "call_no": 30,
+    "call_org": "dw_call_log_aftersales",
+    "due_date": "2024-02-08 12:30:00.000000",
+    "call_date": "1900-01-01 00:00:00.000000",
+    "serial": 11,
+    "notes": null,
+    "details": null,
+    "agent": "Ahmed Salah",
+    "assigned_to": "17",
+    "call_status": null
+  },
+  {
+    "client_code": "1",
+    "call_no": 29,
+    "call_org": "dw_call_log_aftersales",
+    "due_date": "2024-02-08 12:28:00.000000",
+    "call_date": "1900-01-01 00:00:00.000000",
+    "serial": 10,
+    "notes": null,
+    "details": null,
+    "agent": "Ahmed Salah",
+    "assigned_to": "17",
+    "call_status": null
+  },
+  {
+    "client_code": "1",
+    "call_no": 28,
+    "call_org": "dw_call_log_aftersales",
+    "due_date": "2024-02-06 20:13:00.000000",
+    "call_date": "1900-01-01 00:00:00.000000",
+    "serial": 9,
+    "notes": null,
+    "details": null,
+    "agent": "Ahmed Salah",
+    "assigned_to": "3",
+    "call_status": null
+  },
+  {
+    "client_code": "1",
+    "call_no": 27,
+    "call_org": "dw_call_log_aftersales",
+    "due_date": "2024-02-06 20:12:00.000000",
+    "call_date": "1900-01-01 00:00:00.000000",
+    "serial": 8,
+    "notes": null,
+    "details": null,
+    "agent": "Ahmed Salah",
+    "assigned_to": "17",
+    "call_status": null
+  },
+  {
+    "client_code": "1",
+    "call_no": 26,
+    "call_org": "dw_call_log_aftersales",
+    "due_date": "2024-02-06 20:09:00.000000",
+    "call_date": "1900-01-01 00:00:00.000000",
+    "serial": 7,
+    "notes": null,
+    "details": null,
+    "agent": "Ahmed Salah",
+    "assigned_to": null,
+    "call_status": null
+  },
+  {
+    "client_code": "1",
+    "call_no": 25,
+    "call_org": "dw_call_log_aftersales",
+    "due_date": "2024-02-06 20:07:00.000000",
+    "call_date": "1900-01-01 00:00:00.000000",
+    "serial": 6,
+    "notes": null,
+    "details": null,
+    "agent": "Ahmed Salah",
+    "assigned_to": "17",
+    "call_status": null
+  }
+]

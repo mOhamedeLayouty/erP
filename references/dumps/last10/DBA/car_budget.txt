@@ -1,0 +1,6 @@
+TABLE: DBA.car_budget
+ORDER_BY: store_id
+COLUMNS: budget_year, model_code, store_id, brand, car_no_1, car_no_2, car_no_3, car_no_4, car_no_5, car_no_6, car_no_7, car_no_8, car_no_9, car_no_10, car_no_11, car_no_12, category_id
+ROWS: 0
+---
+[]

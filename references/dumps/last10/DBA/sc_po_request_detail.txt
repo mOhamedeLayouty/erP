@@ -1,0 +1,6 @@
+TABLE: DBA.sc_po_request_detail
+ORDER_BY: item_id
+COLUMNS: buy_detail, buy_header, price, qty, notes, item_id, exp, approved
+ROWS: 0
+---
+[]

@@ -1,0 +1,33 @@
+TABLE: DBA.tax_type
+ORDER_BY: entry_date
+COLUMNS: tax_id, code, sub_code, type_id, name_e, name_a, rate, entry_date, entry_user, edit_date, edit_user
+ROWS: 2
+---
+[
+  {
+    "tax_id": 2,
+    "code": "T4",
+    "sub_code": "W002",
+    "type_id": 1,
+    "name_e": "Withholding tax (WHT)",
+    "name_a": "����� ��� ���� �������",
+    "rate": 10,
+    "entry_date": "2021-02-01 12:37:52.780000",
+    "entry_user": "11",
+    "edit_date": null,
+    "edit_user": null
+  },
+  {
+    "tax_id": 1,
+    "code": "T1",
+    "sub_code": "W002",
+    "type_id": 1,
+    "name_e": "����� ������ �������",
+    "name_a": "������ ������ �������",
+    "rate": 14,
+    "entry_date": "2021-01-27 18:21:06.783000",
+    "entry_user": "1",
+    "edit_date": "2021-02-01 12:37:52.780000",
+    "edit_user": "11"
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: DBA.sc_item_prices
+ORDER_BY: entry_date
+COLUMNS: serial, item_id, service_center, qty, price, validity_from, validity_to, user_id, entry_date, stock_qty_limit
+ROWS: 0
+---
+[]

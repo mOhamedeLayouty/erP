@@ -1,0 +1,57 @@
+TABLE: DBA.color_group
+ORDER_BY: colorgroup_id
+COLUMNS: colorgroup_id, colorgroup_name, colorgroup_name_e
+ROWS: 10
+---
+[
+  {
+    "colorgroup_id": 51,
+    "colorgroup_name": "���� ����",
+    "colorgroup_name_e": "���� ����"
+  },
+  {
+    "colorgroup_id": 50,
+    "colorgroup_name": "������",
+    "colorgroup_name_e": "������"
+  },
+  {
+    "colorgroup_id": 49,
+    "colorgroup_name": "����",
+    "colorgroup_name_e": "����"
+  },
+  {
+    "colorgroup_id": 48,
+    "colorgroup_name": "TROFEO WHITE",
+    "colorgroup_name_e": "TROFEO WHITE"
+  },
+  {
+    "colorgroup_id": 47,
+    "colorgroup_name": "COMPETIZIONE RED",
+    "colorgroup_name_e": "COMPETIZIONE RED"
+  },
+  {
+    "colorgroup_id": 46,
+    "colorgroup_name": "BLUE MISANO",
+    "colorgroup_name_e": "BLUE MISANO"
+  },
+  {
+    "colorgroup_id": 45,
+    "colorgroup_name": "BASALTO BROWN",
+    "colorgroup_name_e": "BASALTO BROWN"
+  },
+  {
+    "colorgroup_id": 44,
+    "colorgroup_name": "RACING GREEN",
+    "colorgroup_name_e": "RACING GREEN"
+  },
+  {
+    "colorgroup_id": 43,
+    "colorgroup_name": "IMOLA TITANIUM",
+    "colorgroup_name_e": "IMOLA TITANIUM"
+  },
+  {
+    "colorgroup_id": 42,
+    "colorgroup_name": "MONTECARLO BLUE",
+    "colorgroup_name_e": "MONTECARLO BLUE"
+  }
+]

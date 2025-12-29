@@ -1,0 +1,23 @@
+TABLE: DBA.vehicle_specs
+ORDER_BY: id
+COLUMNS: id, desc_e, desc_a, brand, code, type_id
+ROWS: 2
+---
+[
+  {
+    "id": "2",
+    "desc_e": "Navegation System",
+    "desc_a": "���� �������",
+    "brand": 1,
+    "code": null,
+    "type_id": 1
+  },
+  {
+    "id": "1",
+    "desc_e": "Windows filming",
+    "desc_a": "����� ������",
+    "brand": 1,
+    "code": null,
+    "type_id": 1
+  }
+]

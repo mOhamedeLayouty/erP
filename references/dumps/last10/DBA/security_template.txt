@@ -1,0 +1,97 @@
+TABLE: DBA.security_template
+ORDER_BY: control_id
+COLUMNS: control_id, description_e, description_a, parent_id, standard, advanced, enterprise
+ROWS: 10
+---
+[
+  {
+    "control_id": "WS_TimeKeeper",
+    "description_e": "Time Keeper",
+    "description_a": "������ �����",
+    "parent_id": "WS",
+    "standard": 0,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "WS_Setup",
+    "description_e": "Setup",
+    "description_a": "������ - ������ ������",
+    "parent_id": "WS",
+    "standard": 0,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "WS_Res",
+    "description_e": "Customer Care",
+    "description_a": "���� �������",
+    "parent_id": "WS",
+    "standard": 0,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "WS_Res",
+    "description_e": "After Sales Support",
+    "description_a": "������ �� ��� �������",
+    "parent_id": "u_customer_care",
+    "standard": 0,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "WS_Report",
+    "description_e": "Reports",
+    "description_a": "������ - ������",
+    "parent_id": "WS",
+    "standard": 0,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "WS_Report",
+    "description_e": "Total Jobs in a period of time",
+    "description_a": "������ ����� �������",
+    "parent_id": "u_total_job_orders",
+    "standard": 0,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "WS_Recep",
+    "description_e": "Reception",
+    "description_a": "���������",
+    "parent_id": "WS",
+    "standard": 0,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "ws_job_onoff",
+    "description_e": "Manual modify JO on/off time",
+    "description_a": "����� ��� ������� �������� �������� �����",
+    "parent_id": "WS_TimeKeeper",
+    "standard": 1,
+    "advanced": 1,
+    "enterprise": 1
+  },
+  {
+    "control_id": "ws_inv_disc_less_cost",
+    "description_e": "Invoice Price discounted less Cost",
+    "description_a": "����� ��� ����� ��� �� �������",
+    "parent_id": "WS_Account",
+    "standard": 0,
+    "advanced": 0,
+    "enterprise": 1
+  },
+  {
+    "control_id": "WS_GReport",
+    "description_e": "Graph Report",
+    "description_a": "������ ��� �����",
+    "parent_id": "WS",
+    "standard": 0,
+    "advanced": 1,
+    "enterprise": 1
+  }
+]

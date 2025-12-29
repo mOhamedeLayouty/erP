@@ -1,0 +1,47 @@
+TABLE: HR.dbs_s_marital
+ORDER_BY: entry_date
+COLUMNS: mar_code, mar_desc_e, mar_desc_a, marl_exemp, entry_date, user_id
+ROWS: 5
+---
+[
+  {
+    "mar_code": 5,
+    "mar_desc_e": "����",
+    "mar_desc_a": "����",
+    "marl_exemp": 2000,
+    "entry_date": "2002-07-20 13:42:45.827000",
+    "user_id": "HR"
+  },
+  {
+    "mar_code": 4,
+    "mar_desc_e": "���� �����",
+    "mar_desc_a": "���� �����",
+    "marl_exemp": 3000,
+    "entry_date": "2002-03-25 11:22:26.327000",
+    "user_id": "HR"
+  },
+  {
+    "mar_code": 3,
+    "mar_desc_e": "����� � ����",
+    "mar_desc_a": "����� � ����",
+    "marl_exemp": 3000,
+    "entry_date": "2002-03-24 16:20:44.343000",
+    "user_id": "HR"
+  },
+  {
+    "mar_code": 2,
+    "mar_desc_e": "�����",
+    "mar_desc_a": "�����",
+    "marl_exemp": 2500,
+    "entry_date": "2002-03-24 16:20:16.936000",
+    "user_id": "HR"
+  },
+  {
+    "mar_code": 1,
+    "mar_desc_e": "����",
+    "mar_desc_a": "����",
+    "marl_exemp": 2000,
+    "entry_date": "2002-03-24 16:16:44.889000",
+    "user_id": "HR"
+  }
+]

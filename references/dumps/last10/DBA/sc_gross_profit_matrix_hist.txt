@@ -1,0 +1,6 @@
+TABLE: DBA.sc_gross_profit_matrix_hist
+ORDER_BY: id
+COLUMNS: id, service_center, group_code, pmc, lcf, profit_margin, safety_margin, user_id, last_update
+ROWS: 0
+---
+[]

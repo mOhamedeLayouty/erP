@@ -1,0 +1,6 @@
+TABLE: CRM.inquir_subjects
+ORDER_BY: id
+COLUMNS: id, client_code, subject, comment
+ROWS: 0
+---
+[]

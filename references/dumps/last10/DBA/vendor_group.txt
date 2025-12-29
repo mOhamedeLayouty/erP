@@ -1,0 +1,67 @@
+TABLE: DBA.vendor_group
+ORDER_BY: vend_id
+COLUMNS: vend_id, vend_desc, vend_desc_e, budget
+ROWS: 10
+---
+[
+  {
+    "vend_id": 16,
+    "vend_desc": "������ ����� ����",
+    "vend_desc_e": "Painting Materials Vendors",
+    "budget": null
+  },
+  {
+    "vend_id": 15,
+    "vend_desc": "������ ������ ����",
+    "vend_desc_e": "Local Vehicle Vendor",
+    "budget": null
+  },
+  {
+    "vend_id": 14,
+    "vend_desc": "Payable to Affiliates",
+    "vend_desc_e": "Affiliates",
+    "budget": null
+  },
+  {
+    "vend_id": 13,
+    "vend_desc": "Financial & Legal",
+    "vend_desc_e": "Financial & Legal",
+    "budget": null
+  },
+  {
+    "vend_id": 12,
+    "vend_desc": "������ ������ �����",
+    "vend_desc_e": "Overseas Vehicle Vendor",
+    "budget": null
+  },
+  {
+    "vend_id": 11,
+    "vend_desc": "������ �������",
+    "vend_desc_e": "Insurance Vendors",
+    "budget": null
+  },
+  {
+    "vend_id": 10,
+    "vend_desc": "������ ���� ����",
+    "vend_desc_e": "General Contracting",
+    "budget": null
+  },
+  {
+    "vend_id": 9,
+    "vend_desc": "���� ������ � ������",
+    "vend_desc_e": "HR & Admin",
+    "budget": null
+  },
+  {
+    "vend_id": 8,
+    "vend_desc": "������ �����",
+    "vend_desc_e": "Maketing Vendors",
+    "budget": null
+  },
+  {
+    "vend_id": 6,
+    "vend_desc": "������ ��������� ���������",
+    "vend_desc_e": "IT Vendors",
+    "budget": null
+  }
+]

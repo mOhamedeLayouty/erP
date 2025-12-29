@@ -1,0 +1,6 @@
+TABLE: HR.course_type
+ORDER_BY: entry_date
+COLUMNS: course_code, course_name_e, course_name_a, entry_date, user_id, expiry_unit, unit_type
+ROWS: 0
+---
+[]

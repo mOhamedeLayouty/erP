@@ -1,0 +1,13 @@
+TABLE: CRM.industry_category
+ORDER_BY: (none)
+COLUMNS: category_code, categrory_desc, categrory_desc_a, status
+ROWS: 1
+---
+[
+  {
+    "category_code": "1",
+    "categrory_desc": "Egypt",
+    "categrory_desc_a": "Egypt",
+    "status": 0
+  }
+]

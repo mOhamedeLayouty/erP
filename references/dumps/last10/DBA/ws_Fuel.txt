@@ -1,0 +1,6 @@
+TABLE: DBA.ws_Fuel
+ORDER_BY: fuel_id
+COLUMNS: fuel_id, fuel_name_e, fuel_name_a
+ROWS: 0
+---
+[]

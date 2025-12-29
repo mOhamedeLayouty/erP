@@ -1,0 +1,107 @@
+TABLE: CRM.client_procedures
+ORDER_BY: procedure_id
+COLUMNS: procedure_id, client_code, name, name_e, est_time, required, notes, finance
+ROWS: 10
+---
+[
+  {
+    "procedure_id": 12,
+    "client_code": "1",
+    "name": "���� �����",
+    "name_e": "Lost sale",
+    "est_time": 1,
+    "required": 0,
+    "notes": null,
+    "finance": "0"
+  },
+  {
+    "procedure_id": 11,
+    "client_code": "1",
+    "name": "Close sale",
+    "name_e": "Close sale",
+    "est_time": 1,
+    "required": 0,
+    "notes": null,
+    "finance": "0"
+  },
+  {
+    "procedure_id": 10,
+    "client_code": "1",
+    "name": "�� �����",
+    "name_e": "Rejected",
+    "est_time": 1,
+    "required": 0,
+    "notes": null,
+    "finance": "0"
+  },
+  {
+    "procedure_id": 9,
+    "client_code": "1",
+    "name": "������� ����",
+    "name_e": "Purchase Order PO",
+    "est_time": 1,
+    "required": 0,
+    "notes": null,
+    "finance": "0"
+  },
+  {
+    "procedure_id": 8,
+    "client_code": "1",
+    "name": "������ ������",
+    "name_e": "final approval",
+    "est_time": 1,
+    "required": 0,
+    "notes": null,
+    "finance": "0"
+  },
+  {
+    "procedure_id": 7,
+    "client_code": "1",
+    "name": "Pre-approval",
+    "name_e": "Pre-approval",
+    "est_time": 1,
+    "required": 0,
+    "notes": null,
+    "finance": "0"
+  },
+  {
+    "procedure_id": 6,
+    "client_code": "1",
+    "name": "�� ��� ������� ���� �������",
+    "name_e": "papers provided to financer",
+    "est_time": 1,
+    "required": 0,
+    "notes": null,
+    "finance": "0"
+  },
+  {
+    "procedure_id": 5,
+    "client_code": "1",
+    "name": "����� ��� ��� �������",
+    "name_e": "transaction to financer",
+    "est_time": 1,
+    "required": 0,
+    "notes": null,
+    "finance": "0"
+  },
+  {
+    "procedure_id": 4,
+    "client_code": "1",
+    "name": "completing documents",
+    "name_e": "completing documents",
+    "est_time": 1,
+    "required": 0,
+    "notes": null,
+    "finance": "0"
+  },
+  {
+    "procedure_id": 3,
+    "client_code": "1",
+    "name": "�����",
+    "name_e": "negotiation",
+    "est_time": 1,
+    "required": 0,
+    "notes": null,
+    "finance": "0"
+  }
+]

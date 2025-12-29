@@ -1,0 +1,19 @@
+TABLE: HR.hire_papers
+ORDER_BY: (none)
+COLUMNS: line_no, description, description_a, required
+ROWS: 2
+---
+[
+  {
+    "line_no": 1,
+    "description": "Personal ID Picture",
+    "description_a": "���� ������� �������",
+    "required": "Y"
+  },
+  {
+    "line_no": 2,
+    "description": "Criminal Paper",
+    "description_a": "��� ������",
+    "required": "Y"
+  }
+]

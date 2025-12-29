@@ -1,0 +1,6 @@
+TABLE: DBA.car_warrantypolicy_type
+ORDER_BY: (none)
+COLUMNS: value, name, name_e
+ROWS: 0
+---
+[]

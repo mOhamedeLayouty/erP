@@ -1,0 +1,15 @@
+TABLE: DBA.ws_currency
+ORDER_BY: entry_date
+COLUMNS: ccy_id, ccy_name_a, ccy_name_e, ccy_factor, user_id, entry_date
+ROWS: 1
+---
+[
+  {
+    "ccy_id": 1,
+    "ccy_name_a": "EL",
+    "ccy_name_e": "EL",
+    "ccy_factor": 1,
+    "user_id": null,
+    "entry_date": null
+  }
+]

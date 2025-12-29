@@ -1,0 +1,1766 @@
+TABLE: DBA.ws_JobOrder
+COLUMNS(49): JobOrderID, StartTime, OrderType, VoucherID, EqptID, CustomerID, OrderStatus, EndTime, JobDate, user_id, entry_date, reOrderFlag, reOrderRef, control_ok, control_date, ReasonID, notes, DeleteFlag, DeleteUser, DeleteTime, DeleteReason, control_comment, stock_approved, out_date, sales_rep, service_center, location_id, control_comment2, control_comment3, estimate_cost, estimate_cost2, estimate_cost3, return_comment, return_count, return_date, EndDate, out_time, editdate, stop_date, stop_user, CategoryId, quotation_id, main_brand, claim_code, washing, washing_start, washing_end, washing_notes, washing_user
+
+PRIMARY_KEY:
+  (none)
+
+UNIQUE_CONSTRAINTS:
+  (none)
+
+FOREIGN_KEYS:
+  (none or not readable via INFORMATION_SCHEMA)
+
+INDEXES:
+  - ws_JobOrder (unique: 2)
+    columns: notes, EndTime, JobDate, user_id, OrderType, OrderType, OrderType, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, DeleteFlag, DeleteFlag, DeleteTime, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, entry_date, OrderStatus, reOrderFlag, control_date, stock_approved, notes, notes, notes, notes, notes, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EndTime, EndTime, EndTime, EndTime, EndTime, JobDate, JobDate, JobDate, JobDate, JobDate, JobDate, user_id, user_id, user_id, user_id, user_id, ReasonID, out_date, out_date, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, sales_rep, stop_date, CategoryId, CategoryId, CustomerID, CustomerID, CustomerID, CustomerID, CustomerID, CustomerID, CustomerID, CustomerID, DeleteTime, DeleteTime, DeleteUser, DeleteUser, DeleteUser, DeleteUser, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, claim_code, control_ok, control_ok, control_ok, control_ok, control_ok, control_ok, control_ok, entry_date, entry_date, entry_date, entry_date, entry_date, entry_date, entry_date, reOrderRef, reOrderRef, reOrderRef, OrderStatus, OrderStatus, OrderStatus, OrderStatus, OrderStatus, OrderStatus, OrderStatus, reOrderFlag, reOrderFlag, reOrderFlag, reOrderFlag, return_date, return_date, DeleteReason, DeleteReason, DeleteReason, control_date, control_date, control_date, control_date, control_date, control_date, estimate_cost, estimate_cost, service_center, service_center, control_comment, control_comment, control_comment, control_comment, notes, notes, notes, notes, EqptID, EqptID, EqptID, EqptID, EqptID, EndDate, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, JobDate, JobDate, JobDate, JobDate, JobDate, JobDate, JobDate, JobDate, JobDate, JobDate, JobDate, user_id, user_id, user_id, user_id, user_id, user_id, user_id, user_id, user_id, user_id, user_id, user_id, user_id, washing, ReasonID, ReasonID, ReasonID, ReasonID, ReasonID, ReasonID, ReasonID, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, sales_rep, stop_user, CustomerID, CustomerID, CustomerID, CustomerID, CustomerID, DeleteFlag, DeleteFlag, DeleteFlag, DeleteFlag, DeleteFlag, DeleteFlag, DeleteTime, DeleteTime, DeleteTime, DeleteTime, DeleteUser, DeleteUser, JobOrderID, control_ok, control_ok, control_ok, control_ok, entry_date, entry_date, entry_date, entry_date, entry_date, entry_date, entry_date, main_brand, reOrderRef, reOrderRef, reOrderRef, reOrderRef, reOrderRef, OrderStatus, OrderStatus, OrderStatus, OrderStatus, OrderStatus, OrderStatus, OrderStatus, OrderStatus, OrderStatus, OrderStatus, OrderStatus, OrderStatus, location_id, location_id, reOrderFlag, reOrderFlag, reOrderFlag, reOrderFlag, DeleteReason, DeleteReason, DeleteReason, DeleteReason, DeleteReason, control_date, control_date, control_date, control_date, return_count, return_count, return_count, return_count, return_count, washing_user, estimate_cost, estimate_cost, estimate_cost2, estimate_cost2, return_comment, stock_approved, stock_approved, stock_approved, stock_approved, stock_approved, stock_approved, stock_approved, stock_approved, control_comment, control_comment, control_comment, control_comment, notes, notes, notes, EqptID, EqptID, EqptID, EqptID, EqptID, EndDate, EndDate, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, EndTime, JobDate, JobDate, JobDate, JobDate, JobDate, JobDate, JobDate, JobDate, JobDate, user_id, user_id, user_id, user_id, user_id, user_id, user_id, ReasonID, ReasonID, ReasonID, editdate, editdate, StartTime, StartTime, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, VoucherID, sales_rep, stop_date, CategoryId, CustomerID, CustomerID, DeleteFlag, DeleteTime, JobOrderID, claim_code, control_ok, entry_date, entry_date, entry_date, entry_date, entry_date, entry_date, entry_date, reOrderRef, reOrderRef, OrderStatus, OrderStatus, OrderStatus, OrderStatus, location_id, reOrderFlag, reOrderFlag, reOrderFlag, reOrderFlag, reOrderFlag, reOrderFlag, reOrderFlag, control_date, quotation_id, quotation_id, estimate_cost2, estimate_cost2, control_comment, control_comment, notes, notes, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, EqptID, JobDate, JobDate, JobDate, user_id, VoucherID, VoucherID, stop_user, DeleteFlag, control_ok, entry_date, entry_date, entry_date, OrderStatus, reOrderFlag, control_date, service_center, CustomerID, CustomerID, EndTime, JobDate, user_id
+  - ws_WaitingReason (unique: 4)
+    columns: EqptID, EqptID, EndTime, user_id, ReasonID, OrderType, OrderType, OrderType, OrderType, OrderType, OrderType, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, VoucherID, VoucherID, VoucherID, VoucherID, CustomerID, CustomerID, DeleteUser, DeleteUser, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, control_ok, OrderStatus, OrderStatus, control_date, estimate_cost3, notes, notes, EndTime, EndTime, JobDate, JobDate, user_id, user_id, user_id, user_id, ReasonID, ReasonID, out_time, OrderType, OrderType, OrderType, OrderType, OrderType, StartTime, StartTime, StartTime, VoucherID, reOrderRef, reOrderRef, OrderStatus, reOrderFlag, DeleteReason, DeleteReason, control_date, estimate_cost, control_comment, notes, JobDate, out_date, OrderType, VoucherID, VoucherID, control_ok, estimate_cost, estimate_cost2, control_comment, VoucherID, estimate_cost2, EqptID
+  - index_ws_JobOrder_VoucherID (unique: 4)
+    columns: EqptID, EndTime, EndTime, OrderType, OrderType, OrderType, StartTime, StartTime, StartTime, VoucherID, CustomerID, CustomerID, CustomerID, DeleteTime, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, reOrderFlag, reOrderFlag, control_date, notes, EqptID, EndTime, OrderType, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, StartTime, reOrderRef, OrderStatus, DeleteReason, control_date, control_date, control_date, service_center, control_comment, JobDate, ReasonID, out_date, OrderType, control_ok, location_id, control_date, estimate_cost, estimate_cost, estimate_cost2, estimate_cost2, control_date, return_count
+  - index_ws_JobOrder_EqptID (unique: 4)
+    columns: EqptID, EqptID, OrderType, OrderType, StartTime, sales_rep, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, JobOrderID, reOrderRef, return_count, estimate_cost2, EqptID, JobDate, OrderType, StartTime, StartTime, DeleteUser, entry_date, estimate_cost, return_comment, service_center, OrderStatus, control_date, estimate_cost2, ReasonID, CustomerID
+  - index_ws_JobOrder_CustomerID (unique: 4)
+    columns: user_id, ReasonID, OrderType, StartTime, CustomerID, JobOrderID, JobOrderID, JobOrderID, OrderStatus, DeleteReason, estimate_cost, EndTime, StartTime, control_date, control_comment, stock_approved, out_date, sales_rep
+
+SYS_FALLBACK_RAW:
+{
+  "sysfkey": [
+    {
+      "foreign_table_id": 7,
+      "foreign_index_id": 1,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 70,
+      "foreign_index_id": 1,
+      "primary_table_id": 7,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 9,
+      "foreign_index_id": 2,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 79,
+      "foreign_index_id": 3,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 80,
+      "foreign_index_id": 1,
+      "primary_table_id": 79,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 72,
+      "foreign_index_id": 2,
+      "primary_table_id": 7,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 72,
+      "foreign_index_id": 3,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 91,
+      "foreign_index_id": 4,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 91,
+      "foreign_index_id": 5,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 5,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 6,
+      "primary_table_id": 91,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 7,
+      "primary_table_id": 91,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 8,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 14,
+      "foreign_index_id": 6,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 14,
+      "foreign_index_id": 9,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 15,
+      "foreign_index_id": 1,
+      "primary_table_id": 14,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 15,
+      "foreign_index_id": 2,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 16,
+      "foreign_index_id": 7,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 16,
+      "foreign_index_id": 8,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 16,
+      "foreign_index_id": 9,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 17,
+      "foreign_index_id": 10,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 17,
+      "foreign_index_id": 11,
+      "primary_table_id": 14,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 25,
+      "foreign_index_id": 8,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 44,
+      "foreign_index_id": 1,
+      "primary_table_id": 25,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 45,
+      "foreign_index_id": 1,
+      "primary_table_id": 44,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 45,
+      "foreign_index_id": 11,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 18,
+      "foreign_index_id": 9,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 18,
+      "foreign_index_id": 12,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 19,
+      "foreign_index_id": 1,
+      "primary_table_id": 18,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 19,
+      "foreign_index_id": 9,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 20,
+      "foreign_index_id": 1,
+      "primary_table_id": 19,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 20,
+      "foreign_index_id": 2,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 21,
+      "foreign_index_id": 13,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 21,
+      "foreign_index_id": 14,
+      "primary_table_id": 25,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 22,
+      "foreign_index_id": 2,
+      "primary_table_id": 18,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 22,
+      "foreign_index_id": 14,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 23,
+      "foreign_index_id": 15,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 24,
+      "foreign_index_id": 16,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 24,
+      "foreign_index_id": 17,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 27,
+      "foreign_index_id": 18,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 46,
+      "foreign_index_id": 3,
+      "primary_table_id": 18,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 64,
+      "foreign_index_id": 10,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 64,
+      "foreign_index_id": 11,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 64,
+      "foreign_index_id": 12,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 28,
+      "foreign_index_id": 13,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 48,
+      "foreign_index_id": 17,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 48,
+      "foreign_index_id": 18,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 49,
+      "foreign_index_id": 2,
+      "primary_table_id": 48,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 66,
+      "foreign_index_id": 19,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 66,
+      "foreign_index_id": 20,
+      "primary_table_id": 65,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 29,
+      "foreign_index_id": 20,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 30,
+      "foreign_index_id": 21,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 30,
+      "foreign_index_id": 22,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 53,
+      "foreign_index_id": 1,
+      "primary_table_id": 52,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 67,
+      "foreign_index_id": 22,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 33,
+      "foreign_index_id": 23,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 33,
+      "foreign_index_id": 24,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 42,
+      "foreign_index_id": 25,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 82,
+      "foreign_index_id": 23,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 82,
+      "foreign_index_id": 24,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 84,
+      "foreign_index_id": 24,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 84,
+      "foreign_index_id": 25,
+      "primary_table_id": 82,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 84,
+      "foreign_index_id": 26,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 85,
+      "foreign_index_id": 25,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 54,
+      "foreign_index_id": 26,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 50,
+      "foreign_index_id": 3,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 56,
+      "foreign_index_id": 27,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 56,
+      "foreign_index_id": 28,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 58,
+      "foreign_index_id": 29,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 59,
+      "foreign_index_id": 30,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 59,
+      "foreign_index_id": 31,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 61,
+      "foreign_index_id": 32,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 62,
+      "foreign_index_id": 33,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 68,
+      "foreign_index_id": 34,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 68,
+      "foreign_index_id": 35,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 69,
+      "foreign_index_id": 35,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 69,
+      "foreign_index_id": 36,
+      "primary_table_id": 68,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 78,
+      "foreign_index_id": 1,
+      "primary_table_id": 69,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 78,
+      "foreign_index_id": 10,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 89,
+      "foreign_index_id": 36,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 90,
+      "foreign_index_id": 1,
+      "primary_table_id": 89,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 93,
+      "foreign_index_id": 37,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 93,
+      "foreign_index_id": 38,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 94,
+      "foreign_index_id": 1,
+      "primary_table_id": 93,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 94,
+      "foreign_index_id": 39,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 94,
+      "foreign_index_id": 40,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1,
+      "foreign_index_id": 3,
+      "primary_table_id": 7,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1,
+      "foreign_index_id": 41,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1,
+      "foreign_index_id": 42,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 11,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 19,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 43,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 44,
+      "primary_table_id": 24,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 3,
+      "foreign_index_id": 12,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 3,
+      "foreign_index_id": 44,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 3,
+      "foreign_index_id": 45,
+      "primary_table_id": 4,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 5,
+      "foreign_index_id": 10,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 5,
+      "foreign_index_id": 11,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 6,
+      "foreign_index_id": 11,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 6,
+      "foreign_index_id": 12,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 9,
+      "foreign_index_id": 4,
+      "primary_table_id": 79,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 10,
+      "foreign_index_id": 13,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 10,
+      "foreign_index_id": 42,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 10,
+      "foreign_index_id": 43,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 11,
+      "foreign_index_id": 12,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 11,
+      "foreign_index_id": 44,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 11,
+      "foreign_index_id": 45,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 12,
+      "foreign_index_id": 46,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 13,
+      "foreign_index_id": 47,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 13,
+      "foreign_index_id": 48,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 14,
+      "foreign_index_id": 26,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 15,
+      "foreign_index_id": 45,
+      "primary_table_id": 24,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 28,
+      "foreign_index_id": 49,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 30,
+      "foreign_index_id": 23,
+      "primary_table_id": 31,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 31,
+      "foreign_index_id": 1,
+      "primary_table_id": 29,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 57,
+      "foreign_index_id": 2,
+      "primary_table_id": 56,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 63,
+      "foreign_index_id": 50,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 67,
+      "foreign_index_id": 27,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 641,
+      "foreign_index_id": 1,
+      "primary_table_id": 640,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 664,
+      "foreign_index_id": 1,
+      "primary_table_id": 663,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 665,
+      "foreign_index_id": 1,
+      "primary_table_id": 664,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 666,
+      "foreign_index_id": 2,
+      "primary_table_id": 664,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 667,
+      "foreign_index_id": 2,
+      "primary_table_id": 663,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 668,
+      "foreign_index_id": 1,
+      "primary_table_id": 667,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 669,
+      "foreign_index_id": 3,
+      "primary_table_id": 664,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 670,
+      "foreign_index_id": 3,
+      "primary_table_id": 663,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 678,
+      "foreign_index_id": 1,
+      "primary_table_id": 676,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 678,
+      "foreign_index_id": 2,
+      "primary_table_id": 677,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 676,
+      "foreign_index_id": 1,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 675,
+      "foreign_index_id": 1,
+      "primary_table_id": 674,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 680,
+      "foreign_index_id": 3,
+      "primary_table_id": 677,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 684,
+      "foreign_index_id": 2,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 685,
+      "foreign_index_id": 1,
+      "primary_table_id": 684,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 687,
+      "foreign_index_id": 1,
+      "primary_table_id": 685,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 687,
+      "foreign_index_id": 2,
+      "primary_table_id": 687,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 687,
+      "foreign_index_id": 3,
+      "primary_table_id": 686,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 686,
+      "foreign_index_id": 2,
+      "primary_table_id": 684,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 688,
+      "foreign_index_id": 3,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 1,
+      "primary_table_id": 673,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 2,
+      "primary_table_id": 676,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 4,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 5,
+      "primary_table_id": 674,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 738,
+      "foreign_index_id": 1,
+      "primary_table_id": 736,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 739,
+      "foreign_index_id": 1,
+      "primary_table_id": 735,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 743,
+      "foreign_index_id": 1,
+      "primary_table_id": 737,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 743,
+      "foreign_index_id": 2,
+      "primary_table_id": 734,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 762,
+      "foreign_index_id": 1,
+      "primary_table_id": 761,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 801,
+      "foreign_index_id": 1,
+      "primary_table_id": 798,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 856,
+      "foreign_index_id": 1,
+      "primary_table_id": 855,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 873,
+      "foreign_index_id": 1,
+      "primary_table_id": 871,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 917,
+      "foreign_index_id": 1,
+      "primary_table_id": 774,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 939,
+      "foreign_index_id": 1,
+      "primary_table_id": 771,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 939,
+      "foreign_index_id": 2,
+      "primary_table_id": 773,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 939,
+      "foreign_index_id": 3,
+      "primary_table_id": 771,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1473,
+      "foreign_index_id": 2,
+      "primary_table_id": 1472,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "Y",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1035,
+      "foreign_index_id": 1,
+      "primary_table_id": 1034,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1056,
+      "foreign_index_id": 1,
+      "primary_table_id": 977,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1100,
+      "foreign_index_id": 1,
+      "primary_table_id": 983,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1100,
+      "foreign_index_id": 2,
+      "primary_table_id": 983,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1148,
+      "foreign_index_id": 1,
+      "primary_table_id": 762,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1148,
+      "foreign_index_id": 2,
+      "primary_table_id": 1145,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1149,
+      "foreign_index_id": 1,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1150,
+      "foreign_index_id": 2,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1151,
+      "foreign_index_id": 3,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1159,
+      "foreign_index_id": 1,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1185,
+      "foreign_index_id": 1,
+      "primary_table_id": 1184,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1299,
+      "foreign_index_id": 1,
+      "primary_table_id": 1245,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1329,
+      "foreign_index_id": 1,
+      "primary_table_id": 1327,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1353,
+      "foreign_index_id": 1,
+      "primary_table_id": 1352,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1364,
+      "foreign_index_id": 1,
+      "primary_table_id": 1363,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 723,
+      "foreign_index_id": 4,
+      "primary_table_id": 771,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 723,
+      "foreign_index_id": 5,
+      "primary_table_id": 809,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 723,
+      "foreign_index_id": 6,
+      "primary_table_id": 724,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 724,
+      "foreign_index_id": 3,
+      "primary_table_id": 983,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 728,
+      "foreign_index_id": 4,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 728,
+      "foreign_index_id": 5,
+      "primary_table_id": 892,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 729,
+      "foreign_index_id": 2,
+      "primary_table_id": 747,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 737,
+      "foreign_index_id": 1,
+      "primary_table_id": 888,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 743,
+      "foreign_index_id": 5,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 746,
+      "foreign_index_id": 4,
+      "primary_table_id": 747,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 831,
+      "foreign_index_id": 2,
+      "primary_table_id": 847,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 846,
+      "foreign_index_id": 6,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 847,
+      "foreign_index_id": 7,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 847,
+      "foreign_index_id": 8,
+      "primary_table_id": 892,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 863,
+      "foreign_index_id": 8,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 863,
+      "foreign_index_id": 9,
+      "primary_table_id": 892,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1146,
+      "foreign_index_id": 4,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1147,
+      "foreign_index_id": 5,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1148,
+      "foreign_index_id": 3,
+      "primary_table_id": 1152,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1173,
+      "foreign_index_id": 1,
+      "primary_table_id": 1231,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1183,
+      "foreign_index_id": 1,
+      "primary_table_id": 1185,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1191,
+      "foreign_index_id": 2,
+      "primary_table_id": 1231,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1248,
+      "foreign_index_id": 1,
+      "primary_table_id": 1249,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    }
+  ]
+}

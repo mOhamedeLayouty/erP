@@ -1,0 +1,6 @@
+TABLE: DBA.po_item
+ORDER_BY: entry_date
+COLUMNS: item_id, item_group_id, vend_id, type_id, name_a, name_e, code, price, description_a, description_e, entry_date, entry_user, edit_date, edit_user, is_fa, fa_category_id, fa_location_id
+ROWS: 0
+---
+[]

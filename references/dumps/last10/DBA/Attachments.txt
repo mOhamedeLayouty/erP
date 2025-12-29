@@ -1,0 +1,6 @@
+TABLE: DBA.Attachments
+ORDER_BY: eqpt_id
+COLUMNS: attachmentId, attachmentCode, attachmentTypeId, attachmentName, attachmentDescription, attachmentData, AttachmentNotes, systemId, screenId, transactionType, transactionId, transactionDate, customerid, eqpt_id, entryUserId, entryDate, editUserId, editDate, service_center, location_id
+ROWS: 0
+---
+[]

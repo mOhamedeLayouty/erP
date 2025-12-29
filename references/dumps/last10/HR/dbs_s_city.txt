@@ -1,0 +1,107 @@
+TABLE: HR.dbs_s_city
+ORDER_BY: entry_date
+COLUMNS: cntry_code, cty_code, cty_desc_e, cty_desc_a, entry_date, user_id, code, governorate_id
+ROWS: 10
+---
+[
+  {
+    "cntry_code": 58,
+    "cty_code": 452,
+    "cty_desc_e": "�������",
+    "cty_desc_a": "�������",
+    "entry_date": "2025-09-01 11:42:10.174000",
+    "user_id": "hany adly",
+    "code": null,
+    "governorate_id": 56
+  },
+  {
+    "cntry_code": 58,
+    "cty_code": 451,
+    "cty_desc_e": "�����",
+    "cty_desc_a": "�����",
+    "entry_date": "2025-09-01 11:41:11.088000",
+    "user_id": "hany adly",
+    "code": null,
+    "governorate_id": 55
+  },
+  {
+    "cntry_code": 39,
+    "cty_code": 447,
+    "cty_desc_e": "Ontario",
+    "cty_desc_a": "��������",
+    "entry_date": "2024-09-17 16:11:58.254000",
+    "user_id": "hany adly",
+    "code": null,
+    "governorate_id": 53
+  },
+  {
+    "cntry_code": 128,
+    "cty_code": 446,
+    "cty_desc_e": "Arnoun",
+    "cty_desc_a": "�����",
+    "entry_date": "2024-08-11 11:01:25.925000",
+    "user_id": "hany adly",
+    "code": null,
+    "governorate_id": 47
+  },
+  {
+    "cntry_code": 137,
+    "cty_code": 444,
+    "cty_desc_e": "Benghazi",
+    "cty_desc_a": "������",
+    "entry_date": "2023-03-22 13:13:26.356000",
+    "user_id": "hany adly",
+    "code": null,
+    "governorate_id": 51
+  },
+  {
+    "cntry_code": 250,
+    "cty_code": 441,
+    "cty_desc_e": "�����",
+    "cty_desc_a": "�����",
+    "entry_date": "2022-08-14 12:02:58.851000",
+    "user_id": "hany adly",
+    "code": null,
+    "governorate_id": 50
+  },
+  {
+    "cntry_code": 194,
+    "cty_code": 437,
+    "cty_desc_e": "������",
+    "cty_desc_a": "������",
+    "entry_date": "2022-01-04 12:53:39.309000",
+    "user_id": "11",
+    "code": null,
+    "governorate_id": 32
+  },
+  {
+    "cntry_code": 246,
+    "cty_code": 436,
+    "cty_desc_e": "�����",
+    "cty_desc_a": "�����",
+    "entry_date": "2022-01-04 12:52:50.284000",
+    "user_id": "11",
+    "code": null,
+    "governorate_id": 38
+  },
+  {
+    "cntry_code": 1,
+    "cty_code": 8,
+    "cty_desc_e": "ELgmalya",
+    "cty_desc_a": "��������",
+    "entry_date": null,
+    "user_id": null,
+    "code": null,
+    "governorate_id": 1
+  },
+  {
+    "cntry_code": 1,
+    "cty_code": 9,
+    "cty_desc_e": "Elherafyen",
+    "cty_desc_a": "��������",
+    "entry_date": null,
+    "user_id": null,
+    "code": null,
+    "governorate_id": 1
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: CRM.starfone_state
+ORDER_BY: (none)
+COLUMNS: state_code, state_name
+ROWS: 0
+---
+[]

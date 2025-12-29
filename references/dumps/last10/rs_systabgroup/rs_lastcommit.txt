@@ -1,0 +1,6 @@
+TABLE: rs_systabgroup.rs_lastcommit
+ORDER_BY: (none)
+COLUMNS: origin, origin_qid, secondary_qid, origin_time, commit_time
+ROWS: 0
+---
+[]

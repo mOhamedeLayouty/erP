@@ -1,0 +1,64 @@
+TABLE: DBA.special_prices
+ORDER_BY: id
+COLUMNS: id, service_center, sp_code, sp_description, allow_discount, max_discount, validity_from, validity_to, plus, sp_amount, user_id, calc_on, item_type_id, item_group_id, cust_fixedtype_id, sale_type_id, location_id
+ROWS: 3
+---
+[
+  {
+    "id": 3,
+    "service_center": 1,
+    "sp_code": "12345",
+    "sp_description": "oil offer",
+    "allow_discount": "N",
+    "max_discount": 0,
+    "validity_from": "2024-05-20",
+    "validity_to": "2024-05-20",
+    "plus": "N",
+    "sp_amount": 0,
+    "user_id": "tamer.gabr",
+    "calc_on": 3,
+    "item_type_id": null,
+    "item_group_id": null,
+    "cust_fixedtype_id": null,
+    "sale_type_id": 1,
+    "location_id": 1
+  },
+  {
+    "id": 2,
+    "service_center": 1,
+    "sp_code": "test",
+    "sp_description": "test",
+    "allow_discount": "N",
+    "max_discount": 0,
+    "validity_from": "2017-02-13",
+    "validity_to": "2017-02-13",
+    "plus": "N",
+    "sp_amount": 85,
+    "user_id": "qt",
+    "calc_on": 1,
+    "item_type_id": null,
+    "item_group_id": null,
+    "cust_fixedtype_id": null,
+    "sale_type_id": 0,
+    "location_id": null
+  },
+  {
+    "id": 1,
+    "service_center": 1,
+    "sp_code": "subdealers",
+    "sp_description": "Brilliance Sub Dealers",
+    "allow_discount": "N",
+    "max_discount": 0,
+    "validity_from": "2017-01-01",
+    "validity_to": "2017-01-31",
+    "plus": "N",
+    "sp_amount": 20,
+    "user_id": "1",
+    "calc_on": 1,
+    "item_type_id": null,
+    "item_group_id": null,
+    "cust_fixedtype_id": null,
+    "sale_type_id": 0,
+    "location_id": null
+  }
+]

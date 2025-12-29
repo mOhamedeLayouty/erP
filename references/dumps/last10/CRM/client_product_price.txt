@@ -1,0 +1,6 @@
+TABLE: CRM.client_product_price
+ORDER_BY: (none)
+COLUMNS: client_code, product_type, product_code, product_from, product_to, unit_price, mansour_product_code, ser, prod_desc
+ROWS: 0
+---
+[]

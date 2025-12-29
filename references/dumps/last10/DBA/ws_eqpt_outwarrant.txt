@@ -1,0 +1,97 @@
+TABLE: DBA.ws_eqpt_outwarrant
+ORDER_BY: entry_date
+COLUMNS: trans_date, trans_id, eqpt_id, outwarrant_date, reason_id, notes, entry_user, edit_user, entry_date, edit_date, deleteflag, deleteuser, deletetime, deletereason, service_center, location_id
+ROWS: 5
+---
+[
+  {
+    "trans_date": "2021-12-06 12:14:54.225000",
+    "trans_id": "5",
+    "eqpt_id": "9903019642",
+    "outwarrant_date": null,
+    "reason_id": 1,
+    "notes": "",
+    "entry_user": "sayed.m",
+    "edit_user": null,
+    "entry_date": "2021-12-06 12:14:54.241000",
+    "edit_date": null,
+    "deleteflag": "Y",
+    "deleteuser": "sayed.m",
+    "deletetime": "2021-12-19 13:31:18.250000",
+    "deletereason": "Confirmed approval",
+    "service_center": 1,
+    "location_id": 1
+  },
+  {
+    "trans_date": "2021-11-28 13:53:22.724000",
+    "trans_id": "4",
+    "eqpt_id": "0102021761",
+    "outwarrant_date": null,
+    "reason_id": 1,
+    "notes": "",
+    "entry_user": "sayed.m",
+    "edit_user": null,
+    "entry_date": "2021-11-28 13:53:22.740000",
+    "edit_date": null,
+    "deleteflag": "Y",
+    "deleteuser": "sayed.m",
+    "deletetime": "2021-11-28 14:41:01.254000",
+    "deletereason": "Cancel ",
+    "service_center": 1,
+    "location_id": 1
+  },
+  {
+    "trans_date": "2021-11-25 10:29:05.368000",
+    "trans_id": "3",
+    "eqpt_id": "0101013483",
+    "outwarrant_date": "2022-01-28",
+    "reason_id": 1,
+    "notes": "Warranty expired",
+    "entry_user": "sayed.m",
+    "edit_user": "sayed.m",
+    "entry_date": "2021-11-25 10:29:05.384000",
+    "edit_date": "2021-11-25 10:37:50.353000",
+    "deleteflag": "Y",
+    "deleteuser": "sayed.m",
+    "deletetime": "2021-11-25 10:38:56.041000",
+    "deletereason": "test",
+    "service_center": 1,
+    "location_id": 1
+  },
+  {
+    "trans_date": "2019-08-26 11:23:32.412000",
+    "trans_id": "2",
+    "eqpt_id": "0101012639",
+    "outwarrant_date": "2021-09-27",
+    "reason_id": 1,
+    "notes": "KKKK",
+    "entry_user": "tamer.g",
+    "edit_user": null,
+    "entry_date": "2019-08-26 11:23:32.443000",
+    "edit_date": null,
+    "deleteflag": "Y",
+    "deleteuser": "tamer.g",
+    "deletetime": "2019-08-26 11:49:17.938000",
+    "deletereason": "��� �� �������",
+    "service_center": 1,
+    "location_id": 1
+  },
+  {
+    "trans_date": "2019-05-21 10:57:29.128000",
+    "trans_id": "1",
+    "eqpt_id": "0101009535",
+    "outwarrant_date": null,
+    "reason_id": 1,
+    "notes": "New Add",
+    "entry_user": "mohamed.ay",
+    "edit_user": null,
+    "entry_date": "2019-05-21 10:57:29.128000",
+    "edit_date": null,
+    "deleteflag": "Y",
+    "deleteuser": "mohamed.ay",
+    "deletetime": "2019-05-21 11:12:20.215000",
+    "deletereason": "New Add",
+    "service_center": 1,
+    "location_id": 1
+  }
+]

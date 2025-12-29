@@ -1,0 +1,13 @@
+TABLE: CRM.contact_client_link
+ORDER_BY: user_id
+COLUMNS: customer_code, client_code, link_date, user_id
+ROWS: 1
+---
+[
+  {
+    "customer_code": "1",
+    "client_code": "1",
+    "link_date": "2022-01-25 13:32:38.024000",
+    "user_id": "CRM.K"
+  }
+]

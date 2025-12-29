@@ -1,0 +1,6 @@
+TABLE: Ledger.closed_month
+ORDER_BY: (none)
+COLUMNS: closed_year, closed_month, closed_flag, company_code
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: DBA.NotificationTypeUsers
+ORDER_BY: (none)
+COLUMNS: NotificationTypeId, UserId, LanguageId
+ROWS: 0
+---
+[]

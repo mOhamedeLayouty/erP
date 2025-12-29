@@ -1,0 +1,46 @@
+TABLE: DBA.inspection_category
+ORDER_BY: entry_date
+COLUMNS: category_id, category_code, category_name, category_name_a, IsActive, notes, service_center, entry_user, entry_date, edit_user, edit_date
+ROWS: 3
+---
+[
+  {
+    "category_id": 3,
+    "category_code": "3",
+    "category_name": "Exterior",
+    "category_name_a": "�����",
+    "IsActive": "Y",
+    "notes": null,
+    "service_center": 1,
+    "entry_user": "11",
+    "entry_date": "2020-10-21 16:05:31.762000",
+    "edit_user": null,
+    "edit_date": null
+  },
+  {
+    "category_id": 2,
+    "category_code": "2",
+    "category_name": "Interior",
+    "category_name_a": "�����",
+    "IsActive": "Y",
+    "notes": null,
+    "service_center": 1,
+    "entry_user": "11",
+    "entry_date": "2020-10-21 15:16:32.535000",
+    "edit_user": null,
+    "edit_date": null
+  },
+  {
+    "category_id": 1,
+    "category_code": "1",
+    "category_name": "General",
+    "category_name_a": "���",
+    "IsActive": "Y",
+    "notes": null,
+    "service_center": 1,
+    "entry_user": "11",
+    "entry_date": "2020-10-21 15:15:58.478000",
+    "edit_user": null,
+    "edit_date": null
+  }
+]

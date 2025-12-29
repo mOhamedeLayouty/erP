@@ -1,0 +1,6 @@
+TABLE: CRM.client_procedures_dep
+ORDER_BY: procedure_id
+COLUMNS: procedure_id, client_code, dep_procedure_id, order
+ROWS: 0
+---
+[]

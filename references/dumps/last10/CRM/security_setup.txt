@@ -1,0 +1,14 @@
+TABLE: CRM.security_setup
+ORDER_BY: (none)
+COLUMNS: company_code, work_shop_link, stock_link, cars_link, station_link
+ROWS: 1
+---
+[
+  {
+    "company_code": 1,
+    "work_shop_link": 1,
+    "stock_link": 1,
+    "cars_link": 1,
+    "station_link": 0
+  }
+]

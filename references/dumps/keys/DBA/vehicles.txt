@@ -1,0 +1,1758 @@
+TABLE: DBA.vehicles
+COLUMNS(156): car_code, car_make, car_model, car_type, car_origin, unit_no, color, chasette, body, licence, lic_issue_on, lic_issue_at, lic_exp_date, tank_capacity, passengers, laugage, gaz_type, speed, consumption, maintenance_d, group, date_purchase, price_purchase, lic_cost, ins_cost, gears, ac, ps, ew, cl, drives, doors, cassette, picture, lic_type, available, km, car_make_code, car_model_code, rent_flag, lim_flag, def_drv, dep_years, fine_cost, status, company, gas_read, current_station, cap_flag, hide_flag, lease_flag, dep_period, current_price, dep_method, year_model, eng_size, cylinder, fuel_type, group_code, vin_number, pm_base_bate, pm_base_km, transmation, pm_group, tare_wt, gross_wt, height, seating_capacity, date_in, date_out, lease_com, lease_start, lease_end, lease_pay, lease_pay_rem, lease_pay_res, note, eqpt_group, year, dept_id, drvr_code, old_type, sale_date, no_tires, current_dep_month, police_case, sale_price, buyer_name, vendor_code, engine_capacity, cylinder_num, valves, horse_power, injenction, vehicle_fuel_type, gear_box, vehicle_pc1_filename, vehicle_pc2_filename, vehicle_pc3_filename, vehicle_pc4_filename, forward_gears, max_speed, from_0_to_100, consumption_rat_in_city, consumption_rat_in_highway, tyre_size, length_width_hight, gross_vehicle_weight, fuel_tank_capacity, boot_volume, warranty, power_steering, air_condation, engine_immobilizer, central_door_locking, electric_front_windows, radio_cassette, driver_airbag, rear_head_rests, fog_lights, rmp, buy_back, buy_back_date, lent_type, lent_name, calc_type, fine_current_price, battery, ins_exp_date, circular_pc1, circular_pc2, ins_number, retirement_date, ins_company, insurance_date, ins_doc_no, entry_user, edit_user, entry_date, edit_date, overnight_car, garage_place, key_no, inspection_date, service_date, registration_pic, insurance_pic, km2, km2_flag, km3_flag, two_engine, pm_base_km2, pm_base_km3, km3, current_driver, current_trailer
+
+PRIMARY_KEY:
+  (none)
+
+UNIQUE_CONSTRAINTS:
+  (none)
+
+FOREIGN_KEYS:
+  (none or not readable via INFORMATION_SCHEMA)
+
+INDEXES:
+  - vehicles (unique: 2)
+    columns: body, color, speed, speed, licence, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, chasette, gaz_type, car_model, car_model, car_model, passengers, lic_issue_at, lic_issue_on, maintenance_d, price_purchase, cl, cl, body, body, body, body, body, body, color, color, color, color, color, color, color, gears, gears, group, group, group, laugage, licence, licence, licence, licence, licence, unit_no, unit_no, unit_no, unit_no, unit_no, unit_no, unit_no, unit_no, car_code, car_code, car_code, car_code, car_code, car_code, car_code, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, chasette, chasette, chasette, chasette, chasette, gaz_type, gaz_type, gaz_type, gaz_type, gaz_type, ins_cost, lic_cost, lic_cost, lic_type, lic_type, lim_flag, lim_flag, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, fine_cost, lease_end, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, passengers, passengers, passengers, passengers, passengers, passengers, consumption, consumption, consumption, consumption, lic_exp_date, lic_exp_date, lic_exp_date, lic_issue_at, lic_issue_at, lic_issue_at, lic_issue_at, lic_issue_on, lic_issue_on, lic_issue_on, lic_issue_on, lic_issue_on, lic_issue_on, lic_issue_on, date_purchase, date_purchase, date_purchase, date_purchase, maintenance_d, maintenance_d, tank_capacity, tank_capacity, tank_capacity, tank_capacity, tank_capacity, tank_capacity, tank_capacity, car_model_code, ac, ac, cl, cl, body, body, body, body, body, body, body, body, body, body, body, color, color, color, color, color, color, color, color, color, color, color, color, group, group, group, group, group, speed, speed, speed, speed, speed, speed, drives, drives, status, laugage, laugage, laugage, laugage, laugage, laugage, laugage, licence, licence, licence, licence, licence, licence, licence, licence, licence, licence, licence, licence, licence, picture, picture, picture, picture, picture, unit_no, unit_no, unit_no, unit_no, unit_no, cap_flag, car_code, car_make, car_make, car_make, car_make, car_make, car_make, car_make, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, cassette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, gaz_type, gaz_type, gaz_type, gaz_type, ins_cost, available, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, car_model, dep_years, rent_flag, car_origin, car_origin, car_origin, car_origin, car_origin, passengers, passengers, passengers, passengers, consumption, consumption, lic_exp_date, lic_exp_date, lic_exp_date, lic_exp_date, lic_exp_date, lic_issue_at, lic_issue_at, lic_issue_at, lic_issue_at, lic_issue_on, lic_issue_on, lic_issue_on, lic_issue_on, lic_issue_on, lic_issue_on, lic_issue_on, date_purchase, date_purchase, date_purchase, date_purchase, maintenance_d, maintenance_d, maintenance_d, maintenance_d, tank_capacity, tank_capacity, tank_capacity, tank_capacity, price_purchase, price_purchase, price_purchase, price_purchase, price_purchase, price_purchase, price_purchase, price_purchase, ac, body, body, body, body, body, body, body, body, body, color, color, color, color, speed, drives, drives, def_drv, def_drv, laugage, laugage, laugage, licence, licence, licence, licence, licence, licence, licence, unit_no, unit_no, car_code, car_make, car_make, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, car_type, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, chasette, gaz_type, gaz_type, gaz_type, ins_cost, lim_flag, available, available, fine_cost, car_origin, car_origin, car_origin, car_origin, car_origin, passengers, lic_exp_date, lic_exp_date, lic_issue_at, lic_issue_at, lic_issue_at, lic_issue_at, lic_issue_at, lic_issue_at, lic_issue_at, lic_issue_on, lic_issue_on, lic_issue_on, lic_issue_on, lic_issue_on, lic_issue_on, lic_issue_on, car_make_code, car_make_code, date_purchase, date_purchase, maintenance_d, tank_capacity, car_model_code, body, body, body, color, gears, speed, licence, car_type, car_type, gaz_type, gaz_type, rent_flag, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, car_origin, passengers, lic_issue_at, lic_issue_on, lic_issue_on, lic_issue_on, tank_capacity, unit_no, unit_no, chasette, body, licence
+
+SYS_FALLBACK_RAW:
+{
+  "sysfkey": [
+    {
+      "foreign_table_id": 7,
+      "foreign_index_id": 1,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 70,
+      "foreign_index_id": 1,
+      "primary_table_id": 7,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 9,
+      "foreign_index_id": 2,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 79,
+      "foreign_index_id": 3,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 80,
+      "foreign_index_id": 1,
+      "primary_table_id": 79,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 72,
+      "foreign_index_id": 2,
+      "primary_table_id": 7,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 72,
+      "foreign_index_id": 3,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 91,
+      "foreign_index_id": 4,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 91,
+      "foreign_index_id": 5,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 5,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 6,
+      "primary_table_id": 91,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 7,
+      "primary_table_id": 91,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 8,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 14,
+      "foreign_index_id": 6,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 14,
+      "foreign_index_id": 9,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 15,
+      "foreign_index_id": 1,
+      "primary_table_id": 14,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 15,
+      "foreign_index_id": 2,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 16,
+      "foreign_index_id": 7,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 16,
+      "foreign_index_id": 8,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 16,
+      "foreign_index_id": 9,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 17,
+      "foreign_index_id": 10,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 17,
+      "foreign_index_id": 11,
+      "primary_table_id": 14,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 25,
+      "foreign_index_id": 8,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 44,
+      "foreign_index_id": 1,
+      "primary_table_id": 25,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 45,
+      "foreign_index_id": 1,
+      "primary_table_id": 44,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 45,
+      "foreign_index_id": 11,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 18,
+      "foreign_index_id": 9,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 18,
+      "foreign_index_id": 12,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 19,
+      "foreign_index_id": 1,
+      "primary_table_id": 18,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 19,
+      "foreign_index_id": 9,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 20,
+      "foreign_index_id": 1,
+      "primary_table_id": 19,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 20,
+      "foreign_index_id": 2,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 21,
+      "foreign_index_id": 13,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 21,
+      "foreign_index_id": 14,
+      "primary_table_id": 25,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 22,
+      "foreign_index_id": 2,
+      "primary_table_id": 18,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 22,
+      "foreign_index_id": 14,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 23,
+      "foreign_index_id": 15,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 24,
+      "foreign_index_id": 16,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 24,
+      "foreign_index_id": 17,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 27,
+      "foreign_index_id": 18,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 46,
+      "foreign_index_id": 3,
+      "primary_table_id": 18,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 64,
+      "foreign_index_id": 10,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 64,
+      "foreign_index_id": 11,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 64,
+      "foreign_index_id": 12,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 28,
+      "foreign_index_id": 13,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 48,
+      "foreign_index_id": 17,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 48,
+      "foreign_index_id": 18,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 49,
+      "foreign_index_id": 2,
+      "primary_table_id": 48,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 66,
+      "foreign_index_id": 19,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 66,
+      "foreign_index_id": 20,
+      "primary_table_id": 65,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 29,
+      "foreign_index_id": 20,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 30,
+      "foreign_index_id": 21,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 30,
+      "foreign_index_id": 22,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 53,
+      "foreign_index_id": 1,
+      "primary_table_id": 52,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 67,
+      "foreign_index_id": 22,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 33,
+      "foreign_index_id": 23,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 33,
+      "foreign_index_id": 24,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 42,
+      "foreign_index_id": 25,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 82,
+      "foreign_index_id": 23,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 82,
+      "foreign_index_id": 24,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 84,
+      "foreign_index_id": 24,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 84,
+      "foreign_index_id": 25,
+      "primary_table_id": 82,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 84,
+      "foreign_index_id": 26,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 85,
+      "foreign_index_id": 25,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 54,
+      "foreign_index_id": 26,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 50,
+      "foreign_index_id": 3,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 56,
+      "foreign_index_id": 27,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 56,
+      "foreign_index_id": 28,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 58,
+      "foreign_index_id": 29,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 59,
+      "foreign_index_id": 30,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 59,
+      "foreign_index_id": 31,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 61,
+      "foreign_index_id": 32,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 62,
+      "foreign_index_id": 33,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 68,
+      "foreign_index_id": 34,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 68,
+      "foreign_index_id": 35,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 69,
+      "foreign_index_id": 35,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 69,
+      "foreign_index_id": 36,
+      "primary_table_id": 68,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 78,
+      "foreign_index_id": 1,
+      "primary_table_id": 69,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 78,
+      "foreign_index_id": 10,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 89,
+      "foreign_index_id": 36,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 90,
+      "foreign_index_id": 1,
+      "primary_table_id": 89,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 93,
+      "foreign_index_id": 37,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 93,
+      "foreign_index_id": 38,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 94,
+      "foreign_index_id": 1,
+      "primary_table_id": 93,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 94,
+      "foreign_index_id": 39,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 94,
+      "foreign_index_id": 40,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1,
+      "foreign_index_id": 3,
+      "primary_table_id": 7,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1,
+      "foreign_index_id": 41,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1,
+      "foreign_index_id": 42,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 11,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 19,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 43,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 44,
+      "primary_table_id": 24,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 3,
+      "foreign_index_id": 12,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 3,
+      "foreign_index_id": 44,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 3,
+      "foreign_index_id": 45,
+      "primary_table_id": 4,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 5,
+      "foreign_index_id": 10,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 5,
+      "foreign_index_id": 11,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 6,
+      "foreign_index_id": 11,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 6,
+      "foreign_index_id": 12,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 9,
+      "foreign_index_id": 4,
+      "primary_table_id": 79,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 10,
+      "foreign_index_id": 13,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 10,
+      "foreign_index_id": 42,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 10,
+      "foreign_index_id": 43,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 11,
+      "foreign_index_id": 12,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 11,
+      "foreign_index_id": 44,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 11,
+      "foreign_index_id": 45,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 12,
+      "foreign_index_id": 46,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 13,
+      "foreign_index_id": 47,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 13,
+      "foreign_index_id": 48,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 14,
+      "foreign_index_id": 26,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 15,
+      "foreign_index_id": 45,
+      "primary_table_id": 24,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 28,
+      "foreign_index_id": 49,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 30,
+      "foreign_index_id": 23,
+      "primary_table_id": 31,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 31,
+      "foreign_index_id": 1,
+      "primary_table_id": 29,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 57,
+      "foreign_index_id": 2,
+      "primary_table_id": 56,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 63,
+      "foreign_index_id": 50,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 67,
+      "foreign_index_id": 27,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 641,
+      "foreign_index_id": 1,
+      "primary_table_id": 640,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 664,
+      "foreign_index_id": 1,
+      "primary_table_id": 663,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 665,
+      "foreign_index_id": 1,
+      "primary_table_id": 664,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 666,
+      "foreign_index_id": 2,
+      "primary_table_id": 664,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 667,
+      "foreign_index_id": 2,
+      "primary_table_id": 663,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 668,
+      "foreign_index_id": 1,
+      "primary_table_id": 667,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 669,
+      "foreign_index_id": 3,
+      "primary_table_id": 664,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 670,
+      "foreign_index_id": 3,
+      "primary_table_id": 663,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 678,
+      "foreign_index_id": 1,
+      "primary_table_id": 676,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 678,
+      "foreign_index_id": 2,
+      "primary_table_id": 677,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 676,
+      "foreign_index_id": 1,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 675,
+      "foreign_index_id": 1,
+      "primary_table_id": 674,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 680,
+      "foreign_index_id": 3,
+      "primary_table_id": 677,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 684,
+      "foreign_index_id": 2,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 685,
+      "foreign_index_id": 1,
+      "primary_table_id": 684,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 687,
+      "foreign_index_id": 1,
+      "primary_table_id": 685,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 687,
+      "foreign_index_id": 2,
+      "primary_table_id": 687,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 687,
+      "foreign_index_id": 3,
+      "primary_table_id": 686,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 686,
+      "foreign_index_id": 2,
+      "primary_table_id": 684,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 688,
+      "foreign_index_id": 3,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 1,
+      "primary_table_id": 673,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 2,
+      "primary_table_id": 676,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 4,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 5,
+      "primary_table_id": 674,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 738,
+      "foreign_index_id": 1,
+      "primary_table_id": 736,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 739,
+      "foreign_index_id": 1,
+      "primary_table_id": 735,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 743,
+      "foreign_index_id": 1,
+      "primary_table_id": 737,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 743,
+      "foreign_index_id": 2,
+      "primary_table_id": 734,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 762,
+      "foreign_index_id": 1,
+      "primary_table_id": 761,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 801,
+      "foreign_index_id": 1,
+      "primary_table_id": 798,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 856,
+      "foreign_index_id": 1,
+      "primary_table_id": 855,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 873,
+      "foreign_index_id": 1,
+      "primary_table_id": 871,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 917,
+      "foreign_index_id": 1,
+      "primary_table_id": 774,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 939,
+      "foreign_index_id": 1,
+      "primary_table_id": 771,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 939,
+      "foreign_index_id": 2,
+      "primary_table_id": 773,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 939,
+      "foreign_index_id": 3,
+      "primary_table_id": 771,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1473,
+      "foreign_index_id": 2,
+      "primary_table_id": 1472,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "Y",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1035,
+      "foreign_index_id": 1,
+      "primary_table_id": 1034,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1056,
+      "foreign_index_id": 1,
+      "primary_table_id": 977,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1100,
+      "foreign_index_id": 1,
+      "primary_table_id": 983,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1100,
+      "foreign_index_id": 2,
+      "primary_table_id": 983,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1148,
+      "foreign_index_id": 1,
+      "primary_table_id": 762,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1148,
+      "foreign_index_id": 2,
+      "primary_table_id": 1145,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1149,
+      "foreign_index_id": 1,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1150,
+      "foreign_index_id": 2,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1151,
+      "foreign_index_id": 3,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1159,
+      "foreign_index_id": 1,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1185,
+      "foreign_index_id": 1,
+      "primary_table_id": 1184,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1299,
+      "foreign_index_id": 1,
+      "primary_table_id": 1245,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1329,
+      "foreign_index_id": 1,
+      "primary_table_id": 1327,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1353,
+      "foreign_index_id": 1,
+      "primary_table_id": 1352,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1364,
+      "foreign_index_id": 1,
+      "primary_table_id": 1363,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 723,
+      "foreign_index_id": 4,
+      "primary_table_id": 771,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 723,
+      "foreign_index_id": 5,
+      "primary_table_id": 809,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 723,
+      "foreign_index_id": 6,
+      "primary_table_id": 724,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 724,
+      "foreign_index_id": 3,
+      "primary_table_id": 983,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 728,
+      "foreign_index_id": 4,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 728,
+      "foreign_index_id": 5,
+      "primary_table_id": 892,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 729,
+      "foreign_index_id": 2,
+      "primary_table_id": 747,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 737,
+      "foreign_index_id": 1,
+      "primary_table_id": 888,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 743,
+      "foreign_index_id": 5,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 746,
+      "foreign_index_id": 4,
+      "primary_table_id": 747,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 831,
+      "foreign_index_id": 2,
+      "primary_table_id": 847,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 846,
+      "foreign_index_id": 6,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 847,
+      "foreign_index_id": 7,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 847,
+      "foreign_index_id": 8,
+      "primary_table_id": 892,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 863,
+      "foreign_index_id": 8,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 863,
+      "foreign_index_id": 9,
+      "primary_table_id": 892,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1146,
+      "foreign_index_id": 4,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1147,
+      "foreign_index_id": 5,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1148,
+      "foreign_index_id": 3,
+      "primary_table_id": 1152,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1173,
+      "foreign_index_id": 1,
+      "primary_table_id": 1231,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1183,
+      "foreign_index_id": 1,
+      "primary_table_id": 1185,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1191,
+      "foreign_index_id": 2,
+      "primary_table_id": 1231,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1248,
+      "foreign_index_id": 1,
+      "primary_table_id": 1249,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+TABLE: DBA.vechile_make
+ORDER_BY: (none)
+COLUMNS: make_code, make_description_e, make_description_a, service_center, must_purchased, brand, warrantypolicy
+ROWS: 5
+---
+[
+  {
+    "make_code": "1",
+    "make_description_e": "FIAT",
+    "make_description_a": "FIAT",
+    "service_center": 1,
+    "must_purchased": 0,
+    "brand": 1,
+    "warrantypolicy": null
+  },
+  {
+    "make_code": "2",
+    "make_description_e": "ALFA ROMEO",
+    "make_description_a": "ALFA ROMEO",
+    "service_center": 1,
+    "must_purchased": 0,
+    "brand": 1,
+    "warrantypolicy": null
+  },
+  {
+    "make_code": "3",
+    "make_description_e": "FIAT Professional ",
+    "make_description_a": "FIAT Pro",
+    "service_center": 1,
+    "must_purchased": 0,
+    "brand": 1,
+    "warrantypolicy": null
+  },
+  {
+    "make_code": "4",
+    "make_description_e": "OTHERS",
+    "make_description_a": "OTHERS",
+    "service_center": 1,
+    "must_purchased": 0,
+    "brand": 1,
+    "warrantypolicy": null
+  },
+  {
+    "make_code": "5",
+    "make_description_e": "Jeep",
+    "make_description_a": "JEEP",
+    "service_center": 1,
+    "must_purchased": 0,
+    "brand": 1,
+    "warrantypolicy": null
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: CRM.client_provider
+ORDER_BY: (none)
+COLUMNS: client_code, provider_code, name_e, name_a
+ROWS: 0
+---
+[]

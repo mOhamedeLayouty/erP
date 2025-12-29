@@ -1,0 +1,6 @@
+TABLE: DBA.sc_cust_request_header
+ORDER_BY: customer_id
+COLUMNS: request_code, request_date, customer_id, expected_delivery, notes, service_center, request_flag
+ROWS: 0
+---
+[]

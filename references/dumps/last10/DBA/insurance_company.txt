@@ -1,0 +1,39 @@
+TABLE: DBA.insurance_company
+ORDER_BY: (none)
+COLUMNS: company_code, name_e, name_a, acc_no, contact_person, contact_phone, contact_fax, contact_address, labor_dis, sparepart_dis, Comm_type, Commission, Cust_Comm_type, Cust_Commission
+ROWS: 2
+---
+[
+  {
+    "company_code": "1",
+    "name_e": "El Sheraa",
+    "name_a": "Al Sheraa",
+    "acc_no": "10107014202",
+    "contact_person": null,
+    "contact_phone": null,
+    "contact_fax": null,
+    "contact_address": null,
+    "labor_dis": 0,
+    "sparepart_dis": 0,
+    "Comm_type": null,
+    "Commission": null,
+    "Cust_Comm_type": null,
+    "Cust_Commission": null
+  },
+  {
+    "company_code": "2",
+    "name_e": "���� ����",
+    "name_a": "���� ����",
+    "acc_no": null,
+    "contact_person": null,
+    "contact_phone": null,
+    "contact_fax": null,
+    "contact_address": null,
+    "labor_dis": 10,
+    "sparepart_dis": 10,
+    "Comm_type": null,
+    "Commission": null,
+    "Cust_Comm_type": null,
+    "Cust_Commission": null
+  }
+]

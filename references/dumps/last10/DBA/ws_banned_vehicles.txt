@@ -1,0 +1,6 @@
+TABLE: DBA.ws_banned_vehicles
+ORDER_BY: entry_date
+COLUMNS: serial_id, vin_no, service_center, location_id, entry_date, entry_user, edit_user, edit_date
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: CRM.client_po_detail
+ORDER_BY: (none)
+COLUMNS: po_no, client_code, po_line, product_code, item_qty, item_unit, item_price, total_price, brand_description, product_status, product_serial
+ROWS: 0
+---
+[]

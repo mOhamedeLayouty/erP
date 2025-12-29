@@ -1,0 +1,77 @@
+TABLE: DBA.sc_price_log
+ORDER_BY: user_id
+COLUMNS: user_id, service_center, log_date, log_type, credit_header
+ROWS: 10
+---
+[
+  {
+    "user_id": "tamer.gabr",
+    "service_center": "1",
+    "log_date": "2022-03-21 18:22:06.061000",
+    "log_type": 1,
+    "credit_header": null
+  },
+  {
+    "user_id": "tamer.gabr",
+    "service_center": "1",
+    "log_date": "2022-03-11 22:11:41.193000",
+    "log_type": 1,
+    "credit_header": null
+  },
+  {
+    "user_id": "tamer.gabr",
+    "service_center": "1",
+    "log_date": "2022-03-21 18:19:54.528000",
+    "log_type": 1,
+    "credit_header": null
+  },
+  {
+    "user_id": "tamer.gabr",
+    "service_center": "1",
+    "log_date": "2022-03-06 10:37:25.094000",
+    "log_type": 1,
+    "credit_header": null
+  },
+  {
+    "user_id": "tamer.gabr",
+    "service_center": "1",
+    "log_date": "2022-03-11 21:16:43.481000",
+    "log_type": 1,
+    "credit_header": null
+  },
+  {
+    "user_id": "tamer.gabr",
+    "service_center": "1",
+    "log_date": "2022-03-11 20:54:33.359000",
+    "log_type": 1,
+    "credit_header": null
+  },
+  {
+    "user_id": "tamer.gabr",
+    "service_center": "1",
+    "log_date": "2022-03-21 18:13:30.497000",
+    "log_type": 1,
+    "credit_header": null
+  },
+  {
+    "user_id": "tamer.gabr",
+    "service_center": "1",
+    "log_date": "2019-07-16 12:15:21.167000",
+    "log_type": 1,
+    "credit_header": null
+  },
+  {
+    "user_id": "tamer.gabr",
+    "service_center": "1",
+    "log_date": "2019-07-16 12:32:59.727000",
+    "log_type": 1,
+    "credit_header": null
+  },
+  {
+    "user_id": "tamer.gabr",
+    "service_center": "1",
+    "log_date": "2022-03-21 18:26:30.812000",
+    "log_type": 1,
+    "credit_header": null
+  }
+]

@@ -1,0 +1,22 @@
+TABLE: HR.pay_s_tax
+ORDER_BY: entry_date
+COLUMNS: tax_code, in_code, income_deduction, tax_desc_e, tax_desc_a, tex_exmp_per, tax_ann_exmp_val, tax_address_no1, tax_address_no2, tax_phon, tax_rm, entry_date, user_id
+ROWS: 1
+---
+[
+  {
+    "tax_code": 1,
+    "in_code": 23,
+    "income_deduction": "D",
+    "tax_desc_e": "Income Tax",
+    "tax_desc_a": "����� �����",
+    "tex_exmp_per": 0,
+    "tax_ann_exmp_val": 0,
+    "tax_address_no1": null,
+    "tax_address_no2": null,
+    "tax_phon": null,
+    "tax_rm": "3434",
+    "entry_date": "2002-07-13 08:55:28.655000",
+    "user_id": "hr"
+  }
+]

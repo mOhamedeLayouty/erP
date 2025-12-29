@@ -1,0 +1,6 @@
+TABLE: DBA.ws_specialPrice
+ORDER_BY: location_id
+COLUMNS: specialPriceId, code, description_a, description_e, customerid, valid_from, valid_to, entrydate, entryuser, editdate, edituser, service_center, location_id, plus, sp_amount
+ROWS: 0
+---
+[]

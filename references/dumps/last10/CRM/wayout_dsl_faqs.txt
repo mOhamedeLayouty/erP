@@ -1,0 +1,6 @@
+TABLE: CRM.wayout_dsl_faqs
+ORDER_BY: (none)
+COLUMNS: client_code, question_code, question, answer
+ROWS: 0
+---
+[]

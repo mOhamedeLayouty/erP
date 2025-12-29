@@ -1,0 +1,6 @@
+TABLE: dbo.ix_consultant_ixcol
+ORDER_BY: master_id
+COLUMNS: master_id, phase_id, table_id, index_id, sequence, column_id, column_order
+ROWS: 0
+---
+[]

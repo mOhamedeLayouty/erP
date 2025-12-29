@@ -1,0 +1,127 @@
+TABLE: DBA.ws_km_update
+ORDER_BY: update_date
+COLUMNS: update_id, ReceptionID, eqpt_id, old_km, update_km, update_date, update_user, notes, service_center, location_id
+ROWS: 10
+---
+[
+  {
+    "update_id": "141",
+    "ReceptionID": "66827",
+    "eqpt_id": "9903059657",
+    "old_km": 985,
+    "update_km": 5,
+    "update_date": "2025-12-15",
+    "update_user": "fawzi.ahmed",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 2
+  },
+  {
+    "update_id": "226",
+    "ReceptionID": "55729",
+    "eqpt_id": "9903021467",
+    "old_km": 122560,
+    "update_km": 122629,
+    "update_date": "2025-12-10",
+    "update_user": "ahmed.elmasry",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 4
+  },
+  {
+    "update_id": "227",
+    "ReceptionID": "55728",
+    "eqpt_id": "0101012073",
+    "old_km": 128500,
+    "update_km": 128540,
+    "update_date": "2025-12-10",
+    "update_user": "ahmed.elmasry",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 4
+  },
+  {
+    "update_id": "225",
+    "ReceptionID": "55654",
+    "eqpt_id": "9903047236",
+    "old_km": 100800,
+    "update_km": 101827,
+    "update_date": "2025-12-08",
+    "update_user": "ahmed.elmasry",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 4
+  },
+  {
+    "update_id": "224",
+    "ReceptionID": "55587",
+    "eqpt_id": "9903052648",
+    "old_km": 503382,
+    "update_km": 50382,
+    "update_date": "2025-12-06",
+    "update_user": "ahmed.elmasry",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 4
+  },
+  {
+    "update_id": "140",
+    "ReceptionID": "66697",
+    "eqpt_id": "9903059652",
+    "old_km": 335,
+    "update_km": 5,
+    "update_date": "2025-12-04",
+    "update_user": "fawzi.ahmed",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 2
+  },
+  {
+    "update_id": "139",
+    "ReceptionID": "66630",
+    "eqpt_id": "9903059651",
+    "old_km": 136,
+    "update_km": 5,
+    "update_date": "2025-12-03",
+    "update_user": "fawzi.ahmed",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 2
+  },
+  {
+    "update_id": "183",
+    "ReceptionID": "17287",
+    "eqpt_id": "9903038325",
+    "old_km": 920034,
+    "update_km": 92034,
+    "update_date": "2025-11-30",
+    "update_user": "abeer.rawy",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 3
+  },
+  {
+    "update_id": "138",
+    "ReceptionID": "66529",
+    "eqpt_id": "9903059631",
+    "old_km": 200,
+    "update_km": 5,
+    "update_date": "2025-11-27",
+    "update_user": "fawzi.ahmed",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 2
+  },
+  {
+    "update_id": "137",
+    "ReceptionID": "65939",
+    "eqpt_id": "9903043733",
+    "old_km": 89050,
+    "update_km": 83754,
+    "update_date": "2025-11-25",
+    "update_user": "fawzi.ahmed",
+    "notes": "Wrong entry",
+    "service_center": 1,
+    "location_id": 2
+  }
+]

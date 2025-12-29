@@ -1,0 +1,6 @@
+TABLE: CRM.site_type
+ORDER_BY: (none)
+COLUMNS: client_code, site_code, description, description_a, status
+ROWS: 0
+---
+[]

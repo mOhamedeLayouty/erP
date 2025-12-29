@@ -1,0 +1,87 @@
+TABLE: CRM.script_details
+ORDER_BY: branch_id
+COLUMNS: client_code, script_no, branch_id, messag, response_type, messag_a
+ROWS: 10
+---
+[
+  {
+    "client_code": "1",
+    "script_no": "2",
+    "branch_id": "7",
+    "messag": " Evaluation of the quality of maintenance?",
+    "response_type": "2",
+    "messag_a": null
+  },
+  {
+    "client_code": "1",
+    "script_no": "1",
+    "branch_id": "6",
+    "messag": "How can we improve our services? Do you have any suggestions?",
+    "response_type": "3",
+    "messag_a": "How can we improve our services? Do you have any suggestions?"
+  },
+  {
+    "client_code": "1",
+    "script_no": "3",
+    "branch_id": "6",
+    "messag": "which branch and date?",
+    "response_type": "3",
+    "messag_a": "   �� ��� � ����� �������"
+  },
+  {
+    "client_code": "1",
+    "script_no": "2",
+    "branch_id": "6",
+    "messag": "After trying the car do you have any comments?",
+    "response_type": "3",
+    "messag_a": "After trying the car do you have any comments?"
+  },
+  {
+    "client_code": "1",
+    "script_no": "1",
+    "branch_id": "5",
+    "messag": "Have you received the car clean and on time?",
+    "response_type": "4",
+    "messag_a": "Have you received the car clean and on time?"
+  },
+  {
+    "client_code": "1",
+    "script_no": "3",
+    "branch_id": "5",
+    "messag": "Already Visit",
+    "response_type": "4",
+    "messag_a": "��� �������"
+  },
+  {
+    "client_code": "1",
+    "script_no": "2",
+    "branch_id": "5",
+    "messag": "your opinion about service cost?",
+    "response_type": "1",
+    "messag_a": "your opinion about service cost?"
+  },
+  {
+    "client_code": "1",
+    "script_no": "1",
+    "branch_id": "4",
+    "messag": "Have they explained the maintenance schedule, location and phone numbers?",
+    "response_type": "4",
+    "messag_a": "Have they explained the maintenance schedule, location and phone numbers?"
+  },
+  {
+    "client_code": "1",
+    "script_no": "2",
+    "branch_id": "4",
+    "messag": "your opinion about parts prices?",
+    "response_type": "1",
+    "messag_a": "your opinion about parts prices?"
+  },
+  {
+    "client_code": "1",
+    "script_no": "3",
+    "branch_id": "4",
+    "messag": "Canceling Reson",
+    "response_type": "3",
+    "messag_a": "��� �������"
+  }
+]

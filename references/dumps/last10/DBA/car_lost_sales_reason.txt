@@ -1,0 +1,27 @@
+TABLE: DBA.car_lost_sales_reason
+ORDER_BY: id
+COLUMNS: id, reason_e, reason_a
+ROWS: 4
+---
+[
+  {
+    "id": "4",
+    "reason_e": "Other",
+    "reason_a": "����� ���� �������"
+  },
+  {
+    "id": "3",
+    "reason_e": "High Price",
+    "reason_a": "���� ��� ��� �� �����"
+  },
+  {
+    "id": "2",
+    "reason_e": "Bank Refuse Customer",
+    "reason_a": "��� ������ �� �����"
+  },
+  {
+    "id": "1",
+    "reason_e": "Car Not Available",
+    "reason_a": "������� ��� ������"
+  }
+]

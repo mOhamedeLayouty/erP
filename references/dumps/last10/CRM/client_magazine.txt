@@ -1,0 +1,6 @@
+TABLE: CRM.client_magazine
+ORDER_BY: (none)
+COLUMNS: client_code, call_no, line_no, issue_no, prop_serial_no, branch_no, info_req
+ROWS: 0
+---
+[]

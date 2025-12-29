@@ -1,0 +1,27 @@
+TABLE: DBA.car_type
+ORDER_BY: id
+COLUMNS: id, name_e, name_a
+ROWS: 4
+---
+[
+  {
+    "id": "4",
+    "name_e": "Fast Back",
+    "name_a": "Fast Back"
+  },
+  {
+    "id": "3",
+    "name_e": "Hatch Back",
+    "name_a": "Hatch Back"
+  },
+  {
+    "id": "2",
+    "name_e": "Saloon",
+    "name_a": "Saloon"
+  },
+  {
+    "id": "1",
+    "name_e": "Sedan",
+    "name_a": "Sedan"
+  }
+]

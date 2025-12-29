@@ -1,0 +1,67 @@
+TABLE: HR.pay_t_emp_ins
+ORDER_BY: entry_date
+COLUMNS: ins_code, emp_code, entry_date, user_id
+ROWS: 10
+---
+[
+  {
+    "ins_code": 1,
+    "emp_code": "123",
+    "entry_date": "2023-04-09 10:06:59.614000",
+    "user_id": "loay.s"
+  },
+  {
+    "ins_code": 1,
+    "emp_code": "104",
+    "entry_date": "2023-04-09 10:00:22.580000",
+    "user_id": "loay.s"
+  },
+  {
+    "ins_code": 1,
+    "emp_code": "103",
+    "entry_date": "2023-04-09 10:00:14.203000",
+    "user_id": "loay.s"
+  },
+  {
+    "ins_code": 1,
+    "emp_code": "5010",
+    "entry_date": "2023-04-09 09:59:58.170000",
+    "user_id": "loay.s"
+  },
+  {
+    "ins_code": 1,
+    "emp_code": "5007",
+    "entry_date": "2023-04-09 09:59:47.925000",
+    "user_id": "loay.s"
+  },
+  {
+    "ins_code": 1,
+    "emp_code": "5006",
+    "entry_date": "2023-04-09 09:59:39.301000",
+    "user_id": "loay.s"
+  },
+  {
+    "ins_code": 1,
+    "emp_code": "5003",
+    "entry_date": "2023-04-09 09:59:21.175000",
+    "user_id": "loay.s"
+  },
+  {
+    "ins_code": 1,
+    "emp_code": "5124",
+    "entry_date": "2019-12-11 09:06:34.538000",
+    "user_id": "loay.s"
+  },
+  {
+    "ins_code": 1,
+    "emp_code": "5001",
+    "entry_date": "2019-07-22 14:04:12.811000",
+    "user_id": "11"
+  },
+  {
+    "ins_code": 1,
+    "emp_code": "5002",
+    "entry_date": "2019-07-22 13:47:52.550000",
+    "user_id": "11"
+  }
+]

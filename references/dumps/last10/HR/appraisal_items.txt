@@ -1,0 +1,6 @@
+TABLE: HR.appraisal_items
+ORDER_BY: entry_date
+COLUMNS: id, description, description_a, dep_code, section_code, job_code, percent, group_id, entry_user, entry_date, service_center
+ROWS: 0
+---
+[]

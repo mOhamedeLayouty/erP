@@ -1,0 +1,6 @@
+TABLE: CRM.time_zone
+ORDER_BY: (none)
+COLUMNS: zone_code, zone_name_e, zone_name_a, zone_diff
+ROWS: 0
+---
+[]

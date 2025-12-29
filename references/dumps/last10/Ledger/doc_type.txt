@@ -1,0 +1,87 @@
+TABLE: Ledger.doc_type
+ORDER_BY: doc_id
+COLUMNS: doc_id, doc_name, doc_sys, doc_no, company_code, doc_name_e
+ROWS: 10
+---
+[
+  {
+    "doc_id": "VR",
+    "doc_name": "����� �������",
+    "doc_sys": 0,
+    "doc_no": 0,
+    "company_code": 2,
+    "doc_name_e": "Vendor Invoice Return"
+  },
+  {
+    "doc_id": "VR",
+    "doc_name": "����� �������",
+    "doc_sys": 0,
+    "doc_no": 0,
+    "company_code": 1,
+    "doc_name_e": "Vendor Invoice Return"
+  },
+  {
+    "doc_id": "VR",
+    "doc_name": "����� �������",
+    "doc_sys": 0,
+    "doc_no": 0,
+    "company_code": 4,
+    "doc_name_e": "Vendor Invoice Return"
+  },
+  {
+    "doc_id": "VR",
+    "doc_name": "����� �������",
+    "doc_sys": 0,
+    "doc_no": 0,
+    "company_code": 3,
+    "doc_name_e": "Vendor Invoice Return"
+  },
+  {
+    "doc_id": "VR",
+    "doc_name": "����� �������",
+    "doc_sys": 0,
+    "doc_no": 0,
+    "company_code": 5,
+    "doc_name_e": "Vendor Invoice Return"
+  },
+  {
+    "doc_id": "VO",
+    "doc_name": "WS Voucher",
+    "doc_sys": 0,
+    "doc_no": null,
+    "company_code": 1,
+    "doc_name_e": "WS Voucher"
+  },
+  {
+    "doc_id": "VO",
+    "doc_name": "WS Voucher",
+    "doc_sys": 0,
+    "doc_no": null,
+    "company_code": 3,
+    "doc_name_e": "WS Voucher"
+  },
+  {
+    "doc_id": "VO",
+    "doc_name": "WS Voucher",
+    "doc_sys": 0,
+    "doc_no": null,
+    "company_code": 5,
+    "doc_name_e": "WS Voucher"
+  },
+  {
+    "doc_id": "VO",
+    "doc_name": "WS Voucher",
+    "doc_sys": 0,
+    "doc_no": null,
+    "company_code": 2,
+    "doc_name_e": "WS Voucher"
+  },
+  {
+    "doc_id": "VO",
+    "doc_name": "WS Voucher",
+    "doc_sys": 0,
+    "doc_no": null,
+    "company_code": 4,
+    "doc_name_e": "WS Voucher"
+  }
+]

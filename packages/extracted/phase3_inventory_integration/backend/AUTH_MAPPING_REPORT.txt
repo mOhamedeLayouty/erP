@@ -1,0 +1,7 @@
+Phase 3.1 – Auth Mapping (From reload.sql heuristic)
+USER_TABLE: HR.dbs_s_employe
+USER_COL_ID: user_id
+USER_COL_NAME: user_name
+USER_COL_PASSWORD: None
+USER_COL_ACTIVE: None
+USER_COL_ROLE: None

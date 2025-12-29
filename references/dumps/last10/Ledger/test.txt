@@ -1,0 +1,6 @@
+TABLE: Ledger.test
+ORDER_BY: (none)
+COLUMNS: from_acc, to_acc, line_no
+ROWS: 0
+---
+[]

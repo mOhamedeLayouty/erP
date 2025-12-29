@@ -1,0 +1,6 @@
+TABLE: HR.emp_docs
+ORDER_BY: entry_date
+COLUMNS: line_id, emp_code, doc_id, expire_date, file_name, entry_date, entry_user, edit_date, edit_user
+ROWS: 0
+---
+[]

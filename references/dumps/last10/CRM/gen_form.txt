@@ -1,0 +1,6 @@
+TABLE: CRM.gen_form
+ORDER_BY: (none)
+COLUMNS: form_serial, form_name, form_description, form_description_a
+ROWS: 0
+---
+[]

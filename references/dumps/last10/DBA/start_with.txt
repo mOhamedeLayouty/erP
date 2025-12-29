@@ -1,0 +1,27 @@
+TABLE: DBA.start_with
+ORDER_BY: (none)
+COLUMNS: table_name, table_desc, last_code
+ROWS: 4
+---
+[
+  {
+    "table_name": "sc_credit_header",
+    "table_desc": "sc_credit_header",
+    "last_code": ""
+  },
+  {
+    "table_name": "sc_debit_header",
+    "table_desc": "sc_debit_header",
+    "last_code": null
+  },
+  {
+    "table_name": "ws_invoiceheader",
+    "table_desc": "ws_invoiceheader",
+    "last_code": "0"
+  },
+  {
+    "table_name": "ws_receipt",
+    "table_desc": "ws_receipt",
+    "last_code": "0"
+  }
+]

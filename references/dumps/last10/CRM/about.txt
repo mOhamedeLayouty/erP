@@ -1,0 +1,43 @@
+TABLE: CRM.about
+ORDER_BY: (none)
+COLUMNS: code, my_val, flag_comment, module, active, description_a, description_e
+ROWS: 4
+---
+[
+  {
+    "code": "active_for",
+    "my_val": "Automotive",
+    "flag_comment": null,
+    "module": "CRM",
+    "active": 1,
+    "description_a": "CallCenter,Standard,Automotive,Rent",
+    "description_e": "CallCenter,Standard,Automotive,Rent"
+  },
+  {
+    "code": "Fleet_lversion",
+    "my_val": "200",
+    "flag_comment": null,
+    "module": null,
+    "active": 1,
+    "description_a": null,
+    "description_e": null
+  },
+  {
+    "code": "Sec_lversion",
+    "my_val": "200",
+    "flag_comment": null,
+    "module": null,
+    "active": 1,
+    "description_a": null,
+    "description_e": null
+  },
+  {
+    "code": "interst_wndo",
+    "my_val": "u_call_log",
+    "flag_comment": null,
+    "module": "CRM",
+    "active": 1,
+    "description_a": "u_call_log,u_call_log_sales,u_call_log_aftersales",
+    "description_e": "u_call_log,u_call_log_sales,u_call_log_aftersales"
+  }
+]

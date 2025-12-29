@@ -1,0 +1,6 @@
+TABLE: CRM.dtproperties
+ORDER_BY: id
+COLUMNS: id, objectid, property, value, uvalue, lvalue, version
+ROWS: 0
+---
+[]

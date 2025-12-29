@@ -1,0 +1,117 @@
+TABLE: DBA.car_refund_detail
+ORDER_BY: refund_id
+COLUMNS: refund_id, log_store, detail_id, invoice_no, collected_amount, prerefund_amount, refund_amount, brand, sales_order_log_store
+ROWS: 10
+---
+[
+  {
+    "refund_id": "99",
+    "log_store": 15,
+    "detail_id": 1,
+    "invoice_no": "490",
+    "collected_amount": 50000,
+    "prerefund_amount": 0,
+    "refund_amount": 50000,
+    "brand": 1,
+    "sales_order_log_store": 15
+  },
+  {
+    "refund_id": "99",
+    "log_store": 6,
+    "detail_id": 1,
+    "invoice_no": "1513",
+    "collected_amount": 50000,
+    "prerefund_amount": 0,
+    "refund_amount": 48000,
+    "brand": 1,
+    "sales_order_log_store": 6
+  },
+  {
+    "refund_id": "99",
+    "log_store": 1,
+    "detail_id": 1,
+    "invoice_no": "1916",
+    "collected_amount": 50000,
+    "prerefund_amount": 0,
+    "refund_amount": 50000,
+    "brand": 1,
+    "sales_order_log_store": 1
+  },
+  {
+    "refund_id": "98",
+    "log_store": 15,
+    "detail_id": 1,
+    "invoice_no": "532",
+    "collected_amount": 50000,
+    "prerefund_amount": 0,
+    "refund_amount": 50000,
+    "brand": 1,
+    "sales_order_log_store": 15
+  },
+  {
+    "refund_id": "98",
+    "log_store": 6,
+    "detail_id": 1,
+    "invoice_no": "1588",
+    "collected_amount": 50000,
+    "prerefund_amount": 0,
+    "refund_amount": 48000,
+    "brand": 1,
+    "sales_order_log_store": 6
+  },
+  {
+    "refund_id": "98",
+    "log_store": 1,
+    "detail_id": 1,
+    "invoice_no": "1697",
+    "collected_amount": 50000,
+    "prerefund_amount": 0,
+    "refund_amount": 50000,
+    "brand": 1,
+    "sales_order_log_store": 1
+  },
+  {
+    "refund_id": "97",
+    "log_store": 15,
+    "detail_id": 1,
+    "invoice_no": "504",
+    "collected_amount": 50000,
+    "prerefund_amount": 0,
+    "refund_amount": 50000,
+    "brand": 1,
+    "sales_order_log_store": 15
+  },
+  {
+    "refund_id": "97",
+    "log_store": 6,
+    "detail_id": 1,
+    "invoice_no": "1595",
+    "collected_amount": 50000,
+    "prerefund_amount": 0,
+    "refund_amount": 50000,
+    "brand": 1,
+    "sales_order_log_store": 6
+  },
+  {
+    "refund_id": "97",
+    "log_store": 1,
+    "detail_id": 1,
+    "invoice_no": "1840",
+    "collected_amount": 50000,
+    "prerefund_amount": 0,
+    "refund_amount": 50000,
+    "brand": 1,
+    "sales_order_log_store": 1
+  },
+  {
+    "refund_id": "96",
+    "log_store": 15,
+    "detail_id": 1,
+    "invoice_no": "488",
+    "collected_amount": 50000,
+    "prerefund_amount": 0,
+    "refund_amount": 50000,
+    "brand": 1,
+    "sales_order_log_store": 15
+  }
+]

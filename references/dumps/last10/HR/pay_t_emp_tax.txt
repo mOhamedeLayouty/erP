@@ -1,0 +1,28 @@
+TABLE: HR.pay_t_emp_tax
+ORDER_BY: entry_date
+COLUMNS: tax_code, emp_code, accum_group, entry_date, user_id
+ROWS: 3
+---
+[
+  {
+    "tax_code": 1,
+    "emp_code": "5124",
+    "accum_group": null,
+    "entry_date": "2019-12-11 09:06:56.919000",
+    "user_id": "loay.s"
+  },
+  {
+    "tax_code": 1,
+    "emp_code": "5001",
+    "accum_group": null,
+    "entry_date": "2019-07-22 14:04:17.436000",
+    "user_id": "11"
+  },
+  {
+    "tax_code": 1,
+    "emp_code": "5002",
+    "accum_group": null,
+    "entry_date": "2019-07-22 13:50:01.731000",
+    "user_id": "11"
+  }
+]

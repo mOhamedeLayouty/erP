@@ -1,0 +1,6 @@
+TABLE: HR.emp_end_hire
+ORDER_BY: entry_date
+COLUMNS: id, code, trans_date, emp_code, last_work_date, reason_code, calc_type, work_years, work_months, work_days, work_alldays, eos_days, eos_days_value, salary_days, salary_days_value, other_add_value, vac_days, vac_days_val, loans_val, other_dedc_val, net_val, ispaid, paid_date, notes, entry_user, entry_date, edit_user, edit_date, notice_period_done
+ROWS: 0
+---
+[]

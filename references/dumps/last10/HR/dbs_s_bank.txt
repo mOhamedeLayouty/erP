@@ -1,0 +1,16 @@
+TABLE: HR.dbs_s_bank
+ORDER_BY: entry_date
+COLUMNS: bank_code, acc_no, bank_desc_e, bank_desc_a, bank_comp_acc, entry_date, user_id
+ROWS: 1
+---
+[
+  {
+    "bank_code": 1,
+    "acc_no": "101010301",
+    "bank_desc_e": "NCB",
+    "bank_desc_a": "NCB",
+    "bank_comp_acc": "1",
+    "entry_date": "2014-05-26 09:34:18.790000",
+    "user_id": "1"
+  }
+]

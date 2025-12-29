@@ -1,0 +1,6 @@
+TABLE: CRM.ms_temp
+ORDER_BY: (none)
+COLUMNS: Customer_code, home_phon, customer_name, Classification, country_code, city_code, home_area, Corp_area
+ROWS: 0
+---
+[]

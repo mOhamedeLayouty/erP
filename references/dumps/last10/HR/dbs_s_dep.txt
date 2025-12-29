@@ -1,0 +1,71 @@
+TABLE: HR.dbs_s_dep
+ORDER_BY: entry_date
+COLUMNS: dep_code, dep_desc_e, dep_desc_a, entry_date, user_id, cost_center
+ROWS: 8
+---
+[
+  {
+    "dep_code": 18,
+    "dep_desc_e": "�������",
+    "dep_desc_a": "�������",
+    "entry_date": "2021-12-22 10:58:55.530000",
+    "user_id": "loay.s",
+    "cost_center": "15"
+  },
+  {
+    "dep_code": 17,
+    "dep_desc_e": "Service G&A",
+    "dep_desc_a": "Service G&A",
+    "entry_date": "2015-03-26 10:44:26.332000",
+    "user_id": "1",
+    "cost_center": "16"
+  },
+  {
+    "dep_code": 16,
+    "dep_desc_e": "IT Dept.",
+    "dep_desc_a": "����� ����� ���������",
+    "entry_date": "2014-05-26 09:28:39.976000",
+    "user_id": "1",
+    "cost_center": "13"
+  },
+  {
+    "dep_code": 15,
+    "dep_desc_e": "Sales Department",
+    "dep_desc_a": "����� ��������",
+    "entry_date": "2003-04-30 13:24:46.287000",
+    "user_id": "HR",
+    "cost_center": "14"
+  },
+  {
+    "dep_code": 14,
+    "dep_desc_e": "Service S&D",
+    "dep_desc_a": "Service S&D",
+    "entry_date": "2002-08-08 16:19:37.998000",
+    "user_id": "HR",
+    "cost_center": "16"
+  },
+  {
+    "dep_code": 9,
+    "dep_desc_e": "Finance & Accounting",
+    "dep_desc_a": "������� �������",
+    "entry_date": "2002-03-25 14:45:41.296000",
+    "user_id": "HR",
+    "cost_center": "12"
+  },
+  {
+    "dep_code": 4,
+    "dep_desc_e": "HR & Administration",
+    "dep_desc_a": "������ �������� ���������",
+    "entry_date": "2002-03-25 14:44:58.484000",
+    "user_id": "HR",
+    "cost_center": "11"
+  },
+  {
+    "dep_code": 1,
+    "dep_desc_e": "Marketing Department",
+    "dep_desc_a": "���� �� ��� �����",
+    "entry_date": "2002-03-25 14:44:10.046000",
+    "user_id": "HR",
+    "cost_center": "15"
+  }
+]

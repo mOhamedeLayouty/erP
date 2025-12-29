@@ -1,0 +1,6 @@
+TABLE: Ledger.cost_report
+ORDER_BY: report_id
+COLUMNS: report_id, type_id, type_serial, sort_order, flag
+ROWS: 0
+---
+[]

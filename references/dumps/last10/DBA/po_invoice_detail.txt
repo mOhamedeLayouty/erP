@@ -1,0 +1,6 @@
+TABLE: DBA.po_invoice_detail
+ORDER_BY: invoicedetail_id
+COLUMNS: invoicedetail_id, invoice_id, item_id, qty, price, discount, notes, expense_account, cost_no, cost_no_2, cost_no_3, cost_no_4
+ROWS: 0
+---
+[]

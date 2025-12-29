@@ -1,0 +1,6 @@
+TABLE: DBA.po_quotation_header
+ORDER_BY: entry_date
+COLUMNS: quotation_id, rfq_id, quotation_date, valid_date, vend_code, vend_group, response_date, delivery_date, payment_terms, terms_conditions, delivery_place, remarks, description, entry_date, entry_user, edit_date, edit_user
+ROWS: 0
+---
+[]

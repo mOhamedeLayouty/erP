@@ -1,0 +1,6 @@
+TABLE: HR.leaveclass1
+ORDER_BY: (none)
+COLUMNS: leaveid, leavename, minunit, unit, remaindproc, remaindcount, reportsymbol, deduct, leavetype, color, classify, calc
+ROWS: 0
+---
+[]

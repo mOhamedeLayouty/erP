@@ -1,0 +1,6 @@
+TABLE: HR.emp_pay_change
+ORDER_BY: entry_date
+COLUMNS: in_code, income_deduction, emp_code, emp_in_ser, emp_in_year, emp_in_month, in_val, in_ent_method, income_calc_flag, entry_date, user_id
+ROWS: 0
+---
+[]

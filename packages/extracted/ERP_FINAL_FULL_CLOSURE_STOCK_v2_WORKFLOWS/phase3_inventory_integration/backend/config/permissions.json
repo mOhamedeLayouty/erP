@@ -1,0 +1,43 @@
+{
+  "roles": {
+    "Admin": [
+      "*",
+      "inventory.post",
+      "stock.read",
+      "stock.write",
+      "invoice.write",
+      "job_order.update"
+    ],
+    "Receptionist": [
+      "auth.token",
+      "master_data.read",
+      "master_data.create",
+      "job_order.read",
+      "job_order.create",
+      "invoicing.read",
+      "invoicing.create",
+      "inventory.write",
+      "inventory.post",
+      "stock.read",
+      "invoice.write",
+      "job_order.update"
+    ],
+    "Controller": [
+      "job_order.read",
+      "audit.read",
+      "inventory.post",
+      "stock.read",
+      "invoice.write",
+      "job_order.update"
+    ],
+    "Storekeeper": [
+      "inventory.read",
+      "inventory.write",
+      "inventory.post",
+      "stock.read",
+      "stock.write",
+      "invoice.write",
+      "job_order.update"
+    ]
+  }
+}

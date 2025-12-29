@@ -1,0 +1,57 @@
+TABLE: DBA.car_stores_users
+ORDER_BY: store_id
+COLUMNS: user_name, store_id, brand
+ROWS: 10
+---
+[
+  {
+    "user_name": "khaled.salama",
+    "store_id": 22,
+    "brand": 1
+  },
+  {
+    "user_name": "khaled.salama",
+    "store_id": 18,
+    "brand": 1
+  },
+  {
+    "user_name": "ahmed.k",
+    "store_id": 18,
+    "brand": 1
+  },
+  {
+    "user_name": "osama.soeilm",
+    "store_id": 18,
+    "brand": 1
+  },
+  {
+    "user_name": "george.o",
+    "store_id": 18,
+    "brand": 1
+  },
+  {
+    "user_name": "ahmed.k",
+    "store_id": 17,
+    "brand": 1
+  },
+  {
+    "user_name": "khaled.salama",
+    "store_id": 17,
+    "brand": 1
+  },
+  {
+    "user_name": "osama.soeilm",
+    "store_id": 17,
+    "brand": 1
+  },
+  {
+    "user_name": "george.o",
+    "store_id": 17,
+    "brand": 1
+  },
+  {
+    "user_name": "khaled.salama",
+    "store_id": 16,
+    "brand": 1
+  }
+]

@@ -1,0 +1,87 @@
+TABLE: HR.hr_shifts
+ORDER_BY: shift_id
+COLUMNS: shift_id, description, description_a, from_time, to_time, in_the_same_day, flexible_minutes, from_time2, to_time2, from_time3, to_time3, total_hours, total_minutes, day_off
+ROWS: 5
+---
+[
+  {
+    "shift_id": 6,
+    "description": "HUR Service",
+    "description_a": "Hurghada",
+    "from_time": "09:00:00",
+    "to_time": "17:00:00",
+    "in_the_same_day": "Y",
+    "flexible_minutes": null,
+    "from_time2": null,
+    "to_time2": null,
+    "from_time3": null,
+    "to_time3": null,
+    "total_hours": 8,
+    "total_minutes": 0,
+    "day_off": null
+  },
+  {
+    "shift_id": 5,
+    "description": "Manager",
+    "description_a": "Manager",
+    "from_time": "10:00:00",
+    "to_time": "17:30:00",
+    "in_the_same_day": "Y",
+    "flexible_minutes": null,
+    "from_time2": null,
+    "to_time2": null,
+    "from_time3": null,
+    "to_time3": null,
+    "total_hours": 7,
+    "total_minutes": 30,
+    "day_off": null
+  },
+  {
+    "shift_id": 3,
+    "description": "Sales",
+    "description_a": "Sales",
+    "from_time": "09:30:00",
+    "to_time": "17:30:00",
+    "in_the_same_day": "Y",
+    "flexible_minutes": null,
+    "from_time2": null,
+    "to_time2": null,
+    "from_time3": null,
+    "to_time3": null,
+    "total_hours": 8,
+    "total_minutes": 0,
+    "day_off": 0
+  },
+  {
+    "shift_id": 2,
+    "description": "Dom Service",
+    "description_a": "Domieat2",
+    "from_time": "09:00:00",
+    "to_time": "17:00:00",
+    "in_the_same_day": "Y",
+    "flexible_minutes": null,
+    "from_time2": null,
+    "to_time2": null,
+    "from_time3": null,
+    "to_time3": null,
+    "total_hours": 8,
+    "total_minutes": 0,
+    "day_off": 0
+  },
+  {
+    "shift_id": 1,
+    "description": "Service Center",
+    "description_a": "Service Center",
+    "from_time": "08:30:00",
+    "to_time": "17:30:00",
+    "in_the_same_day": "Y",
+    "flexible_minutes": 0,
+    "from_time2": null,
+    "to_time2": "00:00:00",
+    "from_time3": "00:00:00",
+    "to_time3": null,
+    "total_hours": 9,
+    "total_minutes": 0,
+    "day_off": 0
+  }
+]

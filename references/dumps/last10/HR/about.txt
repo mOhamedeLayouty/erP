@@ -1,0 +1,31 @@
+TABLE: HR.about
+ORDER_BY: (none)
+COLUMNS: code, my_val
+ROWS: 6
+---
+[
+  {
+    "code": "exclude_day_n",
+    "my_val": "5"
+  },
+  {
+    "code": "exclude_job_e",
+    "my_val": "14:30"
+  },
+  {
+    "code": "exclude_job_s",
+    "my_val": "09:30"
+  },
+  {
+    "code": "gl_company_code",
+    "my_val": "1"
+  },
+  {
+    "code": "job_end",
+    "my_val": "17:00"
+  },
+  {
+    "code": "job_start",
+    "my_val": "09:00"
+  }
+]

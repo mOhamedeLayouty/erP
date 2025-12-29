@@ -1,0 +1,6 @@
+TABLE: DBA.reports_syntax
+ORDER_BY: record_id
+COLUMNS: record_id, module, window_name, dwo_name_a, dwo_name_e, dwo_syntax_a, dwo_syntax_e, edit_date, edit_user, edit_pc
+ROWS: 0
+---
+[]

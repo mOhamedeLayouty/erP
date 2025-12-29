@@ -1,0 +1,12 @@
+TABLE: DBA.car_referral
+ORDER_BY: id
+COLUMNS: id, name_e, name_a
+ROWS: 1
+---
+[
+  {
+    "id": "1",
+    "name_e": "CIO",
+    "name_a": "���� ���� �������"
+  }
+]

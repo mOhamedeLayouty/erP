@@ -1,0 +1,27 @@
+TABLE: CRM.salary
+ORDER_BY: id
+COLUMNS: id, description, description_e
+ROWS: 4
+---
+[
+  {
+    "id": 4,
+    "description": "12000 : Over",
+    "description_e": "12000 : Over"
+  },
+  {
+    "id": 3,
+    "description": "8000 : 12000",
+    "description_e": "8000 : 12000"
+  },
+  {
+    "id": 2,
+    "description": "5000 : 8000",
+    "description_e": "5000 : 8000"
+  },
+  {
+    "id": 1,
+    "description": "3000 : 5000",
+    "description_e": "3000 : 5000"
+  }
+]

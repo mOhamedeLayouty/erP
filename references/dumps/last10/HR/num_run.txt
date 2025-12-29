@@ -1,0 +1,6 @@
+TABLE: HR.num_run
+ORDER_BY: startdate
+COLUMNS: num_runid, oldid, name, startdate, enddate, cyle, units
+ROWS: 0
+---
+[]

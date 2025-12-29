@@ -1,0 +1,6 @@
+TABLE: Ledger.pbcatvld
+ORDER_BY: (none)
+COLUMNS: pbv_name, pbv_vald, pbv_type, pbv_cntr, pbv_msg
+ROWS: 0
+---
+[]

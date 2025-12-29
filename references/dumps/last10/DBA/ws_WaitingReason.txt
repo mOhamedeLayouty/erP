@@ -1,0 +1,49 @@
+TABLE: DBA.ws_WaitingReason
+ORDER_BY: entry_date
+COLUMNS: reason_id, name_e, name_a, user_id, entry_date
+ROWS: 6
+---
+[
+  {
+    "reason_id": 8,
+    "name_e": "Waiting Technician",
+    "name_a": "������ ���",
+    "user_id": "qt",
+    "entry_date": "2017-09-26 13:49:36.148000"
+  },
+  {
+    "reason_id": 6,
+    "name_e": "Insurance Wait",
+    "name_a": "������ ������ �������",
+    "user_id": "11",
+    "entry_date": "2016-12-12 15:28:13.947000"
+  },
+  {
+    "reason_id": 2,
+    "name_e": "Customer Approval",
+    "name_a": "������ ������ ������",
+    "user_id": "11",
+    "entry_date": "2016-12-12 15:28:08.667000"
+  },
+  {
+    "reason_id": 7,
+    "name_e": "Warranty Wait",
+    "name_a": "������ ������ ������",
+    "user_id": "1",
+    "entry_date": "2014-06-21 12:28:54.611000"
+  },
+  {
+    "reason_id": 4,
+    "name_e": "Bought Out Wait",
+    "name_a": "������ ������� �� ������",
+    "user_id": "1",
+    "entry_date": "2014-06-21 12:28:12.281000"
+  },
+  {
+    "reason_id": 3,
+    "name_e": "Parts Waiting",
+    "name_a": "������ ��� ����",
+    "user_id": "1",
+    "entry_date": "2014-06-21 12:27:55.431000"
+  }
+]

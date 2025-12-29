@@ -1,0 +1,6 @@
+TABLE: DBA.fx_item
+ORDER_BY: entry_date
+COLUMNS: asset_code, branch_id, desc_a, desc_e, category, location, department, bar_code, invoic_po, date_purchased, vendor_code, cost, sold_date, sold_to, selling_price, warr_expire, color, made_of, size, shape, year_made, rcl, rcsa, insured, taxable, insurance_company, insurance_policy, lease_begin, lease_end, lease_desc, depreciatoin_method, placed_service_date, dep_cost, salvage_value, recovery_period, business_use, percentage_per_year, out_service, disposal_method, entry_date, user_id, item_image, asset_number, po_receiptorder_id, po_receiptorderdetail_id, po_item_id
+ROWS: 0
+---
+[]

@@ -1,0 +1,127 @@
+TABLE: DBA.car_cash
+ORDER_BY: entry_date
+COLUMNS: cash_id, cash_name_a, cash_name_e, acc_no, user_id, entry_date, bank_flag, store_id, brand, checks_flag
+ROWS: 10
+---
+[
+  {
+    "cash_id": 45,
+    "cash_name_a": "��� ������ ������ - NBK",
+    "cash_name_e": "��� ������ ������ - NBK",
+    "acc_no": null,
+    "user_id": "osama.soeilm",
+    "entry_date": "2022-06-07 12:20:13.903000",
+    "bank_flag": "Y",
+    "store_id": 6,
+    "brand": 1,
+    "checks_flag": "N"
+  },
+  {
+    "cash_id": 44,
+    "cash_name_a": "����� ������ �����",
+    "cash_name_e": "����� ������ �����",
+    "acc_no": "1020105",
+    "user_id": "mohamed.mohsen",
+    "entry_date": "2021-12-27 12:44:35.614000",
+    "bank_flag": "Y",
+    "store_id": 5,
+    "brand": 1,
+    "checks_flag": "N"
+  },
+  {
+    "cash_id": 43,
+    "cash_name_a": "����� ���",
+    "cash_name_e": "����� ���",
+    "acc_no": "20305",
+    "user_id": "mohamed.mohsen",
+    "entry_date": "2021-12-12 15:53:18.088000",
+    "bank_flag": "N",
+    "store_id": 6,
+    "brand": 1,
+    "checks_flag": "N"
+  },
+  {
+    "cash_id": 42,
+    "cash_name_a": "����� ���",
+    "cash_name_e": "����� ���",
+    "acc_no": "20305",
+    "user_id": "mohamed.mohsen",
+    "entry_date": "2021-12-12 15:51:09.687000",
+    "bank_flag": "N",
+    "store_id": 15,
+    "brand": 1,
+    "checks_flag": "N"
+  },
+  {
+    "cash_id": 41,
+    "cash_name_a": "����� ���",
+    "cash_name_e": "����� ���",
+    "acc_no": "20305",
+    "user_id": "mohamed.mohsen",
+    "entry_date": "2021-12-12 15:48:14.093000",
+    "bank_flag": "N",
+    "store_id": 2,
+    "brand": 1,
+    "checks_flag": "N"
+  },
+  {
+    "cash_id": 40,
+    "cash_name_a": "����� ��� ",
+    "cash_name_e": "����� ��� ",
+    "acc_no": "20305",
+    "user_id": "mohamed.mohsen",
+    "entry_date": "2021-12-12 15:44:55.603000",
+    "bank_flag": "N",
+    "store_id": 1,
+    "brand": 1,
+    "checks_flag": "N"
+  },
+  {
+    "cash_id": 39,
+    "cash_name_a": "����� ���",
+    "cash_name_e": "����� ���",
+    "acc_no": "20305",
+    "user_id": "mohamed.mohsen",
+    "entry_date": "2021-12-12 15:11:53.809000",
+    "bank_flag": "N",
+    "store_id": 5,
+    "brand": 1,
+    "checks_flag": "N"
+  },
+  {
+    "cash_id": 37,
+    "cash_name_a": "����� ��� �����",
+    "cash_name_e": "����� ��� �����",
+    "acc_no": "1030803",
+    "user_id": "mohamed.mohsen",
+    "entry_date": "2021-09-30 13:10:52.096000",
+    "bank_flag": "Y",
+    "store_id": 6,
+    "brand": 1,
+    "checks_flag": "N"
+  },
+  {
+    "cash_id": 33,
+    "cash_name_a": "����� ������ �������",
+    "cash_name_e": "����� ��������",
+    "acc_no": "1020101",
+    "user_id": "mohamed.mohsen",
+    "entry_date": "2021-09-30 13:09:31.830000",
+    "bank_flag": "Y",
+    "store_id": 6,
+    "brand": 1,
+    "checks_flag": "N"
+  },
+  {
+    "cash_id": 38,
+    "cash_name_a": "����� ���� ��������",
+    "cash_name_e": "����� ���� ��������",
+    "acc_no": "1020101",
+    "user_id": "mohamed.mohsen",
+    "entry_date": "2021-09-28 14:02:19.598000",
+    "bank_flag": "Y",
+    "store_id": 12,
+    "brand": 1,
+    "checks_flag": "N"
+  }
+]

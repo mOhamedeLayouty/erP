@@ -1,0 +1,6 @@
+TABLE: CRM.corp_finished
+ORDER_BY: (none)
+COLUMNS: corp_ser, account_row, company_name, site, phone_number, alt_phon_number, fax_number, primary_street_address
+ROWS: 0
+---
+[]

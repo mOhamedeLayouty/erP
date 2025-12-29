@@ -1,0 +1,6 @@
+TABLE: HR.num_run_deil
+ORDER_BY: (none)
+COLUMNS: num_runid, starttime, endtime, sdays, edays, schclassid, overtime
+ROWS: 0
+---
+[]

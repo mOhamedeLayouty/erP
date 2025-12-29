@@ -1,0 +1,107 @@
+TABLE: DBA.account_setup
+ORDER_BY: (none)
+COLUMNS: ser_no, description, acc_no, COST_CENTER, brand, service_center, description_e, COST_CENTER_4
+ROWS: 10
+---
+[
+  {
+    "ser_no": 1,
+    "description": "������ ��� ������ �����",
+    "acc_no": "4010201",
+    "COST_CENTER": "17",
+    "brand": 1,
+    "service_center": 1,
+    "description_e": "Spare Part Sales - Direct",
+    "COST_CENTER_4": "41"
+  },
+  {
+    "ser_no": 2,
+    "description": "������ ������� ����",
+    "acc_no": "4010202",
+    "COST_CENTER": "16",
+    "brand": 1,
+    "service_center": 1,
+    "description_e": "Labour Sales",
+    "COST_CENTER_4": "41"
+  },
+  {
+    "ser_no": 3,
+    "description": "������ ���� ����",
+    "acc_no": "4010203",
+    "COST_CENTER": "16",
+    "brand": 1,
+    "service_center": 1,
+    "description_e": "Oil Sales",
+    "COST_CENTER_4": "41"
+  },
+  {
+    "ser_no": 4,
+    "description": "������ ����� ������ ����",
+    "acc_no": "4010204",
+    "COST_CENTER": "16",
+    "brand": 1,
+    "service_center": 1,
+    "description_e": "External Work Sales",
+    "COST_CENTER_4": "41"
+  },
+  {
+    "ser_no": 5,
+    "description": "����� ������ ��� ���� ",
+    "acc_no": "1030802",
+    "COST_CENTER": null,
+    "brand": 1,
+    "service_center": 1,
+    "description_e": "Spare Part Tax",
+    "COST_CENTER_4": "41"
+  },
+  {
+    "ser_no": 6,
+    "description": "����� ������ ������",
+    "acc_no": "1030802",
+    "COST_CENTER": null,
+    "brand": 1,
+    "service_center": 1,
+    "description_e": "Labour Tax",
+    "COST_CENTER_4": "41"
+  },
+  {
+    "ser_no": 7,
+    "description": "����� ������ ����� ������",
+    "acc_no": "1030802",
+    "COST_CENTER": null,
+    "brand": 1,
+    "service_center": 1,
+    "description_e": "External Work Tax",
+    "COST_CENTER_4": "41"
+  },
+  {
+    "ser_no": 8,
+    "description": "����� � � � ��� ����",
+    "acc_no": "1030803",
+    "COST_CENTER": null,
+    "brand": 1,
+    "service_center": 1,
+    "description_e": "SP Add Tax",
+    "COST_CENTER_4": "41"
+  },
+  {
+    "ser_no": 9,
+    "description": "����� � � � ������",
+    "acc_no": "1030803",
+    "COST_CENTER": null,
+    "brand": 1,
+    "service_center": 1,
+    "description_e": "Labour Add Tax",
+    "COST_CENTER_4": "41"
+  },
+  {
+    "ser_no": 10,
+    "description": "����� � � � ����",
+    "acc_no": "1030803",
+    "COST_CENTER": null,
+    "brand": 1,
+    "service_center": 1,
+    "description_e": "Oil Add Tax",
+    "COST_CENTER_4": "41"
+  }
+]

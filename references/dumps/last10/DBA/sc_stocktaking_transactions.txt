@@ -1,0 +1,77 @@
+TABLE: DBA.sc_stocktaking_transactions
+ORDER_BY: stocktaking_id
+COLUMNS: stocktaking_id, transaction_type, transaction_id, user_name, transaction_date
+ROWS: 10
+---
+[
+  {
+    "stocktaking_id": 149,
+    "transaction_type": "D",
+    "transaction_id": 93826,
+    "user_name": "marwan.s",
+    "transaction_date": "2025-12-19"
+  },
+  {
+    "stocktaking_id": 149,
+    "transaction_type": "C",
+    "transaction_id": 1887,
+    "user_name": "marwan.s",
+    "transaction_date": "2025-12-19"
+  },
+  {
+    "stocktaking_id": 148,
+    "transaction_type": "D",
+    "transaction_id": 93825,
+    "user_name": "marwan.s",
+    "transaction_date": "2025-12-19"
+  },
+  {
+    "stocktaking_id": 148,
+    "transaction_type": "C",
+    "transaction_id": 1886,
+    "user_name": "marwan.s",
+    "transaction_date": "2025-12-19"
+  },
+  {
+    "stocktaking_id": 144,
+    "transaction_type": "C",
+    "transaction_id": 1885,
+    "user_name": "marwan.s",
+    "transaction_date": "2025-12-15"
+  },
+  {
+    "stocktaking_id": 144,
+    "transaction_type": "D",
+    "transaction_id": 93769,
+    "user_name": "marwan.s",
+    "transaction_date": "2025-12-15"
+  },
+  {
+    "stocktaking_id": 143,
+    "transaction_type": "C",
+    "transaction_id": 70,
+    "user_name": "tamer.k2",
+    "transaction_date": "2025-12-15"
+  },
+  {
+    "stocktaking_id": 143,
+    "transaction_type": "D",
+    "transaction_id": 2423,
+    "user_name": "tamer.k2",
+    "transaction_date": "2025-12-15"
+  },
+  {
+    "stocktaking_id": 142,
+    "transaction_type": "C",
+    "transaction_id": 6987,
+    "user_name": "makram.a",
+    "transaction_date": "2025-12-12"
+  },
+  {
+    "stocktaking_id": 142,
+    "transaction_type": "D",
+    "transaction_id": 174698,
+    "user_name": "makram.a",
+    "transaction_date": "2025-12-12"
+  }
+]

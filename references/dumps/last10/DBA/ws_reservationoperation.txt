@@ -1,0 +1,137 @@
+TABLE: DBA.ws_reservationoperation
+ORDER_BY: entry_date
+COLUMNS: reservationid, operationid, operationcode, flatetime, user_id, entry_date, hourcost, service_center, location_id, notes, qty
+ROWS: 10
+---
+[
+  {
+    "reservationid": "615965587",
+    "operationid": 4927,
+    "operationcode": "1040B10",
+    "flatetime": 3,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:19:13.002000",
+    "hourcost": 807,
+    "service_center": 1,
+    "location_id": 14,
+    "notes": null,
+    "qty": 1
+  },
+  {
+    "reservationid": "-144372313",
+    "operationid": 3182,
+    "operationcode": "0010N12",
+    "flatetime": 4.25,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:18:49.047000",
+    "hourcost": 8070000,
+    "service_center": 1,
+    "location_id": 4,
+    "notes": null,
+    "qty": 1
+  },
+  {
+    "reservationid": "615965586",
+    "operationid": 4898,
+    "operationcode": "1020Q98",
+    "flatetime": 1,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:18:12.478000",
+    "hourcost": 807,
+    "service_center": 1,
+    "location_id": 14,
+    "notes": null,
+    "qty": 1
+  },
+  {
+    "reservationid": "-144472313",
+    "operationid": 3177,
+    "operationcode": "0010N07",
+    "flatetime": 1.35,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:18:03.391000",
+    "hourcost": 8070000,
+    "service_center": 1,
+    "location_id": 4,
+    "notes": null,
+    "qty": 1
+  },
+  {
+    "reservationid": "615965585",
+    "operationid": 3171,
+    "operationcode": "0010N01",
+    "flatetime": 1.35,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:17:17.008000",
+    "hourcost": 807,
+    "service_center": 1,
+    "location_id": 14,
+    "notes": null,
+    "qty": 1
+  },
+  {
+    "reservationid": "-144572313",
+    "operationid": 3181,
+    "operationcode": "0010N11",
+    "flatetime": 2,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:13:31.911000",
+    "hourcost": 8070000,
+    "service_center": 1,
+    "location_id": 14,
+    "notes": null,
+    "qty": 1
+  },
+  {
+    "reservationid": "-144572313",
+    "operationid": 3176,
+    "operationcode": "0010N06",
+    "flatetime": 2.55,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:08:48.904000",
+    "hourcost": 8070000,
+    "service_center": 1,
+    "location_id": 4,
+    "notes": null,
+    "qty": 1
+  },
+  {
+    "reservationid": "615965584",
+    "operationid": 3177,
+    "operationcode": "0010N07",
+    "flatetime": 1.7,
+    "user_id": "yousra.f",
+    "entry_date": "2025-12-23 09:04:57.435000",
+    "hourcost": 807,
+    "service_center": 1,
+    "location_id": 4,
+    "notes": null,
+    "qty": 1
+  },
+  {
+    "reservationid": "615965583",
+    "operationid": 3177,
+    "operationcode": "0010N07",
+    "flatetime": 1.7,
+    "user_id": "yousra.f",
+    "entry_date": "2025-12-23 09:03:24.488000",
+    "hourcost": 807,
+    "service_center": 1,
+    "location_id": 4,
+    "notes": null,
+    "qty": 1
+  },
+  {
+    "reservationid": "615965582",
+    "operationid": 3180,
+    "operationcode": "0010N10",
+    "flatetime": 3.5,
+    "user_id": "yousra.f",
+    "entry_date": "2025-12-23 09:01:56.632000",
+    "hourcost": 807,
+    "service_center": 1,
+    "location_id": 3,
+    "notes": null,
+    "qty": 1
+  }
+]

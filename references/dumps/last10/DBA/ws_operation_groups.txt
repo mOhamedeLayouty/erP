@@ -1,0 +1,6 @@
+TABLE: DBA.ws_operation_groups
+ORDER_BY: entry_date
+COLUMNS: group_id, group_code, name_e, name_a, number, parent_id, entry_user, entry_date, edit_user, edit_date, service_center
+ROWS: 0
+---
+[]

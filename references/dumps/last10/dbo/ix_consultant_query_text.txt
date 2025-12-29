@@ -1,0 +1,6 @@
+TABLE: dbo.ix_consultant_query_text
+ORDER_BY: master_id
+COLUMNS: master_id, logging_session, text_id, count, discarded, query_type, no_tuner_score, num_rows_affected, text_plan
+ROWS: 0
+---
+[]

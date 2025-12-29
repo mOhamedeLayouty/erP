@@ -1,0 +1,6 @@
+TABLE: CRM.dsl_price
+ORDER_BY: (none)
+COLUMNS: client_code, package, speed, price
+ROWS: 0
+---
+[]

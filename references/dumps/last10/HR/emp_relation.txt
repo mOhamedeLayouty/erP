@@ -1,0 +1,6 @@
+TABLE: HR.emp_relation
+ORDER_BY: relation_id
+COLUMNS: relation_id, emp_code, relation_type, relation_emp_code, job_code
+ROWS: 0
+---
+[]

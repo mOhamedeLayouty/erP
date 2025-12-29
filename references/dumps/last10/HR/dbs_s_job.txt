@@ -1,0 +1,127 @@
+TABLE: HR.dbs_s_job
+ORDER_BY: entry_date
+COLUMNS: job_code, job_desc_e, job_desc_a, entry_date, user_id, rep_factor, travel_tickets _no, min_salary, max_salary, job_admin_code
+ROWS: 10
+---
+[
+  {
+    "job_code": 156,
+    "job_desc_e": "Senior Workshop Eng",
+    "job_desc_a": "Senior Workshop Eng",
+    "entry_date": "2025-10-06 14:53:26.449000",
+    "user_id": "loay.s",
+    "rep_factor": 12,
+    "travel_tickets _no": 0,
+    "min_salary": null,
+    "max_salary": null,
+    "job_admin_code": null
+  },
+  {
+    "job_code": 155,
+    "job_desc_e": "Senior Technical Support Eng",
+    "job_desc_a": "Senior Technical Support Eng",
+    "entry_date": "2025-10-06 14:52:48.690000",
+    "user_id": "loay.s",
+    "rep_factor": 12,
+    "travel_tickets _no": 0,
+    "min_salary": null,
+    "max_salary": null,
+    "job_admin_code": null
+  },
+  {
+    "job_code": 154,
+    "job_desc_e": "Senior Marketing ",
+    "job_desc_a": "Senior Marketing ",
+    "entry_date": "2025-10-06 14:52:35.985000",
+    "user_id": "loay.s",
+    "rep_factor": 12,
+    "travel_tickets _no": 0,
+    "min_salary": null,
+    "max_salary": null,
+    "job_admin_code": null
+  },
+  {
+    "job_code": 153,
+    "job_desc_e": "Senior Warranty Eng",
+    "job_desc_a": "Senior Warranty Eng",
+    "entry_date": "2025-10-06 14:52:13.869000",
+    "user_id": "loay.s",
+    "rep_factor": 12,
+    "travel_tickets _no": 0,
+    "min_salary": null,
+    "max_salary": null,
+    "job_admin_code": null
+  },
+  {
+    "job_code": 152,
+    "job_desc_e": "Senior CRM",
+    "job_desc_a": "Senior CRM",
+    "entry_date": "2025-10-06 14:50:03.716000",
+    "user_id": "loay.s",
+    "rep_factor": 12,
+    "travel_tickets _no": 0,
+    "min_salary": null,
+    "max_salary": null,
+    "job_admin_code": null
+  },
+  {
+    "job_code": 151,
+    "job_desc_e": "CRM Team Leader",
+    "job_desc_a": "CRM Team Leader",
+    "entry_date": "2025-10-06 14:48:47.674000",
+    "user_id": "loay.s",
+    "rep_factor": 12,
+    "travel_tickets _no": 0,
+    "min_salary": null,
+    "max_salary": null,
+    "job_admin_code": null
+  },
+  {
+    "job_code": 150,
+    "job_desc_e": "Senior Service Advisor",
+    "job_desc_a": "Senior Service Advisor",
+    "entry_date": "2025-10-06 14:48:02.158000",
+    "user_id": "loay.s",
+    "rep_factor": 12,
+    "travel_tickets _no": 0,
+    "min_salary": null,
+    "max_salary": null,
+    "job_admin_code": null
+  },
+  {
+    "job_code": 149,
+    "job_desc_e": "���� ������",
+    "job_desc_a": "���� ������",
+    "entry_date": "2025-10-06 14:45:56.672000",
+    "user_id": "loay.s",
+    "rep_factor": 12,
+    "travel_tickets _no": 0,
+    "min_salary": null,
+    "max_salary": null,
+    "job_admin_code": null
+  },
+  {
+    "job_code": 148,
+    "job_desc_e": "���� ������",
+    "job_desc_a": "���� ������",
+    "entry_date": "2025-09-14 14:33:09.534000",
+    "user_id": "loay.s",
+    "rep_factor": 12,
+    "travel_tickets _no": 0,
+    "min_salary": null,
+    "max_salary": null,
+    "job_admin_code": null
+  },
+  {
+    "job_code": 147,
+    "job_desc_e": "����� ����� �������",
+    "job_desc_a": "����� ����� �������",
+    "entry_date": "2022-07-18 09:07:01.998000",
+    "user_id": "loay.s",
+    "rep_factor": 12,
+    "travel_tickets _no": 0,
+    "min_salary": null,
+    "max_salary": null,
+    "job_admin_code": null
+  }
+]

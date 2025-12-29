@@ -1,0 +1,6 @@
+TABLE: CRM.client_road_company
+ORDER_BY: (none)
+COLUMNS: client_code, company_code, company_type, description, description_a, company_cover, loc_working_day, loc_working_hours, loc_phon
+ROWS: 0
+---
+[]

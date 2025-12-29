@@ -1,0 +1,57 @@
+TABLE: CRM.call_type
+ORDER_BY: (none)
+COLUMNS: type_code, description, description_a
+ROWS: 10
+---
+[
+  {
+    "type_code": "1",
+    "description": "Phone",
+    "description_a": "Phone"
+  },
+  {
+    "type_code": "2",
+    "description": "Fax",
+    "description_a": "Fax"
+  },
+  {
+    "type_code": "3",
+    "description": "E-mail",
+    "description_a": "E-mail"
+  },
+  {
+    "type_code": "4",
+    "description": "Visit",
+    "description_a": "Visit"
+  },
+  {
+    "type_code": "5",
+    "description": "Chat",
+    "description_a": "Chat"
+  },
+  {
+    "type_code": "6",
+    "description": "Website",
+    "description_a": "Website"
+  },
+  {
+    "type_code": "7",
+    "description": "Hotline",
+    "description_a": "Hotline"
+  },
+  {
+    "type_code": "8",
+    "description": "Facebook",
+    "description_a": "Facebook"
+  },
+  {
+    "type_code": "9",
+    "description": "Instagram",
+    "description_a": "Instagram"
+  },
+  {
+    "type_code": "10",
+    "description": "Facebook booking",
+    "description_a": "Facebook booking"
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: DBA.po_invoice_header
+ORDER_BY: entry_date
+COLUMNS: invoice_id, purchase_id, invoice_date, currency_id, currency_rate, vend_code, vend_group, total_price, discount, sales_taxt, delivery_place, payment_terms, description, remarks, entry_date, entry_user, edit_date, edit_user, delete_flag, delete_user, delete_date, delete_reason, expense_account, invoice_number, post_flag, invoicetypeid, invoice_code
+ROWS: 0
+---
+[]

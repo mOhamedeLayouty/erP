@@ -1,0 +1,6 @@
+TABLE: CRM.starfone_country
+ORDER_BY: (none)
+COLUMNS: country_code, country_name
+ROWS: 0
+---
+[]

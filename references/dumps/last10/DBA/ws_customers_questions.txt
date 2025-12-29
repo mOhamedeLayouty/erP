@@ -1,0 +1,77 @@
+TABLE: DBA.ws_customers_questions
+ORDER_BY: question_id
+COLUMNS: joborderid, question_id, answer_value, service_center, location_id
+ROWS: 10
+---
+[
+  {
+    "joborderid": "77047",
+    "question_id": 4,
+    "answer_value": 10,
+    "service_center": 1,
+    "location_id": 1
+  },
+  {
+    "joborderid": "77047",
+    "question_id": 3,
+    "answer_value": 1,
+    "service_center": 1,
+    "location_id": 1
+  },
+  {
+    "joborderid": "77047",
+    "question_id": 2,
+    "answer_value": 1,
+    "service_center": 1,
+    "location_id": 1
+  },
+  {
+    "joborderid": "69767",
+    "question_id": 2,
+    "answer_value": 10,
+    "service_center": 1,
+    "location_id": 1
+  },
+  {
+    "joborderid": "69748",
+    "question_id": 2,
+    "answer_value": 2,
+    "service_center": 1,
+    "location_id": 1
+  },
+  {
+    "joborderid": "69713",
+    "question_id": 2,
+    "answer_value": 7,
+    "service_center": 1,
+    "location_id": 1
+  },
+  {
+    "joborderid": "17181",
+    "question_id": 1,
+    "answer_value": 6,
+    "service_center": 1,
+    "location_id": 4
+  },
+  {
+    "joborderid": "9904",
+    "question_id": 1,
+    "answer_value": 10,
+    "service_center": 1,
+    "location_id": 3
+  },
+  {
+    "joborderid": "9693",
+    "question_id": 1,
+    "answer_value": 7,
+    "service_center": 1,
+    "location_id": 3
+  },
+  {
+    "joborderid": "9897",
+    "question_id": 1,
+    "answer_value": 10,
+    "service_center": 1,
+    "location_id": 3
+  }
+]

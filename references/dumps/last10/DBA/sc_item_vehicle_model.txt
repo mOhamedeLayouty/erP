@@ -1,0 +1,6 @@
+TABLE: DBA.sc_item_vehicle_model
+ORDER_BY: entry_date
+COLUMNS: item_id, vehicle_make, vehicle_model, from_year, to_year, service_center, entry_date, entry_user, edit_date, edit_user
+ROWS: 0
+---
+[]

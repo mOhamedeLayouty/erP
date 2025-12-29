@@ -1,0 +1,6 @@
+TABLE: CRM.stores
+ORDER_BY: store_id
+COLUMNS: store, store_id, client_code
+ROWS: 0
+---
+[]

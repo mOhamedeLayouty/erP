@@ -1,0 +1,16 @@
+TABLE: DBA.po_cash
+ORDER_BY: entry_date
+COLUMNS: cash_id, cash_name_a, cash_name_e, acc_no, user_id, entry_date, bank_flag
+ROWS: 1
+---
+[
+  {
+    "cash_id": 1,
+    "cash_name_a": "NCB Bank",
+    "cash_name_e": "National Commercial Bank",
+    "acc_no": "1010103004",
+    "user_id": "1",
+    "entry_date": "2015-03-10 16:29:36.312000",
+    "bank_flag": null
+  }
+]

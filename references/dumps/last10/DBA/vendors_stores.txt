@@ -1,0 +1,6 @@
+TABLE: DBA.vendors_stores
+ORDER_BY: store_id
+COLUMNS: store_id, vend_code, store_country, store_city, city_name, store_area, area_name, store_address, store_adddress_e, store_tel, store_fax
+ROWS: 0
+---
+[]

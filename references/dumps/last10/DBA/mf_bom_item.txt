@@ -1,0 +1,6 @@
+TABLE: DBA.mf_bom_item
+ORDER_BY: entry_date
+COLUMNS: id, item_id, bom_item_id, qty, costpercent, service_center, location_id, entry_date, entry_user, edit_date, edit_user
+ROWS: 0
+---
+[]

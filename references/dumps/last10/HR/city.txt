@@ -1,0 +1,25 @@
+TABLE: HR.city
+ORDER_BY: (none)
+COLUMNS: country_code, city_code, description, description_a
+ROWS: 3
+---
+[
+  {
+    "country_code": "1",
+    "city_code": "1",
+    "description": "Riyadh",
+    "description_a": "������"
+  },
+  {
+    "country_code": "1",
+    "city_code": "2",
+    "description": "Jeddah",
+    "description_a": "���"
+  },
+  {
+    "country_code": "1",
+    "city_code": "3",
+    "description": "Dammam",
+    "description_a": "������"
+  }
+]

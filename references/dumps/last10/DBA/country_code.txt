@@ -1,0 +1,6 @@
+TABLE: DBA.country_code
+ORDER_BY: (none)
+COLUMNS: code, name_e, name_a, isactive
+ROWS: 0
+---
+[]

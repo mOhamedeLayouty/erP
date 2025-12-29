@@ -1,0 +1,57 @@
+TABLE: DBA.ws_EqptLinkSite
+ORDER_BY: (none)
+COLUMNS: SiteID, EqptID, insurance_company
+ROWS: 10
+---
+[
+  {
+    "SiteID": "0101030813",
+    "EqptID": "0102021869",
+    "insurance_company": null
+  },
+  {
+    "SiteID": "0101026687",
+    "EqptID": "0102018911",
+    "insurance_company": null
+  },
+  {
+    "SiteID": "0101022219",
+    "EqptID": "0101014671",
+    "insurance_company": null
+  },
+  {
+    "SiteID": "0101024805",
+    "EqptID": "0101017227",
+    "insurance_company": null
+  },
+  {
+    "SiteID": "0101054769",
+    "EqptID": "9903049640",
+    "insurance_company": null
+  },
+  {
+    "SiteID": "0101017722",
+    "EqptID": "0101009104",
+    "insurance_company": null
+  },
+  {
+    "SiteID": "0101041989",
+    "EqptID": "0101007594",
+    "insurance_company": null
+  },
+  {
+    "SiteID": "0101012874",
+    "EqptID": "0101009363",
+    "insurance_company": null
+  },
+  {
+    "SiteID": "0102024227",
+    "EqptID": "0102016124",
+    "insurance_company": null
+  },
+  {
+    "SiteID": "0101026638",
+    "EqptID": "0101023581",
+    "insurance_company": null
+  }
+]

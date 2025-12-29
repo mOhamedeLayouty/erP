@@ -1,0 +1,117 @@
+TABLE: HR.dbs_s_governorate
+ORDER_BY: entry_date
+COLUMNS: governorate_id, code, name_e, name_a, entry_date, entry_user, edit_date, edit_user, country_id
+ROWS: 10
+---
+[
+  {
+    "governorate_id": 57,
+    "code": "192",
+    "name_e": "�����",
+    "name_a": "�����",
+    "entry_date": "2025-10-22 10:33:11.202000",
+    "entry_user": "osama.soeilm",
+    "edit_date": null,
+    "edit_user": null,
+    "country_id": null
+  },
+  {
+    "governorate_id": 56,
+    "code": "58",
+    "name_e": "�������",
+    "name_a": "�������",
+    "entry_date": "2025-09-01 10:40:54.788000",
+    "entry_user": "hany adly",
+    "edit_date": null,
+    "edit_user": null,
+    "country_id": null
+  },
+  {
+    "governorate_id": 55,
+    "code": "58",
+    "name_e": "�����",
+    "name_a": "�����",
+    "entry_date": "2025-09-01 10:40:21.418000",
+    "entry_user": "hany adly",
+    "edit_date": null,
+    "edit_user": null,
+    "country_id": null
+  },
+  {
+    "governorate_id": 54,
+    "code": "198",
+    "name_e": "��������",
+    "name_a": "��������",
+    "entry_date": "2024-11-26 10:14:53.020000",
+    "entry_user": "osama.soeilm",
+    "edit_date": null,
+    "edit_user": null,
+    "country_id": null
+  },
+  {
+    "governorate_id": 53,
+    "code": "39",
+    "name_e": "Ontario",
+    "name_a": "�������",
+    "entry_date": "2024-09-17 15:24:30.470000",
+    "entry_user": "hany adly",
+    "edit_date": null,
+    "edit_user": null,
+    "country_id": null
+  },
+  {
+    "governorate_id": 52,
+    "code": "49",
+    "name_e": "Liaoning",
+    "name_a": "��������",
+    "entry_date": "2023-09-25 10:33:40.509000",
+    "entry_user": "osama.soeilm",
+    "edit_date": null,
+    "edit_user": null,
+    "country_id": null
+  },
+  {
+    "governorate_id": 51,
+    "code": "137",
+    "name_e": "Al Abyar",
+    "name_a": "�������",
+    "entry_date": "2023-03-22 13:11:57.838000",
+    "entry_user": "hany adly",
+    "edit_date": null,
+    "edit_user": null,
+    "country_id": null
+  },
+  {
+    "governorate_id": 50,
+    "code": "250",
+    "name_e": "Harare",
+    "name_a": "�����",
+    "entry_date": "2022-08-14 11:58:21.114000",
+    "entry_user": "hany adly",
+    "edit_date": null,
+    "edit_user": null,
+    "country_id": null
+  },
+  {
+    "governorate_id": 49,
+    "code": "152",
+    "name_e": "Nouakchott",
+    "name_a": "�������",
+    "entry_date": "2021-12-30 15:43:31.955000",
+    "entry_user": "hany adly",
+    "edit_date": null,
+    "edit_user": null,
+    "country_id": 152
+  },
+  {
+    "governorate_id": 48,
+    "code": "137",
+    "name_e": "Tripoli",
+    "name_a": "������",
+    "entry_date": "2021-12-30 15:41:05.005000",
+    "entry_user": "hany adly",
+    "edit_date": null,
+    "edit_user": null,
+    "country_id": 137
+  }
+]

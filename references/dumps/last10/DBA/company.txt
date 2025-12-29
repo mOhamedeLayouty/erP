@@ -1,0 +1,6 @@
+TABLE: DBA.company
+ORDER_BY: (none)
+COLUMNS: company_code, company_name, company_address, company_sh_name, company_phon1, company_phon2, company_phon3, company_fax, company_email, company_site, company_ser_col
+ROWS: 0
+---
+[]

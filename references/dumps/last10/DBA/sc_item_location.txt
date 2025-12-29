@@ -1,0 +1,77 @@
+TABLE: DBA.sc_item_location
+ORDER_BY: location_id
+COLUMNS: service_center, location_id, item_id, loc_id, store_id
+ROWS: 10
+---
+[
+  {
+    "service_center": 1,
+    "location_id": 15,
+    "item_id": "8081",
+    "loc_id": 12589,
+    "store_id": 1
+  },
+  {
+    "service_center": 1,
+    "location_id": 15,
+    "item_id": "9638",
+    "loc_id": 15688,
+    "store_id": 1
+  },
+  {
+    "service_center": 1,
+    "location_id": 15,
+    "item_id": "10496",
+    "loc_id": 12589,
+    "store_id": 1
+  },
+  {
+    "service_center": 1,
+    "location_id": 15,
+    "item_id": "10577",
+    "loc_id": 12539,
+    "store_id": 1
+  },
+  {
+    "service_center": 1,
+    "location_id": 15,
+    "item_id": "325",
+    "loc_id": 12423,
+    "store_id": 1
+  },
+  {
+    "service_center": 1,
+    "location_id": 15,
+    "item_id": "23",
+    "loc_id": 12338,
+    "store_id": 1
+  },
+  {
+    "service_center": 1,
+    "location_id": 15,
+    "item_id": "8080",
+    "loc_id": 12589,
+    "store_id": 1
+  },
+  {
+    "service_center": 1,
+    "location_id": 15,
+    "item_id": "2432",
+    "loc_id": 12539,
+    "store_id": 1
+  },
+  {
+    "service_center": 1,
+    "location_id": 15,
+    "item_id": "3235",
+    "loc_id": 12358,
+    "store_id": 1
+  },
+  {
+    "service_center": 1,
+    "location_id": 15,
+    "item_id": "7659",
+    "loc_id": 12589,
+    "store_id": 1
+  }
+]

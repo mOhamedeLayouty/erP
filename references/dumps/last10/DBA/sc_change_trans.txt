@@ -1,0 +1,6 @@
+TABLE: DBA.sc_change_trans
+ORDER_BY: trans_id
+COLUMNS: trans_id, trans_no, trans_date, trans_user, trans_old, trans_new, service_center, location_id
+ROWS: 0
+---
+[]

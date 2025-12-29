@@ -1,0 +1,57 @@
+TABLE: dbo.spt_collation_map
+ORDER_BY: (none)
+COLUMNS: collation, charsetn, number
+ROWS: 10
+---
+[
+  {
+    "collation": "819CYR",
+    "charsetn": "iso_1",
+    "number": 1
+  },
+  {
+    "collation": "819DAN",
+    "charsetn": "iso_1",
+    "number": 2
+  },
+  {
+    "collation": "819ELL",
+    "charsetn": "iso_1",
+    "number": 3
+  },
+  {
+    "collation": "819ISL",
+    "charsetn": "iso_1",
+    "number": 4
+  },
+  {
+    "collation": "819LATIN1",
+    "charsetn": "iso_1",
+    "number": 5
+  },
+  {
+    "collation": "819LATIN2",
+    "charsetn": "iso_1",
+    "number": 6
+  },
+  {
+    "collation": "819NOR",
+    "charsetn": "iso_1",
+    "number": 7
+  },
+  {
+    "collation": "819RUS",
+    "charsetn": "iso_1",
+    "number": 8
+  },
+  {
+    "collation": "819SVE",
+    "charsetn": "iso_1",
+    "number": 9
+  },
+  {
+    "collation": "819TRJ",
+    "charsetn": "iso_1",
+    "number": 10
+  }
+]

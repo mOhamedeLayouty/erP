@@ -1,0 +1,6 @@
+TABLE: DBA.ws_insurance_contract
+ORDER_BY: location_id
+COLUMNS: contractid, contractcode, contractdate, startdate, expiredate, customerid, contract_labor_type, contract_sp_type, contract_labor_amount, contract_sp_amount, invoice_labor_type, invoice_sp_type, invoice_labor_amount, invoice_sp_amount, avg_amount, max_amount, status, statusdate, statusreason, notes, service_center, location_id, entrydate, entryuser, editdate, edituser
+ROWS: 0
+---
+[]

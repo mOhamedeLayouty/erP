@@ -1,0 +1,6 @@
+TABLE: DBA.fx_vendor_group
+ORDER_BY: vend_id
+COLUMNS: vend_id, vend_desc, vend_desc_e
+ROWS: 0
+---
+[]

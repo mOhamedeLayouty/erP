@@ -1,0 +1,26 @@
+TABLE: HR.security_users
+ORDER_BY: locked_date
+COLUMNS: user_name, full_name_e, full_name_a, password, remarks, locked, locked_date, super_user, security_group_code, max_record, user_type, working, user_class, client_code, group_code, service_center, service_center_location
+ROWS: 1
+---
+[
+  {
+    "user_name": "1",
+    "full_name_e": "1",
+    "full_name_a": "1",
+    "password": "149",
+    "remarks": null,
+    "locked": "N",
+    "locked_date": null,
+    "super_user": "1",
+    "security_group_code": null,
+    "max_record": 0,
+    "user_type": "0",
+    "working": "0",
+    "user_class": "A",
+    "client_code": null,
+    "group_code": null,
+    "service_center": 1,
+    "service_center_location": 1
+  }
+]

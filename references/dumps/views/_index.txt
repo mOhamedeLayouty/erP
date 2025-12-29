@@ -1,0 +1,31 @@
+# dump_views
+# generated_at: 2025-12-29T14:36:30.508Z
+
+# SYS.SYSTABLE cols: table_id, file_id, count, first_page, last_page, primary_root, creator, first_ext_page, last_ext_page, table_page_count, ext_page_count, object_id, table_name, table_type, view_def, remarks, replicate, existing_obj, remote_location, remote_objtype, srvid, server_type, primary_hash_limit, page_map_start, source, encrypted
+# SYS.SYSVIEW cols: view_object_id, view_def, mv_build_type, mv_refresh_type, mv_use_in_optimization, mv_last_refreshed_at, mv_known_stale_at, mv_last_refreshed_tsn
+# SYS.SYSPROCEDURE cols: proc_id, creator, object_id, proc_name, proc_defn, remarks, replicate, srvid, source, avg_num_rows, avg_cost, stats
+
+OK  CRM.Opencalls  ->  dumps/views/CRM/Opencalls.sql
+OK  DBA.all_balances  ->  dumps/views/DBA/all_balances.sql
+OK  DBA.car_account_transaction  ->  dumps/views/DBA/car_account_transaction.sql
+OK  DBA.car_cash_move  ->  dumps/views/DBA/car_cash_move.sql
+OK  DBA.cash_move  ->  dumps/views/DBA/cash_move.sql
+OK  DBA.erp_account_transaction  ->  dumps/views/DBA/erp_account_transaction.sql
+OK  DBA.fill_rate  ->  dumps/views/DBA/fill_rate.sql
+OK  DBA.month_balance_view  ->  dumps/views/DBA/month_balance_view.sql
+OK  DBA.monthly_sales_avg  ->  dumps/views/DBA/monthly_sales_avg.sql
+OK  DBA.po_reservation  ->  dumps/views/DBA/po_reservation.sql
+OK  DBA.Repreted_SP  ->  dumps/views/DBA/Repreted_SP.sql
+OK  DBA.sc_auto_reorder_view  ->  dumps/views/DBA/sc_auto_reorder_view.sql
+OK  DBA.sc_items_cost_price  ->  dumps/views/DBA/sc_items_cost_price.sql
+OK  DBA.sc_items_transaction  ->  dumps/views/DBA/sc_items_transaction.sql
+OK  DBA.v_detail_revenue  ->  dumps/views/DBA/v_detail_revenue.sql
+OK  DBA.v_incom_ana  ->  dumps/views/DBA/v_incom_ana.sql
+OK  DBA.v_items_debit_return  ->  dumps/views/DBA/v_items_debit_return.sql
+OK  DBA.v_kpi_monthly  ->  dumps/views/DBA/v_kpi_monthly.sql
+OK  DBA.v_transaction  ->  dumps/views/DBA/v_transaction.sql
+OK  DBA.v_user_privilege  ->  dumps/views/DBA/v_user_privilege.sql
+OK  DBA.v_vehicles_transactions  ->  dumps/views/DBA/v_vehicles_transactions.sql
+OK  DBA.vi_bal  ->  dumps/views/DBA/vi_bal.sql
+OK  Ledger.v_acc_bal_period  ->  dumps/views/Ledger/v_acc_bal_period.sql
+OK  Ledger.vi_bal  ->  dumps/views/Ledger/vi_bal.sql

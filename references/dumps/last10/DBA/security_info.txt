@@ -1,0 +1,117 @@
+TABLE: DBA.security_info
+ORDER_BY: control_id
+COLUMNS: control_id, user_name, info_view, info_update, info_delete, info_insert, info_print, parent_id, info_saveas
+ROWS: 10
+---
+[
+  {
+    "control_id": "ws_job_onoff",
+    "user_name": "saeed.el",
+    "info_view": "Y",
+    "info_update": "Y",
+    "info_delete": "Y",
+    "info_insert": "Y",
+    "info_print": "Y",
+    "parent_id": "WS",
+    "info_saveas": "N"
+  },
+  {
+    "control_id": "ws_job_onoff",
+    "user_name": "mohamed.said",
+    "info_view": "Y",
+    "info_update": "Y",
+    "info_delete": "Y",
+    "info_insert": "Y",
+    "info_print": "Y",
+    "parent_id": "WS",
+    "info_saveas": "N"
+  },
+  {
+    "control_id": "ws_job_onoff",
+    "user_name": "m.abdelaziz",
+    "info_view": "Y",
+    "info_update": "Y",
+    "info_delete": "Y",
+    "info_insert": "Y",
+    "info_print": "N",
+    "parent_id": "WS",
+    "info_saveas": "N"
+  },
+  {
+    "control_id": "ws_job_onoff",
+    "user_name": "ahmed.ellwaa",
+    "info_view": "Y",
+    "info_update": "Y",
+    "info_delete": "N",
+    "info_insert": "Y",
+    "info_print": "Y",
+    "parent_id": "WS",
+    "info_saveas": "N"
+  },
+  {
+    "control_id": "ws_job_onoff",
+    "user_name": "abdallah.sh",
+    "info_view": "Y",
+    "info_update": "Y",
+    "info_delete": "Y",
+    "info_insert": "Y",
+    "info_print": "Y",
+    "parent_id": "WS",
+    "info_saveas": "N"
+  },
+  {
+    "control_id": "w_jobordersublet",
+    "user_name": "saeed.el",
+    "info_view": "Y",
+    "info_update": "Y",
+    "info_delete": "Y",
+    "info_insert": "Y",
+    "info_print": "Y",
+    "parent_id": "WS",
+    "info_saveas": "N"
+  },
+  {
+    "control_id": "w_jobordersublet",
+    "user_name": "mohamed.said",
+    "info_view": "Y",
+    "info_update": "Y",
+    "info_delete": "Y",
+    "info_insert": "Y",
+    "info_print": "Y",
+    "parent_id": "WS",
+    "info_saveas": "N"
+  },
+  {
+    "control_id": "w_jobordersublet",
+    "user_name": "m.abdelaziz",
+    "info_view": "Y",
+    "info_update": "N",
+    "info_delete": "N",
+    "info_insert": "Y",
+    "info_print": "Y",
+    "parent_id": "WS",
+    "info_saveas": "N"
+  },
+  {
+    "control_id": "u_ws_tax_invoice",
+    "user_name": "mohamed.galald",
+    "info_view": "Y",
+    "info_update": "Y",
+    "info_delete": "Y",
+    "info_insert": "Y",
+    "info_print": "Y",
+    "parent_id": "WS",
+    "info_saveas": "N"
+  },
+  {
+    "control_id": "u_ws_tax_invoice",
+    "user_name": "khaled.salama",
+    "info_view": "Y",
+    "info_update": "N",
+    "info_delete": "N",
+    "info_insert": "N",
+    "info_print": "N",
+    "parent_id": "WS",
+    "info_saveas": "N"
+  }
+]

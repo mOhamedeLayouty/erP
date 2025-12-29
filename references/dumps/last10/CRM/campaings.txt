@@ -1,0 +1,61 @@
+TABLE: CRM.campaings
+ORDER_BY: from_date
+COLUMNS: client_code, camp_no, camp_name, camp_description, script_no, no_targets, no_agents, no_outgoing_calls, from_date, to_date, cust_type, cust_country, cust_city, cust_area, client_customer, campaign_for, camp_type, ws_jobfollow_days, car_receivingfollow_days, ws_job_start_outdate, make_code, ws_cust_type, CAR_cust_type, CAR_Vehicle_Type, CAR_Start_From_deliver_date
+ROWS: 2
+---
+[
+  {
+    "client_code": "1",
+    "camp_no": "2",
+    "camp_name": "After Service",
+    "camp_description": "After Service",
+    "script_no": "2",
+    "no_targets": null,
+    "no_agents": null,
+    "no_outgoing_calls": 7,
+    "from_date": "2024-05-01 00:00:00.000000",
+    "to_date": "2024-12-01 00:00:00.000000",
+    "cust_type": null,
+    "cust_country": null,
+    "cust_city": null,
+    "cust_area": null,
+    "client_customer": "0",
+    "campaign_for": "S",
+    "camp_type": "WS",
+    "ws_jobfollow_days": 3,
+    "car_receivingfollow_days": 2,
+    "ws_job_start_outdate": "2024-05-01",
+    "make_code": "1",
+    "ws_cust_type": null,
+    "CAR_cust_type": null,
+    "CAR_Vehicle_Type": null,
+    "CAR_Start_From_deliver_date": null
+  },
+  {
+    "client_code": "1",
+    "camp_no": "1",
+    "camp_name": "After car delivery from sales",
+    "camp_description": "After car delivery from sales",
+    "script_no": "1",
+    "no_targets": null,
+    "no_agents": null,
+    "no_outgoing_calls": 9,
+    "from_date": "2015-04-01 00:00:00.000000",
+    "to_date": "2020-01-01 00:00:00.000000",
+    "cust_type": null,
+    "cust_country": null,
+    "cust_city": null,
+    "cust_area": null,
+    "client_customer": "0",
+    "campaign_for": "S",
+    "camp_type": "CAR",
+    "ws_jobfollow_days": 2,
+    "car_receivingfollow_days": 30,
+    "ws_job_start_outdate": "2015-04-01",
+    "make_code": null,
+    "ws_cust_type": null,
+    "CAR_cust_type": null,
+    "CAR_Vehicle_Type": null,
+    "CAR_Start_From_deliver_date": null
+  }
+]

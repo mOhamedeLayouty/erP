@@ -1,0 +1,6 @@
+TABLE: CRM.regions
+ORDER_BY: (none)
+COLUMNS: client_code, region_code, description, description_a
+ROWS: 0
+---
+[]

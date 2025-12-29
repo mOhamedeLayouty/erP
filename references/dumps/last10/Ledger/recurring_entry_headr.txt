@@ -1,0 +1,6 @@
+TABLE: Ledger.recurring_entry_headr
+ORDER_BY: curr_id
+COLUMNS: entry_code, recurring_every, company_code, recur_from_date, recurr_user, curr_id, entry_description, notes, recur_to_date, doc_type, last_recur_date
+ROWS: 0
+---
+[]

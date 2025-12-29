@@ -1,0 +1,6 @@
+TABLE: HR.deptusedschs
+ORDER_BY: (none)
+COLUMNS: deptid, schid
+ROWS: 0
+---
+[]

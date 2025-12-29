@@ -1,0 +1,6 @@
+TABLE: DBA.car_cashing_note
+ORDER_BY: user_id
+COLUMNS: note_no, log_store, order_code, customer_code, no_req_installments, amount_req_installments, due_installment, net_installments, expedition_discount, required_amount, chassi_no, user_id, delete_flag, delete_date, delete_user, note_date, interest_amount, brand, vehicle_id
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: CRM.market_sector
+ORDER_BY: (none)
+COLUMNS: client_code, market_code, description, description_a, status
+ROWS: 0
+---
+[]

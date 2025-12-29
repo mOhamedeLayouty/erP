@@ -1,0 +1,57 @@
+TABLE: HR.deduction_natural
+ORDER_BY: (none)
+COLUMNS: line_no, description, description_a
+ROWS: 10
+---
+[
+  {
+    "line_no": 1,
+    "description": "Loans",
+    "description_a": "���"
+  },
+  {
+    "line_no": 2,
+    "description": "Insurance",
+    "description_a": "�������"
+  },
+  {
+    "line_no": 3,
+    "description": "������ ����",
+    "description_a": "������ ����"
+  },
+  {
+    "line_no": 4,
+    "description": "�����",
+    "description_a": "�����"
+  },
+  {
+    "line_no": 5,
+    "description": "������ �����",
+    "description_a": "������ �����"
+  },
+  {
+    "line_no": 6,
+    "description": "������",
+    "description_a": "������"
+  },
+  {
+    "line_no": 7,
+    "description": "Absence",
+    "description_a": "����"
+  },
+  {
+    "line_no": 8,
+    "description": "������� ����",
+    "description_a": "������� ����"
+  },
+  {
+    "line_no": 9,
+    "description": "�����",
+    "description_a": "�����"
+  },
+  {
+    "line_no": 10,
+    "description": "����",
+    "description_a": "����"
+  }
+]

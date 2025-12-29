@@ -1,0 +1,6 @@
+TABLE: CRM.temp_corp
+ORDER_BY: id
+COLUMNS: id, Phone, Name, Clasifcation, PhoneCode
+ROWS: 0
+---
+[]

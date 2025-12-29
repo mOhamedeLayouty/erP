@@ -1,0 +1,22 @@
+TABLE: DBA.city
+ORDER_BY: (none)
+COLUMNS: city_code, city_name, city_type
+ROWS: 3
+---
+[
+  {
+    "city_code": 1,
+    "city_name": "Riyadh",
+    "city_type": "C"
+  },
+  {
+    "city_code": 2,
+    "city_name": "Jeddah",
+    "city_type": "C"
+  },
+  {
+    "city_code": 3,
+    "city_name": "Dammam",
+    "city_type": "C"
+  }
+]

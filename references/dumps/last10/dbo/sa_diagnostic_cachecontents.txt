@@ -1,0 +1,6 @@
+TABLE: dbo.sa_diagnostic_cachecontents
+ORDER_BY: time
+COLUMNS: logging_session_id, time, original_table_object_id, pages_in_cache, num_table_pages, num_table_rows, last_refresh_time
+ROWS: 0
+---
+[]

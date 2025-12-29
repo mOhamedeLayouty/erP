@@ -1,0 +1,6 @@
+TABLE: CRM.gen_parameter
+ORDER_BY: (none)
+COLUMNS: parameter_code, paramter_description, parameter_value1, parameter_value2, parameter_value3
+ROWS: 0
+---
+[]

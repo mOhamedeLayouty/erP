@@ -1,0 +1,19 @@
+TABLE: CRM.script
+ORDER_BY: (none)
+COLUMNS: client_code, script_code, script_name, script_description
+ROWS: 2
+---
+[
+  {
+    "client_code": "1",
+    "script_code": "3",
+    "script_name": "Reminder Call ",
+    "script_description": "Reminder Call "
+  },
+  {
+    "client_code": "1",
+    "script_code": "2",
+    "script_name": "After Sales - Dynamics",
+    "script_description": "After Sales - Dynamics"
+  }
+]

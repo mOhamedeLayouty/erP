@@ -1,0 +1,34 @@
+TABLE: DBA.ws_ServicePackage
+ORDER_BY: location_id
+COLUMNS: ServicePackageId, ServicePackageCode, ServicePackageDate, ArabicName, EnglishName, TypeId, Amount, ValidFrom, ValidTo, ValidLocationId, ValidDuration, ValidKM, InvoiceTypeId, CatalogId, EntryDate, EntryUser, EditDate, EditUser, Notes, service_center, location_id, brand, log_store, PricePerHour, ValidVisit
+ROWS: 1
+---
+[
+  {
+    "ServicePackageId": "1",
+    "ServicePackageCode": "1",
+    "ServicePackageDate": "2025-03-27",
+    "ArabicName": "���� ��� ��������",
+    "EnglishName": "Life care technology",
+    "TypeId": 2,
+    "Amount": 0,
+    "ValidFrom": "2025-03-01",
+    "ValidTo": "2027-03-01",
+    "ValidLocationId": null,
+    "ValidDuration": 812,
+    "ValidKM": 25000,
+    "InvoiceTypeId": 20,
+    "CatalogId": 20,
+    "EntryDate": "2025-03-27 13:49:19.295000",
+    "EntryUser": "mohamed.ay",
+    "EditDate": "2025-03-27 14:32:35.172000",
+    "EditUser": "mohamed.ay",
+    "Notes": null,
+    "service_center": 1,
+    "location_id": 1,
+    "brand": 1,
+    "log_store": null,
+    "PricePerHour": 390,
+    "ValidVisit": 2
+  }
+]

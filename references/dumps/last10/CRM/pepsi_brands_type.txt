@@ -1,0 +1,6 @@
+TABLE: CRM.pepsi_brands_type
+ORDER_BY: (none)
+COLUMNS: line_no, brand, bottle, pack
+ROWS: 0
+---
+[]

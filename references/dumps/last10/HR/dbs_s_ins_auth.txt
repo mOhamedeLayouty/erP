@@ -1,0 +1,19 @@
+TABLE: HR.dbs_s_ins_auth
+ORDER_BY: entry_date
+COLUMNS: ins_auth_code, acc_no, ins_auth_desc_e, ins_auth_desc_a, ins_auth_address1, ins_auth_address2, ins_auth_phone, ins_auth_fax, user_id, entry_date
+ROWS: 1
+---
+[
+  {
+    "ins_auth_code": 1,
+    "acc_no": null,
+    "ins_auth_desc_e": "Insurance",
+    "ins_auth_desc_a": "������� ��������",
+    "ins_auth_address1": null,
+    "ins_auth_address2": null,
+    "ins_auth_phone": null,
+    "ins_auth_fax": null,
+    "user_id": "HR",
+    "entry_date": "2002-08-06 11:42:42.959000"
+  }
+]

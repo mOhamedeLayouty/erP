@@ -1,0 +1,6 @@
+TABLE: CRM.customer_sources
+ORDER_BY: (none)
+COLUMNS: client_code, customer_source, serial, sourec_desc, source_desc_a
+ROWS: 0
+---
+[]

@@ -1,0 +1,31 @@
+TABLE: CRM.client_complain_escalation
+ORDER_BY: id
+COLUMNS: id, order_no, position_code, action_required_within, status, escalation_type
+ROWS: 3
+---
+[
+  {
+    "id": 5,
+    "order_no": 2,
+    "position_code": "5",
+    "action_required_within": 2,
+    "status": "2",
+    "escalation_type": "1"
+  },
+  {
+    "id": 4,
+    "order_no": 1,
+    "position_code": "5",
+    "action_required_within": 24,
+    "status": "3",
+    "escalation_type": "3"
+  },
+  {
+    "id": 1,
+    "order_no": 1,
+    "position_code": "5",
+    "action_required_within": 1,
+    "status": "3",
+    "escalation_type": "1"
+  }
+]

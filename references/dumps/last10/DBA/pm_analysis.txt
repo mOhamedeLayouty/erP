@@ -1,0 +1,6 @@
+TABLE: DBA.pm_analysis
+ORDER_BY: per_date
+COLUMNS: pm_serial, car_code, service_no, except_note, per_date, per_km, tar_date, tar_km, dif_day, dif_km, current_km
+ROWS: 0
+---
+[]

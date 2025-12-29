@@ -1,0 +1,6 @@
+TABLE: HR.group_control
+ORDER_BY: control_id
+COLUMNS: group_code, control_id, c_view, c_insert, c_delete, c_update
+ROWS: 0
+---
+[]

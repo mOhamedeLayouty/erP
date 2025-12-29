@@ -1,0 +1,6 @@
+TABLE: DBA.ws_cat_op_item_temp
+ORDER_BY: entrydate
+COLUMNS: catid, op_code, itemid, qty, userid, entrydate, sparepart
+ROWS: 0
+---
+[]

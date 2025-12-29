@@ -1,0 +1,117 @@
+TABLE: DBA.employee_off_times
+ORDER_BY: location_id
+COLUMNS: line_code, emp_code, work_date, case_reason, from_time, to_time, time_calc, service_center, location_id
+ROWS: 10
+---
+[
+  {
+    "line_code": "1",
+    "emp_code": "5552",
+    "work_date": "2025-07-09",
+    "case_reason": null,
+    "from_time": "09:00:00",
+    "to_time": "05:00:00",
+    "time_calc": 0,
+    "service_center": 1,
+    "location_id": 15
+  },
+  {
+    "line_code": "3",
+    "emp_code": "5552",
+    "work_date": "2025-07-12",
+    "case_reason": null,
+    "from_time": "09:00:00",
+    "to_time": "00:00:00",
+    "time_calc": 0,
+    "service_center": 1,
+    "location_id": 15
+  },
+  {
+    "line_code": "2",
+    "emp_code": "5552",
+    "work_date": "2025-07-08",
+    "case_reason": null,
+    "from_time": "09:00:00",
+    "to_time": "17:00:00",
+    "time_calc": 8,
+    "service_center": 1,
+    "location_id": 15
+  },
+  {
+    "line_code": "7",
+    "emp_code": "5330",
+    "work_date": "2021-11-03",
+    "case_reason": "W15",
+    "from_time": "08:30:00",
+    "to_time": "17:30:00",
+    "time_calc": 9,
+    "service_center": 1,
+    "location_id": 4
+  },
+  {
+    "line_code": "4",
+    "emp_code": "5353",
+    "work_date": "2021-11-02",
+    "case_reason": "W15",
+    "from_time": "08:30:00",
+    "to_time": "17:30:00",
+    "time_calc": 9,
+    "service_center": 1,
+    "location_id": 4
+  },
+  {
+    "line_code": "8",
+    "emp_code": "5355",
+    "work_date": "2021-11-03",
+    "case_reason": "W15",
+    "from_time": "08:30:00",
+    "to_time": "17:30:00",
+    "time_calc": 9,
+    "service_center": 1,
+    "location_id": 4
+  },
+  {
+    "line_code": "6",
+    "emp_code": "5353",
+    "work_date": "2021-11-03",
+    "case_reason": "W15",
+    "from_time": "08:30:00",
+    "to_time": "17:30:00",
+    "time_calc": 9,
+    "service_center": 1,
+    "location_id": 4
+  },
+  {
+    "line_code": "5",
+    "emp_code": "5330",
+    "work_date": "2021-11-02",
+    "case_reason": "W15",
+    "from_time": "08:30:00",
+    "to_time": "17:30:00",
+    "time_calc": 9,
+    "service_center": 1,
+    "location_id": 4
+  },
+  {
+    "line_code": "3",
+    "emp_code": "5352",
+    "work_date": "2021-11-02",
+    "case_reason": "W15",
+    "from_time": "08:30:00",
+    "to_time": "17:30:00",
+    "time_calc": 9,
+    "service_center": 1,
+    "location_id": 4
+  },
+  {
+    "line_code": "1",
+    "emp_code": "5244",
+    "work_date": "2021-06-29",
+    "case_reason": "W15",
+    "from_time": "10:00:00",
+    "to_time": "17:30:00",
+    "time_calc": 7.5,
+    "service_center": 1,
+    "location_id": 4
+  }
+]

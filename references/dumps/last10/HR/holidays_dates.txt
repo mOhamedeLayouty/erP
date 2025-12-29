@@ -1,0 +1,67 @@
+TABLE: HR.holidays_dates
+ORDER_BY: holiday_date
+COLUMNS: line_code, holiday_year, holiday_date, holiday_description
+ROWS: 10
+---
+[
+  {
+    "line_code": "90",
+    "holiday_year": 2025,
+    "holiday_date": "2025-11-01",
+    "holiday_description": "3"
+  },
+  {
+    "line_code": "89",
+    "holiday_year": 2025,
+    "holiday_date": "2025-10-09",
+    "holiday_description": "13"
+  },
+  {
+    "line_code": "88",
+    "holiday_year": 2025,
+    "holiday_date": "2025-09-04",
+    "holiday_description": "12"
+  },
+  {
+    "line_code": "87",
+    "holiday_year": 2025,
+    "holiday_date": "2025-07-24",
+    "holiday_description": "4"
+  },
+  {
+    "line_code": "86",
+    "holiday_year": 2025,
+    "holiday_date": "2025-07-03",
+    "holiday_description": "5"
+  },
+  {
+    "line_code": "85",
+    "holiday_year": 2025,
+    "holiday_date": "2025-06-26",
+    "holiday_description": "11"
+  },
+  {
+    "line_code": "84",
+    "holiday_year": 2025,
+    "holiday_date": "2025-06-09",
+    "holiday_description": "1"
+  },
+  {
+    "line_code": "83",
+    "holiday_year": 2025,
+    "holiday_date": "2025-06-08",
+    "holiday_description": "1"
+  },
+  {
+    "line_code": "82",
+    "holiday_year": 2025,
+    "holiday_date": "2025-06-07",
+    "holiday_description": "1"
+  },
+  {
+    "line_code": "81",
+    "holiday_year": 2025,
+    "holiday_date": "2025-06-06",
+    "holiday_description": "1"
+  }
+]

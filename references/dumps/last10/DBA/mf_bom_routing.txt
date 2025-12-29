@@ -1,0 +1,6 @@
+TABLE: DBA.mf_bom_routing
+ORDER_BY: entry_date
+COLUMNS: id, bom_item_id, group_id, operation_desc_a, operation_desc_e, setup_time, cycle_time, fixed_cost, variable_cost, qty, sequence, parallelize, emp_code_1, emp_code_2, service_center, location_id, entry_date, entry_user, edit_date, edit_user
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: DBA.fx_vendors
+ORDER_BY: (none)
+COLUMNS: off_tel, off_fax, store_add1, store_add2, store_city, store_country, store_tel, store_fax, contact, cus_srv_tel, tech_sup_tel, www, email, co_acc_num, min_ord, fright_cost, rem, vend_code, vend_name, off_add1, off_add2, off_city, off_country, vend_group, acc_no, store_add1_e, store_add2_e, contact_e, off_add1_e, off_add2_e, vend_name_e
+ROWS: 0
+---
+[]

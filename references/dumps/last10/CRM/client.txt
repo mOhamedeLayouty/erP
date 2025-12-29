@@ -1,0 +1,29 @@
+TABLE: CRM.client
+ORDER_BY: start_date
+COLUMNS: client_code, client_name, client_server, client_database, client_userid, client_password, logo_path, mail_dw, gen_user, working, logo_width, logo_height, start_date, end_date, search_way, status, web_color_1, buy_sale, buy_sale_rent, call_back_hrs
+ROWS: 1
+---
+[
+  {
+    "client_code": "1",
+    "client_name": "Dynamics",
+    "client_server": "new",
+    "client_database": "Dynamics",
+    "client_userid": "CRM",
+    "client_password": "measuring16ft",
+    "logo_path": null,
+    "mail_dw": null,
+    "gen_user": null,
+    "working": null,
+    "logo_width": null,
+    "logo_height": null,
+    "start_date": null,
+    "end_date": null,
+    "search_way": 0,
+    "status": null,
+    "web_color_1": null,
+    "buy_sale": null,
+    "buy_sale_rent": null,
+    "call_back_hrs": 1
+  }
+]

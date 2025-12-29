@@ -1,0 +1,6 @@
+TABLE: DBA.NotificationTransactions
+ORDER_BY: EntryDate
+COLUMNS: NotificationTransactionId, NotificationTypeId, SendTypeId, Title, Body, CustomerId, VendorId, Mobile, Email, UserId, GroupId, EntryUserId, EntryDate, ExpireDate, IsApproved, IsSent, SentDate, SentNotes, voucherid
+ROWS: 0
+---
+[]

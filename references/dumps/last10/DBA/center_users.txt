@@ -1,0 +1,57 @@
+TABLE: DBA.center_users
+ORDER_BY: center_id
+COLUMNS: user_name, center_id, isdefault
+ROWS: 10
+---
+[
+  {
+    "user_name": "hany adly",
+    "center_id": 1,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "mohamed.ezz",
+    "center_id": 1,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "mohamed.fattahg",
+    "center_id": 1,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "tamer.gabr",
+    "center_id": 1,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "ahmed.m",
+    "center_id": 1,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "abdallah.z",
+    "center_id": 1,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "ahmed.hashad",
+    "center_id": 1,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "aly.reda",
+    "center_id": 1,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "abdnasser",
+    "center_id": 1,
+    "isdefault": "Y"
+  },
+  {
+    "user_name": "11",
+    "center_id": 1,
+    "isdefault": "Y"
+  }
+]

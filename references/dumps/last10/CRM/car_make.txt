@@ -1,0 +1,32 @@
+TABLE: CRM.car_make
+ORDER_BY: id
+COLUMNS: id, description, description_a
+ROWS: 5
+---
+[
+  {
+    "id": "5",
+    "description": "JEEP",
+    "description_a": "Jeep"
+  },
+  {
+    "id": "4",
+    "description": "OTHERS",
+    "description_a": "OTHERS"
+  },
+  {
+    "id": "3",
+    "description": "FIAT Pro",
+    "description_a": "FIAT Professional "
+  },
+  {
+    "id": "2",
+    "description": "ALFA ROMEO",
+    "description_a": "ALFA ROMEO"
+  },
+  {
+    "id": "1",
+    "description": "FIAT",
+    "description_a": "FIAT"
+  }
+]

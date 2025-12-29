@@ -1,0 +1,6 @@
+TABLE: dbo.sa_diagnostic_tracing_level
+ORDER_BY: id
+COLUMNS: id, scope, identifier, trace_type, trace_condition, value, enabled
+ROWS: 0
+---
+[]

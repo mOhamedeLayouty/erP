@@ -1,0 +1,6 @@
+TABLE: DBA.sc_cust_request_detail
+ORDER_BY: item_id
+COLUMNS: request_code, request_detail, item_id, qty, price, notes, service_center
+ROWS: 0
+---
+[]

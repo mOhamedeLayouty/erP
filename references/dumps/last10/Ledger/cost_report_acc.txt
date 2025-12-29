@@ -1,0 +1,6 @@
+TABLE: Ledger.cost_report_acc
+ORDER_BY: report_id
+COLUMNS: report_id, type_id, acc_no, sort_order
+ROWS: 0
+---
+[]

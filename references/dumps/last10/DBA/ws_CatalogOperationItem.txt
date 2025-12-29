@@ -1,0 +1,107 @@
+TABLE: DBA.ws_CatalogOperationItem
+ORDER_BY: entry_date
+COLUMNS: CatalogID, OperationID, ItemID, Qty, user_id, entry_date, SparePart, service_center
+ROWS: 10
+---
+[
+  {
+    "CatalogID": 12,
+    "OperationID": 5272,
+    "ItemID": "22",
+    "Qty": 1,
+    "user_id": "mohamed.ay",
+    "entry_date": "2024-03-13 13:38:35.230000",
+    "SparePart": "7087808",
+    "service_center": 1
+  },
+  {
+    "CatalogID": 12,
+    "OperationID": 5272,
+    "ItemID": "7103",
+    "Qty": 1,
+    "user_id": "mohamed.ay",
+    "entry_date": "2024-03-13 13:37:28.045000",
+    "SparePart": "TO361",
+    "service_center": 1
+  },
+  {
+    "CatalogID": 12,
+    "OperationID": 5272,
+    "ItemID": "7102",
+    "Qty": 4,
+    "user_id": "mohamed.ay",
+    "entry_date": "2024-03-13 13:37:05.317000",
+    "SparePart": "TO360",
+    "service_center": 1
+  },
+  {
+    "CatalogID": 23,
+    "OperationID": 3170,
+    "ItemID": "4705",
+    "Qty": 1,
+    "user_id": null,
+    "entry_date": "2022-06-19 09:59:33.772000",
+    "SparePart": "L0350",
+    "service_center": 1
+  },
+  {
+    "CatalogID": 23,
+    "OperationID": 3170,
+    "ItemID": "295",
+    "Qty": 1,
+    "user_id": null,
+    "entry_date": "2022-06-19 09:58:05.089000",
+    "SparePart": "46544820",
+    "service_center": 1
+  },
+  {
+    "CatalogID": 23,
+    "OperationID": 3170,
+    "ItemID": "4708",
+    "Qty": 4,
+    "user_id": "ahmed.m",
+    "entry_date": "2022-06-19 09:58:00.761000",
+    "SparePart": "L0360",
+    "service_center": 1
+  },
+  {
+    "CatalogID": 15,
+    "OperationID": 3181,
+    "ItemID": "295",
+    "Qty": 1,
+    "user_id": null,
+    "entry_date": "2021-08-05 11:48:47.221000",
+    "SparePart": "46544820",
+    "service_center": 1
+  },
+  {
+    "CatalogID": 15,
+    "OperationID": 3181,
+    "ItemID": "4708",
+    "Qty": 4,
+    "user_id": "ahmed.m",
+    "entry_date": "2021-08-05 11:48:44.641000",
+    "SparePart": "L0360",
+    "service_center": 1
+  },
+  {
+    "CatalogID": 15,
+    "OperationID": 3181,
+    "ItemID": "4664",
+    "Qty": 1,
+    "user_id": null,
+    "entry_date": "2021-08-05 11:48:19.081000",
+    "SparePart": "L00042",
+    "service_center": 1
+  },
+  {
+    "CatalogID": 17,
+    "OperationID": 3181,
+    "ItemID": "4664",
+    "Qty": 1,
+    "user_id": null,
+    "entry_date": "2021-08-05 11:46:56.200000",
+    "SparePart": "L00042",
+    "service_center": 1
+  }
+]

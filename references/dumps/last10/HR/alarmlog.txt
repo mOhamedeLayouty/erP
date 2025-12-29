@@ -1,0 +1,6 @@
+TABLE: HR.alarmlog
+ORDER_BY: id
+COLUMNS: id, operator, enrollnumber, logtime, machinealias, alarmtype
+ROWS: 0
+---
+[]

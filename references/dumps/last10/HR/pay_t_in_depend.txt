@@ -1,0 +1,117 @@
+TABLE: HR.pay_t_in_depend
+ORDER_BY: entry_date
+COLUMNS: p_in_code, p_income_deduction, s_in_code, s_income_deduction, in_dep_per, in_dep_max_val, in_dep_min_val, entry_date, user_id
+ROWS: 10
+---
+[
+  {
+    "p_in_code": 1,
+    "p_income_deduction": "I",
+    "s_in_code": 121,
+    "s_income_deduction": "D",
+    "in_dep_per": 100,
+    "in_dep_max_val": 999999,
+    "in_dep_min_val": 1,
+    "entry_date": "2022-07-20 10:51:11.037000",
+    "user_id": "loay.s"
+  },
+  {
+    "p_in_code": 1,
+    "p_income_deduction": "I",
+    "s_in_code": 120,
+    "s_income_deduction": "D",
+    "in_dep_per": 100,
+    "in_dep_max_val": 999999,
+    "in_dep_min_val": 1,
+    "entry_date": "2022-07-20 10:51:11.031000",
+    "user_id": "loay.s"
+  },
+  {
+    "p_in_code": 1,
+    "p_income_deduction": "I",
+    "s_in_code": 119,
+    "s_income_deduction": "D",
+    "in_dep_per": 100,
+    "in_dep_max_val": 999999,
+    "in_dep_min_val": 1,
+    "entry_date": "2022-07-20 10:51:11.023000",
+    "user_id": "loay.s"
+  },
+  {
+    "p_in_code": 1,
+    "p_income_deduction": "I",
+    "s_in_code": 118,
+    "s_income_deduction": "D",
+    "in_dep_per": 100,
+    "in_dep_max_val": 999999,
+    "in_dep_min_val": 1,
+    "entry_date": "2022-07-20 10:51:11.015000",
+    "user_id": "loay.s"
+  },
+  {
+    "p_in_code": 1,
+    "p_income_deduction": "I",
+    "s_in_code": 117,
+    "s_income_deduction": "D",
+    "in_dep_per": 100,
+    "in_dep_max_val": 999999,
+    "in_dep_min_val": 1,
+    "entry_date": "2022-07-20 10:51:11.008000",
+    "user_id": "loay.s"
+  },
+  {
+    "p_in_code": 1,
+    "p_income_deduction": "I",
+    "s_in_code": 116,
+    "s_income_deduction": "D",
+    "in_dep_per": 100,
+    "in_dep_max_val": 999999,
+    "in_dep_min_val": 1,
+    "entry_date": "2022-07-20 10:51:11.002000",
+    "user_id": "loay.s"
+  },
+  {
+    "p_in_code": 1,
+    "p_income_deduction": "I",
+    "s_in_code": 115,
+    "s_income_deduction": "D",
+    "in_dep_per": 100,
+    "in_dep_max_val": 999999,
+    "in_dep_min_val": 1,
+    "entry_date": "2022-07-20 10:51:10.995000",
+    "user_id": "loay.s"
+  },
+  {
+    "p_in_code": 1,
+    "p_income_deduction": "I",
+    "s_in_code": 114,
+    "s_income_deduction": "D",
+    "in_dep_per": 100,
+    "in_dep_max_val": 999999,
+    "in_dep_min_val": 1,
+    "entry_date": "2022-07-20 10:51:10.983000",
+    "user_id": "loay.s"
+  },
+  {
+    "p_in_code": 1,
+    "p_income_deduction": "I",
+    "s_in_code": 113,
+    "s_income_deduction": "D",
+    "in_dep_per": 100,
+    "in_dep_max_val": 999999,
+    "in_dep_min_val": 1,
+    "entry_date": "2022-07-20 10:51:10.976000",
+    "user_id": "loay.s"
+  },
+  {
+    "p_in_code": 1,
+    "p_income_deduction": "I",
+    "s_in_code": 112,
+    "s_income_deduction": "D",
+    "in_dep_per": 100,
+    "in_dep_max_val": 999999,
+    "in_dep_min_val": 1,
+    "entry_date": "2022-07-20 10:51:10.969000",
+    "user_id": "loay.s"
+  }
+]

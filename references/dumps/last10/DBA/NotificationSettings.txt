@@ -1,0 +1,6 @@
+TABLE: DBA.NotificationSettings
+ORDER_BY: (none)
+COLUMNS: SMSAPI, SMSUser, SMSPass, SMSFrom, SmtpSender, SmtpServer, SmtpPort, SmtpTimeout, SmtpSenderName, SmtpAuthUserName, SmtpAuthPassword, TrustedCertificates, SmtpType, SmtpAuth, SmtpEncrypt, SmtpSavelog, SmtpHtml, SmtpReturnReceipt
+ROWS: 0
+---
+[]

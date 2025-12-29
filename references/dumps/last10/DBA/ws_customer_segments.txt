@@ -1,0 +1,12 @@
+TABLE: DBA.ws_customer_segments
+ORDER_BY: id
+COLUMNS: id, customer_segment_e, customer_segment_a
+ROWS: 1
+---
+[
+  {
+    "id": "1",
+    "customer_segment_e": null,
+    "customer_segment_a": null
+  }
+]

@@ -1,0 +1,25 @@
+TABLE: DBA.po_item_group
+ORDER_BY: item_group_id
+COLUMNS: item_group_id, item_group_name, item_parent, item_group_name_e
+ROWS: 3
+---
+[
+  {
+    "item_group_id": "3",
+    "item_group_name": "������ 2",
+    "item_parent": "",
+    "item_group_name_e": "Group 2"
+  },
+  {
+    "item_group_id": "2",
+    "item_group_name": "������ 3",
+    "item_parent": "",
+    "item_group_name_e": "Group 3"
+  },
+  {
+    "item_group_id": "1",
+    "item_group_name": "General",
+    "item_parent": null,
+    "item_group_name_e": "General"
+  }
+]

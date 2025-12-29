@@ -1,0 +1,6 @@
+TABLE: CRM.wayout_dsl_package_info
+ORDER_BY: (none)
+COLUMNS: client_code, type, processor, o_s, display, sys_memory, hdd, optical_devices, modem_lan, wireless, networkig, add_ons, price
+ROWS: 0
+---
+[]

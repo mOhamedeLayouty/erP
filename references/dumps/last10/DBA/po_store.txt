@@ -1,0 +1,22 @@
+TABLE: DBA.po_store
+ORDER_BY: store_id
+COLUMNS: store_id, store_name, store_name_e, store_address_e, store_address, country, city, area, contact_name, tel_no, fax_no, acc_no, target
+ROWS: 1
+---
+[
+  {
+    "store_id": 1,
+    "store_name": "���� 1",
+    "store_name_e": "Store 1",
+    "store_address_e": null,
+    "store_address": "������",
+    "country": null,
+    "city": null,
+    "area": null,
+    "contact_name": null,
+    "tel_no": null,
+    "fax_no": null,
+    "acc_no": null,
+    "target": null
+  }
+]

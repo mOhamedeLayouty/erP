@@ -1,0 +1,6 @@
+TABLE: HR.hr_s_organization_unit
+ORDER_BY: entry_date
+COLUMNS: org_unit_code, org_unit_title, org_unit_title_arabic, org_unit_manager, org_unit_level, org_unit_super_level, entry_date, user_id
+ROWS: 0
+---
+[]

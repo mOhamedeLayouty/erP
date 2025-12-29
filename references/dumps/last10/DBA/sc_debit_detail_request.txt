@@ -1,0 +1,6 @@
+TABLE: DBA.sc_debit_detail_request
+ORDER_BY: item_id
+COLUMNS: debit_detail, price, notes, exp, debit_header, qty, item_id, invoicetype, item_cost, status, service_center, location_id
+ROWS: 0
+---
+[]

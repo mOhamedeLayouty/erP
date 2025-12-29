@@ -1,0 +1,6 @@
+TABLE: DBA.sc_vendor_list
+ORDER_BY: list_upload_date
+COLUMNS: batch_no, fabr, partcode, int, expartcode, wa, partdesc, price, currency, est, an_vp1, gw, zollcod, ursp, tg, ceps, tsg, an_vp2, referpreis, refer_tg, refer_mena, sparte, un_num, exprice, list_upload_date
+ROWS: 0
+---
+[]

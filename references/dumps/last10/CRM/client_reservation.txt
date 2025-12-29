@@ -1,0 +1,6 @@
+TABLE: CRM.client_reservation
+ORDER_BY: customer_id
+COLUMNS: client_code, reservationid, reserve_date, reserve_time, reserver, customer_id, car_driver, car_make, car_model, pmid, service_period, notes, status, labour_cost, spare_cost, total_cost, delete_flag, delete_user, delete_time, delete_reason, enter_date, arrival_flag, center_code, visit_flag, ref_res, late_cancel, year_of_make, service_advisor
+ROWS: 0
+---
+[]

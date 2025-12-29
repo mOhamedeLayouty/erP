@@ -1,0 +1,6 @@
+TABLE: CRM.Bavaria
+ORDER_BY: (none)
+COLUMNS: customer_code, customer_name, site, Country, city, area_code, Phone1, Phone2, Phone3, mobile, mobile2, notes, customer_type, source
+ROWS: 0
+---
+[]

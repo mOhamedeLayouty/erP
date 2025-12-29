@@ -1,0 +1,47 @@
+TABLE: dbo.EXCLUDEOBJECT
+ORDER_BY: (none)
+COLUMNS: name, type
+ROWS: 10
+---
+[
+  {
+    "name": "RowGenerator",
+    "type": "U"
+  },
+  {
+    "name": "synchronize_results",
+    "type": "U"
+  },
+  {
+    "name": "synchronize_parameters",
+    "type": "U"
+  },
+  {
+    "name": "satmp_request_time",
+    "type": "U"
+  },
+  {
+    "name": "satmp_request_hostvar",
+    "type": "U"
+  },
+  {
+    "name": "satmp_request_profile",
+    "type": "U"
+  },
+  {
+    "name": "satmp_request_block",
+    "type": "U"
+  },
+  {
+    "name": "omni_rset_fetch_table",
+    "type": "U"
+  },
+  {
+    "name": "gtt_dbremote_temp",
+    "type": "U"
+  },
+  {
+    "name": "rs_lastcommit",
+    "type": "E"
+  }
+]

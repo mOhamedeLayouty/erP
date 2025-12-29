@@ -1,0 +1,22 @@
+TABLE: DBA.magazines
+ORDER_BY: magazines_id
+COLUMNS: magazines_id, desc_e, desc_a
+ROWS: 3
+---
+[
+  {
+    "magazines_id": "3",
+    "desc_e": "������",
+    "desc_a": "������"
+  },
+  {
+    "magazines_id": "16",
+    "desc_e": "��������",
+    "desc_a": "��������"
+  },
+  {
+    "magazines_id": "14",
+    "desc_e": "������",
+    "desc_a": "������"
+  }
+]

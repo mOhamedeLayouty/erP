@@ -1,0 +1,6 @@
+TABLE: HR.ft_machines
+ORDER_BY: entry_date
+COLUMNS: machine_id, name_a, name_e, device_model, ip_address, port_no, device_no, comm_key, notes, entry_user, entry_date, edit_user, edit_date
+ROWS: 0
+---
+[]

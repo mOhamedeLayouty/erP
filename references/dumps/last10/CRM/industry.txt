@@ -1,0 +1,77 @@
+TABLE: CRM.industry
+ORDER_BY: (none)
+COLUMNS: industry_code, industry_desc, insudtry_category, industry_desc_a, status
+ROWS: 10
+---
+[
+  {
+    "industry_code": "1",
+    "industry_desc": "Accountancy/Auditing",
+    "insudtry_category": "1",
+    "industry_desc_a": "Accountancy/Auditing",
+    "status": 0
+  },
+  {
+    "industry_code": "10",
+    "industry_desc": "Banking and Financial Services",
+    "insudtry_category": "1",
+    "industry_desc_a": "Banking and Financial Services",
+    "status": 0
+  },
+  {
+    "industry_code": "11",
+    "industry_desc": "Bio technology and Life Sciences",
+    "insudtry_category": "1",
+    "industry_desc_a": "Bio technology and Life Sciences",
+    "status": 0
+  },
+  {
+    "industry_code": "12",
+    "industry_desc": "Building and Construction Materials",
+    "insudtry_category": "1",
+    "industry_desc_a": "Building and Construction Materials",
+    "status": 0
+  },
+  {
+    "industry_code": "13",
+    "industry_desc": "Business Consultancy Services",
+    "insudtry_category": "1",
+    "industry_desc_a": "Business Consultancy Services",
+    "status": 0
+  },
+  {
+    "industry_code": "14",
+    "industry_desc": "Chemicals, Coal, Plastics and Rubber",
+    "insudtry_category": "1",
+    "industry_desc_a": "Chemicals, Coal, Plastics and Rubber",
+    "status": 0
+  },
+  {
+    "industry_code": "15",
+    "industry_desc": "Communications, Public Relations (PR)",
+    "insudtry_category": "1",
+    "industry_desc_a": "Communications, Public Relations (PR)",
+    "status": 0
+  },
+  {
+    "industry_code": "16",
+    "industry_desc": "Community/ Social Services and Non-Profit",
+    "insudtry_category": "1",
+    "industry_desc_a": "Community/ Social Services and Non-Profit",
+    "status": 0
+  },
+  {
+    "industry_code": "17",
+    "industry_desc": "Computer & IT Products and Services",
+    "insudtry_category": "1",
+    "industry_desc_a": "Computer & IT Products and Services",
+    "status": 0
+  },
+  {
+    "industry_code": "18",
+    "industry_desc": "Construction and Planning",
+    "insudtry_category": "1",
+    "industry_desc_a": "Construction and Planning",
+    "status": 0
+  }
+]

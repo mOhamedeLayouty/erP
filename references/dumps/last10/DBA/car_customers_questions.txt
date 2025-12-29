@@ -1,0 +1,6 @@
+TABLE: DBA.car_customers_questions
+ORDER_BY: question_id
+COLUMNS: debit_header, question_id, answer_value, log_store, brand
+ROWS: 0
+---
+[]

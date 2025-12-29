@@ -1,0 +1,6 @@
+TABLE: HR.pay_accumulated_codes
+ORDER_BY: entry_date
+COLUMNS: accum_code, accum_desc, acc_income_percent, acc_max_per_from_sal, acc_max_value, user_id, entry_date
+ROWS: 0
+---
+[]

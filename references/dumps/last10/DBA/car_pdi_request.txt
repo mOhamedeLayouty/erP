@@ -1,0 +1,6 @@
+TABLE: DBA.car_pdi_request
+ORDER_BY: entry_date
+COLUMNS: id, request_date, log_store, request_id, vehicle_id, vehicle_vin, customer_id, entry_user, entry_date, edit_user, edit_date, delete_flag, delete_user, delete_date, printed_flag, brand, notes
+ROWS: 0
+---
+[]

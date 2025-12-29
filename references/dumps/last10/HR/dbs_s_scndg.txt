@@ -1,0 +1,70 @@
+TABLE: HR.dbs_s_scndg
+ORDER_BY: entry_date
+COLUMNS: scndg_code, scndg_desc_e, scndg_desc_a, entry_date, user_id
+ROWS: 9
+---
+[
+  {
+    "scndg_code": 9,
+    "scndg_desc_e": "���",
+    "scndg_desc_a": "���",
+    "entry_date": "2002-08-06 14:07:59.444000",
+    "user_id": "HR"
+  },
+  {
+    "scndg_code": 8,
+    "scndg_desc_e": "���� �����",
+    "scndg_desc_a": "���� �����",
+    "entry_date": "2002-08-06 14:07:49.256000",
+    "user_id": "HR"
+  },
+  {
+    "scndg_code": 7,
+    "scndg_desc_e": "��������",
+    "scndg_desc_a": "��������",
+    "entry_date": "2002-08-06 14:07:39.053000",
+    "user_id": "HR"
+  },
+  {
+    "scndg_code": 6,
+    "scndg_desc_e": "�������",
+    "scndg_desc_a": "�������",
+    "entry_date": "2002-08-06 14:07:26.724000",
+    "user_id": "HR"
+  },
+  {
+    "scndg_code": 5,
+    "scndg_desc_e": "������ �� ����� �����",
+    "scndg_desc_a": "������ �� ����� �����",
+    "entry_date": "2002-08-06 14:03:28.134000",
+    "user_id": "HR"
+  },
+  {
+    "scndg_code": 4,
+    "scndg_desc_e": "���� ��� �������",
+    "scndg_desc_a": "���� ��� �������",
+    "entry_date": "2002-08-06 14:03:17.524000",
+    "user_id": "HR"
+  },
+  {
+    "scndg_code": 3,
+    "scndg_desc_e": "���� ���",
+    "scndg_desc_a": "���� ���",
+    "entry_date": "2002-08-06 14:02:59.757000",
+    "user_id": "HR"
+  },
+  {
+    "scndg_code": 2,
+    "scndg_desc_e": "Doctor",
+    "scndg_desc_a": "�������",
+    "entry_date": "2002-08-06 14:01:36.909000",
+    "user_id": "HR"
+  },
+  {
+    "scndg_code": 1,
+    "scndg_desc_e": "�������",
+    "scndg_desc_a": "�������",
+    "entry_date": "2002-08-06 14:01:29.737000",
+    "user_id": "HR"
+  }
+]

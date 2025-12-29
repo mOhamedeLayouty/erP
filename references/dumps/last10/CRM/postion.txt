@@ -1,0 +1,67 @@
+TABLE: CRM.postion
+ORDER_BY: (none)
+COLUMNS: postion_code, postion_desc, postion_desc_a, status
+ROWS: 10
+---
+[
+  {
+    "postion_code": "1",
+    "postion_desc": "CEO",
+    "postion_desc_a": "���� ���",
+    "status": 1
+  },
+  {
+    "postion_code": "11",
+    "postion_desc": "pharmacist",
+    "postion_desc_a": "����� ",
+    "status": 1
+  },
+  {
+    "postion_code": "12",
+    "postion_desc": "artist",
+    "postion_desc_a": "����",
+    "status": 1
+  },
+  {
+    "postion_code": "13",
+    "postion_desc": "lawyer",
+    "postion_desc_a": "�����",
+    "status": 1
+  },
+  {
+    "postion_code": "14",
+    "postion_desc": "owner",
+    "postion_desc_a": "����",
+    "status": 1
+  },
+  {
+    "postion_code": "15",
+    "postion_desc": "Teacher",
+    "postion_desc_a": "����",
+    "status": 1
+  },
+  {
+    "postion_code": "16",
+    "postion_desc": "Jornalist",
+    "postion_desc_a": "����",
+    "status": 1
+  },
+  {
+    "postion_code": "17",
+    "postion_desc": "Manager",
+    "postion_desc_a": "����",
+    "status": 1
+  },
+  {
+    "postion_code": "18",
+    "postion_desc": "university Doctor",
+    "postion_desc_a": "����� �����",
+    "status": 1
+  },
+  {
+    "postion_code": "19",
+    "postion_desc": "officer",
+    "postion_desc_a": "����",
+    "status": 1
+  }
+]

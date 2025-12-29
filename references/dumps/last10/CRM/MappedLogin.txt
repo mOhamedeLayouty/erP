@@ -1,0 +1,11 @@
+TABLE: CRM.MappedLogin
+ORDER_BY: (none)
+COLUMNS: AltitudeLogin, ProactiveLogin
+ROWS: 1
+---
+[
+  {
+    "AltitudeLogin": "a.murtada",
+    "ProactiveLogin": "a.murtada"
+  }
+]

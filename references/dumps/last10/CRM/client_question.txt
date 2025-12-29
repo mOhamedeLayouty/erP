@@ -1,0 +1,6 @@
+TABLE: CRM.client_question
+ORDER_BY: (none)
+COLUMNS: client_code, question_no, question, answer
+ROWS: 0
+---
+[]

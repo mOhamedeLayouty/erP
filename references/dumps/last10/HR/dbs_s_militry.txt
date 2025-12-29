@@ -1,0 +1,63 @@
+TABLE: HR.dbs_s_militry
+ORDER_BY: entry_date
+COLUMNS: mil_code, mil_desc_e, mil_desc_a, entry_date, user_id
+ROWS: 8
+---
+[
+  {
+    "mil_code": 8,
+    "mil_desc_e": "���� ( ���� ���� )",
+    "mil_desc_a": "���� ( ���� ���� )",
+    "entry_date": "2004-06-29 12:38:31.135000",
+    "user_id": "hr"
+  },
+  {
+    "mil_code": 7,
+    "mil_desc_e": "����� ����� ( ���� �� ������� )",
+    "mil_desc_a": "����� ����� ( ���� �� ������� )",
+    "entry_date": "2002-08-13 12:50:05.665000",
+    "user_id": "HR"
+  },
+  {
+    "mil_code": 6,
+    "mil_desc_e": "��� ���� ����",
+    "mil_desc_a": "��� ���� ����",
+    "entry_date": "2002-07-20 13:36:10.395000",
+    "user_id": "HR"
+  },
+  {
+    "mil_code": 5,
+    "mil_desc_e": "�� ���� �����",
+    "mil_desc_a": "�� ���� �����",
+    "entry_date": "2002-07-20 13:36:01.410000",
+    "user_id": "HR"
+  },
+  {
+    "mil_code": 4,
+    "mil_desc_e": "����� ����",
+    "mil_desc_a": "����� ����",
+    "entry_date": "2002-03-24 16:14:47.874000",
+    "user_id": "HR"
+  },
+  {
+    "mil_code": 3,
+    "mil_desc_e": "��� ������",
+    "mil_desc_a": "��� ������",
+    "entry_date": "2002-03-24 16:14:10.421000",
+    "user_id": "HR"
+  },
+  {
+    "mil_code": 2,
+    "mil_desc_e": "�����",
+    "mil_desc_a": "����",
+    "entry_date": "2002-03-24 16:13:21.796000",
+    "user_id": "HR"
+  },
+  {
+    "mil_code": 1,
+    "mil_desc_e": "����",
+    "mil_desc_a": "����",
+    "entry_date": "2002-03-24 16:12:39.546000",
+    "user_id": "HR"
+  }
+]

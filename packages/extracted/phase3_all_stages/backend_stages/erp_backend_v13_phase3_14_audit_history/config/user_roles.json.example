@@ -1,0 +1,12 @@
+{
+  "by_user_id": {
+    "ADMIN": [
+      "Admin"
+    ]
+  },
+  "by_user_name": {
+    "admin": [
+      "Admin"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+TABLE: CRM.client_form
+ORDER_BY: currentdate
+COLUMNS: client_code, form_serial, aggent_name, currentdate, customer_name_a, customer_name_e, customer_code, customer_address, customer_phon1, customer_phon2, date_of_birth, card_type, card_no, request_limit, id_no, delivery_time, customer_comment, form_status, expiration_date, customer_phon3, customer_mob, customer_fax, email, max_limit, unit_price, total_price, product_type, client_type, contact_name, contact_dep, call_back, customer_address_a, city, area, delivery_times, notes, customer_source, product_type2, product_type3, product_type4, form_type, db_source, customer_source_detail, contact_method, call_shift
+ROWS: 0
+---
+[]

@@ -1,0 +1,52 @@
+TABLE: DBA.ws_care_questions
+ORDER_BY: question_id
+COLUMNS: question_id, text_e, text_a, user_id, question_date, service_center, group_id
+ROWS: 5
+---
+[
+  {
+    "question_id": 5,
+    "text_e": "Wrong Number",
+    "text_a": "Wrong Number",
+    "user_id": "mohamed.ay",
+    "question_date": "2024-05-09 12:39:11.281000",
+    "service_center": 1,
+    "group_id": 2
+  },
+  {
+    "question_id": 4,
+    "text_e": "Reservation",
+    "text_a": "Reservation",
+    "user_id": "mohamed.ay",
+    "question_date": "2024-05-09 12:08:28.224000",
+    "service_center": 1,
+    "group_id": 2
+  },
+  {
+    "question_id": 3,
+    "text_e": "Already Visit",
+    "text_a": "Already Visit",
+    "user_id": "mohamed.ay",
+    "question_date": "2024-05-09 12:08:08.575000",
+    "service_center": 1,
+    "group_id": 2
+  },
+  {
+    "question_id": 2,
+    "text_e": "No answer",
+    "text_a": "No answer",
+    "user_id": "mohamed.ay",
+    "question_date": "2024-05-09 11:55:02.389000",
+    "service_center": 1,
+    "group_id": 2
+  },
+  {
+    "question_id": 1,
+    "text_e": "Do you recommend us?",
+    "text_a": "�� ���Ϳ",
+    "user_id": "1",
+    "question_date": "2014-10-20 09:14:47.808000",
+    "service_center": 1,
+    "group_id": 1
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: HR.endhire_due
+ORDER_BY: entry_date
+COLUMNS: due_id, year, month, emp_code, amount, post_flag, notes, entry_user, entry_date, edit_user, edit_date
+ROWS: 0
+---
+[]

@@ -1,0 +1,87 @@
+TABLE: HR.dbs_s_section
+ORDER_BY: entry_date
+COLUMNS: dep_code, section_code, section_desc_e, section_desc_a, entry_date, user_id
+ROWS: 10
+---
+[
+  {
+    "dep_code": 14,
+    "section_code": 2,
+    "section_desc_e": "Auto Electrician Section",
+    "section_desc_a": "Auto Electrician Section",
+    "entry_date": null,
+    "user_id": null
+  },
+  {
+    "dep_code": 14,
+    "section_code": 3,
+    "section_desc_e": "Auto Painter Section",
+    "section_desc_a": "Auto Painter Section",
+    "entry_date": null,
+    "user_id": null
+  },
+  {
+    "dep_code": 14,
+    "section_code": 4,
+    "section_desc_e": "Auto Denter Section",
+    "section_desc_a": "Auto Denter Section",
+    "entry_date": null,
+    "user_id": null
+  },
+  {
+    "dep_code": 14,
+    "section_code": 5,
+    "section_desc_e": "Car Washing Section",
+    "section_desc_a": "Car Washing Section",
+    "entry_date": null,
+    "user_id": null
+  },
+  {
+    "dep_code": 14,
+    "section_code": 6,
+    "section_desc_e": "Mobile Service",
+    "section_desc_a": "Mobile Service",
+    "entry_date": null,
+    "user_id": null
+  },
+  {
+    "dep_code": 15,
+    "section_code": 7,
+    "section_desc_e": "������",
+    "section_desc_a": "������",
+    "entry_date": null,
+    "user_id": null
+  },
+  {
+    "dep_code": 1,
+    "section_code": 8,
+    "section_desc_e": "After sales",
+    "section_desc_a": "��������",
+    "entry_date": null,
+    "user_id": null
+  },
+  {
+    "dep_code": 15,
+    "section_code": 13,
+    "section_desc_e": "������ ���������",
+    "section_desc_a": "������ ���������",
+    "entry_date": null,
+    "user_id": null
+  },
+  {
+    "dep_code": 9,
+    "section_code": 10,
+    "section_desc_e": "��������",
+    "section_desc_a": "��������",
+    "entry_date": null,
+    "user_id": null
+  },
+  {
+    "dep_code": 14,
+    "section_code": 1,
+    "section_desc_e": "Auto Technician Section",
+    "section_desc_a": "Auto Technician Section",
+    "entry_date": null,
+    "user_id": null
+  }
+]

@@ -1,0 +1,47 @@
+TABLE: DBA.days_table
+ORDER_BY: (none)
+COLUMNS: my_day, day_name
+ROWS: 10
+---
+[
+  {
+    "my_day": "2025-12-23",
+    "day_name": "Tuesday"
+  },
+  {
+    "my_day": "2025-12-24",
+    "day_name": "Wednesday"
+  },
+  {
+    "my_day": "2025-12-25",
+    "day_name": "Thursday"
+  },
+  {
+    "my_day": "2025-12-26",
+    "day_name": "Friday"
+  },
+  {
+    "my_day": "2025-12-27",
+    "day_name": "Saturday"
+  },
+  {
+    "my_day": "2025-12-28",
+    "day_name": "Sunday"
+  },
+  {
+    "my_day": "2025-12-29",
+    "day_name": "Monday"
+  },
+  {
+    "my_day": "2025-12-30",
+    "day_name": "Tuesday"
+  },
+  {
+    "my_day": "2025-12-31",
+    "day_name": "Wednesday"
+  },
+  {
+    "my_day": "2026-01-01",
+    "day_name": "Thursday"
+  }
+]

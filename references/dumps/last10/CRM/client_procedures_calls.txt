@@ -1,0 +1,97 @@
+TABLE: CRM.client_procedures_calls
+ORDER_BY: call_id
+COLUMNS: call_id, client_code, procedure_id, start_date, end_date, status, user
+ROWS: 10
+---
+[
+  {
+    "call_id": 1,
+    "client_code": "1",
+    "procedure_id": 2,
+    "start_date": null,
+    "end_date": null,
+    "status": "O",
+    "user": null
+  },
+  {
+    "call_id": 1,
+    "client_code": "1",
+    "procedure_id": 3,
+    "start_date": null,
+    "end_date": null,
+    "status": "O",
+    "user": null
+  },
+  {
+    "call_id": 1,
+    "client_code": "1",
+    "procedure_id": 4,
+    "start_date": null,
+    "end_date": null,
+    "status": "O",
+    "user": null
+  },
+  {
+    "call_id": 1,
+    "client_code": "1",
+    "procedure_id": 5,
+    "start_date": null,
+    "end_date": null,
+    "status": "O",
+    "user": null
+  },
+  {
+    "call_id": 1,
+    "client_code": "1",
+    "procedure_id": 6,
+    "start_date": null,
+    "end_date": null,
+    "status": "O",
+    "user": null
+  },
+  {
+    "call_id": 1,
+    "client_code": "1",
+    "procedure_id": 7,
+    "start_date": null,
+    "end_date": null,
+    "status": "O",
+    "user": null
+  },
+  {
+    "call_id": 1,
+    "client_code": "1",
+    "procedure_id": 8,
+    "start_date": null,
+    "end_date": null,
+    "status": "O",
+    "user": null
+  },
+  {
+    "call_id": 1,
+    "client_code": "1",
+    "procedure_id": 9,
+    "start_date": null,
+    "end_date": null,
+    "status": "O",
+    "user": null
+  },
+  {
+    "call_id": 1,
+    "client_code": "1",
+    "procedure_id": 10,
+    "start_date": null,
+    "end_date": null,
+    "status": "O",
+    "user": null
+  },
+  {
+    "call_id": 1,
+    "client_code": "1",
+    "procedure_id": 1,
+    "start_date": null,
+    "end_date": null,
+    "status": "O",
+    "user": null
+  }
+]

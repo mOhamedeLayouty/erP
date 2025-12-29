@@ -1,0 +1,6 @@
+TABLE: HR.dbs_s_location
+ORDER_BY: entry_date
+COLUMNS: loc_code, loc_desc_e, loc_desc_a, user_id, entry_date
+ROWS: 0
+---
+[]

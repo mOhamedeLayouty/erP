@@ -1,0 +1,117 @@
+TABLE: HR.pay_h_emp_in
+ORDER_BY: entry_date
+COLUMNS: in_code, income_deduction, emp_code, in_year, in_month, in_month_val, in_month_entm, entry_date, user_id
+ROWS: 10
+---
+[
+  {
+    "in_code": 71,
+    "income_deduction": "D",
+    "emp_code": "5001",
+    "in_year": 2025,
+    "in_month": 11,
+    "in_month_val": 200,
+    "in_month_entm": null,
+    "entry_date": "2025-11-24 00:00:00.000000",
+    "user_id": "loay.s"
+  },
+  {
+    "in_code": 1,
+    "income_deduction": "I",
+    "emp_code": "5001",
+    "in_year": 2025,
+    "in_month": 11,
+    "in_month_val": 3000,
+    "in_month_entm": null,
+    "entry_date": "2025-11-24 00:00:00.000000",
+    "user_id": "loay.s"
+  },
+  {
+    "in_code": 76,
+    "income_deduction": "D",
+    "emp_code": "5001",
+    "in_year": 2025,
+    "in_month": 11,
+    "in_month_val": 200,
+    "in_month_entm": null,
+    "entry_date": "2025-11-24 00:00:00.000000",
+    "user_id": "loay.s"
+  },
+  {
+    "in_code": 72,
+    "income_deduction": "D",
+    "emp_code": "5001",
+    "in_year": 2025,
+    "in_month": 11,
+    "in_month_val": 200,
+    "in_month_entm": null,
+    "entry_date": "2025-11-24 00:00:00.000000",
+    "user_id": "loay.s"
+  },
+  {
+    "in_code": 127,
+    "income_deduction": "I",
+    "emp_code": "5001",
+    "in_year": 2025,
+    "in_month": 11,
+    "in_month_val": 300,
+    "in_month_entm": null,
+    "entry_date": "2025-11-24 00:00:00.000000",
+    "user_id": "loay.s"
+  },
+  {
+    "in_code": 122,
+    "income_deduction": "I",
+    "emp_code": "5001",
+    "in_year": 2025,
+    "in_month": 11,
+    "in_month_val": 40,
+    "in_month_entm": null,
+    "entry_date": "2025-11-24 00:00:00.000000",
+    "user_id": "loay.s"
+  },
+  {
+    "in_code": 69,
+    "income_deduction": "D",
+    "emp_code": "5001",
+    "in_year": 2025,
+    "in_month": 11,
+    "in_month_val": 200,
+    "in_month_entm": null,
+    "entry_date": "2025-11-24 00:00:00.000000",
+    "user_id": "loay.s"
+  },
+  {
+    "in_code": 73,
+    "income_deduction": "D",
+    "emp_code": "5001",
+    "in_year": 2025,
+    "in_month": 11,
+    "in_month_val": 200,
+    "in_month_entm": null,
+    "entry_date": "2025-11-24 00:00:00.000000",
+    "user_id": "loay.s"
+  },
+  {
+    "in_code": 28,
+    "income_deduction": "I",
+    "emp_code": "5001",
+    "in_year": 2025,
+    "in_month": 11,
+    "in_month_val": 1500,
+    "in_month_entm": null,
+    "entry_date": "2025-11-24 00:00:00.000000",
+    "user_id": "loay.s"
+  },
+  {
+    "in_code": 77,
+    "income_deduction": "D",
+    "emp_code": "5001",
+    "in_year": 2025,
+    "in_month": 11,
+    "in_month_val": 200,
+    "in_month_entm": null,
+    "entry_date": "2025-11-24 00:00:00.000000",
+    "user_id": "loay.s"
+  }
+]

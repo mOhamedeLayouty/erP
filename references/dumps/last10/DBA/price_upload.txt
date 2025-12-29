@@ -1,0 +1,97 @@
+TABLE: DBA.price_upload
+ORDER_BY: (none)
+COLUMNS: sparepart, price, flag, old_price, official_price, old_official_price, min_price
+ROWS: 10
+---
+[
+  {
+    "sparepart": "sparepart",
+    "price": null,
+    "flag": 1,
+    "old_price": 0,
+    "official_price": null,
+    "old_official_price": null,
+    "min_price": null
+  },
+  {
+    "sparepart": "46863332",
+    "price": 2080.94,
+    "flag": 1,
+    "old_price": 1768,
+    "official_price": null,
+    "old_official_price": null,
+    "min_price": null
+  },
+  {
+    "sparepart": "50161076",
+    "price": 1865.55,
+    "flag": 1,
+    "old_price": 1865.545,
+    "official_price": null,
+    "old_official_price": null,
+    "min_price": null
+  },
+  {
+    "sparepart": "51745702",
+    "price": 6361.69,
+    "flag": 1,
+    "old_price": 6361.69,
+    "official_price": null,
+    "old_official_price": null,
+    "min_price": null
+  },
+  {
+    "sparepart": "51856411",
+    "price": 8097.76,
+    "flag": 1,
+    "old_price": 8097.76,
+    "official_price": null,
+    "old_official_price": null,
+    "min_price": null
+  },
+  {
+    "sparepart": "51957509",
+    "price": 8509.71,
+    "flag": 1,
+    "old_price": 8509.71,
+    "official_price": null,
+    "old_official_price": null,
+    "min_price": null
+  },
+  {
+    "sparepart": "52110465",
+    "price": 30736.18,
+    "flag": 1,
+    "old_price": 30736.178,
+    "official_price": null,
+    "old_official_price": null,
+    "min_price": null
+  },
+  {
+    "sparepart": "53388173",
+    "price": 7403.33,
+    "flag": 1,
+    "old_price": 6310,
+    "official_price": null,
+    "old_official_price": null,
+    "min_price": null
+  },
+  {
+    "sparepart": "71753810",
+    "price": 13567.28,
+    "flag": 1,
+    "old_price": 13567.279,
+    "official_price": null,
+    "old_official_price": null,
+    "min_price": null
+  },
+  {
+    "sparepart": "71771175",
+    "price": 14811.37,
+    "flag": 1,
+    "old_price": 14811.37,
+    "official_price": null,
+    "old_official_price": null,
+    "min_price": null
+  }
+]

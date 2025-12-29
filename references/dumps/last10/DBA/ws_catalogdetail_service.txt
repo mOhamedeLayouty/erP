@@ -1,0 +1,6 @@
+TABLE: DBA.ws_catalogdetail_service
+ORDER_BY: entry_date
+COLUMNS: catalogid, operationid, flatrate, user_id, entry_date, operationcode, service_center, interval_days, interval_km
+ROWS: 0
+---
+[]

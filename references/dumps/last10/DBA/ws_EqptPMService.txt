@@ -1,0 +1,6 @@
+TABLE: DBA.ws_EqptPMService
+ORDER_BY: entry_date
+COLUMNS: Days, PMHours, PMID, CategoryID, EqptKM, Notes, user_id, entry_date
+ROWS: 0
+---
+[]

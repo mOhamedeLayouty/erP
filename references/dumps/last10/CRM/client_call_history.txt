@@ -1,0 +1,6 @@
+TABLE: CRM.client_call_history
+ORDER_BY: call_date
+COLUMNS: client_code, call_serial, call_agent, call_customer, call_customer_type, call_date, call_status
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: DBA.sc_month_cost
+ORDER_BY: item_id
+COLUMNS: b_date, item_id, item_cost, trans_time
+ROWS: 0
+---
+[]

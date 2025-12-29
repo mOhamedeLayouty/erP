@@ -1,0 +1,77 @@
+TABLE: HR.dbs_s_nat
+ORDER_BY: entry_date
+COLUMNS: nat_code, nat_desc_e, nat_desc_a, entry_date, user_id
+ROWS: 10
+---
+[
+  {
+    "nat_code": 12,
+    "nat_desc_e": "Yemen",
+    "nat_desc_a": "����",
+    "entry_date": "2014-05-28 10:39:58.000000",
+    "user_id": "HR"
+  },
+  {
+    "nat_code": 14,
+    "nat_desc_e": "Lebanese",
+    "nat_desc_a": "������",
+    "entry_date": "2014-05-28 10:39:58.000000",
+    "user_id": "HR"
+  },
+  {
+    "nat_code": 13,
+    "nat_desc_e": "Tunisian",
+    "nat_desc_a": "�����",
+    "entry_date": "2014-05-28 10:39:58.000000",
+    "user_id": "HR"
+  },
+  {
+    "nat_code": 11,
+    "nat_desc_e": "Jordan",
+    "nat_desc_a": "�����",
+    "entry_date": "2014-05-28 10:39:58.000000",
+    "user_id": "HR"
+  },
+  {
+    "nat_code": 9,
+    "nat_desc_e": "Bangladesh",
+    "nat_desc_a": "��������",
+    "entry_date": "2014-05-26 12:38:06.000000",
+    "user_id": "hr"
+  },
+  {
+    "nat_code": 10,
+    "nat_desc_e": "Eritrea",
+    "nat_desc_a": "�������",
+    "entry_date": "2014-05-26 12:38:06.000000",
+    "user_id": "hr"
+  },
+  {
+    "nat_code": 8,
+    "nat_desc_e": "Pakistani",
+    "nat_desc_a": "��������",
+    "entry_date": "2004-06-29 12:38:06.000000",
+    "user_id": "hr"
+  },
+  {
+    "nat_code": 7,
+    "nat_desc_e": "Palestinia",
+    "nat_desc_a": "�������",
+    "entry_date": "2004-06-29 12:38:00.399000",
+    "user_id": "hr"
+  },
+  {
+    "nat_code": 6,
+    "nat_desc_e": "Syrian",
+    "nat_desc_a": "����",
+    "entry_date": "2004-06-29 12:37:54.477000",
+    "user_id": "hr"
+  },
+  {
+    "nat_code": 5,
+    "nat_desc_e": "Indian",
+    "nat_desc_a": "����",
+    "entry_date": "2004-06-29 12:37:47.555000",
+    "user_id": "hr"
+  }
+]

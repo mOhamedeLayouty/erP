@@ -1,0 +1,6 @@
+TABLE: CRM.chipsy_stands
+ORDER_BY: (none)
+COLUMNS: stand_code, client_code, stand_type, material, shelves_no
+ROWS: 0
+---
+[]

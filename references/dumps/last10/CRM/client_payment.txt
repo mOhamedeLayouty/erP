@@ -1,0 +1,6 @@
+TABLE: CRM.client_payment
+ORDER_BY: payment_date
+COLUMNS: client_code, account_no, payment_serial, payment_date, payment_amount, paid_amount, paid_amount_date
+ROWS: 0
+---
+[]

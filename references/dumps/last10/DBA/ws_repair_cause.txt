@@ -1,0 +1,6 @@
+TABLE: DBA.ws_repair_cause
+ORDER_BY: entry_date
+COLUMNS: cause_id, name_e, name_a, entry_user, entry_date, edit_user, edit_date
+ROWS: 0
+---
+[]

@@ -1,0 +1,71 @@
+TABLE: CRM.script_valid_response
+ORDER_BY: branch_id
+COLUMNS: client_code, script_no, branch_id, response_no, response, branch_to
+ROWS: 8
+---
+[
+  {
+    "client_code": "1",
+    "script_no": "2",
+    "branch_id": "7",
+    "response_no": "1",
+    "response": null,
+    "branch_to": null
+  },
+  {
+    "client_code": "1",
+    "script_no": "3",
+    "branch_id": "6",
+    "response_no": "1",
+    "response": null,
+    "branch_to": null
+  },
+  {
+    "client_code": "1",
+    "script_no": "3",
+    "branch_id": "5",
+    "response_no": "1",
+    "response": "Yes",
+    "branch_to": "6"
+  },
+  {
+    "client_code": "1",
+    "script_no": "3",
+    "branch_id": "4",
+    "response_no": "1",
+    "response": null,
+    "branch_to": null
+  },
+  {
+    "client_code": "1",
+    "script_no": "3",
+    "branch_id": "3",
+    "response_no": "1",
+    "response": "Yes",
+    "branch_to": "4"
+  },
+  {
+    "client_code": "1",
+    "script_no": "3",
+    "branch_id": "2",
+    "response_no": "1",
+    "response": null,
+    "branch_to": null
+  },
+  {
+    "client_code": "1",
+    "script_no": "2",
+    "branch_id": "1",
+    "response_no": "1",
+    "response": "All Responses",
+    "branch_to": null
+  },
+  {
+    "client_code": "1",
+    "script_no": "3",
+    "branch_id": "1",
+    "response_no": "1",
+    "response": "Call Me Onther Time",
+    "branch_to": null
+  }
+]

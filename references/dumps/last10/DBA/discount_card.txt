@@ -1,0 +1,6 @@
+TABLE: DBA.discount_card
+ORDER_BY: (none)
+COLUMNS: type, Name_e, Name_a, labor_dis, sparepart_dis, oil_dis
+ROWS: 0
+---
+[]

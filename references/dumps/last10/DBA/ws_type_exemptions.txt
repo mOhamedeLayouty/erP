@@ -1,0 +1,6 @@
+TABLE: DBA.ws_type_exemptions
+ORDER_BY: id
+COLUMNS: id, type_exemption_e, type_exemption_a
+ROWS: 0
+---
+[]

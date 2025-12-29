@@ -1,0 +1,6 @@
+TABLE: DBA.payment_detail
+ORDER_BY: (none)
+COLUMNS: payment_serial, detail_serial, credit_header, payment_amount
+ROWS: 0
+---
+[]

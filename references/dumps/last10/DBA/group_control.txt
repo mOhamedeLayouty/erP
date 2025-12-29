@@ -1,0 +1,117 @@
+TABLE: DBA.group_control
+ORDER_BY: control_id
+COLUMNS: group_code, control_id, c_view, c_insert, c_delete, c_update, c_print, parent_id, c_saveas
+ROWS: 10
+---
+[
+  {
+    "group_code": "4",
+    "control_id": "WS_TimeKeeper",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "Y",
+    "c_update": "Y",
+    "c_print": "N",
+    "parent_id": "WS",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "2",
+    "control_id": "WS_TimeKeeper",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "Y",
+    "c_update": "Y",
+    "c_print": "N",
+    "parent_id": "WS",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "3",
+    "control_id": "WS_Setup",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "N",
+    "c_update": "Y",
+    "c_print": "N",
+    "parent_id": "WS",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "4",
+    "control_id": "WS_Setup",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "N",
+    "c_update": "Y",
+    "c_print": "N",
+    "parent_id": "WS",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "2",
+    "control_id": "WS_Setup",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "N",
+    "c_update": "Y",
+    "c_print": "N",
+    "parent_id": "WS",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "3",
+    "control_id": "WS_Res",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "Y",
+    "c_update": "Y",
+    "c_print": "N",
+    "parent_id": "WS",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "2",
+    "control_id": "WS_Res",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "Y",
+    "c_update": "Y",
+    "c_print": "N",
+    "parent_id": "WS",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "4",
+    "control_id": "WS_Report",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "N",
+    "c_update": "Y",
+    "c_print": "N",
+    "parent_id": "WS",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "2",
+    "control_id": "WS_Report",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "N",
+    "c_update": "Y",
+    "c_print": "N",
+    "parent_id": "WS",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "3",
+    "control_id": "WS_Report",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "N",
+    "c_update": "Y",
+    "c_print": "N",
+    "parent_id": "WS",
+    "c_saveas": "N"
+  }
+]

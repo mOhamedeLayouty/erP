@@ -1,0 +1,6 @@
+TABLE: DBA.po_requisition_header
+ORDER_BY: entry_date
+COLUMNS: requisition_id, requisition_date, description, remarks, entry_date, entry_user, edit_date, edit_user, approved, priority, required_date
+ROWS: 0
+---
+[]

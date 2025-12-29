@@ -1,0 +1,56 @@
+TABLE: DBA.ws_operationfamily
+ORDER_BY: (none)
+COLUMNS: family_code, family_name_a, family_name_e, tax_code_type, tax_code
+ROWS: 7
+---
+[
+  {
+    "family_code": "B",
+    "family_name_a": "������ ����",
+    "family_name_e": "Body",
+    "tax_code_type": null,
+    "tax_code": null
+  },
+  {
+    "family_code": "E",
+    "family_name_a": "������",
+    "family_name_e": "Electrical",
+    "tax_code_type": null,
+    "tax_code": null
+  },
+  {
+    "family_code": "M",
+    "family_name_a": "��������",
+    "family_name_e": "Mechanical",
+    "tax_code_type": null,
+    "tax_code": null
+  },
+  {
+    "family_code": "O",
+    "family_name_a": "����",
+    "family_name_e": "Other",
+    "tax_code_type": null,
+    "tax_code": null
+  },
+  {
+    "family_code": "P",
+    "family_name_a": "������",
+    "family_name_e": "Paint",
+    "tax_code_type": null,
+    "tax_code": null
+  },
+  {
+    "family_code": "R",
+    "family_name_a": "�����",
+    "family_name_e": "Repair",
+    "tax_code_type": null,
+    "tax_code": null
+  },
+  {
+    "family_code": "S",
+    "family_name_a": "������",
+    "family_name_e": "Service",
+    "tax_code_type": null,
+    "tax_code": null
+  }
+]

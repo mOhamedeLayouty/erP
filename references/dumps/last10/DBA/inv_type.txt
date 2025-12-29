@@ -1,0 +1,79 @@
+TABLE: DBA.inv_type
+ORDER_BY: entry_date
+COLUMNS: code, document_type, name_a, name_e, db_acc_no, cr_acc_no, entry_user, edit_user, entry_date, edit_date
+ROWS: 6
+---
+[
+  {
+    "code": "2",
+    "document_type": "c",
+    "name_a": "����� ���",
+    "name_e": "Credit Note",
+    "db_acc_no": null,
+    "cr_acc_no": null,
+    "entry_user": null,
+    "edit_user": null,
+    "entry_date": null,
+    "edit_date": null
+  },
+  {
+    "code": "3",
+    "document_type": "D",
+    "name_a": "����� �����",
+    "name_e": "Debit Note",
+    "db_acc_no": null,
+    "cr_acc_no": null,
+    "entry_user": null,
+    "edit_user": null,
+    "entry_date": null,
+    "edit_date": null
+  },
+  {
+    "code": "4",
+    "document_type": "P",
+    "name_a": "���� �����",
+    "name_e": "Downpayment",
+    "db_acc_no": null,
+    "cr_acc_no": null,
+    "entry_user": null,
+    "edit_user": null,
+    "entry_date": null,
+    "edit_date": null
+  },
+  {
+    "code": "5",
+    "document_type": "R",
+    "name_a": "������ ���� �����",
+    "name_e": "Downpayment Return",
+    "db_acc_no": null,
+    "cr_acc_no": null,
+    "entry_user": null,
+    "edit_user": null,
+    "entry_date": null,
+    "edit_date": null
+  },
+  {
+    "code": "6",
+    "document_type": "I",
+    "name_a": "������ ",
+    "name_e": "invoice",
+    "db_acc_no": null,
+    "cr_acc_no": null,
+    "entry_user": null,
+    "edit_user": null,
+    "entry_date": null,
+    "edit_date": null
+  },
+  {
+    "code": "1",
+    "document_type": "I",
+    "name_a": "������ ����",
+    "name_e": "general invoice",
+    "db_acc_no": null,
+    "cr_acc_no": null,
+    "entry_user": null,
+    "edit_user": null,
+    "entry_date": null,
+    "edit_date": null
+  }
+]

@@ -1,0 +1,39 @@
+TABLE: DBA.sc_ret_request_detail
+ORDER_BY: item_id
+COLUMNS: credit_detail, credit_header, price, qty, notes, item_id, exp, cost_price, service_center, location_id, official_price, official_cost, invoicetype, status
+ROWS: 2
+---
+[
+  {
+    "credit_detail": 1,
+    "credit_header": 1,
+    "price": 7825,
+    "qty": 1,
+    "notes": null,
+    "item_id": "6833",
+    "exp": "1900-01-01",
+    "cost_price": null,
+    "service_center": 1,
+    "location_id": 4,
+    "official_price": null,
+    "official_cost": null,
+    "invoicetype": null,
+    "status": 1
+  },
+  {
+    "credit_detail": 1,
+    "credit_header": 2,
+    "price": 483,
+    "qty": 2,
+    "notes": null,
+    "item_id": "4668",
+    "exp": "1900-01-01",
+    "cost_price": null,
+    "service_center": 1,
+    "location_id": 4,
+    "official_price": null,
+    "official_cost": null,
+    "invoicetype": null,
+    "status": 1
+  }
+]

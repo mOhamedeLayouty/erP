@@ -1,0 +1,6 @@
+TABLE: DBA.items_secial_price_hist
+ORDER_BY: sp_id
+COLUMNS: sp_id, item_id, service_center, special_price, user_id, trans_type, last_update
+ROWS: 0
+---
+[]

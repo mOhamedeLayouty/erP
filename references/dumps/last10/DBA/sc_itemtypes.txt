@@ -1,0 +1,91 @@
+TABLE: DBA.sc_itemtypes
+ORDER_BY: (none)
+COLUMNS: code, name_a, name_e, acc_no, tax_code_type, tax_code, direct_cost_acc_no, ws_cost_acc_no, warrenty_cost_acc_no, wip_acc_no
+ROWS: 7
+---
+[
+  {
+    "code": "A",
+    "name_a": "اكسسوارات",
+    "name_e": "Accessories",
+    "acc_no": null,
+    "tax_code_type": null,
+    "tax_code": null,
+    "direct_cost_acc_no": null,
+    "ws_cost_acc_no": null,
+    "warrenty_cost_acc_no": null,
+    "wip_acc_no": null
+  },
+  {
+    "code": "B",
+    "name_a": "مشتريات خارجية",
+    "name_e": "Bought Out",
+    "acc_no": null,
+    "tax_code_type": null,
+    "tax_code": null,
+    "direct_cost_acc_no": null,
+    "ws_cost_acc_no": null,
+    "warrenty_cost_acc_no": null,
+    "wip_acc_no": null
+  },
+  {
+    "code": "O",
+    "name_a": "زيت",
+    "name_e": "Oil",
+    "acc_no": null,
+    "tax_code_type": null,
+    "tax_code": null,
+    "direct_cost_acc_no": null,
+    "ws_cost_acc_no": null,
+    "warrenty_cost_acc_no": null,
+    "wip_acc_no": null
+  },
+  {
+    "code": "P",
+    "name_a": "دهانات",
+    "name_e": "Paint Material",
+    "acc_no": null,
+    "tax_code_type": null,
+    "tax_code": null,
+    "direct_cost_acc_no": null,
+    "ws_cost_acc_no": null,
+    "warrenty_cost_acc_no": null,
+    "wip_acc_no": null
+  },
+  {
+    "code": "S",
+    "name_a": "قطع غيار",
+    "name_e": "Spare Parts",
+    "acc_no": null,
+    "tax_code_type": null,
+    "tax_code": null,
+    "direct_cost_acc_no": null,
+    "ws_cost_acc_no": null,
+    "warrenty_cost_acc_no": null,
+    "wip_acc_no": null
+  },
+  {
+    "code": "T",
+    "name_a": "اطارات",
+    "name_e": "Tyres",
+    "acc_no": null,
+    "tax_code_type": null,
+    "tax_code": null,
+    "direct_cost_acc_no": null,
+    "ws_cost_acc_no": null,
+    "warrenty_cost_acc_no": null,
+    "wip_acc_no": null
+  },
+  {
+    "code": "V",
+    "name_a": "مستلزمات",
+    "name_e": "Consumables",
+    "acc_no": null,
+    "tax_code_type": null,
+    "tax_code": null,
+    "direct_cost_acc_no": null,
+    "ws_cost_acc_no": null,
+    "warrenty_cost_acc_no": null,
+    "wip_acc_no": null
+  }
+]

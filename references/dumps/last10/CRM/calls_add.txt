@@ -1,0 +1,43 @@
+TABLE: CRM.calls_add
+ORDER_BY: date_logged
+COLUMNS: client_code, call_no, call_add, date_logged, time_logged, duration, assigned_to, comments, agent, call_status
+ROWS: 3
+---
+[
+  {
+    "client_code": "1",
+    "call_no": 18,
+    "call_add": 1,
+    "date_logged": "2024-02-06 15:37:43.117000",
+    "time_logged": "2024-02-06 15:37:43.117000",
+    "duration": null,
+    "assigned_to": "17",
+    "comments": null,
+    "agent": "SP.Katameya",
+    "call_status": null
+  },
+  {
+    "client_code": "1",
+    "call_no": 4,
+    "call_add": 1,
+    "date_logged": "2023-10-29 16:17:52.274000",
+    "time_logged": "2023-10-29 16:17:52.274000",
+    "duration": null,
+    "assigned_to": "11",
+    "comments": null,
+    "agent": "mohamed.a",
+    "call_status": "1"
+  },
+  {
+    "client_code": "1",
+    "call_no": 3,
+    "call_add": 1,
+    "date_logged": "2023-10-15 16:57:58.291000",
+    "time_logged": "2023-10-15 16:57:58.291000",
+    "duration": null,
+    "assigned_to": "11",
+    "comments": "������ ��� ��� ��� ����� ������ ",
+    "agent": "mohamed.a",
+    "call_status": "1"
+  }
+]

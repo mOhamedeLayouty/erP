@@ -1,0 +1,6 @@
+TABLE: HR.training_header
+ORDER_BY: user_id
+COLUMNS: training_header, notes, start_date, user_id, start_time, institut_code, course_code, cost, assistance_available, instructor
+ROWS: 0
+---
+[]

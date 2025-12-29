@@ -1,0 +1,6 @@
+TABLE: DBA.request_doc_son_rec
+ORDER_BY: entry_date
+COLUMNS: doc_t_num, doc_num, doc_type, doc_date, doc_tot_type, hld_code, acc_rec, manual_num, chqu_date, chqu_num, chqu_name, curr_id, curr_rate, curr_sub_tot, doc_tot, doc_rem, usr, rec_led, hld_acc, status_id, acc_type, conf_flage, conf_user, customer_flag, bank_flag, rec_num, company_code, station_code, car_code, cost_no, post_flag, resp, resp_user, service_center, log_store, bank_withdraw, bank_withdraw_date, location_id, doc_detail_type, invoiceno, vendor_payment, vendor_inv_no, pay_type_serial, customer_id, invoice_nature, main_location_id, entry_user, entry_date, edit_user, edit_date, done_doc_t_num, approval, approval_user, refused_reason, location_id_to
+ROWS: 0
+---
+[]

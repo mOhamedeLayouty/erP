@@ -1,0 +1,37 @@
+TABLE: DBA.discount_type
+ORDER_BY: id
+COLUMNS: id, name_a, name_e, ismain
+ROWS: 5
+---
+[
+  {
+    "id": 5,
+    "name_a": "winter Campain",
+    "name_e": "winter Campain",
+    "ismain": "N"
+  },
+  {
+    "id": 4,
+    "name_a": "��� �����",
+    "name_e": "��� �����",
+    "ismain": "N"
+  },
+  {
+    "id": 3,
+    "name_a": "���� ������",
+    "name_e": "���� ������",
+    "ismain": "N"
+  },
+  {
+    "id": 2,
+    "name_a": "���� ����",
+    "name_e": "���� ����",
+    "ismain": "N"
+  },
+  {
+    "id": 1,
+    "name_a": "���� ����",
+    "name_e": "���� ����",
+    "ismain": "N"
+  }
+]

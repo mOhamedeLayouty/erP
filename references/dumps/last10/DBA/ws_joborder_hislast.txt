@@ -1,0 +1,6 @@
+TABLE: DBA.ws_joborder_hislast
+ORDER_BY: date
+COLUMNS: car_code, customer_code, date, km, notes1, id
+ROWS: 0
+---
+[]

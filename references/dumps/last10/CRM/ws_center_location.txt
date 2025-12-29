@@ -1,0 +1,22 @@
+TABLE: CRM.ws_center_location
+ORDER_BY: location_id
+COLUMNS: location_id, location_name_e, location_name_a, location_address_e, location_address_a, center_address_e, center_address_a, tel_no, fax_no, gl_cost_center, main_location, db_user, center_id
+ROWS: 1
+---
+[
+  {
+    "location_id": 1,
+    "location_name_e": "El-Oboor",
+    "location_name_a": "������",
+    "location_address_e": null,
+    "location_address_a": null,
+    "center_address_e": null,
+    "center_address_a": null,
+    "tel_no": null,
+    "fax_no": null,
+    "gl_cost_center": null,
+    "main_location": "Y",
+    "db_user": "CRM",
+    "center_id": 1
+  }
+]

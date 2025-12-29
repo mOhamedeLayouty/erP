@@ -1,0 +1,25 @@
+TABLE: CRM.city
+ORDER_BY: (none)
+COLUMNS: country_code, city_code, description, description_a, area_phon, cbe_active, time_zone
+ROWS: 2
+---
+[
+  {
+    "country_code": "1",
+    "city_code": "2",
+    "description": "Giza",
+    "description_a": "Giza",
+    "area_phon": null,
+    "cbe_active": 0,
+    "time_zone": null
+  },
+  {
+    "country_code": "1",
+    "city_code": "1",
+    "description": "CAIRO",
+    "description_a": "�������",
+    "area_phon": null,
+    "cbe_active": 0,
+    "time_zone": null
+  }
+]

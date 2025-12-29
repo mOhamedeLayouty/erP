@@ -1,0 +1,12 @@
+TABLE: DBA.sc_po_status
+ORDER_BY: status_id
+COLUMNS: status_id, po_status, po_status_e
+ROWS: 1
+---
+[
+  {
+    "status_id": 1,
+    "po_status": "Arrived",
+    "po_status_e": "Arrived"
+  }
+]

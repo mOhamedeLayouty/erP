@@ -1,0 +1,6 @@
+TABLE: DBA.weekly_location_daysoff
+ORDER_BY: location_id
+COLUMNS: line_no, day_off, location_id
+ROWS: 0
+---
+[]

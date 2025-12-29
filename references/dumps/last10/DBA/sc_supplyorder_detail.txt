@@ -1,0 +1,6 @@
+TABLE: DBA.sc_supplyorder_detail
+ORDER_BY: item_id
+COLUMNS: supplyorder_detail, supplyorder_header, item_id, cust_itemid, quotation_no, price, qty, invoicetype, item_cost, notes, service_center, location_id
+ROWS: 0
+---
+[]

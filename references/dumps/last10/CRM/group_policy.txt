@@ -1,0 +1,57 @@
+TABLE: CRM.group_policy
+ORDER_BY: (none)
+COLUMNS: group_code, group_name_e, group_name_a
+ROWS: 10
+---
+[
+  {
+    "group_code": "1",
+    "group_name_e": "Call Center",
+    "group_name_a": "Call Center"
+  },
+  {
+    "group_code": "2",
+    "group_name_e": "Fleet Sales",
+    "group_name_a": "Fleet Sales"
+  },
+  {
+    "group_code": "3",
+    "group_name_e": "Retail Sales",
+    "group_name_a": "Retail Sales"
+  },
+  {
+    "group_code": "4",
+    "group_name_e": "Admin",
+    "group_name_a": "Admin"
+  },
+  {
+    "group_code": "5",
+    "group_name_e": "Sales Manager",
+    "group_name_a": "Sales Manager"
+  },
+  {
+    "group_code": "6",
+    "group_name_e": "Marketing",
+    "group_name_a": "Marketing"
+  },
+  {
+    "group_code": "7",
+    "group_name_e": "After sales service",
+    "group_name_a": "After sales service"
+  },
+  {
+    "group_code": "8",
+    "group_name_e": "customer service",
+    "group_name_a": "customer service"
+  },
+  {
+    "group_code": "10",
+    "group_name_e": "Service Advisor Katameya",
+    "group_name_a": "Service Advisor Katameya"
+  },
+  {
+    "group_code": "9",
+    "group_name_e": "Spare Parts Katameya",
+    "group_name_a": "Spare Parts Katameya"
+  }
+]

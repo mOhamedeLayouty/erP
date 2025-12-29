@@ -1,0 +1,67 @@
+TABLE: DBA.unittype_code
+ORDER_BY: (none)
+COLUMNS: code, name_e, name_a, isactive
+ROWS: 10
+---
+[
+  {
+    "code": "2Z",
+    "name_e": "Millivolt ( mV )",
+    "name_a": "Millivolt ( mV )",
+    "isactive": null
+  },
+  {
+    "code": "4K",
+    "name_e": "Milliampere ( mA )",
+    "name_a": "Milliampere ( mA )",
+    "isactive": null
+  },
+  {
+    "code": "4O",
+    "name_e": "Microfarad ( microF )",
+    "name_a": "Microfarad ( microF )",
+    "isactive": null
+  },
+  {
+    "code": "A87",
+    "name_e": "Gigaohm ( GOhm )",
+    "name_a": "Gigaohm ( GOhm )",
+    "isactive": null
+  },
+  {
+    "code": "A93",
+    "name_e": "Gram/Cubic meter ( g/m3 )",
+    "name_a": "Gram/Cubic meter ( g/m3 )",
+    "isactive": null
+  },
+  {
+    "code": "A94",
+    "name_e": "Gram/cubic centimeter ( g/cm3 )",
+    "name_a": "Gram/cubic centimeter ( g/cm3 )",
+    "isactive": null
+  },
+  {
+    "code": "AMP",
+    "name_e": "Ampere ( A )",
+    "name_a": "Ampere ( A )",
+    "isactive": null
+  },
+  {
+    "code": "ANN",
+    "name_e": "Years ( yr )",
+    "name_a": "Years ( yr )",
+    "isactive": null
+  },
+  {
+    "code": "B22",
+    "name_e": "Kiloampere ( kA )",
+    "name_a": "Kiloampere ( kA )",
+    "isactive": null
+  },
+  {
+    "code": "B49",
+    "name_e": "Kiloohm ( kOhm )",
+    "name_a": "Kiloohm ( kOhm )",
+    "isactive": null
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: CRM.client_batch
+ORDER_BY: (none)
+COLUMNS: client_code, batch_number, number_of_accounts, batch_value, batch_start, batch_end, batch_status, to_day, parallel
+ROWS: 0
+---
+[]

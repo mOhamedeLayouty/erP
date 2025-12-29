@@ -1,0 +1,1770 @@
+TABLE: CRM.customer
+COLUMNS(185): customer_code, customer_name, customer_name_a, bo_box, home_add, home_add2, home_area, home_city, home_country, customer_type, home_phon, alternate_phone, mob1, email, site, notes, district, home_fax, corp_code, pos_code, status, source, in_call, busy, wrong_number, update_date, agent, recall_date_time, recall_for, market_sector, sub_segment, site_type, x86_pcs, x86_servers, employees_number, developers_number, parenting_level, last_profiled, new_field1, new_field2, new_field3, new_field4, new_field5, new_field6, new_field7, new_field8, new_field9, new_field10, market_aud, district_a, home_add_a, phon_2, birth_date, customer_ref, phon_3, batch_no, busy_count, customer_first_name, customer_first_name_a, customer_last_name, customer_last_name_a, card_type, card_no, id_no, id_type, id_exp, id_isssue_place, office_ph1, office_ph2, car_make_code, car_model_code, car_engin_code, car_color_code, car_year, car_end_date, car_chasi_no, car_motor_no, car_of_purchase, license_no, gov, lic_val_from, lic_val_to, lic_special_com, hp, insured_value, payment_type, special_arrangement, call_status, reason, marital_status, insur_rate, no_children, gender, db_source, pend_date, pend_group, pend_count, call_shift, not_interest_notes, not_reached_count, ou_of_country_count, batch_end_date, deal_agent, deal_date, cust_area, due_date, due_group, customer_middle_name, customer_middle_name_a, customer_title, po_box, phone_ext, delivery_time, account_number, debt_amount, debt_age, debt_mobile1, debt_mobile2, debt_mobile3, debt_mobile4, debt_mobile5, debt_mobile6, debt_mobile7, batch_status, withdraw, account_closed, deal_type, payment_way, pickup_time, pickup_address, account_discount, assigned_visitor, assigned_supervisor, extra_notes, agent_ref, date_ref, cust_ref, timestamp_1, rec_type, due_date_zone, pend_notes, submited, abbreviation, preferred_name, mortage_balance, desired_loan, additional_cash, interest_rate, monthly_payment, annual_income, customer_age, day_birthdate, month_birthdate, year_birthdate, new_cust_date, parent, social_status, how_knw_us, Veil, nationality_code, car_iswarranty, customer_seconed_name, customer_seconed_name_a, customer_third_name, customer_third_name_a, family_members_no, housing_type, housing_category, rent_value, home_address, original_nat, job_department, job_company_name, job_hire_date, job_manager_name, job_manager_mob, job_another_income, job_salary_date, job_salary_type, job_bank, job_ibn, job_other_finance, car_price, car_status, car_advanced_payment
+
+PRIMARY_KEY:
+  (none)
+
+UNIQUE_CONSTRAINTS:
+  (none)
+
+FOREIGN_KEYS:
+  (none or not readable via INFORMATION_SCHEMA)
+
+INDEXES:
+  - PK_customer (unique: 2)
+    columns: site, in_call, district, home_fax, home_fax, pos_code, home_area, home_city, home_phon, home_country, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_type, alternate_phone, customer_name_a, customer_name_a, customer_name_a, busy, busy, mob1, mob1, mob1, site, site, site, site, site, site, email, email, email, email, email, email, email, notes, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, source, source, source, source, status, status, status, district, district, district, district, district, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, pos_code, pos_code, corp_code, corp_code, corp_code, corp_code, home_add2, home_add2, home_add2, home_add2, home_add2, home_add2, home_add2, home_add2, home_area, home_area, home_area, home_area, home_area, home_area, home_area, home_city, home_city, home_city, home_city, home_city, home_phon, home_phon, home_phon, home_phon, home_phon, home_phon, home_phon, new_field1, new_field3, new_field3, new_field6, update_date, update_date, home_country, home_country, home_country, home_country, home_country, home_country, wrong_number, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_type, customer_type, customer_type, customer_type, customer_type, market_sector, market_sector, car_color_code, alternate_phone, alternate_phone, alternate_phone, alternate_phone, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, employees_number, employees_number, mob1, mob1, mob1, mob1, mob1, site, site, site, site, agent, agent, email, email, email, email, notes, notes, notes, notes, notes, notes, notes, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, source, source, source, source, status, status, status, status, status, in_call, in_call, in_call, in_call, in_call, in_call, in_call, in_call, x86_pcs, district, district, district, district, home_add, home_add, home_add, home_add, home_add, home_fax, home_fax, home_fax, home_fax, home_fax, home_fax, pos_code, pos_code, pos_code, pos_code, corp_code, corp_code, home_add2, home_add2, home_add2, home_add2, home_add2, home_area, home_area, home_area, home_area, home_area, home_area, home_area, home_area, home_area, home_area, home_area, home_area, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_phon, home_phon, home_phon, home_phon, home_phon, home_phon, home_phon, market_aud, new_field2, new_field5, new_field7, sub_segment, sub_segment, x86_servers, x86_servers, x86_servers, x86_servers, x86_servers, home_country, home_country, home_country, home_country, home_country, home_country, home_country, home_country, home_country, home_country, home_country, wrong_number, customer_code, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_type, customer_type, customer_type, customer_type, customer_type, customer_type, customer_type, customer_type, customer_type, customer_type, customer_type, customer_type, customer_type, market_sector, market_sector, alternate_phone, alternate_phone, alternate_phone, alternate_phone, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, developers_number, mob1, mob1, site, agent, email, notes, notes, notes, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, source, source, district, district, district, home_add, home_add, home_add, home_add, home_add, home_fax, pos_code, home_add2, home_add2, home_area, home_area, home_area, home_area, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_city, home_phon, home_phon, home_phon, home_phon, home_phon, home_phon, home_phon, new_field1, new_field3, new_field4, new_field4, new_field6, sub_segment, sub_segment, home_country, home_country, home_country, home_country, home_country, home_country, home_country, home_country, home_country, wrong_number, customer_code, customer_name, customer_name, customer_type, customer_type, customer_type, customer_type, customer_type, customer_type, customer_type, last_profiled, last_profiled, alternate_phone, alternate_phone, alternate_phone, alternate_phone, alternate_phone, alternate_phone, alternate_phone, developers_number, developers_number, site, email, bo_box, bo_box, district, district, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_fax, home_area, home_phon, home_phon, home_phon, new_field2, update_date, home_country, home_country, home_country, customer_type, alternate_phone, home_add2, home_add2, home_city, home_country, customer_type
+  - customer UNIQUE (mob1) (unique: 2)
+    columns: busy, mob1, notes, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, home_add, home_add, home_add2, home_add2, home_add2, home_area, home_area, home_area, home_city, home_city, home_city, home_phon, home_phon, home_phon, new_field2, recall_for, sub_segment, home_country, home_country, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, last_profiled, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, parenting_level, mob1, mob1, site, site, email, bo_box, bo_box, bo_box, bo_box, status, status, status, status, district, district, district, home_add, home_add, home_add, home_add, home_add, home_add, home_add, home_add, pos_code, corp_code, home_add2, home_area, home_area, home_city, home_city, home_phon, home_country, home_country, customer_code, customer_code, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_type, customer_type, customer_type, last_profiled, alternate_phone, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, mob1, mob1, site, notes, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, bo_box, source, source, home_fax, home_fax, home_add2, home_area, home_area, home_city, home_city, home_phon, home_phon, home_phon, x86_servers, home_country, customer_code, customer_type, market_sector, alternate_phone, customer_name_a, customer_name_a, customer_name_a, bo_box, bo_box, district, pos_code, sub_segment, home_country, customer_type, home_add, alternate_phone, notes, home_add2, district, home_area
+  - cust_ind_3 (unique: 1)
+    columns: site, email, notes, bo_box, bo_box, bo_box, bo_box, home_add, home_add, corp_code, corp_code, home_add2, home_add2, home_area, home_area, home_city, site_type, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_type, car_engin_code, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, mob1, mob1, site, notes, notes, bo_box, source, status, status, district, district, home_area, home_city, home_city, home_country, home_country, customer_name, customer_name, customer_name, customer_type, customer_type, customer_type, customer_type, market_sector, alternate_phone, customer_name_a, customer_name_a, customer_name_a, customer_name_a, customer_name_a, parenting_level, busy, email, bo_box, bo_box, source, district, due_group, sub_segment, home_country, market_sector, customer_name_a, bo_box, sub_segment, home_add
+  - cust_indx_site (unique: 1)
+    columns: site, bo_box, car_year, home_add, pos_code, home_add2, home_add2, home_add2, home_city, home_city, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_name, customer_name, customer_name, alternate_phone, alternate_phone, customer_name_a, customer_name_a, customer_name_a, mob1, site, site, site, source, status, district, home_add, home_area, home_city, update_date, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name, customer_name_a, busy, site, agent, email, notes, home_country, market_sector, market_sector, customer_name_a, sub_segment, sub_segment, site, x86_servers
+  - customer_code_index (unique: 1)
+    columns: mob1, home_add, home_add, sub_segment, x86_servers, wrong_number, customer_code, customer_code, customer_code, customer_code, customer_code, customer_code, customer_name, customer_name_a, customer_name_a, x86_pcs, home_add, corp_code, home_phon, update_date, home_country, customer_name, customer_name, market_sector, customer_name_a, site, home_area, sub_segment, notes, home_add2
+  - customer_ind_4 (unique: 1)
+    columns: notes, status, home_add2, home_area, customer_code, customer_code, customer_code, customer_name, customer_type, market_sector, customer_name_a, site, source, home_city, customer_name, in_call, busy, wrong_number, call_status
+  - customer_source_ind (unique: 1)
+    columns: in_call, home_add, home_add, home_add, x86_servers, customer_code, customer_code, customer_name, last_profiled, customer_name_a, site, source, new_field5, home_country, parenting_level, site, customer_type, market_sector, sub_segment
+
+SYS_FALLBACK_RAW:
+{
+  "sysfkey": [
+    {
+      "foreign_table_id": 7,
+      "foreign_index_id": 1,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 70,
+      "foreign_index_id": 1,
+      "primary_table_id": 7,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 9,
+      "foreign_index_id": 2,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 79,
+      "foreign_index_id": 3,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 80,
+      "foreign_index_id": 1,
+      "primary_table_id": 79,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 72,
+      "foreign_index_id": 2,
+      "primary_table_id": 7,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 72,
+      "foreign_index_id": 3,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 91,
+      "foreign_index_id": 4,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 91,
+      "foreign_index_id": 5,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 5,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 6,
+      "primary_table_id": 91,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 7,
+      "primary_table_id": 91,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 8,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 14,
+      "foreign_index_id": 6,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 14,
+      "foreign_index_id": 9,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 15,
+      "foreign_index_id": 1,
+      "primary_table_id": 14,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 15,
+      "foreign_index_id": 2,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 16,
+      "foreign_index_id": 7,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 16,
+      "foreign_index_id": 8,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 16,
+      "foreign_index_id": 9,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 17,
+      "foreign_index_id": 10,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 17,
+      "foreign_index_id": 11,
+      "primary_table_id": 14,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 25,
+      "foreign_index_id": 8,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 44,
+      "foreign_index_id": 1,
+      "primary_table_id": 25,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 45,
+      "foreign_index_id": 1,
+      "primary_table_id": 44,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 45,
+      "foreign_index_id": 11,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 18,
+      "foreign_index_id": 9,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 18,
+      "foreign_index_id": 12,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 19,
+      "foreign_index_id": 1,
+      "primary_table_id": 18,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 19,
+      "foreign_index_id": 9,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 20,
+      "foreign_index_id": 1,
+      "primary_table_id": 19,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 20,
+      "foreign_index_id": 2,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 21,
+      "foreign_index_id": 13,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 21,
+      "foreign_index_id": 14,
+      "primary_table_id": 25,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 22,
+      "foreign_index_id": 2,
+      "primary_table_id": 18,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 22,
+      "foreign_index_id": 14,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 23,
+      "foreign_index_id": 15,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 24,
+      "foreign_index_id": 16,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 24,
+      "foreign_index_id": 17,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 27,
+      "foreign_index_id": 18,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 46,
+      "foreign_index_id": 3,
+      "primary_table_id": 18,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 64,
+      "foreign_index_id": 10,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 64,
+      "foreign_index_id": 11,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 64,
+      "foreign_index_id": 12,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 28,
+      "foreign_index_id": 13,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 48,
+      "foreign_index_id": 17,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 48,
+      "foreign_index_id": 18,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 49,
+      "foreign_index_id": 2,
+      "primary_table_id": 48,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 66,
+      "foreign_index_id": 19,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 66,
+      "foreign_index_id": 20,
+      "primary_table_id": 65,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 29,
+      "foreign_index_id": 20,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 30,
+      "foreign_index_id": 21,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 30,
+      "foreign_index_id": 22,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 53,
+      "foreign_index_id": 1,
+      "primary_table_id": 52,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 67,
+      "foreign_index_id": 22,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 33,
+      "foreign_index_id": 23,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 33,
+      "foreign_index_id": 24,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 42,
+      "foreign_index_id": 25,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 82,
+      "foreign_index_id": 23,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 82,
+      "foreign_index_id": 24,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 84,
+      "foreign_index_id": 24,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 84,
+      "foreign_index_id": 25,
+      "primary_table_id": 82,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 84,
+      "foreign_index_id": 26,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 85,
+      "foreign_index_id": 25,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 54,
+      "foreign_index_id": 26,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 50,
+      "foreign_index_id": 3,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 56,
+      "foreign_index_id": 27,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 56,
+      "foreign_index_id": 28,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 58,
+      "foreign_index_id": 29,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 59,
+      "foreign_index_id": 30,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 59,
+      "foreign_index_id": 31,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 61,
+      "foreign_index_id": 32,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 62,
+      "foreign_index_id": 33,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 68,
+      "foreign_index_id": 34,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 68,
+      "foreign_index_id": 35,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 69,
+      "foreign_index_id": 35,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 69,
+      "foreign_index_id": 36,
+      "primary_table_id": 68,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 78,
+      "foreign_index_id": 1,
+      "primary_table_id": 69,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 78,
+      "foreign_index_id": 10,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 89,
+      "foreign_index_id": 36,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 90,
+      "foreign_index_id": 1,
+      "primary_table_id": 89,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 93,
+      "foreign_index_id": 37,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 93,
+      "foreign_index_id": 38,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 94,
+      "foreign_index_id": 1,
+      "primary_table_id": 93,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 94,
+      "foreign_index_id": 39,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 94,
+      "foreign_index_id": 40,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1,
+      "foreign_index_id": 3,
+      "primary_table_id": 7,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1,
+      "foreign_index_id": 41,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1,
+      "foreign_index_id": 42,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 11,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 19,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 43,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 44,
+      "primary_table_id": 24,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 3,
+      "foreign_index_id": 12,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 3,
+      "foreign_index_id": 44,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 3,
+      "foreign_index_id": 45,
+      "primary_table_id": 4,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 5,
+      "foreign_index_id": 10,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 5,
+      "foreign_index_id": 11,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 6,
+      "foreign_index_id": 11,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 6,
+      "foreign_index_id": 12,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 9,
+      "foreign_index_id": 4,
+      "primary_table_id": 79,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 10,
+      "foreign_index_id": 13,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 10,
+      "foreign_index_id": 42,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 10,
+      "foreign_index_id": 43,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 11,
+      "foreign_index_id": 12,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 11,
+      "foreign_index_id": 44,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 11,
+      "foreign_index_id": 45,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 12,
+      "foreign_index_id": 46,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 13,
+      "foreign_index_id": 47,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 13,
+      "foreign_index_id": 48,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 14,
+      "foreign_index_id": 26,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 15,
+      "foreign_index_id": 45,
+      "primary_table_id": 24,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 28,
+      "foreign_index_id": 49,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 30,
+      "foreign_index_id": 23,
+      "primary_table_id": 31,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 31,
+      "foreign_index_id": 1,
+      "primary_table_id": 29,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 57,
+      "foreign_index_id": 2,
+      "primary_table_id": 56,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 63,
+      "foreign_index_id": 50,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 67,
+      "foreign_index_id": 27,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 641,
+      "foreign_index_id": 1,
+      "primary_table_id": 640,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 664,
+      "foreign_index_id": 1,
+      "primary_table_id": 663,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 665,
+      "foreign_index_id": 1,
+      "primary_table_id": 664,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 666,
+      "foreign_index_id": 2,
+      "primary_table_id": 664,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 667,
+      "foreign_index_id": 2,
+      "primary_table_id": 663,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 668,
+      "foreign_index_id": 1,
+      "primary_table_id": 667,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 669,
+      "foreign_index_id": 3,
+      "primary_table_id": 664,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 670,
+      "foreign_index_id": 3,
+      "primary_table_id": 663,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 678,
+      "foreign_index_id": 1,
+      "primary_table_id": 676,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 678,
+      "foreign_index_id": 2,
+      "primary_table_id": 677,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 676,
+      "foreign_index_id": 1,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 675,
+      "foreign_index_id": 1,
+      "primary_table_id": 674,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 680,
+      "foreign_index_id": 3,
+      "primary_table_id": 677,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 684,
+      "foreign_index_id": 2,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 685,
+      "foreign_index_id": 1,
+      "primary_table_id": 684,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 687,
+      "foreign_index_id": 1,
+      "primary_table_id": 685,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 687,
+      "foreign_index_id": 2,
+      "primary_table_id": 687,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 687,
+      "foreign_index_id": 3,
+      "primary_table_id": 686,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 686,
+      "foreign_index_id": 2,
+      "primary_table_id": 684,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 688,
+      "foreign_index_id": 3,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 1,
+      "primary_table_id": 673,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 2,
+      "primary_table_id": 676,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 4,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 5,
+      "primary_table_id": 674,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 738,
+      "foreign_index_id": 1,
+      "primary_table_id": 736,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 739,
+      "foreign_index_id": 1,
+      "primary_table_id": 735,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 743,
+      "foreign_index_id": 1,
+      "primary_table_id": 737,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 743,
+      "foreign_index_id": 2,
+      "primary_table_id": 734,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 762,
+      "foreign_index_id": 1,
+      "primary_table_id": 761,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 801,
+      "foreign_index_id": 1,
+      "primary_table_id": 798,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 856,
+      "foreign_index_id": 1,
+      "primary_table_id": 855,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 873,
+      "foreign_index_id": 1,
+      "primary_table_id": 871,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 917,
+      "foreign_index_id": 1,
+      "primary_table_id": 774,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 939,
+      "foreign_index_id": 1,
+      "primary_table_id": 771,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 939,
+      "foreign_index_id": 2,
+      "primary_table_id": 773,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 939,
+      "foreign_index_id": 3,
+      "primary_table_id": 771,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1473,
+      "foreign_index_id": 2,
+      "primary_table_id": 1472,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "Y",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1035,
+      "foreign_index_id": 1,
+      "primary_table_id": 1034,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1056,
+      "foreign_index_id": 1,
+      "primary_table_id": 977,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1100,
+      "foreign_index_id": 1,
+      "primary_table_id": 983,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1100,
+      "foreign_index_id": 2,
+      "primary_table_id": 983,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1148,
+      "foreign_index_id": 1,
+      "primary_table_id": 762,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1148,
+      "foreign_index_id": 2,
+      "primary_table_id": 1145,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1149,
+      "foreign_index_id": 1,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1150,
+      "foreign_index_id": 2,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1151,
+      "foreign_index_id": 3,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1159,
+      "foreign_index_id": 1,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1185,
+      "foreign_index_id": 1,
+      "primary_table_id": 1184,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1299,
+      "foreign_index_id": 1,
+      "primary_table_id": 1245,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1329,
+      "foreign_index_id": 1,
+      "primary_table_id": 1327,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1353,
+      "foreign_index_id": 1,
+      "primary_table_id": 1352,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1364,
+      "foreign_index_id": 1,
+      "primary_table_id": 1363,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 723,
+      "foreign_index_id": 4,
+      "primary_table_id": 771,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 723,
+      "foreign_index_id": 5,
+      "primary_table_id": 809,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 723,
+      "foreign_index_id": 6,
+      "primary_table_id": 724,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 724,
+      "foreign_index_id": 3,
+      "primary_table_id": 983,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 728,
+      "foreign_index_id": 4,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 728,
+      "foreign_index_id": 5,
+      "primary_table_id": 892,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 729,
+      "foreign_index_id": 2,
+      "primary_table_id": 747,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 737,
+      "foreign_index_id": 1,
+      "primary_table_id": 888,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 743,
+      "foreign_index_id": 5,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 746,
+      "foreign_index_id": 4,
+      "primary_table_id": 747,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 831,
+      "foreign_index_id": 2,
+      "primary_table_id": 847,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 846,
+      "foreign_index_id": 6,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 847,
+      "foreign_index_id": 7,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 847,
+      "foreign_index_id": 8,
+      "primary_table_id": 892,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 863,
+      "foreign_index_id": 8,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 863,
+      "foreign_index_id": 9,
+      "primary_table_id": 892,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1146,
+      "foreign_index_id": 4,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1147,
+      "foreign_index_id": 5,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1148,
+      "foreign_index_id": 3,
+      "primary_table_id": 1152,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1173,
+      "foreign_index_id": 1,
+      "primary_table_id": 1231,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1183,
+      "foreign_index_id": 1,
+      "primary_table_id": 1185,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1191,
+      "foreign_index_id": 2,
+      "primary_table_id": 1231,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1248,
+      "foreign_index_id": 1,
+      "primary_table_id": 1249,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    }
+  ]
+}

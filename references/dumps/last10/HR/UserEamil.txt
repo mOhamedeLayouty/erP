@@ -1,0 +1,6 @@
+TABLE: HR.UserEamil
+ORDER_BY: AttDate
+COLUMNS: UserID, SchIndexID, AttDate, sendEamil, UsEamil, BodyEamil
+ROWS: 0
+---
+[]

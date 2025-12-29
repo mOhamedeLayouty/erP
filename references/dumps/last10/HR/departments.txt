@@ -1,0 +1,6 @@
+TABLE: HR.departments
+ORDER_BY: (none)
+COLUMNS: deptid, deptname, supdeptid
+ROWS: 0
+---
+[]

@@ -1,0 +1,27 @@
+TABLE: DBA.kpi_user_login
+ORDER_BY: (none)
+COLUMNS: user_name, kpi_code_1, kpi_code_2, kpi_code_3, kpi_code_4, fyear, tyear, type
+ROWS: 2
+---
+[
+  {
+    "user_name": "1",
+    "kpi_code_1": "car_in_no",
+    "kpi_code_2": "parts_all_sales",
+    "kpi_code_3": "labor_all_sales",
+    "kpi_code_4": "total_sales_revenue",
+    "fyear": 2014,
+    "tyear": 2014,
+    "type": 3
+  },
+  {
+    "user_name": "11",
+    "kpi_code_1": "car_in_no",
+    "kpi_code_2": "ws_no_jo",
+    "kpi_code_3": "unit_serviced_TS",
+    "kpi_code_4": "service_productivity",
+    "fyear": 2015,
+    "tyear": 2016,
+    "type": 1
+  }
+]

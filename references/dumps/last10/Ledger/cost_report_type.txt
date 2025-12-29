@@ -1,0 +1,37 @@
+TABLE: Ledger.cost_report_type
+ORDER_BY: type_id
+COLUMNS: type_id, type_desc, type_desc_e
+ROWS: 6
+---
+[
+  {
+    "type_id": "6",
+    "type_desc": "Salaries & Benefits",
+    "type_desc_e": "Salaries & Benefits"
+  },
+  {
+    "type_id": "5",
+    "type_desc": "Other Expenses",
+    "type_desc_e": "Other Expenses"
+  },
+  {
+    "type_id": "4",
+    "type_desc": "Depreciation of fixed assets",
+    "type_desc_e": "Depreciation of fixed assets"
+  },
+  {
+    "type_id": "3",
+    "type_desc": "Supplies & Services",
+    "type_desc_e": "Supplies & Services"
+  },
+  {
+    "type_id": "2",
+    "type_desc": "Direct Cost of Sales Parts",
+    "type_desc_e": "Direct Cost of Sales Parts"
+  },
+  {
+    "type_id": "1",
+    "type_desc": "Direct Cost of Sales Cars",
+    "type_desc_e": "Direct Cost of Sales Cars"
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: dbo.ix_consultant_query_index
+ORDER_BY: master_id
+COLUMNS: master_id, phase_id, logging_session, text_id, pos, table_id, index_id, local_score, cluster_score
+ROWS: 0
+---
+[]

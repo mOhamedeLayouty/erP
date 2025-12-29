@@ -1,0 +1,97 @@
+TABLE: Ledger.zz_sys
+ORDER_BY: id
+COLUMNS: id, name, status, f_date, t_date, company_code, closed
+ROWS: 10
+---
+[
+  {
+    "id": "K_OPEN",
+    "name": "����� ���������",
+    "status": "ON",
+    "f_date": null,
+    "t_date": null,
+    "company_code": 4,
+    "closed": 0
+  },
+  {
+    "id": "K_OPEN",
+    "name": "����� ���������",
+    "status": "ON",
+    "f_date": null,
+    "t_date": null,
+    "company_code": 2,
+    "closed": 0
+  },
+  {
+    "id": "K_OPEN",
+    "name": "����� ���������",
+    "status": "ON",
+    "f_date": null,
+    "t_date": null,
+    "company_code": 3,
+    "closed": 0
+  },
+  {
+    "id": "K_OPEN",
+    "name": "����� ���������",
+    "status": "ON",
+    "f_date": null,
+    "t_date": null,
+    "company_code": 1,
+    "closed": 0
+  },
+  {
+    "id": "K_OPEN",
+    "name": "����� ���������",
+    "status": "ON",
+    "f_date": null,
+    "t_date": null,
+    "company_code": 5,
+    "closed": 0
+  },
+  {
+    "id": "D_IN",
+    "name": "������ ������� ������� ������",
+    "status": null,
+    "f_date": "2019-01-01",
+    "t_date": "2019-12-31",
+    "company_code": 1,
+    "closed": 0
+  },
+  {
+    "id": "D_IN",
+    "name": "������ ������� ������� ������",
+    "status": null,
+    "f_date": "2020-01-01",
+    "t_date": "2020-12-31",
+    "company_code": 2,
+    "closed": 0
+  },
+  {
+    "id": "D_IN",
+    "name": "������ ������� ������� ������",
+    "status": null,
+    "f_date": "2025-01-01",
+    "t_date": "2025-12-31",
+    "company_code": 5,
+    "closed": 0
+  },
+  {
+    "id": "D_IN",
+    "name": "������ ������� ������� ������",
+    "status": null,
+    "f_date": "2024-01-01",
+    "t_date": "2024-12-31",
+    "company_code": 4,
+    "closed": 0
+  },
+  {
+    "id": "D_IN",
+    "name": "������ ������� ������� ������",
+    "status": null,
+    "f_date": "2021-01-01",
+    "t_date": "2021-12-31",
+    "company_code": 3,
+    "closed": 0
+  }
+]

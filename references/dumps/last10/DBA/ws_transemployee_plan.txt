@@ -1,0 +1,6 @@
+TABLE: DBA.ws_transemployee_plan
+ORDER_BY: entry_date
+COLUMNS: serial, plan_date, trans_type, trans_no, trans_date, eqpt_id, serviceid, employee_id, starttime, endtime, notes, user_id, entry_date, timecalc, status, reason_id, emppercent, empstatus, service_center, location_id
+ROWS: 0
+---
+[]

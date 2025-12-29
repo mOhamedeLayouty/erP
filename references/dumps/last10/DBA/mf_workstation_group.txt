@@ -1,0 +1,6 @@
+TABLE: DBA.mf_workstation_group
+ORDER_BY: entry_date
+COLUMNS: id, code, name_a, name_e, instance_no, hour_rate, service_center, location_id, entry_date, entry_user, edit_date, edit_user
+ROWS: 0
+---
+[]

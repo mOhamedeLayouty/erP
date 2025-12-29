@@ -1,0 +1,22 @@
+TABLE: DBA.hobbies
+ORDER_BY: hobbies_id
+COLUMNS: hobbies_id, desc_e, desc_a
+ROWS: 3
+---
+[
+  {
+    "hobbies_id": "4",
+    "desc_e": "Shopping",
+    "desc_a": "������"
+  },
+  {
+    "hobbies_id": "3",
+    "desc_e": "Sport",
+    "desc_a": "�������"
+  },
+  {
+    "hobbies_id": "1",
+    "desc_e": "Reading",
+    "desc_a": "�������"
+  }
+]

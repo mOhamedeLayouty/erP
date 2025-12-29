@@ -1,0 +1,37 @@
+TABLE: dbo.RowGenerator
+ORDER_BY: (none)
+COLUMNS: row_num
+ROWS: 10
+---
+[
+  {
+    "row_num": 1
+  },
+  {
+    "row_num": 2
+  },
+  {
+    "row_num": 3
+  },
+  {
+    "row_num": 4
+  },
+  {
+    "row_num": 5
+  },
+  {
+    "row_num": 6
+  },
+  {
+    "row_num": 7
+  },
+  {
+    "row_num": 8
+  },
+  {
+    "row_num": 9
+  },
+  {
+    "row_num": 10
+  }
+]

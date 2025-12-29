@@ -1,0 +1,6 @@
+TABLE: DBA.services
+ORDER_BY: entry_date
+COLUMNS: opertationid, operationcode, longdes_e, longdes_a, shortdes_e, shortdes_a, family, user_id, entry_date, service_center
+ROWS: 0
+---
+[]

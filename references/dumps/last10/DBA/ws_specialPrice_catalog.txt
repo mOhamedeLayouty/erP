@@ -1,0 +1,6 @@
+TABLE: DBA.ws_specialPrice_catalog
+ORDER_BY: location_id
+COLUMNS: specialPriceId, CatalogID, PricePerHour, priceperhour_service, priceperhour_warranty, entrydate, entryuser, editdate, edituser, service_center, location_id, PricePerHour_BodyPaint
+ROWS: 0
+---
+[]

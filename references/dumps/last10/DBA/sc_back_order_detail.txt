@@ -1,0 +1,107 @@
+TABLE: DBA.sc_back_order_detail
+ORDER_BY: item_id
+COLUMNS: order_code, order_detail, service_center, item_id, qty, price, notes, location_id
+ROWS: 10
+---
+[
+  {
+    "order_code": "1",
+    "order_detail": 3,
+    "service_center": 1,
+    "item_id": "6302",
+    "qty": 4,
+    "price": null,
+    "notes": null,
+    "location_id": 14
+  },
+  {
+    "order_code": "1",
+    "order_detail": 2,
+    "service_center": 1,
+    "item_id": "4708",
+    "qty": 4,
+    "price": 143,
+    "notes": null,
+    "location_id": 4
+  },
+  {
+    "order_code": "2",
+    "order_detail": 4,
+    "service_center": 1,
+    "item_id": "4703",
+    "qty": 2,
+    "price": 99,
+    "notes": null,
+    "location_id": 2
+  },
+  {
+    "order_code": "1",
+    "order_detail": 1,
+    "service_center": 1,
+    "item_id": "4664",
+    "qty": 1,
+    "price": 31,
+    "notes": null,
+    "location_id": 4
+  },
+  {
+    "order_code": "1",
+    "order_detail": 2,
+    "service_center": 1,
+    "item_id": "4664",
+    "qty": 1,
+    "price": 31,
+    "notes": null,
+    "location_id": 14
+  },
+  {
+    "order_code": "2",
+    "order_detail": 3,
+    "service_center": 1,
+    "item_id": "4664",
+    "qty": 1,
+    "price": 31,
+    "notes": null,
+    "location_id": 2
+  },
+  {
+    "order_code": "2",
+    "order_detail": 2,
+    "service_center": 1,
+    "item_id": "4651",
+    "qty": 5,
+    "price": 430,
+    "notes": null,
+    "location_id": 2
+  },
+  {
+    "order_code": "1",
+    "order_detail": 2,
+    "service_center": 1,
+    "item_id": "4651",
+    "qty": 4,
+    "price": 430,
+    "notes": null,
+    "location_id": 2
+  },
+  {
+    "order_code": "1",
+    "order_detail": 1,
+    "service_center": 1,
+    "item_id": "3151",
+    "qty": 1,
+    "price": 436,
+    "notes": null,
+    "location_id": 2
+  },
+  {
+    "order_code": "1",
+    "order_detail": 1,
+    "service_center": 1,
+    "item_id": "3151",
+    "qty": 1,
+    "price": 436,
+    "notes": null,
+    "location_id": 14
+  }
+]

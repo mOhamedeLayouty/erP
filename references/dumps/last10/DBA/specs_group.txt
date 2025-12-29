@@ -1,0 +1,6 @@
+TABLE: DBA.specs_group
+ORDER_BY: entry_date
+COLUMNS: group_id, group_code, desc_e, desc_a, entry_user, entry_date, edit_user, edit_date, brand
+ROWS: 0
+---
+[]

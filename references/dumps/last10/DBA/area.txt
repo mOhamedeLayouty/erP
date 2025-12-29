@@ -1,0 +1,6 @@
+TABLE: DBA.area
+ORDER_BY: (none)
+COLUMNS: country_code, city_code, area_code, decription, decription_a
+ROWS: 0
+---
+[]

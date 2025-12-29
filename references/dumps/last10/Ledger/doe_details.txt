@@ -1,0 +1,6 @@
+TABLE: Ledger.doe_details
+ORDER_BY: doe_id
+COLUMNS: line_no, doe_id, acc_no, curr_id, curr_rate, db, cr, debit, credit, debit_new, credit_new, company_code, debit_variance_new, credit_variance_new
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: DBA.car_customer_log
+ORDER_BY: log_id
+COLUMNS: log_id, log_store, log_date, log_time, customer_id, log_note
+ROWS: 0
+---
+[]

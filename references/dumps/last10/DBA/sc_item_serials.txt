@@ -1,0 +1,33 @@
+TABLE: DBA.sc_item_serials
+ORDER_BY: item_id
+COLUMNS: item_id, batch_id, serial_id, exp_date, trans_type, trans_id, trans_date, service_center, location_id, store_id, qty
+ROWS: 2
+---
+[
+  {
+    "item_id": "6578",
+    "batch_id": "2",
+    "serial_id": "2",
+    "exp_date": "1900-01-01",
+    "trans_type": "D",
+    "trans_id": 2898,
+    "trans_date": "2019-03-31 21:45:11.987000",
+    "service_center": 1,
+    "location_id": 1,
+    "store_id": 1,
+    "qty": 0
+  },
+  {
+    "item_id": "6578",
+    "batch_id": "2",
+    "serial_id": "2",
+    "exp_date": "1900-01-01",
+    "trans_type": "C",
+    "trans_id": 80,
+    "trans_date": "2019-02-20 13:09:20.918000",
+    "service_center": 1,
+    "location_id": 1,
+    "store_id": 1,
+    "qty": 0
+  }
+]

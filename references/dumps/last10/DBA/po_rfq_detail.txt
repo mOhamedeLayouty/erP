@@ -1,0 +1,6 @@
+TABLE: DBA.po_rfq_detail
+ORDER_BY: rfqdetail_id
+COLUMNS: rfqdetail_id, rfq_id, item_id, qty, notes, last_price
+ROWS: 0
+---
+[]

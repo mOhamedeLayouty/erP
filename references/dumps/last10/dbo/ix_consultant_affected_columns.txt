@@ -1,0 +1,6 @@
+TABLE: dbo.ix_consultant_affected_columns
+ORDER_BY: master_id
+COLUMNS: master_id, logging_session, text_id, table_id, column_id
+ROWS: 0
+---
+[]

@@ -1,0 +1,17 @@
+TABLE: DBA.id
+ORDER_BY: (none)
+COLUMNS: description, code, description_a
+ROWS: 2
+---
+[
+  {
+    "description": "ID",
+    "code": 1,
+    "description_a": "�����"
+  },
+  {
+    "description": "Passport",
+    "code": 2,
+    "description_a": "���� ���"
+  }
+]

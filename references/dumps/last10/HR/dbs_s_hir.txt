@@ -1,0 +1,35 @@
+TABLE: HR.dbs_s_hir
+ORDER_BY: entry_date
+COLUMNS: hir_code, hir_desc_e, hir_desc_a, entry_date, user_id
+ROWS: 4
+---
+[
+  {
+    "hir_code": 4,
+    "hir_desc_e": "Weekly",
+    "hir_desc_a": "������",
+    "entry_date": "2002-08-06 13:52:00.427000",
+    "user_id": "HR"
+  },
+  {
+    "hir_code": 3,
+    "hir_desc_e": "Daily",
+    "hir_desc_a": "������",
+    "entry_date": "2002-07-21 18:34:41.258000",
+    "user_id": "HR"
+  },
+  {
+    "hir_code": 2,
+    "hir_desc_e": "Monthly",
+    "hir_desc_a": "������",
+    "entry_date": "2002-07-20 13:44:59.955000",
+    "user_id": "HR"
+  },
+  {
+    "hir_code": 1,
+    "hir_desc_e": "Project",
+    "hir_desc_a": "�������",
+    "entry_date": "2002-07-20 13:30:49.293000",
+    "user_id": "HR"
+  }
+]

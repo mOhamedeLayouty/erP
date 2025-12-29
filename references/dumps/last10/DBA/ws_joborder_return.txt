@@ -1,0 +1,107 @@
+TABLE: DBA.ws_joborder_return
+ORDER_BY: return_id
+COLUMNS: return_id, joborderid, return_comment, return_date, user_id, notes, service_center, location_id
+ROWS: 10
+---
+[
+  {
+    "return_id": 15294,
+    "joborderid": "66466",
+    "return_comment": "j",
+    "return_date": "2025-12-22 17:07:01.805000",
+    "user_id": "mohamed.m",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 2
+  },
+  {
+    "return_id": 15293,
+    "joborderid": "63868",
+    "return_comment": "0",
+    "return_date": "2025-12-22 16:19:34.409000",
+    "user_id": "fawzi.ahmed",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 2
+  },
+  {
+    "return_id": 15292,
+    "joborderid": "65922",
+    "return_comment": ".",
+    "return_date": "2025-12-22 16:12:17.918000",
+    "user_id": "fawzi.ahmed",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 2
+  },
+  {
+    "return_id": 15291,
+    "joborderid": "1971",
+    "return_comment": "000",
+    "return_date": "2025-12-22 17:00:23.309000",
+    "user_id": "loading.k2",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 14
+  },
+  {
+    "return_id": 15290,
+    "joborderid": "56018",
+    "return_comment": "0",
+    "return_date": "2025-12-22 14:50:08.038000",
+    "user_id": "aly.amer",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 4
+  },
+  {
+    "return_id": 15289,
+    "joborderid": "56014",
+    "return_comment": "0",
+    "return_date": "2025-12-22 14:41:17.381000",
+    "user_id": "aly.amer",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 4
+  },
+  {
+    "return_id": 15289,
+    "joborderid": "1961",
+    "return_comment": "0000000000",
+    "return_date": "2025-12-22 15:09:52.221000",
+    "user_id": "loading.k2",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 14
+  },
+  {
+    "return_id": 15288,
+    "joborderid": "17374",
+    "return_comment": "�����",
+    "return_date": "2025-12-22 12:54:23.579000",
+    "user_id": "abeer.rawy",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 3
+  },
+  {
+    "return_id": 15287,
+    "joborderid": "66863",
+    "return_comment": ".",
+    "return_date": "2025-12-22 12:53:25.353000",
+    "user_id": "mohamed.m",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 2
+  },
+  {
+    "return_id": 15287,
+    "joborderid": "1869",
+    "return_comment": "0000000",
+    "return_date": "2025-12-22 12:15:35.085000",
+    "user_id": "loading.k2",
+    "notes": null,
+    "service_center": 1,
+    "location_id": 14
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: Ledger.recurring_entry_history
+ORDER_BY: recurring_date
+COLUMNS: recur_entry, company_code, recurring_date, jrnal_no
+ROWS: 0
+---
+[]

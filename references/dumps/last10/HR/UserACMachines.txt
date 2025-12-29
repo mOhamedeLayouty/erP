@@ -1,0 +1,6 @@
+TABLE: HR.UserACMachines
+ORDER_BY: (none)
+COLUMNS: UserID, Deviceid
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: CRM.client_form_details
+ORDER_BY: (none)
+COLUMNS: client_code, form_serial, detail_serial, product_code, remark
+ROWS: 0
+---
+[]

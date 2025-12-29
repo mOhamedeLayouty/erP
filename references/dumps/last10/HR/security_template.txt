@@ -1,0 +1,6 @@
+TABLE: HR.security_template
+ORDER_BY: control_id
+COLUMNS: control_id, description_e, description_a, parent_id
+ROWS: 0
+---
+[]

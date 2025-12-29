@@ -1,0 +1,85 @@
+TABLE: HR.emp_hirepapers
+ORDER_BY: (none)
+COLUMNS: emp_code, paper_1, paper_2, paper_3, paper_4, paper_5, paper_6, paper_7, paper_8, paper_9, paper_10
+ROWS: 6
+---
+[
+  {
+    "emp_code": "5141",
+    "paper_1": "Y",
+    "paper_2": "Y",
+    "paper_3": "N",
+    "paper_4": "N",
+    "paper_5": "N",
+    "paper_6": "N",
+    "paper_7": "N",
+    "paper_8": "N",
+    "paper_9": "N",
+    "paper_10": "N"
+  },
+  {
+    "emp_code": "5447",
+    "paper_1": "N",
+    "paper_2": "N",
+    "paper_3": "N",
+    "paper_4": "N",
+    "paper_5": "N",
+    "paper_6": "N",
+    "paper_7": "N",
+    "paper_8": "N",
+    "paper_9": "N",
+    "paper_10": "N"
+  },
+  {
+    "emp_code": "5308",
+    "paper_1": "N",
+    "paper_2": "N",
+    "paper_3": "N",
+    "paper_4": "N",
+    "paper_5": "N",
+    "paper_6": "N",
+    "paper_7": "N",
+    "paper_8": "N",
+    "paper_9": "N",
+    "paper_10": "N"
+  },
+  {
+    "emp_code": "5295",
+    "paper_1": "N",
+    "paper_2": "N",
+    "paper_3": "N",
+    "paper_4": "N",
+    "paper_5": "N",
+    "paper_6": "N",
+    "paper_7": "N",
+    "paper_8": "N",
+    "paper_9": "N",
+    "paper_10": "N"
+  },
+  {
+    "emp_code": "5262",
+    "paper_1": "N",
+    "paper_2": "N",
+    "paper_3": "N",
+    "paper_4": "N",
+    "paper_5": "N",
+    "paper_6": "N",
+    "paper_7": "N",
+    "paper_8": "N",
+    "paper_9": "N",
+    "paper_10": "N"
+  },
+  {
+    "emp_code": "5438",
+    "paper_1": "N",
+    "paper_2": "N",
+    "paper_3": "N",
+    "paper_4": "N",
+    "paper_5": "N",
+    "paper_6": "N",
+    "paper_7": "N",
+    "paper_8": "N",
+    "paper_9": "N",
+    "paper_10": "N"
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: CRM.service_repair
+ORDER_BY: tow_call_date_time
+COLUMNS: client_code, call_no, tow_call, tow_call_date_time, tow_call_value, tow_call_notes, tow_pickup, tow_pickup_date_time, tow_pickup_value, tow_pickup_notes, limo_call, limo_call_date_time, limo_call_value, limo_call_notes, limo_pickup, limo_pickup_date_time, limo_pickup_value, limo_pickup_notes, repl_call, repl_call_date_time, repl_call_value, repl_call_notes, repl_deliv, repl_deliv_date_time, repl_deliv_value, repl_deliv_notes, ins_lic_vali_date, ins_lic_vali_date_time, ins_lic_vali_date_notes, ins_phone, ins_phone_date_time, ins_phone_notes, ins_fax, ins_fax_date_time, ins_fax_notes, service_center, enter_sc, enter_sc_date_time, enter_sc_value, enter_sc_notes, insp_one, insp_one_date_time, insp_one_value, insp_one_notes, fin_work, fin_work_date_time, fin_work_value, fin_work_notes, insp_two, insp_two_date_time, insp_two_value, insp_two_notes, pay, pay_date_time, pay_value, pay_notes, pickup, pickup_date_time, pickup_value, pickup_notes, completed, completed_date_time, tow_call_provider
+ROWS: 0
+---
+[]

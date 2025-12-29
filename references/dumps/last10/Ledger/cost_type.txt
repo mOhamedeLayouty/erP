@@ -1,0 +1,77 @@
+TABLE: Ledger.cost_type
+ORDER_BY: (none)
+COLUMNS: company_code, cost_type, desce, desca, active
+ROWS: 10
+---
+[
+  {
+    "company_code": 1,
+    "cost_type": "1",
+    "desce": "Department",
+    "desca": "�����",
+    "active": "Y"
+  },
+  {
+    "company_code": 1,
+    "cost_type": "2",
+    "desce": "Brand",
+    "desca": "����",
+    "active": "Y"
+  },
+  {
+    "company_code": 1,
+    "cost_type": "3",
+    "desce": "Location",
+    "desca": "����",
+    "active": "Y"
+  },
+  {
+    "company_code": 1,
+    "cost_type": "4",
+    "desce": "Activity",
+    "desca": "������",
+    "active": "Y"
+  },
+  {
+    "company_code": 2,
+    "cost_type": "1",
+    "desce": "Department",
+    "desca": "�����",
+    "active": "Y"
+  },
+  {
+    "company_code": 2,
+    "cost_type": "2",
+    "desce": "Brand",
+    "desca": "����",
+    "active": "Y"
+  },
+  {
+    "company_code": 2,
+    "cost_type": "3",
+    "desce": "Location",
+    "desca": "����",
+    "active": "Y"
+  },
+  {
+    "company_code": 2,
+    "cost_type": "4",
+    "desce": "Activity",
+    "desca": "������",
+    "active": "Y"
+  },
+  {
+    "company_code": 3,
+    "cost_type": "1",
+    "desce": "Department",
+    "desca": "�����",
+    "active": "Y"
+  },
+  {
+    "company_code": 3,
+    "cost_type": "2",
+    "desce": "Brand",
+    "desca": "����",
+    "active": "Y"
+  }
+]

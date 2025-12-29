@@ -1,0 +1,77 @@
+TABLE: DBA.sc_item_replace
+ORDER_BY: (none)
+COLUMNS: item_code, item_rep_code, item_rep_per, rep_type, service_center
+ROWS: 10
+---
+[
+  {
+    "item_code": "3308",
+    "item_rep_code": "8237",
+    "item_rep_per": 0,
+    "rep_type": null,
+    "service_center": 1
+  },
+  {
+    "item_code": "8253",
+    "item_rep_code": "6876",
+    "item_rep_per": 0,
+    "rep_type": "D",
+    "service_center": 1
+  },
+  {
+    "item_code": "6876",
+    "item_rep_code": "8253",
+    "item_rep_per": 0,
+    "rep_type": "D",
+    "service_center": 1
+  },
+  {
+    "item_code": "8254",
+    "item_rep_code": "6875",
+    "item_rep_per": 0,
+    "rep_type": "D",
+    "service_center": 1
+  },
+  {
+    "item_code": "6875",
+    "item_rep_code": "8254",
+    "item_rep_per": 0,
+    "rep_type": "D",
+    "service_center": 1
+  },
+  {
+    "item_code": "2067",
+    "item_rep_code": "8256",
+    "item_rep_per": 0,
+    "rep_type": "D",
+    "service_center": 1
+  },
+  {
+    "item_code": "8256",
+    "item_rep_code": "2067",
+    "item_rep_per": 0,
+    "rep_type": "D",
+    "service_center": 1
+  },
+  {
+    "item_code": "7505",
+    "item_rep_code": "7634",
+    "item_rep_per": 0,
+    "rep_type": "D",
+    "service_center": 1
+  },
+  {
+    "item_code": "7634",
+    "item_rep_code": "7505",
+    "item_rep_per": 0,
+    "rep_type": "D",
+    "service_center": 1
+  },
+  {
+    "item_code": "990",
+    "item_rep_code": "8101",
+    "item_rep_per": 0,
+    "rep_type": "D",
+    "service_center": 1
+  }
+]

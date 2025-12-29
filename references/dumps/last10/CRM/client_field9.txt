@@ -1,0 +1,6 @@
+TABLE: CRM.client_field9
+ORDER_BY: (none)
+COLUMNS: client_code, field_no, description, description_a
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: DBA.group_user
+ORDER_BY: (none)
+COLUMNS: user_code, group_code
+ROWS: 0
+---
+[]

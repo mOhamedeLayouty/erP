@@ -1,0 +1,6 @@
+TABLE: DBA.lisence_type
+ORDER_BY: (none)
+COLUMNS: lis_type_code, lis_type_desc_e, lis_type_desc_a
+ROWS: 0
+---
+[]

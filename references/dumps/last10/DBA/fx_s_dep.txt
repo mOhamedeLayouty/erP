@@ -1,0 +1,63 @@
+TABLE: DBA.fx_s_dep
+ORDER_BY: entry_date
+COLUMNS: dep_code, dep_desc_e, dep_desc_a, entry_date, user_id, cost_center
+ROWS: 7
+---
+[
+  {
+    "dep_code": 7,
+    "dep_desc_e": "Parts",
+    "dep_desc_a": "Parts",
+    "entry_date": "2016-03-21 09:40:27.948000",
+    "user_id": "11",
+    "cost_center": "17"
+  },
+  {
+    "dep_code": 6,
+    "dep_desc_e": "Service",
+    "dep_desc_a": "Service",
+    "entry_date": "2014-05-27 11:35:20.559000",
+    "user_id": "1",
+    "cost_center": "16"
+  },
+  {
+    "dep_code": 5,
+    "dep_desc_e": "Marketing Department",
+    "dep_desc_a": "Marketing Department",
+    "entry_date": "2014-05-27 11:35:00.489000",
+    "user_id": "1",
+    "cost_center": "15"
+  },
+  {
+    "dep_code": 4,
+    "dep_desc_e": "Sales Department",
+    "dep_desc_a": "Sales Department",
+    "entry_date": "2014-05-27 11:34:33.619000",
+    "user_id": "1",
+    "cost_center": "14"
+  },
+  {
+    "dep_code": 3,
+    "dep_desc_e": "I.T. Department",
+    "dep_desc_a": "I.T. Department",
+    "entry_date": "2014-05-27 11:33:49.349000",
+    "user_id": "1",
+    "cost_center": "13"
+  },
+  {
+    "dep_code": 2,
+    "dep_desc_e": "Finance & Accounting",
+    "dep_desc_a": "Finance & Accounting",
+    "entry_date": "2014-05-27 11:33:24.669000",
+    "user_id": "1",
+    "cost_center": "12"
+  },
+  {
+    "dep_code": 1,
+    "dep_desc_e": "HR & Administration",
+    "dep_desc_a": "HR & Administration",
+    "entry_date": "2014-05-27 11:32:40.829000",
+    "user_id": "1",
+    "cost_center": "11"
+  }
+]

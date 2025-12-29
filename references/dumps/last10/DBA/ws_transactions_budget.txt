@@ -1,0 +1,6 @@
+TABLE: DBA.ws_transactions_budget
+ORDER_BY: location_id
+COLUMNS: budget_year, budget_month, in_cars_number, spareparts_sales, spareparts_workshop, spareparts_warranty, labor_warranty, labor_sales, month_duration, service_center, location_id
+ROWS: 0
+---
+[]

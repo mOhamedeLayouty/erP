@@ -1,0 +1,6 @@
+TABLE: DBA.vehicle_pricing_add_specs
+ORDER_BY: price_id
+COLUMNS: price_id, specs_id, log_stock, brand
+ROWS: 0
+---
+[]

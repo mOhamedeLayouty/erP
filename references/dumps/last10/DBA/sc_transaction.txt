@@ -1,0 +1,79 @@
+TABLE: DBA.sc_transaction
+ORDER_BY: trans_id
+COLUMNS: trans_id, trans_name, trans_flag, trans_name_e, invoice_type, gen_invoice, stocktaking
+ROWS: 8
+---
+[
+  {
+    "trans_id": 2000,
+    "trans_name": "����� ��� -���",
+    "trans_flag": 2,
+    "trans_name_e": "Stocktaking-Debit",
+    "invoice_type": null,
+    "gen_invoice": "N",
+    "stocktaking": "Y"
+  },
+  {
+    "trans_id": 1000,
+    "trans_name": "����� ��� -�����",
+    "trans_flag": 1,
+    "trans_name_e": "Stocktaking-credit",
+    "invoice_type": null,
+    "gen_invoice": "N",
+    "stocktaking": "Y"
+  },
+  {
+    "trans_id": 7,
+    "trans_name": "����� �� ������",
+    "trans_flag": 1,
+    "trans_name_e": "Credit-Settlment",
+    "invoice_type": null,
+    "gen_invoice": "N",
+    "stocktaking": "N"
+  },
+  {
+    "trans_id": 6,
+    "trans_name": "����� ������",
+    "trans_flag": 2,
+    "trans_name_e": "Debit-Settlment",
+    "invoice_type": 6,
+    "gen_invoice": "N",
+    "stocktaking": "N"
+  },
+  {
+    "trans_id": 5,
+    "trans_name": "���� �������",
+    "trans_flag": 1,
+    "trans_name_e": "Open Balance",
+    "invoice_type": null,
+    "gen_invoice": "N",
+    "stocktaking": "N"
+  },
+  {
+    "trans_id": 3,
+    "trans_name": "������ ������",
+    "trans_flag": 2,
+    "trans_name_e": "Vendor Return",
+    "invoice_type": null,
+    "gen_invoice": "Y",
+    "stocktaking": "N"
+  },
+  {
+    "trans_id": 2,
+    "trans_name": "��� �����",
+    "trans_flag": 1,
+    "trans_name_e": "Credit Order",
+    "invoice_type": null,
+    "gen_invoice": "Y",
+    "stocktaking": "N"
+  },
+  {
+    "trans_id": 1,
+    "trans_name": "��� ���",
+    "trans_flag": 2,
+    "trans_name_e": "Debit Order",
+    "invoice_type": null,
+    "gen_invoice": "Y",
+    "stocktaking": "N"
+  }
+]

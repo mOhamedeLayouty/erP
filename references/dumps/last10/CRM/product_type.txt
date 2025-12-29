@@ -1,0 +1,28 @@
+TABLE: CRM.product_type
+ORDER_BY: (none)
+COLUMNS: client_code, type_code, description, description_a, brand
+ROWS: 3
+---
+[
+  {
+    "client_code": "1",
+    "type_code": "3",
+    "description": "FIAT",
+    "description_a": "FIAT",
+    "brand": null
+  },
+  {
+    "client_code": "1",
+    "type_code": "4",
+    "description": "FIAT PRO",
+    "description_a": "FIAT PRO",
+    "brand": null
+  },
+  {
+    "client_code": "1",
+    "type_code": "5",
+    "description": "ALFA",
+    "description_a": "ALFA",
+    "brand": null
+  }
+]

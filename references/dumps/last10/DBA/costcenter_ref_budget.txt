@@ -1,0 +1,6 @@
+TABLE: DBA.costcenter_ref_budget
+ORDER_BY: (none)
+COLUMNS: account, year, period, costcenter, company_code, admin_amount, station_amount, admin_amount_f, station_amount_f
+ROWS: 0
+---
+[]

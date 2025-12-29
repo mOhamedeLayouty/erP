@@ -1,0 +1,21 @@
+TABLE: DBA.vehicle_ext_operations
+ORDER_BY: (none)
+COLUMNS: oper_code, name_e, name_a, oper_desc, brand
+ROWS: 2
+---
+[
+  {
+    "oper_code": "1",
+    "name_e": "Box",
+    "name_a": "Box",
+    "oper_desc": "Box",
+    "brand": 1
+  },
+  {
+    "oper_code": "2",
+    "name_e": "���� ����� + ���� ����",
+    "name_a": "���� ����� + ���� ����",
+    "oper_desc": "����� ���� ������ �� ������ ������� ",
+    "brand": 1
+  }
+]

@@ -1,0 +1,15 @@
+TABLE: HR.dbs_s_lev
+ORDER_BY: entry_date
+COLUMNS: lev_code, lev_desc_e, lev_desc_a, lev_status, entry_date, user_id
+ROWS: 1
+---
+[
+  {
+    "lev_code": 1,
+    "lev_desc_e": "������ �� �����",
+    "lev_desc_a": "������ �� �����",
+    "lev_status": null,
+    "entry_date": "2019-03-26 12:08:32.525000",
+    "user_id": "ahmed.samy"
+  }
+]

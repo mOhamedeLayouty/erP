@@ -1,0 +1,107 @@
+TABLE: DBA.car_account_setup
+ORDER_BY: store_id
+COLUMNS: ser_no, description, acc_no, cost_center, brand, store_id, description_e, cost_center_4
+ROWS: 10
+---
+[
+  {
+    "ser_no": 2,
+    "description": "������ ������ ���",
+    "acc_no": "4010102",
+    "cost_center": "14",
+    "brand": 1,
+    "store_id": 1,
+    "description_e": "Vehicle Sales Credit",
+    "cost_center_4": "42"
+  },
+  {
+    "ser_no": 5,
+    "description": "����� ������ ������ ",
+    "acc_no": "1030802",
+    "cost_center": null,
+    "brand": 1,
+    "store_id": 1,
+    "description_e": "Sales Tax",
+    "cost_center_4": "42"
+  },
+  {
+    "ser_no": 8,
+    "description": "����� � � � ������",
+    "acc_no": "1030803",
+    "cost_center": null,
+    "brand": 1,
+    "store_id": 1,
+    "description_e": "Add Tax",
+    "cost_center_4": "42"
+  },
+  {
+    "ser_no": 12,
+    "description": "���� �������",
+    "acc_no": "1030203",
+    "cost_center": null,
+    "brand": 1,
+    "store_id": 1,
+    "description_e": "Customer Account",
+    "cost_center_4": "42"
+  },
+  {
+    "ser_no": 13,
+    "description": "Visa",
+    "acc_no": "102020108",
+    "cost_center": null,
+    "brand": 1,
+    "store_id": 1,
+    "description_e": "Visa",
+    "cost_center_4": "42"
+  },
+  {
+    "ser_no": 14,
+    "description": "Master Card",
+    "acc_no": "",
+    "cost_center": null,
+    "brand": 1,
+    "store_id": 1,
+    "description_e": "Master Card",
+    "cost_center_4": "42"
+  },
+  {
+    "ser_no": 15,
+    "description": "American Card",
+    "acc_no": "",
+    "cost_center": null,
+    "brand": 1,
+    "store_id": 1,
+    "description_e": "American Card",
+    "cost_center_4": "42"
+  },
+  {
+    "ser_no": 17,
+    "description": "�/���� ������",
+    "acc_no": "1020801",
+    "cost_center": "14",
+    "brand": 1,
+    "store_id": 1,
+    "description_e": "Vehicle Stock",
+    "cost_center_4": "42"
+  },
+  {
+    "ser_no": 18,
+    "description": "�/�������",
+    "acc_no": "1020101",
+    "cost_center": null,
+    "brand": 1,
+    "store_id": 1,
+    "description_e": "Cash",
+    "cost_center_4": "42"
+  },
+  {
+    "ser_no": 1,
+    "description": "������ ������ ����",
+    "acc_no": "4010101",
+    "cost_center": "14",
+    "brand": 1,
+    "store_id": 1,
+    "description_e": "Vehicle Sales Cash",
+    "cost_center_4": "42"
+  }
+]

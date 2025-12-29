@@ -1,0 +1,6 @@
+TABLE: dbo.sa_diagnostic_blocking
+ORDER_BY: logging_session_id
+COLUMNS: logging_session_id, lock_id, request_id, cursor_id, original_table_object_id, rowid, block_time, unblock_time, blocked_by
+ROWS: 0
+---
+[]

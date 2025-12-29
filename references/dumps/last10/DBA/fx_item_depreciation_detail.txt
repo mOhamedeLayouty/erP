@@ -1,0 +1,6 @@
+TABLE: DBA.fx_item_depreciation_detail
+ORDER_BY: branch_id
+COLUMNS: asset_code, branch_id, line_code, date_ending, depreciation, notes, posted
+ROWS: 0
+---
+[]

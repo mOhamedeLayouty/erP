@@ -1,0 +1,6 @@
+TABLE: CRM.call_description
+ORDER_BY: (none)
+COLUMNS: client_code, category_code, serial_no, description
+ROWS: 0
+---
+[]

@@ -1,0 +1,67 @@
+TABLE: HR.hr_emp_shift
+ORDER_BY: shift_id
+COLUMNS: emp_code, shift_id, shift_id2, shift_id3
+ROWS: 10
+---
+[
+  {
+    "emp_code": "5572",
+    "shift_id": 6,
+    "shift_id2": null,
+    "shift_id3": null
+  },
+  {
+    "emp_code": "5551",
+    "shift_id": 6,
+    "shift_id2": null,
+    "shift_id3": null
+  },
+  {
+    "emp_code": "5568",
+    "shift_id": 6,
+    "shift_id2": null,
+    "shift_id3": null
+  },
+  {
+    "emp_code": "5561",
+    "shift_id": 6,
+    "shift_id2": null,
+    "shift_id3": null
+  },
+  {
+    "emp_code": "5548",
+    "shift_id": 6,
+    "shift_id2": null,
+    "shift_id3": null
+  },
+  {
+    "emp_code": "5549",
+    "shift_id": 6,
+    "shift_id2": null,
+    "shift_id3": null
+  },
+  {
+    "emp_code": "5560",
+    "shift_id": 6,
+    "shift_id2": null,
+    "shift_id3": null
+  },
+  {
+    "emp_code": "5565",
+    "shift_id": 6,
+    "shift_id2": null,
+    "shift_id3": null
+  },
+  {
+    "emp_code": "5563",
+    "shift_id": 6,
+    "shift_id2": null,
+    "shift_id3": null
+  },
+  {
+    "emp_code": "5574",
+    "shift_id": 6,
+    "shift_id2": null,
+    "shift_id3": null
+  }
+]

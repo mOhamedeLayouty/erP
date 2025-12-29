@@ -1,0 +1,83 @@
+TABLE: CRM.customer_script_response
+ORDER_BY: center_id
+COLUMNS: serial_no, customer_code, script_code, client_code, date_time, orderd, completed, caller, interest_level, run_type, customer_type, call_time, ws_joborder, center_id, location_id, car_vehicleid, barnd
+ROWS: 4
+---
+[
+  {
+    "serial_no": "1",
+    "customer_code": "45577",
+    "script_code": "2",
+    "client_code": "1",
+    "date_time": "2024-05-09 12:19:31.625000",
+    "orderd": 0,
+    "completed": 0,
+    "caller": "CRM Admin",
+    "interest_level": 50,
+    "run_type": "2",
+    "customer_type": "C",
+    "call_time": "00:00:23",
+    "ws_joborder": "14486",
+    "center_id": 1,
+    "location_id": 3,
+    "car_vehicleid": "9903037130",
+    "barnd": 1
+  },
+  {
+    "serial_no": "4",
+    "customer_code": "55871",
+    "script_code": "3",
+    "client_code": "1",
+    "date_time": "2024-05-09 14:37:43.569000",
+    "orderd": 0,
+    "completed": 0,
+    "caller": "Mohamed Aziz",
+    "interest_level": 50,
+    "run_type": "S",
+    "customer_type": "S",
+    "call_time": "00:00:42",
+    "ws_joborder": null,
+    "center_id": null,
+    "location_id": null,
+    "car_vehicleid": null,
+    "barnd": null
+  },
+  {
+    "serial_no": "3",
+    "customer_code": "55871",
+    "script_code": "3",
+    "client_code": "1",
+    "date_time": "2024-05-09 14:27:43.754000",
+    "orderd": 0,
+    "completed": 1,
+    "caller": "Mohamed Aziz",
+    "interest_level": 50,
+    "run_type": "S",
+    "customer_type": "S",
+    "call_time": "00:00:33",
+    "ws_joborder": null,
+    "center_id": null,
+    "location_id": null,
+    "car_vehicleid": null,
+    "barnd": null
+  },
+  {
+    "serial_no": "2",
+    "customer_code": "55872",
+    "script_code": "2",
+    "client_code": "1",
+    "date_time": "2024-05-09 12:45:32.322000",
+    "orderd": 0,
+    "completed": 0,
+    "caller": "CRM Admin",
+    "interest_level": 50,
+    "run_type": "S",
+    "customer_type": "S",
+    "call_time": "00:00:28",
+    "ws_joborder": null,
+    "center_id": null,
+    "location_id": null,
+    "car_vehicleid": null,
+    "barnd": null
+  }
+]

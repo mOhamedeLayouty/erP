@@ -1,0 +1,73 @@
+TABLE: DBA.FX_category
+ORDER_BY: entry_date
+COLUMNS: category_id, description_a, description_e, user_id, entry_date, depreciatoin_method, life_years, acc_no, accomulative_dep_acc_no
+ROWS: 6
+---
+[
+  {
+    "category_id": "6",
+    "description_a": "ERP System",
+    "description_e": "ERP System",
+    "user_id": "1",
+    "entry_date": "2014-11-24 10:21:41.313000",
+    "depreciatoin_method": 1,
+    "life_years": 3,
+    "acc_no": "1020201005",
+    "accomulative_dep_acc_no": "1020202006"
+  },
+  {
+    "category_id": "5",
+    "description_a": "Vehicles",
+    "description_e": "Vehicles",
+    "user_id": "1",
+    "entry_date": "2014-05-12 12:12:38.709000",
+    "depreciatoin_method": 1,
+    "life_years": 5,
+    "acc_no": "1020201001",
+    "accomulative_dep_acc_no": "1020202003"
+  },
+  {
+    "category_id": "4",
+    "description_a": "Furniture & Fixtures",
+    "description_e": "Furniture & Fixtures",
+    "user_id": "1",
+    "entry_date": "2014-05-12 12:12:20.849000",
+    "depreciatoin_method": 1,
+    "life_years": 5,
+    "acc_no": "1020201003",
+    "accomulative_dep_acc_no": "1020202004"
+  },
+  {
+    "category_id": "3",
+    "description_a": "Machinary",
+    "description_e": "Machinary",
+    "user_id": "1",
+    "entry_date": "2014-05-12 12:12:01.082000",
+    "depreciatoin_method": 1,
+    "life_years": 4,
+    "acc_no": "1020201007",
+    "accomulative_dep_acc_no": "1020202001"
+  },
+  {
+    "category_id": "2",
+    "description_a": "Office Equipment",
+    "description_e": "Office Equipment",
+    "user_id": "1",
+    "entry_date": "2014-05-12 12:11:41.438000",
+    "depreciatoin_method": 1,
+    "life_years": 4,
+    "acc_no": "1020201002",
+    "accomulative_dep_acc_no": "1020202002"
+  },
+  {
+    "category_id": "1",
+    "description_a": "Leasehold Improvment Building",
+    "description_e": "Leasehold Improvment Building",
+    "user_id": "1",
+    "entry_date": "2014-05-12 12:11:01.584000",
+    "depreciatoin_method": 1,
+    "life_years": 5,
+    "acc_no": "1020201008",
+    "accomulative_dep_acc_no": "1020202005"
+  }
+]

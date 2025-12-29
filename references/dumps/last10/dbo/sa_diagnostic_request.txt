@@ -1,0 +1,6 @@
+TABLE: dbo.sa_diagnostic_request
+ORDER_BY: logging_session_id
+COLUMNS: logging_session_id, request_id, start_time, finish_time, duration_ms, connection_number, request_type, statement_id, query_id, cursor_id, sql_code
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: dbo.migrate_remote_fks_list
+ORDER_BY: fk_id
+COLUMNS: fk_id, pk_database, pk_owner, pk_table, pk_column, fk_database, fk_owner, fk_table, fk_column, key_seq, fk_name, pk_name, created
+ROWS: 0
+---
+[]

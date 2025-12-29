@@ -1,0 +1,77 @@
+TABLE: DBA.ws_cash_users
+ORDER_BY: cash_id
+COLUMNS: user_name, cash_id, service_center, location_id, isdefault
+ROWS: 10
+---
+[
+  {
+    "user_name": "kholoud.khaled",
+    "cash_id": 9,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "abdallah.sh",
+    "cash_id": 9,
+    "service_center": 1,
+    "location_id": 3,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "mohamed.g",
+    "cash_id": 9,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "cashier1",
+    "cash_id": 9,
+    "service_center": 1,
+    "location_id": 2,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "cashir.k",
+    "cash_id": 9,
+    "service_center": 1,
+    "location_id": 4,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "mohamed.ezz",
+    "cash_id": 9,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "hany adly",
+    "cash_id": 9,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "cashier.hurghada",
+    "cash_id": 9,
+    "service_center": 1,
+    "location_id": 15,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "abdallah.mo",
+    "cash_id": 9,
+    "service_center": 1,
+    "location_id": 3,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "account.3",
+    "cash_id": 9,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  }
+]

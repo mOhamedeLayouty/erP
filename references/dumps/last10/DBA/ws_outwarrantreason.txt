@@ -1,0 +1,14 @@
+TABLE: DBA.ws_outwarrantreason
+ORDER_BY: entry_date
+COLUMNS: reason_id, name_e, name_a, user_id, entry_date
+ROWS: 1
+---
+[
+  {
+    "reason_id": 1,
+    "name_e": "EBA - Out of Warranty",
+    "name_a": "EBA - Out of Warranty",
+    "user_id": null,
+    "entry_date": null
+  }
+]

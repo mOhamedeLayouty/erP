@@ -1,0 +1,6 @@
+TABLE: HR.emp_vac_history
+ORDER_BY: id
+COLUMNS: id, emp_code, vac_id, balance, change_time, user_id
+ROWS: 0
+---
+[]

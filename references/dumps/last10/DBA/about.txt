@@ -1,0 +1,97 @@
+TABLE: DBA.about
+ORDER_BY: (none)
+COLUMNS: code, my_val, flag_comment, module, active, description_a, description_e
+ROWS: 10
+---
+[
+  {
+    "code": "sc_autoqtylimit",
+    "my_val": "Y",
+    "flag_comment": null,
+    "module": "Stock",
+    "active": 1,
+    "description_a": "Y active automatic calc qty limit in stock(min,max,reorder) ",
+    "description_e": "����� ���� ��� ����� ���� ��� ����� ��������� �� ��"
+  },
+  {
+    "code": "car_isagent",
+    "my_val": "Y",
+    "flag_comment": "1",
+    "module": "CAR",
+    "active": 1,
+    "description_a": "���� ������ �� ����",
+    "description_e": "Y is agent ,N only distributor"
+  },
+  {
+    "code": "car_inv_calc_dev",
+    "my_val": "N",
+    "flag_comment": "1",
+    "module": "CAR",
+    "active": 1,
+    "description_a": "���� ��� ������� �� ��",
+    "description_e": "calculate dev fee or not ,Y Calculate,N dont calculate"
+  },
+  {
+    "code": "ws_resrv_sadv_required",
+    "my_val": "N",
+    "flag_comment": null,
+    "module": "WS",
+    "active": 1,
+    "description_a": "����� ��������� ����� �� ����� �� ��",
+    "description_e": "service advisor in reservation required or not"
+  },
+  {
+    "code": "ws_resrv_start",
+    "my_val": "09:00",
+    "flag_comment": null,
+    "module": "WS",
+    "active": 1,
+    "description_a": "WS reservation start time",
+    "description_e": "��� ����� �����"
+  },
+  {
+    "code": "ws_resrv_end",
+    "my_val": "14:00",
+    "flag_comment": null,
+    "module": "WS",
+    "active": 1,
+    "description_a": "WS reservation end time",
+    "description_e": "��� ����������"
+  },
+  {
+    "code": "ws_resrv_unit_time",
+    "my_val": "15",
+    "flag_comment": null,
+    "module": "WS",
+    "active": 1,
+    "description_a": "WS reservation time fixed value or FR set 0 for FR or set minutes value ex 30 ,40",
+    "description_e": "����� ��� ����� ���� ���� ������ �� FR"
+  },
+  {
+    "code": "car_eta_active",
+    "my_val": "N",
+    "flag_comment": null,
+    "module": "CAR",
+    "active": 1,
+    "description_a": "������� �� ������ �������",
+    "description_e": "Y link with ETA"
+  },
+  {
+    "code": "car_eta_auto",
+    "my_val": "N",
+    "flag_comment": null,
+    "module": "CAR",
+    "active": 1,
+    "description_a": "����� �������� ������ ��� �������",
+    "description_e": "Y send car final invoice direst to ETA "
+  },
+  {
+    "code": "ws_eta_active",
+    "my_val": "N",
+    "flag_comment": null,
+    "module": "WS",
+    "active": 1,
+    "description_a": "������� �� ������ �������",
+    "description_e": "Y link with ETA"
+  }
+]

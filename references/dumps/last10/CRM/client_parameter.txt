@@ -1,0 +1,43 @@
+TABLE: CRM.client_parameter
+ORDER_BY: (none)
+COLUMNS: client_code, parameter_code, paramter_description, parameter_value1, parameter_value2, parameter_value3, paramter_description_a
+ROWS: 4
+---
+[
+  {
+    "client_code": "1",
+    "parameter_code": "approval",
+    "paramter_description": "Ticket Approval Needed for web reports",
+    "parameter_value1": "no",
+    "parameter_value2": null,
+    "parameter_value3": null,
+    "paramter_description_a": null
+  },
+  {
+    "client_code": "1",
+    "parameter_code": "cc_mail",
+    "paramter_description": "CC Mail",
+    "parameter_value1": null,
+    "parameter_value2": null,
+    "parameter_value3": null,
+    "paramter_description_a": null
+  },
+  {
+    "client_code": "1",
+    "parameter_code": "open_ticket",
+    "paramter_description": "Client have open tickets or not",
+    "parameter_value1": "no",
+    "parameter_value2": null,
+    "parameter_value3": null,
+    "paramter_description_a": null
+  },
+  {
+    "client_code": "1",
+    "parameter_code": "reminder",
+    "paramter_description": "Client user reminder or not",
+    "parameter_value1": "YES",
+    "parameter_value2": "YES",
+    "parameter_value3": null,
+    "paramter_description_a": null
+  }
+]

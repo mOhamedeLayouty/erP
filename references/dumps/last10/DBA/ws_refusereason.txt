@@ -1,0 +1,35 @@
+TABLE: DBA.ws_refusereason
+ORDER_BY: entry_date
+COLUMNS: refuse_id, name_e, name_a, user_id, entry_date
+ROWS: 4
+---
+[
+  {
+    "refuse_id": 4,
+    "name_e": "Customer limited time",
+    "name_a": "��� ��� ������",
+    "user_id": "qt",
+    "entry_date": "2018-03-18 16:36:43.448000"
+  },
+  {
+    "refuse_id": 3,
+    "name_e": "High price",
+    "name_a": "������ �������",
+    "user_id": "qt",
+    "entry_date": "2018-03-18 16:36:27.748000"
+  },
+  {
+    "refuse_id": 2,
+    "name_e": "Parts not available",
+    "name_a": "����� ��� ������",
+    "user_id": "qt",
+    "entry_date": "2018-03-18 16:35:34.140000"
+  },
+  {
+    "refuse_id": 1,
+    "name_e": "Customer Reject",
+    "name_a": "Customer Reject",
+    "user_id": "1",
+    "entry_date": "2014-05-21 09:31:32.550000"
+  }
+]

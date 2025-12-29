@@ -1,0 +1,107 @@
+TABLE: HR.UserACPrivilege
+ORDER_BY: (none)
+COLUMNS: UserID, DeviceID, ACGroupID, IsUseGroup, TimeZone1, TimeZone2, TimeZone3, verifystyle
+ROWS: 10
+---
+[
+  {
+    "UserID": 157,
+    "DeviceID": null,
+    "ACGroupID": 1,
+    "IsUseGroup": "0",
+    "TimeZone1": null,
+    "TimeZone2": null,
+    "TimeZone3": null,
+    "verifystyle": null
+  },
+  {
+    "UserID": 139,
+    "DeviceID": null,
+    "ACGroupID": 1,
+    "IsUseGroup": "0",
+    "TimeZone1": null,
+    "TimeZone2": null,
+    "TimeZone3": null,
+    "verifystyle": null
+  },
+  {
+    "UserID": 158,
+    "DeviceID": null,
+    "ACGroupID": 1,
+    "IsUseGroup": "0",
+    "TimeZone1": null,
+    "TimeZone2": null,
+    "TimeZone3": null,
+    "verifystyle": null
+  },
+  {
+    "UserID": 159,
+    "DeviceID": null,
+    "ACGroupID": 1,
+    "IsUseGroup": "0",
+    "TimeZone1": null,
+    "TimeZone2": null,
+    "TimeZone3": null,
+    "verifystyle": null
+  },
+  {
+    "UserID": 160,
+    "DeviceID": null,
+    "ACGroupID": 1,
+    "IsUseGroup": "0",
+    "TimeZone1": null,
+    "TimeZone2": null,
+    "TimeZone3": null,
+    "verifystyle": null
+  },
+  {
+    "UserID": 2,
+    "DeviceID": null,
+    "ACGroupID": 1,
+    "IsUseGroup": "0",
+    "TimeZone1": null,
+    "TimeZone2": null,
+    "TimeZone3": null,
+    "verifystyle": null
+  },
+  {
+    "UserID": 3,
+    "DeviceID": null,
+    "ACGroupID": 1,
+    "IsUseGroup": "0",
+    "TimeZone1": null,
+    "TimeZone2": null,
+    "TimeZone3": null,
+    "verifystyle": null
+  },
+  {
+    "UserID": 4,
+    "DeviceID": null,
+    "ACGroupID": 1,
+    "IsUseGroup": "0",
+    "TimeZone1": null,
+    "TimeZone2": null,
+    "TimeZone3": null,
+    "verifystyle": null
+  },
+  {
+    "UserID": 5,
+    "DeviceID": null,
+    "ACGroupID": 1,
+    "IsUseGroup": "0",
+    "TimeZone1": null,
+    "TimeZone2": null,
+    "TimeZone3": null,
+    "verifystyle": null
+  },
+  {
+    "UserID": 6,
+    "DeviceID": null,
+    "ACGroupID": 1,
+    "IsUseGroup": "0",
+    "TimeZone1": null,
+    "TimeZone2": null,
+    "TimeZone3": null,
+    "verifystyle": null
+  }
+]

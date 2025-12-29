@@ -1,0 +1,6 @@
+TABLE: DBA.sc_item_bom
+ORDER_BY: entry_date
+COLUMNS: item_id, bom_item_id, service_center, qty, entry_date, entry_user, edit_date, edit_user, CostPercent
+ROWS: 0
+---
+[]

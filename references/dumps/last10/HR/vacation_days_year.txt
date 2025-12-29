@@ -1,0 +1,37 @@
+TABLE: HR.vacation_days_year
+ORDER_BY: (none)
+COLUMNS: line_no, description, description_a, no_days
+ROWS: 5
+---
+[
+  {
+    "line_no": 1,
+    "description": "Normal Vacation",
+    "description_a": "����� ��������",
+    "no_days": 21
+  },
+  {
+    "line_no": 2,
+    "description": "����� �����",
+    "description_a": "����� �����",
+    "no_days": 0
+  },
+  {
+    "line_no": 3,
+    "description": "����� ���� ����",
+    "description_a": "����� ���� ����",
+    "no_days": null
+  },
+  {
+    "line_no": 4,
+    "description": "����� ����",
+    "description_a": "����� ����",
+    "no_days": 90
+  },
+  {
+    "line_no": 5,
+    "description": "����� ����",
+    "description_a": "����� ����",
+    "no_days": 6
+  }
+]

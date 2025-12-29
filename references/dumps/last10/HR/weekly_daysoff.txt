@@ -1,0 +1,11 @@
+TABLE: HR.weekly_daysoff
+ORDER_BY: (none)
+COLUMNS: line_no, day_off
+ROWS: 1
+---
+[
+  {
+    "line_no": "11",
+    "day_off": 6
+  }
+]

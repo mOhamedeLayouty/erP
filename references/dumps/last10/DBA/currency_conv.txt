@@ -1,0 +1,13 @@
+TABLE: DBA.currency_conv
+ORDER_BY: id
+COLUMNS: id, curr_from, curr_to, factor
+ROWS: 1
+---
+[
+  {
+    "id": "1",
+    "curr_from": "1",
+    "curr_to": "2",
+    "factor": 17
+  }
+]

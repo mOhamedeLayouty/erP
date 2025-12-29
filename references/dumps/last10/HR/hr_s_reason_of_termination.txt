@@ -1,0 +1,6 @@
+TABLE: HR.hr_s_reason_of_termination
+ORDER_BY: (none)
+COLUMNS: reason_code, reason_name, reason_name_1
+ROWS: 0
+---
+[]

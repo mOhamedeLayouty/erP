@@ -1,0 +1,6 @@
+TABLE: DBA.ws_joborder_split
+ORDER_BY: entry_date
+COLUMNS: split_id, split_date, joborder_id, line_type, operation_id, item_id, invoicetype_id, qty, price, percent, notes, service_center, location_id, entry_user, entry_date, edit_user, edit_date
+ROWS: 0
+---
+[]

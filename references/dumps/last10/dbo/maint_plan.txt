@@ -1,0 +1,6 @@
+TABLE: dbo.maint_plan
+ORDER_BY: plan_id
+COLUMNS: plan_id, plan_name, event_name, disable_new_connections, disconnect_all_users, do_validate, validate_database_check, validate_checksum_check, validate_express_check, validate_normal_check, do_backup, disk_backup, full_backup, archive_backup, backup_path, tape_backup_prompt, tape_backup_comment, save_report_count, report_to_console, email_success, email_failure, email_recipients, email_smtp_server_name, email_smtp_port, email_smtp_sender_name, email_smtp_sender_address, email_smtp_auth_user_name, email_smtp_auth_password, email_user_id, email_user_password, email_smtp_trusted_certificates, email_smtp_certificate_company, email_smtp_certificate_unit, email_smtp_certificate_name, custom_prevalidation_sql, custom_postbackup_sql
+ROWS: 0
+---
+[]

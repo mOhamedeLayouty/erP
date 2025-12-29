@@ -1,0 +1,6 @@
+TABLE: DBA.mf_bom
+ORDER_BY: entry_date
+COLUMNS: id, code, item_id, name_a, name_e, type_id, mf_lead_time, car_model_code, car_category_id, service_center, location_id, entry_date, entry_user, edit_date, edit_user
+ROWS: 0
+---
+[]

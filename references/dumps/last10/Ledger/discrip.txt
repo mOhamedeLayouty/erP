@@ -1,0 +1,13 @@
+TABLE: Ledger.discrip
+ORDER_BY: (none)
+COLUMNS: ban2acc, name, company_code, name_e
+ROWS: 1
+---
+[
+  {
+    "ban2acc": "1",
+    "name": "cash",
+    "company_code": 1,
+    "name_e": "cash"
+  }
+]

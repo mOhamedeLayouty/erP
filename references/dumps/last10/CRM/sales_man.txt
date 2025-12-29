@@ -1,0 +1,21 @@
+TABLE: CRM.sales_man
+ORDER_BY: (none)
+COLUMNS: client_code, code, rec_type, id_number, name, name_a, address, phone_no, fax_no, mobile, email, location_code
+ROWS: 1
+---
+[
+  {
+    "client_code": "1",
+    "code": "1",
+    "rec_type": 2,
+    "id_number": null,
+    "name": "",
+    "name_a": "Abdulla Akari",
+    "address": null,
+    "phone_no": null,
+    "fax_no": null,
+    "mobile": null,
+    "email": null,
+    "location_code": null
+  }
+]

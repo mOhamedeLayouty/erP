@@ -1,0 +1,21 @@
+TABLE: DBA.ws_quotationsuboperation
+ORDER_BY: quotation_id
+COLUMNS: quotation_id, operationid, subopertationid, service_center, location_id
+ROWS: 2
+---
+[
+  {
+    "quotation_id": "3796",
+    "operationid": 4916,
+    "subopertationid": 11,
+    "service_center": 1,
+    "location_id": 1
+  },
+  {
+    "quotation_id": "1987",
+    "operationid": 4917,
+    "subopertationid": 2,
+    "service_center": 1,
+    "location_id": 1
+  }
+]

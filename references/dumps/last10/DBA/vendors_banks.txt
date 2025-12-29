@@ -1,0 +1,6 @@
+TABLE: DBA.vendors_banks
+ORDER_BY: entry_date
+COLUMNS: vend_code, bank_code, bank_name, acc_no, swift_code, iban, sort_code, isactive, entry_user, entry_date, edit_user, edit_date
+ROWS: 0
+---
+[]

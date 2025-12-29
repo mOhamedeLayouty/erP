@@ -1,0 +1,6 @@
+TABLE: HR.emp_dependents
+ORDER_BY: entry_date
+COLUMNS: line_id, emp_code, name_a, name_e, dependents, birth_date, mobile, gender, marital_status, id_no, id_from, id_to, passport_no, passport_from, passport_to, passport_country, passport_city, residence_no, residence_from, residence_to, notes, entry_date, entry_user, edit_date, edit_user, nat_code
+ROWS: 0
+---
+[]

@@ -1,0 +1,107 @@
+TABLE: Ledger.cur
+ORDER_BY: curr_id
+COLUMNS: curr_id, name, rate, company_code, name_e, sub_curr_name, sub_curr_name_e, code
+ROWS: 10
+---
+[
+  {
+    "curr_id": "USD",
+    "name": "�����",
+    "rate": 17.96,
+    "company_code": 1,
+    "name_e": "Dollar",
+    "sub_curr_name": "���",
+    "sub_curr_name_e": "cent",
+    "code": "USD"
+  },
+  {
+    "curr_id": "USD",
+    "name": "�����",
+    "rate": 30.9,
+    "company_code": 5,
+    "name_e": "Dollar",
+    "sub_curr_name": null,
+    "sub_curr_name_e": null,
+    "code": null
+  },
+  {
+    "curr_id": "USD",
+    "name": "�����",
+    "rate": 30.9,
+    "company_code": 3,
+    "name_e": "Dollar",
+    "sub_curr_name": null,
+    "sub_curr_name_e": null,
+    "code": "USD"
+  },
+  {
+    "curr_id": "USD",
+    "name": "�����",
+    "rate": 30.9,
+    "company_code": 4,
+    "name_e": "Dollar",
+    "sub_curr_name": null,
+    "sub_curr_name_e": null,
+    "code": null
+  },
+  {
+    "curr_id": "USD",
+    "name": "�����",
+    "rate": 17.96,
+    "company_code": 2,
+    "name_e": "Dollar",
+    "sub_curr_name": null,
+    "sub_curr_name_e": null,
+    "code": "USD"
+  },
+  {
+    "curr_id": "UR",
+    "name": "����",
+    "rate": 51.4,
+    "company_code": 3,
+    "name_e": "EUR",
+    "sub_curr_name": null,
+    "sub_curr_name_e": null,
+    "code": "EUR"
+  },
+  {
+    "curr_id": "UR",
+    "name": "����",
+    "rate": 17.5,
+    "company_code": 1,
+    "name_e": "EUR",
+    "sub_curr_name": null,
+    "sub_curr_name_e": null,
+    "code": "EUR"
+  },
+  {
+    "curr_id": "UR",
+    "name": "����",
+    "rate": 19,
+    "company_code": 2,
+    "name_e": "EUR",
+    "sub_curr_name": null,
+    "sub_curr_name_e": null,
+    "code": "EUR"
+  },
+  {
+    "curr_id": "UR",
+    "name": "����",
+    "rate": 55.9,
+    "company_code": 5,
+    "name_e": "EUR",
+    "sub_curr_name": null,
+    "sub_curr_name_e": null,
+    "code": null
+  },
+  {
+    "curr_id": "UR",
+    "name": "����",
+    "rate": 55.04,
+    "company_code": 4,
+    "name_e": "EUR",
+    "sub_curr_name": null,
+    "sub_curr_name_e": null,
+    "code": null
+  }
+]

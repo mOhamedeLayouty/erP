@@ -1,0 +1,87 @@
+TABLE: DBA.car_ret_detail
+ORDER_BY: vehicle_id
+COLUMNS: credit_detail, credit_header, vin, log_stock, brand, vehicle_id
+ROWS: 10
+---
+[
+  {
+    "credit_detail": 1,
+    "credit_header": 9,
+    "vin": "ZFA26300006U00783",
+    "log_stock": 6,
+    "brand": 1,
+    "vehicle_id": "9607"
+  },
+  {
+    "credit_detail": 1,
+    "credit_header": 21,
+    "vin": "ZFACF8CP2M6U08240",
+    "log_stock": 1,
+    "brand": 1,
+    "vehicle_id": "8991"
+  },
+  {
+    "credit_detail": 1,
+    "credit_header": 19,
+    "vin": "ZFA35600006T76247",
+    "log_stock": 6,
+    "brand": 1,
+    "vehicle_id": "8706"
+  },
+  {
+    "credit_detail": 1,
+    "credit_header": 18,
+    "vin": "ZFA35600006T77158",
+    "log_stock": 6,
+    "brand": 1,
+    "vehicle_id": "8705"
+  },
+  {
+    "credit_detail": 1,
+    "credit_header": 4,
+    "vin": "ZFA35600006S80120",
+    "log_stock": 15,
+    "brand": 1,
+    "vehicle_id": "5165"
+  },
+  {
+    "credit_detail": 5,
+    "credit_header": 128,
+    "vin": "ZFANF2BH7TPA55795",
+    "log_stock": 9,
+    "brand": 1,
+    "vehicle_id": "33199"
+  },
+  {
+    "credit_detail": 4,
+    "credit_header": 128,
+    "vin": "ZFANF2BH8TPA54736",
+    "log_stock": 9,
+    "brand": 1,
+    "vehicle_id": "33197"
+  },
+  {
+    "credit_detail": 3,
+    "credit_header": 128,
+    "vin": "ZFANF2BH5TPA58615",
+    "log_stock": 9,
+    "brand": 1,
+    "vehicle_id": "33114"
+  },
+  {
+    "credit_detail": 2,
+    "credit_header": 128,
+    "vin": "ZFANF2BH7TPA55036",
+    "log_stock": 9,
+    "brand": 1,
+    "vehicle_id": "33101"
+  },
+  {
+    "credit_detail": 1,
+    "credit_header": 128,
+    "vin": "ZFANF2BH6TPA55478",
+    "log_stock": 9,
+    "brand": 1,
+    "vehicle_id": "33039"
+  }
+]

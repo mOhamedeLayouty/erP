@@ -1,0 +1,6 @@
+TABLE: DBA.reservation_log
+ORDER_BY: log_id
+COLUMNS: log_id, order_code, log_store, old_reservation, new_reservation, username, modification_date, reason, brand
+ROWS: 0
+---
+[]

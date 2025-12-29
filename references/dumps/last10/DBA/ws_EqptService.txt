@@ -1,0 +1,6 @@
+TABLE: DBA.ws_EqptService
+ORDER_BY: entry_date
+COLUMNS: ServiceID, Notes, CategoryID, Hrs, user_id, entry_date
+ROWS: 0
+---
+[]

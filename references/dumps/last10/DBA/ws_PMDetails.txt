@@ -1,0 +1,117 @@
+TABLE: DBA.ws_PMDetails
+ORDER_BY: entry_date
+COLUMNS: PMID, OperationID, OperationCode, user_id, entry_date, service_center, FlateTime, family_code, hourcost
+ROWS: 10
+---
+[
+  {
+    "PMID": 54,
+    "OperationID": 3180,
+    "OperationCode": "0010N10",
+    "user_id": "mohamed.ay",
+    "entry_date": "2025-10-20 12:47:45.376000",
+    "service_center": 1,
+    "FlateTime": 3.7,
+    "family_code": null,
+    "hourcost": 550
+  },
+  {
+    "PMID": 53,
+    "OperationID": 3178,
+    "OperationCode": "0010N08",
+    "user_id": "mohamed.ay",
+    "entry_date": "2025-10-20 12:42:18.055000",
+    "service_center": 1,
+    "FlateTime": 3.85,
+    "family_code": null,
+    "hourcost": 550
+  },
+  {
+    "PMID": 52,
+    "OperationID": 3176,
+    "OperationCode": "0010N06",
+    "user_id": "mohamed.ay",
+    "entry_date": "2025-10-20 12:32:16.617000",
+    "service_center": 1,
+    "FlateTime": 6.1,
+    "family_code": null,
+    "hourcost": 550
+  },
+  {
+    "PMID": 51,
+    "OperationID": 3174,
+    "OperationCode": "0010N04",
+    "user_id": "mohamed.ay",
+    "entry_date": "2025-10-20 12:22:00.543000",
+    "service_center": 1,
+    "FlateTime": 3.85,
+    "family_code": null,
+    "hourcost": 550
+  },
+  {
+    "PMID": 50,
+    "OperationID": 3171,
+    "OperationCode": "0010N01",
+    "user_id": "mohamed.ay",
+    "entry_date": "2025-10-20 12:03:10.386000",
+    "service_center": 1,
+    "FlateTime": 2.05,
+    "family_code": null,
+    "hourcost": 550
+  },
+  {
+    "PMID": 49,
+    "OperationID": 3180,
+    "OperationCode": "0010N10",
+    "user_id": "mohamed.ay",
+    "entry_date": "2025-10-20 11:55:10.761000",
+    "service_center": 1,
+    "FlateTime": 3.65,
+    "family_code": null,
+    "hourcost": 450
+  },
+  {
+    "PMID": 48,
+    "OperationID": 3178,
+    "OperationCode": "0010N08",
+    "user_id": "mohamed.ay",
+    "entry_date": "2025-10-20 11:51:39.226000",
+    "service_center": 1,
+    "FlateTime": 3.05,
+    "family_code": null,
+    "hourcost": 450
+  },
+  {
+    "PMID": 47,
+    "OperationID": 3176,
+    "OperationCode": "0010N06",
+    "user_id": "mohamed.ay",
+    "entry_date": "2025-09-11 15:52:26.523000",
+    "service_center": 1,
+    "FlateTime": 4.2,
+    "family_code": null,
+    "hourcost": 450
+  },
+  {
+    "PMID": 46,
+    "OperationID": 3174,
+    "OperationCode": "0010N04",
+    "user_id": "mohamed.ay",
+    "entry_date": "2025-09-11 15:46:58.766000",
+    "service_center": 1,
+    "FlateTime": 3.05,
+    "family_code": null,
+    "hourcost": 450
+  },
+  {
+    "PMID": 45,
+    "OperationID": 3172,
+    "OperationCode": "0010N02",
+    "user_id": "mohamed.ay",
+    "entry_date": "2025-09-10 15:32:27.131000",
+    "service_center": 1,
+    "FlateTime": 2.45,
+    "family_code": null,
+    "hourcost": 450
+  }
+]

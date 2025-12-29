@@ -1,0 +1,12 @@
+TABLE: DBA.client
+ORDER_BY: (none)
+COLUMNS: client_code, client_name, working
+ROWS: 1
+---
+[
+  {
+    "client_code": "1",
+    "client_name": "Dynamics",
+    "working": 0
+  }
+]

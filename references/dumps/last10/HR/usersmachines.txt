@@ -1,0 +1,6 @@
+TABLE: HR.usersmachines
+ORDER_BY: id
+COLUMNS: id, userid, deviceid
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: rs_systabgroup.rs_threads
+ORDER_BY: id
+COLUMNS: id, seq
+ROWS: 0
+---
+[]

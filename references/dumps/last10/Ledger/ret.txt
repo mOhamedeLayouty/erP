@@ -1,0 +1,6 @@
+TABLE: Ledger.ret
+ORDER_BY: id
+COLUMNS: id, amount, r_date, company_code
+ROWS: 0
+---
+[]

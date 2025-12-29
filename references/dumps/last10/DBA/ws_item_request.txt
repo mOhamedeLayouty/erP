@@ -1,0 +1,6 @@
+TABLE: DBA.ws_item_request
+ORDER_BY: entry_date
+COLUMNS: request_id, request_date, request_desc, reception_id, joborder_id, eqpt_id, customer_id, item_id, qty, cost, stock_status, stock_notes, notes, service_center, location_id, status_id, status_date, status_user, status_notes, entry_user, entry_date, edit_user, edit_date, store_id, quotation_id, reservationid, item_sparepart, item_name
+ROWS: 0
+---
+[]

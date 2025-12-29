@@ -1,0 +1,6 @@
+TABLE: HR.schclass
+ORDER_BY: (none)
+COLUMNS: schclassid, schname, starttime, endtime, lateminutes, earlyminutes, checkin, checkout, checkintime1, checkintime2, checkouttime1, checkouttime2, color, autobind, workday, sensorid, workmins
+ROWS: 0
+---
+[]

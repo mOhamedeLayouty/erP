@@ -1,0 +1,6 @@
+TABLE: dbo.maint_plan_report
+ORDER_BY: plan_id
+COLUMNS: plan_id, start_time, finish_time, success, report
+ROWS: 0
+---
+[]

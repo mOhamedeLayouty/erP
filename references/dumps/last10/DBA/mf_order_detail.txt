@@ -1,0 +1,6 @@
+TABLE: DBA.mf_order_detail
+ORDER_BY: entry_date
+COLUMNS: id, order_id, operation_desc_a, operation_desc_e, workstation_id, qty, est_start_date, est_finish_date, act_start_date, act_finish_date, cost, emp_code_1, emp_code_2, emp_code_3, notes, service_center, location_id, entry_date, entry_user, edit_date, edit_user
+ROWS: 0
+---
+[]

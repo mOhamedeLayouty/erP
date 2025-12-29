@@ -1,0 +1,107 @@
+TABLE: DBA.car_traffic_mang
+ORDER_BY: id
+COLUMNS: id, log_store, desc_e, desc_a, country, city, area, contact_name
+ROWS: 10
+---
+[
+  {
+    "id": "9",
+    "log_store": 1,
+    "desc_e": "�������",
+    "desc_a": "�������",
+    "country": null,
+    "city": null,
+    "area": null,
+    "contact_name": null
+  },
+  {
+    "id": "8",
+    "log_store": 1,
+    "desc_e": "������",
+    "desc_a": "������",
+    "country": null,
+    "city": null,
+    "area": null,
+    "contact_name": null
+  },
+  {
+    "id": "7",
+    "log_store": 1,
+    "desc_e": "��������",
+    "desc_a": "��������",
+    "country": null,
+    "city": null,
+    "area": null,
+    "contact_name": null
+  },
+  {
+    "id": "6",
+    "log_store": 1,
+    "desc_e": "����� ������",
+    "desc_a": "����� ������",
+    "country": null,
+    "city": null,
+    "area": null,
+    "contact_name": null
+  },
+  {
+    "id": "5",
+    "log_store": 1,
+    "desc_e": "�������",
+    "desc_a": "�������",
+    "country": null,
+    "city": null,
+    "area": null,
+    "contact_name": null
+  },
+  {
+    "id": "4",
+    "log_store": 1,
+    "desc_e": "���������",
+    "desc_a": "���������",
+    "country": null,
+    "city": null,
+    "area": null,
+    "contact_name": null
+  },
+  {
+    "id": "3",
+    "log_store": 1,
+    "desc_e": "������",
+    "desc_a": "������",
+    "country": null,
+    "city": null,
+    "area": null,
+    "contact_name": null
+  },
+  {
+    "id": "2",
+    "log_store": 1,
+    "desc_e": "�������",
+    "desc_a": "�������",
+    "country": null,
+    "city": null,
+    "area": null,
+    "contact_name": null
+  },
+  {
+    "id": "10",
+    "log_store": 1,
+    "desc_e": "��������",
+    "desc_a": "��������",
+    "country": null,
+    "city": null,
+    "area": null,
+    "contact_name": null
+  },
+  {
+    "id": "1",
+    "log_store": 1,
+    "desc_e": "ALEX",
+    "desc_a": "����������",
+    "country": 33,
+    "city": 31,
+    "area": 2,
+    "contact_name": ""
+  }
+]

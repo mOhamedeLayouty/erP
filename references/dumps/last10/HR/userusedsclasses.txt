@@ -1,0 +1,6 @@
+TABLE: HR.userusedsclasses
+ORDER_BY: (none)
+COLUMNS: userid, schid
+ROWS: 0
+---
+[]

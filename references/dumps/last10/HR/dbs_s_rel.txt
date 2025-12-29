@@ -1,0 +1,28 @@
+TABLE: HR.dbs_s_rel
+ORDER_BY: entry_date
+COLUMNS: rel_code, rel_desc_e, rel_desc_a, entry_date, user_id
+ROWS: 3
+---
+[
+  {
+    "rel_code": 3,
+    "rel_desc_e": "Hindusiam",
+    "rel_desc_a": "������",
+    "entry_date": "2014-05-28 10:12:14.000000",
+    "user_id": "HR"
+  },
+  {
+    "rel_code": 2,
+    "rel_desc_e": "Christian",
+    "rel_desc_a": "�����",
+    "entry_date": "2002-03-24 16:10:57.952000",
+    "user_id": "HR"
+  },
+  {
+    "rel_code": 1,
+    "rel_desc_e": "Muslim",
+    "rel_desc_a": "����",
+    "entry_date": "2002-03-24 16:10:18.843000",
+    "user_id": "HR"
+  }
+]

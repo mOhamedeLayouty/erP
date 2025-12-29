@@ -1,0 +1,117 @@
+TABLE: DBA.sc_month_balance
+ORDER_BY: store_id
+COLUMNS: store_id, b_date, item_id, credit, debit, balance, rate, service_center, location_id
+ROWS: 10
+---
+[
+  {
+    "store_id": 26,
+    "b_date": "2018-12-01",
+    "item_id": "75",
+    "credit": 0,
+    "debit": 1,
+    "balance": 0,
+    "rate": 0,
+    "service_center": 1,
+    "location_id": 26
+  },
+  {
+    "store_id": 26,
+    "b_date": "2018-12-01",
+    "item_id": "6459",
+    "credit": 0,
+    "debit": 1,
+    "balance": 0,
+    "rate": 0,
+    "service_center": 1,
+    "location_id": 26
+  },
+  {
+    "store_id": 26,
+    "b_date": "2018-12-01",
+    "item_id": "574",
+    "credit": 0,
+    "debit": 2,
+    "balance": 0,
+    "rate": 0,
+    "service_center": 1,
+    "location_id": 26
+  },
+  {
+    "store_id": 26,
+    "b_date": "2018-12-01",
+    "item_id": "4897",
+    "credit": 0,
+    "debit": 2,
+    "balance": 0,
+    "rate": 0,
+    "service_center": 1,
+    "location_id": 26
+  },
+  {
+    "store_id": 26,
+    "b_date": "2018-12-01",
+    "item_id": "4896",
+    "credit": 0,
+    "debit": 1,
+    "balance": 0,
+    "rate": 0,
+    "service_center": 1,
+    "location_id": 26
+  },
+  {
+    "store_id": 26,
+    "b_date": "2018-12-01",
+    "item_id": "4720",
+    "credit": 0,
+    "debit": 2,
+    "balance": 0,
+    "rate": 0,
+    "service_center": 1,
+    "location_id": 26
+  },
+  {
+    "store_id": 26,
+    "b_date": "2018-12-01",
+    "item_id": "4719",
+    "credit": 0,
+    "debit": 1,
+    "balance": 0,
+    "rate": 0,
+    "service_center": 1,
+    "location_id": 26
+  },
+  {
+    "store_id": 26,
+    "b_date": "2018-12-01",
+    "item_id": "4712",
+    "credit": 0,
+    "debit": 77,
+    "balance": 0,
+    "rate": 0,
+    "service_center": 1,
+    "location_id": 26
+  },
+  {
+    "store_id": 26,
+    "b_date": "2018-12-01",
+    "item_id": "4711",
+    "credit": 0,
+    "debit": 2,
+    "balance": 0,
+    "rate": 0,
+    "service_center": 1,
+    "location_id": 26
+  },
+  {
+    "store_id": 26,
+    "b_date": "2018-12-01",
+    "item_id": "4710",
+    "credit": 0,
+    "debit": 1,
+    "balance": 0,
+    "rate": 0,
+    "service_center": 1,
+    "location_id": 26
+  }
+]

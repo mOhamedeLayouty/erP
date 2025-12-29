@@ -1,0 +1,87 @@
+TABLE: HR.dbs_s_country
+ORDER_BY: entry_date
+COLUMNS: cntry_code, cntry_name_e, cntry_name_a, entry_date, user_id, code
+ROWS: 10
+---
+[
+  {
+    "cntry_code": 2,
+    "cntry_name_e": "Andorra",
+    "cntry_name_a": "������",
+    "entry_date": null,
+    "user_id": null,
+    "code": "AD"
+  },
+  {
+    "cntry_code": 3,
+    "cntry_name_e": "United Arab Emirates",
+    "cntry_name_a": "�������� ������� �������",
+    "entry_date": null,
+    "user_id": null,
+    "code": "AE"
+  },
+  {
+    "cntry_code": 4,
+    "cntry_name_e": "Afghanistan",
+    "cntry_name_a": "���������",
+    "entry_date": null,
+    "user_id": null,
+    "code": "AF"
+  },
+  {
+    "cntry_code": 5,
+    "cntry_name_e": "Antigua and Barbuda",
+    "cntry_name_a": "������� ��������",
+    "entry_date": null,
+    "user_id": null,
+    "code": "AG"
+  },
+  {
+    "cntry_code": 6,
+    "cntry_name_e": "Anguilla",
+    "cntry_name_a": "�������",
+    "entry_date": null,
+    "user_id": null,
+    "code": "AI"
+  },
+  {
+    "cntry_code": 7,
+    "cntry_name_e": "Albania",
+    "cntry_name_a": "�������",
+    "entry_date": null,
+    "user_id": null,
+    "code": "AL"
+  },
+  {
+    "cntry_code": 8,
+    "cntry_name_e": "Armenia",
+    "cntry_name_a": "�������",
+    "entry_date": null,
+    "user_id": null,
+    "code": "AM"
+  },
+  {
+    "cntry_code": 9,
+    "cntry_name_e": "Angola",
+    "cntry_name_a": "������",
+    "entry_date": null,
+    "user_id": null,
+    "code": "AO"
+  },
+  {
+    "cntry_code": 10,
+    "cntry_name_e": "Antarctica",
+    "cntry_name_a": "������ ������� ��������",
+    "entry_date": null,
+    "user_id": null,
+    "code": "AQ"
+  },
+  {
+    "cntry_code": 1,
+    "cntry_name_e": "Egypt",
+    "cntry_name_a": ".������� ��� �������",
+    "entry_date": null,
+    "user_id": null,
+    "code": "EG"
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: CRM.oms_tmp
+ORDER_BY: (none)
+COLUMNS: Customer_code, source, status, customer_name, home_country, corp_area, home_phon, mob1, Phon_2, Phone_3, home_fax, fax2, F13, home_add, Email
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: DBA.loyalburnpoints
+ORDER_BY: id
+COLUMNS: id, loyalcardid, points, value, entryuser, entrydate, edituser, editdate, service_center, location_id
+ROWS: 0
+---
+[]

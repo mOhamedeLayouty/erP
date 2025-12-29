@@ -1,0 +1,6 @@
+TABLE: Ledger.adv_apyment_dist
+ORDER_BY: curr_id
+COLUMNS: payment_no, company_code, pay_date, curr_id, curr_rate, from_date, no_months, debit, credit, db, cr, db_acc, db_cost_center, cr_acc, cr_cost_center, db_cost_2, db_cost_3, db_cost_4, cr_cost_2, cr_cost_3, cr_cost_4
+ROWS: 0
+---
+[]

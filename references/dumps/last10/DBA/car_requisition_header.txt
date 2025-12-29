@@ -1,0 +1,6 @@
+TABLE: DBA.car_requisition_header
+ORDER_BY: entry_date
+COLUMNS: requisition_header, log_store, vend_code, store_id, manual_number, order_date, exp_date, notes, currency_id, payment_terms, ship_via, shipping_acc_no, fob, reseller_id, modified_order, brand, approval, buy_header, refused_reason, approved_by, entry_user, entry_date, edit_user, edit_date
+ROWS: 0
+---
+[]

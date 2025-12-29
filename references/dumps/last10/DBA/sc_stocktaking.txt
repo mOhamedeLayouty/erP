@@ -1,0 +1,147 @@
+TABLE: DBA.sc_stocktaking
+ORDER_BY: stoktaking_id
+COLUMNS: stoktaking_id, service_center, location_id, store_loc_id, store_loc_id_to, item_id, store_id, item_group1, item_group2, stocktaking_closed, st_date, user_location_id
+ROWS: 10
+---
+[
+  {
+    "stoktaking_id": 149,
+    "service_center": 1,
+    "location_id": 2,
+    "store_loc_id": 0,
+    "store_loc_id_to": 0,
+    "item_id": null,
+    "store_id": 2,
+    "item_group1": null,
+    "item_group2": null,
+    "stocktaking_closed": "Y",
+    "st_date": "2025-12-19 13:26:35.585000",
+    "user_location_id": 2
+  },
+  {
+    "stoktaking_id": 148,
+    "service_center": 1,
+    "location_id": 2,
+    "store_loc_id": 0,
+    "store_loc_id_to": 0,
+    "item_id": null,
+    "store_id": 1,
+    "item_group1": null,
+    "item_group2": null,
+    "stocktaking_closed": "Y",
+    "st_date": "2025-12-19 10:48:20.531000",
+    "user_location_id": 2
+  },
+  {
+    "stoktaking_id": 147,
+    "service_center": 1,
+    "location_id": 14,
+    "store_loc_id": 0,
+    "store_loc_id_to": 0,
+    "item_id": null,
+    "store_id": 2,
+    "item_group1": null,
+    "item_group2": null,
+    "stocktaking_closed": "N",
+    "st_date": "2025-12-16 17:16:58.765000",
+    "user_location_id": 14
+  },
+  {
+    "stoktaking_id": 146,
+    "service_center": 1,
+    "location_id": 14,
+    "store_loc_id": 0,
+    "store_loc_id_to": 0,
+    "item_id": null,
+    "store_id": 2,
+    "item_group1": null,
+    "item_group2": null,
+    "stocktaking_closed": "N",
+    "st_date": "2025-12-16 13:29:59.807000",
+    "user_location_id": 14
+  },
+  {
+    "stoktaking_id": 145,
+    "service_center": 1,
+    "location_id": 14,
+    "store_loc_id": 0,
+    "store_loc_id_to": 0,
+    "item_id": null,
+    "store_id": 2,
+    "item_group1": null,
+    "item_group2": null,
+    "stocktaking_closed": "N",
+    "st_date": "2025-12-16 13:03:20.862000",
+    "user_location_id": 14
+  },
+  {
+    "stoktaking_id": 144,
+    "service_center": 1,
+    "location_id": 2,
+    "store_loc_id": 0,
+    "store_loc_id_to": 0,
+    "item_id": null,
+    "store_id": 1,
+    "item_group1": null,
+    "item_group2": null,
+    "stocktaking_closed": "Y",
+    "st_date": "2025-12-15 15:46:04.515000",
+    "user_location_id": 2
+  },
+  {
+    "stoktaking_id": 143,
+    "service_center": 1,
+    "location_id": 14,
+    "store_loc_id": 0,
+    "store_loc_id_to": 0,
+    "item_id": null,
+    "store_id": 3,
+    "item_group1": null,
+    "item_group2": null,
+    "stocktaking_closed": "Y",
+    "st_date": "2025-12-15 10:40:26.506000",
+    "user_location_id": 14
+  },
+  {
+    "stoktaking_id": 142,
+    "service_center": 1,
+    "location_id": 4,
+    "store_loc_id": 0,
+    "store_loc_id_to": 0,
+    "item_id": null,
+    "store_id": 1,
+    "item_group1": null,
+    "item_group2": null,
+    "stocktaking_closed": "Y",
+    "st_date": "2025-12-12 13:41:08.917000",
+    "user_location_id": 4
+  },
+  {
+    "stoktaking_id": 140,
+    "service_center": 1,
+    "location_id": 4,
+    "store_loc_id": 0,
+    "store_loc_id_to": 0,
+    "item_id": null,
+    "store_id": 1,
+    "item_group1": null,
+    "item_group2": null,
+    "stocktaking_closed": "N",
+    "st_date": "2025-12-11 22:56:37.667000",
+    "user_location_id": 4
+  },
+  {
+    "stoktaking_id": 139,
+    "service_center": 1,
+    "location_id": 4,
+    "store_loc_id": 0,
+    "store_loc_id_to": 0,
+    "item_id": null,
+    "store_id": 1,
+    "item_group1": null,
+    "item_group2": null,
+    "stocktaking_closed": "Y",
+    "st_date": "2025-12-11 11:11:27.054000",
+    "user_location_id": 4
+  }
+]

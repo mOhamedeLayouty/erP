@@ -1,0 +1,1 @@
+{"ts":"2025-12-28T14:35:05.048Z","method":"POST","path":"/auth/token","ip":"::1","status":500,"body":{"user_id":"1","user_name":"demo","roles":["admin","inventory.read","inventory.write","inventory.post","audit.read","crm.read","master-data.read","job-orders.read","invoicing.read"]}}

@@ -1,0 +1,6 @@
+TABLE: CRM.neighborhood
+ORDER_BY: ID
+COLUMNS: ID
+ROWS: 0
+---
+[]

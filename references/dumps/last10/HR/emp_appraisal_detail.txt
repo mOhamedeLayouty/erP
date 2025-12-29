@@ -1,0 +1,6 @@
+TABLE: HR.emp_appraisal_detail
+ORDER_BY: appraisal_items_id
+COLUMNS: appraisal_code, emp_code, appraisal_items_id, actual_percent, notes, group_id, service_center
+ROWS: 0
+---
+[]

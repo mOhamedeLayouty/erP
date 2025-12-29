@@ -1,0 +1,47 @@
+TABLE: HR.daysoff
+ORDER_BY: (none)
+COLUMNS: emp_code, day_off
+ROWS: 10
+---
+[
+  {
+    "emp_code": "113",
+    "day_off": 7
+  },
+  {
+    "emp_code": "5005",
+    "day_off": 5
+  },
+  {
+    "emp_code": "5462",
+    "day_off": 7
+  },
+  {
+    "emp_code": "113",
+    "day_off": 6
+  },
+  {
+    "emp_code": "5138",
+    "day_off": 1
+  },
+  {
+    "emp_code": "5462",
+    "day_off": 6
+  },
+  {
+    "emp_code": "5125",
+    "day_off": 7
+  },
+  {
+    "emp_code": "5188",
+    "day_off": 6
+  },
+  {
+    "emp_code": "5188",
+    "day_off": 7
+  },
+  {
+    "emp_code": "5187",
+    "day_off": 6
+  }
+]

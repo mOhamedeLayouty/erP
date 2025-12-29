@@ -1,0 +1,47 @@
+TABLE: DBA.ws_transactions_dates
+ORDER_BY: trans_date
+COLUMNS: serial, trans_date
+ROWS: 10
+---
+[
+  {
+    "serial": 31,
+    "trans_date": "2025-12-31"
+  },
+  {
+    "serial": 30,
+    "trans_date": "2025-12-30"
+  },
+  {
+    "serial": 29,
+    "trans_date": "2025-12-29"
+  },
+  {
+    "serial": 28,
+    "trans_date": "2025-12-28"
+  },
+  {
+    "serial": 27,
+    "trans_date": "2025-12-27"
+  },
+  {
+    "serial": 26,
+    "trans_date": "2025-12-26"
+  },
+  {
+    "serial": 25,
+    "trans_date": "2025-12-25"
+  },
+  {
+    "serial": 24,
+    "trans_date": "2025-12-24"
+  },
+  {
+    "serial": 23,
+    "trans_date": "2025-12-23"
+  },
+  {
+    "serial": 22,
+    "trans_date": "2025-12-22"
+  }
+]

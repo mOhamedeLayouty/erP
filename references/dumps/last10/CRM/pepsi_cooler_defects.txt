@@ -1,0 +1,6 @@
+TABLE: CRM.pepsi_cooler_defects
+ORDER_BY: (none)
+COLUMNS: defect_code, desc_e, desc_a
+ROWS: 0
+---
+[]

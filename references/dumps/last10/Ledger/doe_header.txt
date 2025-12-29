@@ -1,0 +1,6 @@
+TABLE: Ledger.doe_header
+ORDER_BY: entry_date
+COLUMNS: doe_id, doe_code, doe_date, db_acc_no, cr_acc_no, curr_id, curr_rate, notes, entry_user, entry_date, edit_user, edit_date, delete_user, delete_date, company_code, jrnl_no
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: HR.dbs_s_jobdg
+ORDER_BY: entry_date
+COLUMNS: jobdg_code, jobdg_desc_e, jobdg_desc_a, entry_date, user_id
+ROWS: 0
+---
+[]

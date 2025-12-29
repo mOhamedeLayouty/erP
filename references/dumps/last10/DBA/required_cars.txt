@@ -1,0 +1,6 @@
+TABLE: DBA.required_cars
+ORDER_BY: id
+COLUMNS: id, customer_id, car_status, car_type, year_from, year_to, price_from, price_to, car_make, car_model, car_color, custom1, custom2, options, notes, salesman, req_date, method, future_action, bring_fwd, lost_sale_reason, brand, required_options, other_details, log_store
+ROWS: 0
+---
+[]

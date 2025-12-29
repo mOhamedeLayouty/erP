@@ -1,0 +1,117 @@
+TABLE: DBA.sc_location
+ORDER_BY: location_id
+COLUMNS: loc_code, loc_zone, loc_row, loc_case, loc_bin, location_id, service_center, location_store_id, has_item
+ROWS: 10
+---
+[
+  {
+    "loc_code": 12273,
+    "loc_zone": "A1",
+    "loc_row": "02",
+    "loc_case": "01",
+    "loc_bin": "01",
+    "location_id": 15,
+    "service_center": 1,
+    "location_store_id": 1,
+    "has_item": "N"
+  },
+  {
+    "loc_code": 12267,
+    "loc_zone": "A1",
+    "loc_row": "01",
+    "loc_case": "03",
+    "loc_bin": "01",
+    "location_id": 15,
+    "service_center": 1,
+    "location_store_id": 1,
+    "has_item": "N"
+  },
+  {
+    "loc_code": 12272,
+    "loc_zone": "A1",
+    "loc_row": "01",
+    "loc_case": "05",
+    "loc_bin": "01",
+    "location_id": 15,
+    "service_center": 1,
+    "location_store_id": 1,
+    "has_item": "N"
+  },
+  {
+    "loc_code": 12269,
+    "loc_zone": "A1",
+    "loc_row": "01",
+    "loc_case": "03",
+    "loc_bin": "03",
+    "location_id": 15,
+    "service_center": 1,
+    "location_store_id": 1,
+    "has_item": "N"
+  },
+  {
+    "loc_code": 12266,
+    "loc_zone": "A1",
+    "loc_row": "01",
+    "loc_case": "02",
+    "loc_bin": "01",
+    "location_id": 15,
+    "service_center": 1,
+    "location_store_id": 1,
+    "has_item": "N"
+  },
+  {
+    "loc_code": 12265,
+    "loc_zone": "A1",
+    "loc_row": "01",
+    "loc_case": "01",
+    "loc_bin": "01",
+    "location_id": 15,
+    "service_center": 1,
+    "location_store_id": 1,
+    "has_item": "N"
+  },
+  {
+    "loc_code": 12271,
+    "loc_zone": "A1",
+    "loc_row": "01",
+    "loc_case": "04",
+    "loc_bin": "01",
+    "location_id": 15,
+    "service_center": 1,
+    "location_store_id": 1,
+    "has_item": "N"
+  },
+  {
+    "loc_code": 12270,
+    "loc_zone": "A1",
+    "loc_row": "01",
+    "loc_case": "03",
+    "loc_bin": "03",
+    "location_id": 15,
+    "service_center": 1,
+    "location_store_id": 1,
+    "has_item": "N"
+  },
+  {
+    "loc_code": 12268,
+    "loc_zone": "A1",
+    "loc_row": "01",
+    "loc_case": "03",
+    "loc_bin": "02",
+    "location_id": 15,
+    "service_center": 1,
+    "location_store_id": 1,
+    "has_item": "N"
+  },
+  {
+    "loc_code": 12274,
+    "loc_zone": "A1",
+    "loc_row": "02",
+    "loc_case": "03",
+    "loc_bin": "01",
+    "location_id": 15,
+    "service_center": 1,
+    "location_store_id": 1,
+    "has_item": "N"
+  }
+]

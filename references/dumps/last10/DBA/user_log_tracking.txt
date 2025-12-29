@@ -1,0 +1,117 @@
+TABLE: DBA.user_log_tracking
+ORDER_BY: location_id
+COLUMNS: line_no, application_name, screen_name, action_taken, log_user, date_time, service_center, location_id, notes
+ROWS: 10
+---
+[
+  {
+    "line_no": 217054,
+    "application_name": "WS",
+    "screen_name": "u_quotation",
+    "action_taken": "New",
+    "log_user": "adham.ahmed",
+    "date_time": "2021-07-28 15:27:49.845000",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null
+  },
+  {
+    "line_no": 217055,
+    "application_name": "WS",
+    "screen_name": "w_ws_main_arabic",
+    "action_taken": "New",
+    "log_user": "amr.s",
+    "date_time": "2021-07-28 15:30:51.531000",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null
+  },
+  {
+    "line_no": 217056,
+    "application_name": "WS",
+    "screen_name": "u_quotation",
+    "action_taken": "Update",
+    "log_user": "adham.ahmed",
+    "date_time": "2021-07-28 15:31:31.023000",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null
+  },
+  {
+    "line_no": 217057,
+    "application_name": "WS",
+    "screen_name": "u_quotation",
+    "action_taken": "Update",
+    "log_user": "adham.ahmed",
+    "date_time": "2021-07-28 15:33:09.336000",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null
+  },
+  {
+    "line_no": 217058,
+    "application_name": "WS",
+    "screen_name": "u_quotation",
+    "action_taken": "Update",
+    "log_user": "adham.ahmed",
+    "date_time": "2021-07-28 15:33:23.440000",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null
+  },
+  {
+    "line_no": 217059,
+    "application_name": "NEW_STOCK",
+    "screen_name": "u_debit_arabic",
+    "action_taken": "New",
+    "log_user": "hussein.m",
+    "date_time": "2021-07-28 15:40:01.384000",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null
+  },
+  {
+    "line_no": 217060,
+    "application_name": "NEW_STOCK",
+    "screen_name": "u_debit_arabic",
+    "action_taken": "New",
+    "log_user": "hussein.m",
+    "date_time": "2021-07-28 15:42:26.321000",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null
+  },
+  {
+    "line_no": 217061,
+    "application_name": "NEW_STOCK",
+    "screen_name": "u_return_arabic",
+    "action_taken": "New",
+    "log_user": "hussein.m",
+    "date_time": "2021-07-28 15:43:34.228000",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null
+  },
+  {
+    "line_no": 217050,
+    "application_name": "WS",
+    "screen_name": "u_quotation",
+    "action_taken": "New",
+    "log_user": "mostafa.h",
+    "date_time": "2021-07-28 15:14:28.111000",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null
+  },
+  {
+    "line_no": 217053,
+    "application_name": "WS",
+    "screen_name": "w_ws_main_arabic",
+    "action_taken": "New",
+    "log_user": "amr.s",
+    "date_time": "2021-07-28 15:25:46.829000",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null
+  }
+]

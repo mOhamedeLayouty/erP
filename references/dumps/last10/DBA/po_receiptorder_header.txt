@@ -1,0 +1,6 @@
+TABLE: DBA.po_receiptorder_header
+ORDER_BY: entry_date
+COLUMNS: receiptorder_id, purchase_id, recieptorder_date, description, remarks, entry_date, entry_user, edit_date, edit_user, store_id, vend_code
+ROWS: 0
+---
+[]

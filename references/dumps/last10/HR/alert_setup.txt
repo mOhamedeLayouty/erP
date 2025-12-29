@@ -1,0 +1,6 @@
+TABLE: HR.alert_setup
+ORDER_BY: (none)
+COLUMNS: alert_code, alert_desc_e, alert_desc_a, alert_sql, active
+ROWS: 0
+---
+[]

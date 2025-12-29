@@ -1,0 +1,107 @@
+TABLE: DBA.ws_pmitems
+ORDER_BY: entry_date
+COLUMNS: pmid, operationid, itemid, qty, price, user_id, entry_date, service_center
+ROWS: 10
+---
+[
+  {
+    "pmid": 16,
+    "operationid": 3171,
+    "itemid": "7102",
+    "qty": 5,
+    "price": 240,
+    "user_id": "mohamed.ay",
+    "entry_date": null,
+    "service_center": 1
+  },
+  {
+    "pmid": 16,
+    "operationid": 3171,
+    "itemid": "22",
+    "qty": 1,
+    "price": 299,
+    "user_id": "mohamed.ay",
+    "entry_date": null,
+    "service_center": 1
+  },
+  {
+    "pmid": 16,
+    "operationid": 3171,
+    "itemid": "4672",
+    "qty": 1,
+    "price": 20,
+    "user_id": "mohamed.ay",
+    "entry_date": null,
+    "service_center": 1
+  },
+  {
+    "pmid": 16,
+    "operationid": 3171,
+    "itemid": "4664",
+    "qty": 1,
+    "price": 28,
+    "user_id": "mohamed.ay",
+    "entry_date": null,
+    "service_center": 1
+  },
+  {
+    "pmid": 17,
+    "operationid": 3172,
+    "itemid": "7102",
+    "qty": 5,
+    "price": 240,
+    "user_id": "mohamed.ay",
+    "entry_date": null,
+    "service_center": 1
+  },
+  {
+    "pmid": 17,
+    "operationid": 3172,
+    "itemid": "22",
+    "qty": 1,
+    "price": 299,
+    "user_id": "mohamed.ay",
+    "entry_date": null,
+    "service_center": 1
+  },
+  {
+    "pmid": 17,
+    "operationid": 3172,
+    "itemid": "9438",
+    "qty": 1,
+    "price": 498,
+    "user_id": "mohamed.ay",
+    "entry_date": null,
+    "service_center": 1
+  },
+  {
+    "pmid": 17,
+    "operationid": 3172,
+    "itemid": "1251",
+    "qty": 1,
+    "price": 986,
+    "user_id": "mohamed.ay",
+    "entry_date": null,
+    "service_center": 1
+  },
+  {
+    "pmid": 17,
+    "operationid": 3172,
+    "itemid": "3203",
+    "qty": 1,
+    "price": 588,
+    "user_id": "mohamed.ay",
+    "entry_date": null,
+    "service_center": 1
+  },
+  {
+    "pmid": 3,
+    "operationid": 988,
+    "itemid": "8469",
+    "qty": 1,
+    "price": 612,
+    "user_id": "qt",
+    "entry_date": null,
+    "service_center": 1
+  }
+]

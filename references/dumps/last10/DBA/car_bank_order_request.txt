@@ -1,0 +1,6 @@
+TABLE: DBA.car_bank_order_request
+ORDER_BY: entry_date
+COLUMNS: request_id, bank_code, customer_id, request_date, request_type, request_status, status_date, status_user, status_notes, quotation_header, vehicle_make, vehicle_model, category_id, vehicle_year, vehicle_type, crm_call_no, log_store, brand, sales_man, entry_user, entry_date, edit_user, edit_date
+ROWS: 0
+---
+[]

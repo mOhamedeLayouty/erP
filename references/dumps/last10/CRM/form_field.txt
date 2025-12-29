@@ -1,0 +1,6 @@
+TABLE: CRM.form_field
+ORDER_BY: (none)
+COLUMNS: form_name, form_field_no, form_field, field_orginal, field_visible, field_text, field_orginal_text, serial, field_db_name, field_protected
+ROWS: 0
+---
+[]

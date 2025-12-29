@@ -1,0 +1,6 @@
+TABLE: HR.actimezones
+ORDER_BY: (none)
+COLUMNS: timezoneid, name, sunstart, sunend, monstart, monend, tuesstart, tuesend, wedstart, wedend, thursstart, thursend, fristart, friend, satstart, satend
+ROWS: 0
+---
+[]

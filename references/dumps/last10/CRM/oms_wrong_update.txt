@@ -1,0 +1,6 @@
+TABLE: CRM.oms_wrong_update
+ORDER_BY: (none)
+COLUMNS: call_status, corpo_area, home_phone, phon2, phon3, old home_phone, customer_name, customer_name_a, customer_code
+ROWS: 0
+---
+[]

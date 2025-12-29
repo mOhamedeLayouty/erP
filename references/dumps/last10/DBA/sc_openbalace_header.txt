@@ -1,0 +1,127 @@
+TABLE: DBA.sc_openbalace_header
+ORDER_BY: location_id
+COLUMNS: openbalace_header, openbalace_date, openbalace_time, openbalace_type, service_center, location_id, store_id, user_name, notes, post_flag
+ROWS: 10
+---
+[
+  {
+    "openbalace_header": 2,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "20:03:05",
+    "openbalace_type": 1,
+    "service_center": 1,
+    "location_id": 3,
+    "store_id": 1,
+    "user_name": "11",
+    "notes": null,
+    "post_flag": "N"
+  },
+  {
+    "openbalace_header": 1,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "20:23:50",
+    "openbalace_type": 1,
+    "service_center": 1,
+    "location_id": 3,
+    "store_id": 1,
+    "user_name": "11",
+    "notes": null,
+    "post_flag": "N"
+  },
+  {
+    "openbalace_header": 2,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "20:19:55",
+    "openbalace_type": 1,
+    "service_center": 1,
+    "location_id": 2,
+    "store_id": 2,
+    "user_name": "11",
+    "notes": null,
+    "post_flag": "N"
+  },
+  {
+    "openbalace_header": 3,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "20:01:22",
+    "openbalace_type": 1,
+    "service_center": 1,
+    "location_id": 2,
+    "store_id": 1,
+    "user_name": "11",
+    "notes": null,
+    "post_flag": "N"
+  },
+  {
+    "openbalace_header": 1,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "20:13:10",
+    "openbalace_type": 1,
+    "service_center": 1,
+    "location_id": 2,
+    "store_id": 1,
+    "user_name": "11",
+    "notes": null,
+    "post_flag": "N"
+  },
+  {
+    "openbalace_header": 5,
+    "openbalace_date": "2019-01-02",
+    "openbalace_time": "14:44:19",
+    "openbalace_type": 1,
+    "service_center": 1,
+    "location_id": 1,
+    "store_id": 1,
+    "user_name": "11",
+    "notes": null,
+    "post_flag": "N"
+  },
+  {
+    "openbalace_header": 7,
+    "openbalace_date": "2019-01-03",
+    "openbalace_time": "15:46:46",
+    "openbalace_type": 1,
+    "service_center": 1,
+    "location_id": 1,
+    "store_id": 1,
+    "user_name": "11",
+    "notes": null,
+    "post_flag": "N"
+  },
+  {
+    "openbalace_header": 6,
+    "openbalace_date": "2019-01-03",
+    "openbalace_time": "15:38:45",
+    "openbalace_type": 1,
+    "service_center": 1,
+    "location_id": 1,
+    "store_id": 1,
+    "user_name": "11",
+    "notes": null,
+    "post_flag": "N"
+  },
+  {
+    "openbalace_header": 2,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "20:09:04",
+    "openbalace_type": 1,
+    "service_center": 1,
+    "location_id": 1,
+    "store_id": 2,
+    "user_name": "11",
+    "notes": null,
+    "post_flag": "N"
+  },
+  {
+    "openbalace_header": 4,
+    "openbalace_date": "2019-01-02",
+    "openbalace_time": "13:11:22",
+    "openbalace_type": 1,
+    "service_center": 1,
+    "location_id": 1,
+    "store_id": 1,
+    "user_name": "11",
+    "notes": null,
+    "post_flag": "N"
+  }
+]

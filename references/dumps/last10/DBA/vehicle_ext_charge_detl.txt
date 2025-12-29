@@ -1,0 +1,16 @@
+TABLE: DBA.vehicle_ext_charge_detl
+ORDER_BY: (none)
+COLUMNS: expenses_code, log_store, line_code, operation_code, operation_cost, notes, brand
+ROWS: 1
+---
+[
+  {
+    "expenses_code": "1",
+    "log_store": 3,
+    "line_code": 1,
+    "operation_code": "2",
+    "operation_cost": 9500,
+    "notes": "����� ���� ����� + ���� ���� ��� ����� ����� ��������� ����� �������",
+    "brand": 1
+  }
+]

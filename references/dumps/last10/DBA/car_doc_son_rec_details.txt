@@ -1,0 +1,6 @@
+TABLE: DBA.car_doc_son_rec_details
+ORDER_BY: customer_id
+COLUMNS: doc_t_num, doc_type, line_no, log_store, brand, acc_no, invoiceid, invoiceno, invoicetype, customer_id, vend_code, vendor_inv_no, paid_amount
+ROWS: 0
+---
+[]

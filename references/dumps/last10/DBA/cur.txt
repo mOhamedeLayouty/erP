@@ -1,0 +1,6 @@
+TABLE: DBA.cur
+ORDER_BY: curr_id
+COLUMNS: curr_id, name, rate
+ROWS: 0
+---
+[]

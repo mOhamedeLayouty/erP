@@ -1,0 +1,6 @@
+TABLE: DBA.ws_discount_rewards
+ORDER_BY: entry_date
+COLUMNS: reward_code, reward_name_a, reward_name_e, start_date, status, entry_date, user_id, service_center
+ROWS: 0
+---
+[]

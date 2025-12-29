@@ -1,0 +1,6 @@
+TABLE: dbo.sa_diagnostic_cursor
+ORDER_BY: logging_session_id
+COLUMNS: logging_session_id, cursor_id, query_id, isolation_level, flags, forward_fetches, reverse_fetches, absolute_fetches, first_fetch_time_ms, total_fetch_time_ms, plan_xml
+ROWS: 0
+---
+[]

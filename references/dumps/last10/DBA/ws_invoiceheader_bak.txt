@@ -1,0 +1,6 @@
+TABLE: DBA.ws_invoiceheader_bak
+ORDER_BY: entry_date
+COLUMNS: invoiceid, customerid, eqptid, receptionist, timein, invoicedate, itemprice, laborprice, labordiscount, payment_type, user_id, entry_date, joborder_id, itemdiscount, invoicetype, status, invoiceno, salestax, outserviceprice, oilprice, deleteflag, deleteuser, deletereason, createinvoice, deletedate, debit_header, oilprice_tax, post_flag, currency_id, service_center, location_id
+ROWS: 0
+---
+[]

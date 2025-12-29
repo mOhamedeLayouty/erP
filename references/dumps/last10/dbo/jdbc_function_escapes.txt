@@ -1,0 +1,47 @@
+TABLE: dbo.jdbc_function_escapes
+ORDER_BY: (none)
+COLUMNS: escape_name, map_string
+ROWS: 10
+---
+[
+  {
+    "escape_name": "locate",
+    "map_string": "locate (%2, %1)"
+  },
+  {
+    "escape_name": "user",
+    "map_string": "user_name()"
+  },
+  {
+    "escape_name": "abs",
+    "map_string": "abs(%1)"
+  },
+  {
+    "escape_name": "acos",
+    "map_string": "acos(%1)"
+  },
+  {
+    "escape_name": "asin",
+    "map_string": "asin(%1)"
+  },
+  {
+    "escape_name": "atan",
+    "map_string": "atan(%1)"
+  },
+  {
+    "escape_name": "atan2",
+    "map_string": "atn2(%1, %2)"
+  },
+  {
+    "escape_name": "ceiling",
+    "map_string": "ceiling(%1)"
+  },
+  {
+    "escape_name": "cos",
+    "map_string": "cos(%1)"
+  },
+  {
+    "escape_name": "cot",
+    "map_string": "cot(%1)"
+  }
+]

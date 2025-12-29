@@ -1,0 +1,13 @@
+TABLE: CRM.client_department
+ORDER_BY: id
+COLUMNS: id, client_code, name, description
+ROWS: 1
+---
+[
+  {
+    "id": 1,
+    "client_code": "1",
+    "name": "Sales Dept.",
+    "description": "Sales Dept."
+  }
+]

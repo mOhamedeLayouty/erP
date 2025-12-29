@@ -1,0 +1,6 @@
+TABLE: DBA.car_doc_son_rec_vin
+ORDER_BY: id
+COLUMNS: id, doc_t_num, doc_type, log_store, brand, vin, cost, value, new_cost, vehicle_id
+ROWS: 0
+---
+[]

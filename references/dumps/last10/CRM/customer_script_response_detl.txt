@@ -1,0 +1,52 @@
+TABLE: CRM.customer_script_response_detl
+ORDER_BY: branch_id
+COLUMNS: serial_no, branch_id, response
+ROWS: 9
+---
+[
+  {
+    "serial_no": "4",
+    "branch_id": "5",
+    "response": "Yes"
+  },
+  {
+    "serial_no": "4",
+    "branch_id": "4",
+    "response": "���"
+  },
+  {
+    "serial_no": "4",
+    "branch_id": "3",
+    "response": "Yes"
+  },
+  {
+    "serial_no": "1",
+    "branch_id": "2",
+    "response": null
+  },
+  {
+    "serial_no": "4",
+    "branch_id": "2",
+    "response": "Yes"
+  },
+  {
+    "serial_no": "4",
+    "branch_id": "1",
+    "response": "Yes"
+  },
+  {
+    "serial_no": "3",
+    "branch_id": "1",
+    "response": "Yes"
+  },
+  {
+    "serial_no": "2",
+    "branch_id": "1",
+    "response": null
+  },
+  {
+    "serial_no": "1",
+    "branch_id": "1",
+    "response": "All Responses"
+  }
+]

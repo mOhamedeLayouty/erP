@@ -1,0 +1,22 @@
+TABLE: DBA.sc_unit_relation
+ORDER_BY: (none)
+COLUMNS: unit_a, unit_b, factor
+ROWS: 3
+---
+[
+  {
+    "unit_a": 1,
+    "unit_b": 14,
+    "factor": 1000
+  },
+  {
+    "unit_a": 3,
+    "unit_b": 5,
+    "factor": 1000
+  },
+  {
+    "unit_a": 4,
+    "unit_b": 13,
+    "factor": 100
+  }
+]

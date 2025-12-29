@@ -1,0 +1,6 @@
+TABLE: CRM.sub_segment
+ORDER_BY: (none)
+COLUMNS: client_code, segment_code, description, description_a, status, from_pc, to_pc, account_manager
+ROWS: 0
+---
+[]

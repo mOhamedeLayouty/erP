@@ -1,0 +1,41 @@
+TABLE: DBA.ws_claim
+ORDER_BY: entry_date
+COLUMNS: claim_id, claim_code, claim_date, joborder_id, currency_id, operation_id, item_id, notes, status_id, entry_user, entry_date, edit_user, edit_date, service_center, location_id
+ROWS: 2
+---
+[
+  {
+    "claim_id": 1,
+    "claim_code": "1",
+    "claim_date": "2023-06-24 16:43:01.732000",
+    "joborder_id": "53390",
+    "currency_id": null,
+    "operation_id": 4898,
+    "item_id": null,
+    "notes": null,
+    "status_id": 1,
+    "entry_user": "mahmoud.k",
+    "entry_date": "2023-06-24 16:43:03.607000",
+    "edit_user": null,
+    "edit_date": null,
+    "service_center": 1,
+    "location_id": 2
+  },
+  {
+    "claim_id": 1,
+    "claim_code": "1",
+    "claim_date": "2023-05-02 08:49:04.476000",
+    "joborder_id": "76214",
+    "currency_id": null,
+    "operation_id": 4926,
+    "item_id": null,
+    "notes": null,
+    "status_id": 1,
+    "entry_user": "time.co",
+    "entry_date": "2023-05-02 08:49:04.765000",
+    "edit_user": null,
+    "edit_date": null,
+    "service_center": 1,
+    "location_id": 1
+  }
+]

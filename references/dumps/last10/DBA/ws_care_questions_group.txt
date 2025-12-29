@@ -1,0 +1,23 @@
+TABLE: DBA.ws_care_questions_group
+ORDER_BY: group_id
+COLUMNS: group_id, name_e, name_a, user_id, group_date, service_center
+ROWS: 2
+---
+[
+  {
+    "group_id": 2,
+    "name_e": "Reminder call",
+    "name_a": "Reminder call",
+    "user_id": "mohamed.ay",
+    "group_date": "2024-05-09 11:54:30.779000",
+    "service_center": 1
+  },
+  {
+    "group_id": 1,
+    "name_e": "Aftersales follow up",
+    "name_a": "Aftersales follow up",
+    "user_id": "mohamed.ay",
+    "group_date": "2022-07-25 14:05:56.000000",
+    "service_center": 1
+  }
+]

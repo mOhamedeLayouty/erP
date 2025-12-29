@@ -1,0 +1,23 @@
+TABLE: DBA.items_secial_price
+ORDER_BY: sp_id
+COLUMNS: sp_id, item_id, service_center, special_price, user_id, sp_amount
+ROWS: 2
+---
+[
+  {
+    "sp_id": 3,
+    "item_id": "22",
+    "service_center": 1,
+    "special_price": 299,
+    "user_id": "tamer.gabr",
+    "sp_amount": 0
+  },
+  {
+    "sp_id": 3,
+    "item_id": "7102",
+    "service_center": 1,
+    "special_price": 240,
+    "user_id": "tamer.gabr",
+    "sp_amount": 0
+  }
+]

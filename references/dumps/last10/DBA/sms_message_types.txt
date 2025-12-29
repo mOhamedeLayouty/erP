@@ -1,0 +1,27 @@
+TABLE: DBA.sms_message_types
+ORDER_BY: msg_id
+COLUMNS: msg_id, msg_type, msg_body_a, msg_body_e, description_a, description_e, isactive , module_id
+ROWS: 2
+---
+[
+  {
+    "msg_id": "ws_receipt",
+    "msg_type": "M",
+    "msg_body_a": "الفاتورة جاهزة برجاء التواصل مع مركز الخدمة ",
+    "msg_body_e": "Your vehicle is ready please contact SAC-Motor to receive your Vehicle",
+    "description_a": "رسالة عند انشاء فاتورة",
+    "description_e": "NULL",
+    "isactive ": "N",
+    "module_id": "WS"
+  },
+  {
+    "msg_id": "car_received",
+    "msg_type": "M",
+    "msg_body_a": "مبروك لاستلامك السيارة الجديدة",
+    "msg_body_e": "Congratulation for your new car !",
+    "description_a": "رسالة عند استلام العميل لسيارة جديدة من المبيعات",
+    "description_e": "NULL",
+    "isactive ": "N",
+    "module_id": "CAR"
+  }
+]

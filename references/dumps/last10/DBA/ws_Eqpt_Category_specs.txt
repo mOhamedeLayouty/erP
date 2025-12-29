@@ -1,0 +1,6 @@
+TABLE: DBA.ws_Eqpt_Category_specs
+ORDER_BY: entry_date
+COLUMNS: category_id, specs_id, entry_user, entry_date, edit_user, edit_date, brand
+ROWS: 0
+---
+[]

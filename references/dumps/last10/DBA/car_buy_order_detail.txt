@@ -1,0 +1,6 @@
+TABLE: DBA.car_buy_order_detail
+ORDER_BY: (none)
+COLUMNS: buy_detail, buy_header, log_store, make, model, qty, price, notes, cd_player, cassette_player, satellite_stereo, dvd, sunroof, leather, cloth, manual_transmission, auto_transmission, wd_2, x_44, awd, regular_cab, extended_cab, crew_cab, rear_spoiler, door_2, door_4, custom_wheels, tinted_windows, vehicle_year, color, eqpt_category, description, model_code, eqpt_category_code, in_color, brand, requisition_header
+ROWS: 0
+---
+[]

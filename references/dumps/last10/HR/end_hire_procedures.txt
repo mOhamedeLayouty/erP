@@ -1,0 +1,6 @@
+TABLE: HR.end_hire_procedures
+ORDER_BY: procedure_id
+COLUMNS: procedure_id, name_a, name_e, est_time, isrequired, notes
+ROWS: 0
+---
+[]

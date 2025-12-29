@@ -1,0 +1,6 @@
+TABLE: DBA.po_receiptorder_detail
+ORDER_BY: receiptorderdetail_id
+COLUMNS: receiptorderdetail_id, receiptorder_id, item_id, receipt_qty, ordered_qty, notes, price
+ROWS: 0
+---
+[]

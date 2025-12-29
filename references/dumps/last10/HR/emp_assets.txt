@@ -1,0 +1,6 @@
+TABLE: HR.emp_assets
+ORDER_BY: entry_date
+COLUMNS: line_id, emp_code, asset_code, asset_number, qty, amount, given_date, given_status, return_date, return_status, asset_details, entry_date, entry_user, edit_date, edit_user
+ROWS: 0
+---
+[]

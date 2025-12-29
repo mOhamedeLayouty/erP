@@ -1,0 +1,147 @@
+TABLE: DBA.sc_openbalace_detail
+ORDER_BY: item_id
+COLUMNS: openbalace_detail, openbalace_header, item_id, bg_balance, bg_price, openbalace_date, openbalace_time, service_center, location_id, notes, exp, bg_official_price
+ROWS: 10
+---
+[
+  {
+    "openbalace_detail": 956,
+    "openbalace_header": 1,
+    "item_id": "999",
+    "bg_balance": 1,
+    "bg_price": 1406.83,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "19:38:53",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null,
+    "exp": null,
+    "bg_official_price": 1406.83
+  },
+  {
+    "openbalace_detail": 40,
+    "openbalace_header": 1,
+    "item_id": "998",
+    "bg_balance": 1,
+    "bg_price": 655.5,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "20:23:50",
+    "service_center": 1,
+    "location_id": 3,
+    "notes": null,
+    "exp": null,
+    "bg_official_price": 655.5
+  },
+  {
+    "openbalace_detail": 955,
+    "openbalace_header": 1,
+    "item_id": "997",
+    "bg_balance": 2,
+    "bg_price": 926.46,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "19:38:53",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null,
+    "exp": null,
+    "bg_official_price": 926.46
+  },
+  {
+    "openbalace_detail": 282,
+    "openbalace_header": 1,
+    "item_id": "996",
+    "bg_balance": 1,
+    "bg_price": 641.09,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "20:13:10",
+    "service_center": 1,
+    "location_id": 2,
+    "notes": null,
+    "exp": null,
+    "bg_official_price": 641.09
+  },
+  {
+    "openbalace_detail": 954,
+    "openbalace_header": 1,
+    "item_id": "995",
+    "bg_balance": 1,
+    "bg_price": 2092.26,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "19:38:53",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null,
+    "exp": null,
+    "bg_official_price": 2092.26
+  },
+  {
+    "openbalace_detail": 953,
+    "openbalace_header": 1,
+    "item_id": "994",
+    "bg_balance": 1,
+    "bg_price": 273.33,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "19:38:53",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null,
+    "exp": null,
+    "bg_official_price": 273.33
+  },
+  {
+    "openbalace_detail": 952,
+    "openbalace_header": 1,
+    "item_id": "993",
+    "bg_balance": 1,
+    "bg_price": 321.06,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "19:38:53",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null,
+    "exp": null,
+    "bg_official_price": 321.06
+  },
+  {
+    "openbalace_detail": 281,
+    "openbalace_header": 1,
+    "item_id": "992",
+    "bg_balance": 10,
+    "bg_price": 21.46,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "20:13:10",
+    "service_center": 1,
+    "location_id": 2,
+    "notes": null,
+    "exp": null,
+    "bg_official_price": 21.46
+  },
+  {
+    "openbalace_detail": 280,
+    "openbalace_header": 1,
+    "item_id": "991",
+    "bg_balance": 1,
+    "bg_price": 552.08,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "20:13:10",
+    "service_center": 1,
+    "location_id": 2,
+    "notes": null,
+    "exp": null,
+    "bg_official_price": 552.08
+  },
+  {
+    "openbalace_detail": 951,
+    "openbalace_header": 1,
+    "item_id": "990",
+    "bg_balance": 2,
+    "bg_price": 280.83,
+    "openbalace_date": "2018-12-31",
+    "openbalace_time": "19:38:53",
+    "service_center": 1,
+    "location_id": 1,
+    "notes": null,
+    "exp": null,
+    "bg_official_price": 280.83
+  }
+]

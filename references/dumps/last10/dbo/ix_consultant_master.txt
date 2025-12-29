@@ -1,0 +1,6 @@
+TABLE: dbo.ix_consultant_master
+ORDER_BY: master_id
+COLUMNS: master_id, creation_time, creator, name, summary
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: HR.group_policy
+ORDER_BY: (none)
+COLUMNS: group_code, group_name_e, group_name_a
+ROWS: 0
+---
+[]

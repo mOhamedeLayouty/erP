@@ -1,0 +1,67 @@
+TABLE: DBA.activity_code
+ORDER_BY: (none)
+COLUMNS: code, name_e, name_a, isactive
+ROWS: 10
+---
+[
+  {
+    "code": "0111",
+    "name_e": "Cultivation of grains and crops (except for rice), legumes and oilseeds",
+    "name_a": "����� ������ ��������� ( ���� ��� ����� ) ���������� ������� �������",
+    "isactive": null
+  },
+  {
+    "code": "0112",
+    "name_e": "Cultivation of rice",
+    "name_a": "����� �����",
+    "isactive": null
+  },
+  {
+    "code": "0113",
+    "name_e": "Growing vegetables, melons, roots and tubers",
+    "name_a": "����� ����� ������� ������� ��������",
+    "isactive": "N"
+  },
+  {
+    "code": "0114",
+    "name_e": "Cultivation of sugar cane",
+    "name_a": "����� ��� �����",
+    "isactive": null
+  },
+  {
+    "code": "0115",
+    "name_e": "Tobacco cultivation",
+    "name_a": "����� �����",
+    "isactive": null
+  },
+  {
+    "code": "0116",
+    "name_e": "Growing fiber crops",
+    "name_a": "����� �������� ��� �������",
+    "isactive": null
+  },
+  {
+    "code": "0119",
+    "name_e": "Cultivation of other non-perennial crops",
+    "name_a": "����� �������� ��� ������� ������",
+    "isactive": null
+  },
+  {
+    "code": "0121",
+    "name_e": "the cultivation of grapevines.",
+    "name_a": "����� ������",
+    "isactive": null
+  },
+  {
+    "code": "0122",
+    "name_e": "Growing tropical and subtropical fruits",
+    "name_a": "����� ������� ���������� ���� ����������",
+    "isactive": null
+  },
+  {
+    "code": "0123",
+    "name_e": "Cultivation of citrus fruits",
+    "name_a": "����� �������",
+    "isactive": null
+  }
+]

@@ -1,0 +1,42 @@
+TABLE: HR.account_setup
+ORDER_BY: (none)
+COLUMNS: ser_no, description, acc_no
+ROWS: 7
+---
+[
+  {
+    "ser_no": 1,
+    "description": "���� / ����� ���� �����",
+    "acc_no": "602010300"
+  },
+  {
+    "ser_no": 2,
+    "description": "���� / �����",
+    "acc_no": ""
+  },
+  {
+    "ser_no": 3,
+    "description": "���� / ��� ������ �� ��������� ����������",
+    "acc_no": ""
+  },
+  {
+    "ser_no": 4,
+    "description": "���� / ���� ������",
+    "acc_no": "606010100"
+  },
+  {
+    "ser_no": 5,
+    "description": "���� / ��� ������",
+    "acc_no": ""
+  },
+  {
+    "ser_no": 6,
+    "description": "���� / ���� ���� ��������� ����������",
+    "acc_no": ""
+  },
+  {
+    "ser_no": 7,
+    "description": "���� / ����� ������� - ��� �����",
+    "acc_no": ""
+  }
+]

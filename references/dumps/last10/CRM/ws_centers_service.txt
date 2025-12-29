@@ -1,0 +1,29 @@
+TABLE: CRM.ws_centers_service
+ORDER_BY: center_id
+COLUMNS: center_id, center_name_e, center_name_a, center_address_e, center_address_a, notes, gl_company_code, tel_no, fax_no, cost_center, logo_path, logo_path2, stocktaking, debit_price_visible, main_center, db_user, main_location_id, commercial_register, file_tax, salestax_registration
+ROWS: 1
+---
+[
+  {
+    "center_id": 1,
+    "center_name_e": "Dynamics",
+    "center_name_a": "��������",
+    "center_address_e": "El-Oboor",
+    "center_address_a": "������",
+    "notes": null,
+    "gl_company_code": 1,
+    "tel_no": null,
+    "fax_no": null,
+    "cost_center": null,
+    "logo_path": null,
+    "logo_path2": null,
+    "stocktaking": "N",
+    "debit_price_visible": "Y",
+    "main_center": "Y",
+    "db_user": "CRM",
+    "main_location_id": 1,
+    "commercial_register": null,
+    "file_tax": null,
+    "salestax_registration": null
+  }
+]

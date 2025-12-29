@@ -1,0 +1,6 @@
+TABLE: HR.shift_exception
+ORDER_BY: entry_date
+COLUMNS: line_id, shift_id, day_id, from_time, to_time, from_time2, to_time2, from_time3, to_time3, total_hours, total_minutes, in_the_same_day, flexible_minutes, entry_date, entry_user, edit_date, edit_user, is_weekend
+ROWS: 0
+---
+[]

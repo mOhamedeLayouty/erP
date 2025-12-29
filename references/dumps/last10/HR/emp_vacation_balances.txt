@@ -1,0 +1,97 @@
+TABLE: HR.emp_vacation_balances
+ORDER_BY: vac_id
+COLUMNS: emp_code, vac_id, balance, last_update, user_id, posted_balance, year_of_balance
+ROWS: 10
+---
+[
+  {
+    "emp_code": "125",
+    "vac_id": 9,
+    "balance": 7,
+    "last_update": "2023-01-02 09:32:17.469000",
+    "user_id": "loay.s",
+    "posted_balance": 0,
+    "year_of_balance": 2022
+  },
+  {
+    "emp_code": "113",
+    "vac_id": 9,
+    "balance": 7,
+    "last_update": "2023-01-02 09:32:17.265000",
+    "user_id": "loay.s",
+    "posted_balance": 0,
+    "year_of_balance": 2022
+  },
+  {
+    "emp_code": "122",
+    "vac_id": 9,
+    "balance": 7,
+    "last_update": "2023-01-02 09:32:17.422000",
+    "user_id": "loay.s",
+    "posted_balance": 0,
+    "year_of_balance": 2022
+  },
+  {
+    "emp_code": "114",
+    "vac_id": 9,
+    "balance": 7,
+    "last_update": "2023-01-02 09:32:17.328000",
+    "user_id": "loay.s",
+    "posted_balance": 0,
+    "year_of_balance": 2022
+  },
+  {
+    "emp_code": "104",
+    "vac_id": 9,
+    "balance": 7,
+    "last_update": "2023-01-02 09:32:17.041000",
+    "user_id": "loay.s",
+    "posted_balance": 0,
+    "year_of_balance": 2022
+  },
+  {
+    "emp_code": "103",
+    "vac_id": 9,
+    "balance": 7,
+    "last_update": "2023-01-02 09:32:16.948000",
+    "user_id": "loay.s",
+    "posted_balance": 0,
+    "year_of_balance": 2022
+  },
+  {
+    "emp_code": "117",
+    "vac_id": 9,
+    "balance": 7,
+    "last_update": "2023-01-02 09:32:17.375000",
+    "user_id": "loay.s",
+    "posted_balance": 0,
+    "year_of_balance": 2022
+  },
+  {
+    "emp_code": "110",
+    "vac_id": 9,
+    "balance": 7,
+    "last_update": "2023-01-02 09:32:17.187000",
+    "user_id": "loay.s",
+    "posted_balance": 0,
+    "year_of_balance": 2022
+  },
+  {
+    "emp_code": "105",
+    "vac_id": 9,
+    "balance": 7,
+    "last_update": "2023-01-02 09:32:17.109000",
+    "user_id": "loay.s",
+    "posted_balance": 0,
+    "year_of_balance": 2022
+  },
+  {
+    "emp_code": "126",
+    "vac_id": 9,
+    "balance": 7,
+    "last_update": "2023-01-02 09:32:17.515000",
+    "user_id": "loay.s",
+    "posted_balance": 0,
+    "year_of_balance": 2022
+  }
+]

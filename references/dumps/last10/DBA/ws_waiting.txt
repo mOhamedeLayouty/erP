@@ -1,0 +1,57 @@
+TABLE: DBA.ws_waiting
+ORDER_BY: waiting_id
+COLUMNS: waiting_id, desc_e, desc_a
+ROWS: 10
+---
+[
+  {
+    "waiting_id": "9",
+    "desc_e": "Waiting Technician",
+    "desc_a": "������ ���"
+  },
+  {
+    "waiting_id": "8",
+    "desc_e": "External Works",
+    "desc_a": "����� ������"
+  },
+  {
+    "waiting_id": "7",
+    "desc_e": "Related to another Job Order",
+    "desc_a": "������ ���� ��� ���"
+  },
+  {
+    "waiting_id": "6",
+    "desc_e": "Waiting Internal Approval",
+    "desc_a": "������ ������ ������"
+  },
+  {
+    "waiting_id": "5",
+    "desc_e": "Waiting Technical Support",
+    "desc_a": "������ ��� ���"
+  },
+  {
+    "waiting_id": "4",
+    "desc_e": "Warranty Approval",
+    "desc_a": "������ ������ ������"
+  },
+  {
+    "waiting_id": "3",
+    "desc_e": "Spare Parts",
+    "desc_a": "�. ����"
+  },
+  {
+    "waiting_id": "2",
+    "desc_e": "Insurance Approval",
+    "desc_a": "������ �������"
+  },
+  {
+    "waiting_id": "14",
+    "desc_e": "Carry Over",
+    "desc_a": "Carry Over"
+  },
+  {
+    "waiting_id": "13",
+    "desc_e": "Waiting for Documents",
+    "desc_a": "������ �������"
+  }
+]

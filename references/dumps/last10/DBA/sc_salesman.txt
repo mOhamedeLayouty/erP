@@ -1,0 +1,6 @@
+TABLE: DBA.sc_salesman
+ORDER_BY: entry_date
+COLUMNS: id, name_a, name_e, commission, service_center, location_id, store_id, all_location, all_store, active, user_name, entry_user, entry_date, edit_user, edit_date, fixedtype_id, commission_type, system_id
+ROWS: 0
+---
+[]

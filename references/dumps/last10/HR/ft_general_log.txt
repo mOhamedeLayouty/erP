@@ -1,0 +1,6 @@
+TABLE: HR.ft_general_log
+ORDER_BY: log_id
+COLUMNS: log_id, log_date, enrollNo, yr, mth, day_Renamed, hr, min, sec, ver, io, work_code
+ROWS: 0
+---
+[]

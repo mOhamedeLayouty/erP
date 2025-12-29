@@ -1,0 +1,6 @@
+TABLE: CRM.client_points
+ORDER_BY: (none)
+COLUMNS: client_code, country_code, city_code, area_code, point_code, description_e, description_a
+ROWS: 0
+---
+[]

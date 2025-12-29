@@ -1,0 +1,97 @@
+TABLE: HR.hr_global_parms
+ORDER_BY: setup_id
+COLUMNS: setup_id, description, description_a, value_from, value_to, setup_code, setup_type, amount
+ROWS: 9
+---
+[
+  {
+    "setup_id": 9,
+    "description": "the maximum permissions hours allowed per month",
+    "description_a": " ���� ��� ����� ���� �� �����",
+    "value_from": "0",
+    "value_to": "0 ",
+    "setup_code": "permissions",
+    "setup_type": null,
+    "amount": 20
+  },
+  {
+    "setup_id": 8,
+    "description": "the number of available permissions per month",
+    "description_a": "��� ������ ������� �� �����",
+    "value_from": "0 ",
+    "value_to": "0",
+    "setup_code": "permissions",
+    "setup_type": null,
+    "amount": 10
+  },
+  {
+    "setup_id": 7,
+    "description": "End of service gratuity",
+    "description_a": "������ ����� ������",
+    "value_from": "5",
+    "value_to": "40",
+    "setup_code": "endhiring",
+    "setup_type": null,
+    "amount": 2
+  },
+  {
+    "setup_id": 6,
+    "description": "End of service gratuity",
+    "description_a": "������ ����� ������",
+    "value_from": "2",
+    "value_to": "5",
+    "setup_code": "endhiring",
+    "setup_type": null,
+    "amount": 1
+  },
+  {
+    "setup_id": 5,
+    "description": "End of service gratuity",
+    "description_a": "������ ����� ������",
+    "value_from": "0",
+    "value_to": "2",
+    "setup_code": "endhiring",
+    "setup_type": null,
+    "amount": 0
+  },
+  {
+    "setup_id": 4,
+    "description": "Enter the value which will be multiplied in overtime hours in the holidays",
+    "description_a": "���� ����� ���� ��� ��� ���� �� ��� ������� �������� �� ���� ������� �������",
+    "value_from": "1.7",
+    "value_to": null,
+    "setup_code": "overtime",
+    "setup_type": null,
+    "amount": null
+  },
+  {
+    "setup_id": 3,
+    "description": "Enter the value which will be multiplied in overtime hours in the weekend days",
+    "description_a": "���� ����� ���� ��� ��� ���� �� ��� ������� �������� �� ���� ������",
+    "value_from": "1.7",
+    "value_to": null,
+    "setup_code": "overtime",
+    "setup_type": null,
+    "amount": null
+  },
+  {
+    "setup_id": 2,
+    "description": "Enter the value which will be multiplied in overtime hours",
+    "description_a": "���� ����� ���� ��� ��� ���� �� ��� ������� ��������",
+    "value_from": "1.7",
+    "value_to": null,
+    "setup_code": "overtime",
+    "setup_type": null,
+    "amount": null
+  },
+  {
+    "setup_id": 1,
+    "description": "Enter the number of the (day/month) from and the number of the (day/month) to which belongs to payroll calculation.",
+    "description_a": "���� ��� (�����/�����) �� ���� (�����/�����) ��� ����� ��� ��������",
+    "value_from": "21/1",
+    "value_to": "20/2",
+    "setup_code": "overtime",
+    "setup_type": null,
+    "amount": null
+  }
+]

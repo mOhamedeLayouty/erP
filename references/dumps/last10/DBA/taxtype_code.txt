@@ -1,0 +1,67 @@
+TABLE: DBA.taxtype_code
+ORDER_BY: (none)
+COLUMNS: code, name_e, name_a, isactive
+ROWS: 10
+---
+[
+  {
+    "code": "T1",
+    "name_e": "Value added tax",
+    "name_a": "����� ������ �������",
+    "isactive": "Y"
+  },
+  {
+    "code": "T2",
+    "name_e": "Table tax (percentage)",
+    "name_a": "����� ������ (�����)",
+    "isactive": null
+  },
+  {
+    "code": "T3",
+    "name_e": "Table tax (Fixed Amount)",
+    "name_a": "����� ������ (�����)",
+    "isactive": null
+  },
+  {
+    "code": "T4",
+    "name_e": "Withholding tax (WHT)",
+    "name_a": "����� ��� ���� �������",
+    "isactive": "Y"
+  },
+  {
+    "code": "T5",
+    "name_e": "Stamping tax (percentage)",
+    "name_a": "����� ������ (�����)",
+    "isactive": null
+  },
+  {
+    "code": "T6",
+    "name_e": "Stamping Tax (amount)",
+    "name_a": "����� ������ (����� ������ ���� )",
+    "isactive": null
+  },
+  {
+    "code": "T7",
+    "name_e": "Entertainment tax",
+    "name_a": "����� �������",
+    "isactive": null
+  },
+  {
+    "code": "T8",
+    "name_e": "Resource development fee",
+    "name_a": "��� ����� �������",
+    "isactive": null
+  },
+  {
+    "code": "T9",
+    "name_e": "Table tax (percentage)",
+    "name_a": "��� ����",
+    "isactive": null
+  },
+  {
+    "code": "T10",
+    "name_e": "Municipality Fees",
+    "name_a": "��� ��������",
+    "isactive": null
+  }
+]

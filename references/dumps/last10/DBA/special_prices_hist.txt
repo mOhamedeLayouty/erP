@@ -1,0 +1,6 @@
+TABLE: DBA.special_prices_hist
+ORDER_BY: id
+COLUMNS: id, service_center, sp_code, sp_description, allow_discount, max_discount, validity_from, validity_to, plus, sp_amount, last_update, user_id
+ROWS: 0
+---
+[]

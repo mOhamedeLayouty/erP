@@ -1,0 +1,6 @@
+TABLE: CRM.client_service
+ORDER_BY: (none)
+COLUMNS: client_code, service_code, description, description_a, manual_code, service_desc
+ROWS: 0
+---
+[]

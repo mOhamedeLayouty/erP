@@ -1,0 +1,6 @@
+TABLE: DBA.invoice_header
+ORDER_BY: entry_date
+COLUMNS: invoice_id, document_type, inv_type, invoice_date, invoice_no, customer_id, status_id, value, discount_way, discount, discount_amount, taxable, stax, stax_amount, amount, currency_code, currency_rate, org_invoice_id, org_invoice_no, notes, entry_user, entry_date, entry_pc, edit_user, edit_date, edit_pc, approved_user, approved_date, delivery_date, delivery_user, delivery_notes, post_flag, ei_status, ei_submissionid, ei_uuid, ei_longid, ei_errortext, zatca_uuid, zatca_status, trans_type, trans_id, system_id, service_center, location_id, brand_id
+ROWS: 0
+---
+[]

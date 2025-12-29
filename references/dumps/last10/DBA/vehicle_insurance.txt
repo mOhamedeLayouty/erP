@@ -1,0 +1,6 @@
+TABLE: DBA.vehicle_insurance
+ORDER_BY: entry_date
+COLUMNS: insurance_id, insurance_code, insurance_date, insurance_company, insurance_type, insurance_status, renew_date, order_code, customer_id, vehicle_id, vehicle_price, insurance_price, insurance_percent, insurance_value, cust_percent, cust_value, sales_man, notes, log_store, brand, status_date, status_user, status_notes, entry_user, entry_date, edit_user, edit_date
+ROWS: 0
+---
+[]

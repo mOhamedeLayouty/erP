@@ -1,0 +1,6 @@
+TABLE: dbo.ix_consultant_index
+ORDER_BY: master_id
+COLUMNS: master_id, phase_id, table_id, index_id, num_pages, is_clustered, is_virtual, tool_relative_benefit, tool_total_benefit, tool_update_cost
+ROWS: 0
+---
+[]

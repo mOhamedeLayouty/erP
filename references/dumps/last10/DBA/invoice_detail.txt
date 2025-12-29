@@ -1,0 +1,6 @@
+TABLE: DBA.invoice_detail
+ORDER_BY: entry_date
+COLUMNS: invoice_id, detail_id, item_id, line_code, line_desc, qty, price, value, discount_way, discount, discount_amount, taxable, stax, stax_amount, amount, notes, entry_user, entry_date, entry_pc, edit_user, edit_date, edit_pc, document_type, system_id, service_center, location_id, brand_id
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: DBA.po_purchase_detail
+ORDER_BY: purchasedetail_id
+COLUMNS: purchasedetail_id, purchase_id, item_id, qty, price, notes
+ROWS: 0
+---
+[]

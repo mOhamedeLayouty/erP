@@ -1,0 +1,27 @@
+TABLE: CRM.client_calls_types
+ORDER_BY: (none)
+COLUMNS: client_code, object_name, description
+ROWS: 4
+---
+[
+  {
+    "client_code": "1",
+    "object_name": "u_call_log",
+    "description": "General Ticket/�������"
+  },
+  {
+    "client_code": "1",
+    "object_name": "u_call_log_aftersales",
+    "description": "After Sales Inquire/���� ����� �����"
+  },
+  {
+    "client_code": "1",
+    "object_name": "u_call_log_ass",
+    "description": "Road Assistance/������ ������"
+  },
+  {
+    "client_code": "1",
+    "object_name": "u_call_log_sales",
+    "description": "Sales Inquire/������"
+  }
+]

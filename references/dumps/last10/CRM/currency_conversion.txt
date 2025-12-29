@@ -1,0 +1,6 @@
+TABLE: CRM.currency_conversion
+ORDER_BY: (none)
+COLUMNS: con_code, from_curr, to_curr, factor
+ROWS: 0
+---
+[]

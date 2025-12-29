@@ -1,0 +1,6 @@
+TABLE: DBA.po_rfq_header
+ORDER_BY: entry_date
+COLUMNS: rfq_id, requisition_id, rfq_date, response_date, delivery_days, vendor_group, delivery_place, payment_terms, terms_conditions, complete_quotation, description, remarks, entry_date, entry_user, edit_date, edit_user, store_id
+ROWS: 0
+---
+[]

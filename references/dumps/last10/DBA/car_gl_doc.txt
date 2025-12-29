@@ -1,0 +1,67 @@
+TABLE: DBA.car_gl_doc
+ORDER_BY: (none)
+COLUMNS: car_doc, log_store, acc_doc, brand
+ROWS: 10
+---
+[
+  {
+    "car_doc": "Cost Close",
+    "log_store": 1,
+    "acc_doc": null,
+    "brand": 1
+  },
+  {
+    "car_doc": "Credit Order",
+    "log_store": 1,
+    "acc_doc": "CR",
+    "brand": 1
+  },
+  {
+    "car_doc": "Credit Return",
+    "log_store": 1,
+    "acc_doc": null,
+    "brand": 1
+  },
+  {
+    "car_doc": "Debit Order",
+    "log_store": 1,
+    "acc_doc": "DB",
+    "brand": 1
+  },
+  {
+    "car_doc": "Invoice",
+    "log_store": 1,
+    "acc_doc": "CI",
+    "brand": 1
+  },
+  {
+    "car_doc": "Receipt",
+    "log_store": 1,
+    "acc_doc": "RE",
+    "brand": 1
+  },
+  {
+    "car_doc": "Refund",
+    "log_store": 1,
+    "acc_doc": "SO",
+    "brand": 1
+  },
+  {
+    "car_doc": "Safe Income",
+    "log_store": 1,
+    "acc_doc": "RE",
+    "brand": 1
+  },
+  {
+    "car_doc": "Safe Out",
+    "log_store": 1,
+    "acc_doc": "SO",
+    "brand": 1
+  },
+  {
+    "car_doc": "Sales Return",
+    "log_store": 1,
+    "acc_doc": "RS",
+    "brand": 1
+  }
+]

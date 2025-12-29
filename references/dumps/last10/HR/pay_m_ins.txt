@@ -1,0 +1,37 @@
+TABLE: HR.pay_m_ins
+ORDER_BY: entry_date
+COLUMNS: ins_code, ins_desc_e, ins_desc_a, ins_max_bas, ins_max_var, in_bas_to_var, in_recal_bas, in_address_no1, in_address_no2, in_phone, in_rem, entry_date, user_id
+ROWS: 2
+---
+[
+  {
+    "ins_code": 2,
+    "ins_desc_e": "����� �����",
+    "ins_desc_a": "����� �����",
+    "ins_max_bas": 45000,
+    "ins_max_var": 45000,
+    "in_bas_to_var": "1",
+    "in_recal_bas": "1",
+    "in_address_no1": null,
+    "in_address_no2": null,
+    "in_phone": null,
+    "in_rem": null,
+    "entry_date": "2014-05-28 13:28:47.096000",
+    "user_id": "1"
+  },
+  {
+    "ins_code": 1,
+    "ins_desc_e": "Social Insurance",
+    "ins_desc_a": "��������� ����������",
+    "ins_max_bas": 10900,
+    "ins_max_var": 0,
+    "in_bas_to_var": "1",
+    "in_recal_bas": "1",
+    "in_address_no1": null,
+    "in_address_no2": null,
+    "in_phone": null,
+    "in_rem": "",
+    "entry_date": "2002-07-13 13:52:52.080000",
+    "user_id": "hr"
+  }
+]

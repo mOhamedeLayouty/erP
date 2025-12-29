@@ -1,0 +1,61 @@
+TABLE: DBA.sc_ret_request_header
+ORDER_BY: store_id
+COLUMNS: credit_header, store_id, trans_id, vend_code, manual_number, credit_date, notes, debit_header, trans_time, cus_inv_no, cus_inv_date, post_flag, service_center, location_id, user_name, status, inv_status, approval, approval_user, approval_date, refused_reason, location_id_to, return_header, debit_location, joborderid
+ROWS: 2
+---
+[
+  {
+    "credit_header": 2,
+    "store_id": 1,
+    "trans_id": null,
+    "vend_code": null,
+    "manual_number": 2,
+    "credit_date": "2025-05-07",
+    "notes": null,
+    "debit_header": 166688,
+    "trans_time": "12:07:43",
+    "cus_inv_no": null,
+    "cus_inv_date": null,
+    "post_flag": "N",
+    "service_center": 1,
+    "location_id": 4,
+    "user_name": "omar.shaaban",
+    "status": null,
+    "inv_status": null,
+    "approval": "N",
+    "approval_user": null,
+    "approval_date": null,
+    "refused_reason": null,
+    "location_id_to": null,
+    "return_header": null,
+    "debit_location": 4,
+    "joborderid": "49552"
+  },
+  {
+    "credit_header": 1,
+    "store_id": 1,
+    "trans_id": null,
+    "vend_code": null,
+    "manual_number": 1,
+    "credit_date": "2024-05-08",
+    "notes": null,
+    "debit_header": 152906,
+    "trans_time": "08:31:50",
+    "cus_inv_no": null,
+    "cus_inv_date": null,
+    "post_flag": "N",
+    "service_center": 1,
+    "location_id": 4,
+    "user_name": "omar.shaaban",
+    "status": null,
+    "inv_status": null,
+    "approval": "N",
+    "approval_user": null,
+    "approval_date": null,
+    "refused_reason": null,
+    "location_id_to": null,
+    "return_header": null,
+    "debit_location": 4,
+    "joborderid": "38606"
+  }
+]

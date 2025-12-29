@@ -1,0 +1,87 @@
+TABLE: Ledger.company
+ORDER_BY: (none)
+COLUMNS: company_code, company_name, company_address, company_sh_name, company_phon1, company_phon2, company_phon3, company_fax, company_email, company_site, company_ser_col, ref_company_code, accounting_year, company_logo
+ROWS: 5
+---
+[
+  {
+    "company_code": 1,
+    "company_name": "Dynamics 2019",
+    "company_address": null,
+    "company_sh_name": null,
+    "company_phon1": null,
+    "company_phon2": null,
+    "company_phon3": null,
+    "company_fax": null,
+    "company_email": null,
+    "company_site": null,
+    "company_ser_col": null,
+    "ref_company_code": null,
+    "accounting_year": null,
+    "company_logo": null
+  },
+  {
+    "company_code": 2,
+    "company_name": "Dynamics 2020",
+    "company_address": null,
+    "company_sh_name": null,
+    "company_phon1": null,
+    "company_phon2": null,
+    "company_phon3": null,
+    "company_fax": null,
+    "company_email": null,
+    "company_site": null,
+    "company_ser_col": null,
+    "ref_company_code": 1,
+    "accounting_year": 2020,
+    "company_logo": null
+  },
+  {
+    "company_code": 3,
+    "company_name": "Dynamics 2021",
+    "company_address": null,
+    "company_sh_name": null,
+    "company_phon1": null,
+    "company_phon2": null,
+    "company_phon3": null,
+    "company_fax": null,
+    "company_email": null,
+    "company_site": null,
+    "company_ser_col": null,
+    "ref_company_code": 2,
+    "accounting_year": 2021,
+    "company_logo": null
+  },
+  {
+    "company_code": 4,
+    "company_name": "Dynamics 2024",
+    "company_address": null,
+    "company_sh_name": null,
+    "company_phon1": null,
+    "company_phon2": null,
+    "company_phon3": null,
+    "company_fax": null,
+    "company_email": null,
+    "company_site": null,
+    "company_ser_col": null,
+    "ref_company_code": 3,
+    "accounting_year": 2021,
+    "company_logo": null
+  },
+  {
+    "company_code": 5,
+    "company_name": "Dynamics 2025",
+    "company_address": null,
+    "company_sh_name": null,
+    "company_phon1": null,
+    "company_phon2": null,
+    "company_phon3": null,
+    "company_fax": null,
+    "company_email": null,
+    "company_site": null,
+    "company_ser_col": null,
+    "ref_company_code": 4,
+    "accounting_year": 2025,
+    "company_logo": null
+  }
+]

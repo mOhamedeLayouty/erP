@@ -1,0 +1,6 @@
+TABLE: DBA.times_table
+ORDER_BY: (none)
+COLUMNS: time_t
+ROWS: 0
+---
+[]

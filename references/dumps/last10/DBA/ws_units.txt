@@ -1,0 +1,127 @@
+TABLE: DBA.ws_units
+ORDER_BY: entry_date
+COLUMNS: unit_id, unit_code, name_e, name_a, entry_user, entry_date, edit_user, edit_date, service_center, location_id
+ROWS: 10
+---
+[
+  {
+    "unit_id": 41,
+    "unit_code": "41",
+    "name_e": "Katameya2-5",
+    "name_a": "Katameya2-5",
+    "entry_user": "hany adly",
+    "entry_date": "2025-10-23 12:49:57.051000",
+    "edit_user": null,
+    "edit_date": null,
+    "service_center": 1,
+    "location_id": 14
+  },
+  {
+    "unit_id": 40,
+    "unit_code": "40",
+    "name_e": "Katameya2-4",
+    "name_a": "Katameya2-4",
+    "entry_user": "hany adly",
+    "entry_date": "2025-10-23 12:49:05.989000",
+    "edit_user": null,
+    "edit_date": null,
+    "service_center": 1,
+    "location_id": 14
+  },
+  {
+    "unit_id": 39,
+    "unit_code": "39",
+    "name_e": "Katameya2-3",
+    "name_a": "Katameya2-3",
+    "entry_user": "hany adly",
+    "entry_date": "2025-10-23 12:48:39.811000",
+    "edit_user": null,
+    "edit_date": null,
+    "service_center": 1,
+    "location_id": 14
+  },
+  {
+    "unit_id": 38,
+    "unit_code": "38",
+    "name_e": "Katameya2-2",
+    "name_a": "Katameya2-2",
+    "entry_user": "hany adly",
+    "entry_date": "2025-10-23 12:48:15.584000",
+    "edit_user": null,
+    "edit_date": null,
+    "service_center": 1,
+    "location_id": 14
+  },
+  {
+    "unit_id": 37,
+    "unit_code": "37",
+    "name_e": "Katameya2-1",
+    "name_a": "Katameya2-1",
+    "entry_user": "hany adly",
+    "entry_date": "2025-10-23 12:47:37.753000",
+    "edit_user": null,
+    "edit_date": null,
+    "service_center": 1,
+    "location_id": 14
+  },
+  {
+    "unit_id": 36,
+    "unit_code": "36",
+    "name_e": "Mansoura 3",
+    "name_a": "Mansoura 3",
+    "entry_user": "mohamed.ay",
+    "entry_date": "2022-10-16 14:11:04.309000",
+    "edit_user": null,
+    "edit_date": null,
+    "service_center": 1,
+    "location_id": 9
+  },
+  {
+    "unit_id": 35,
+    "unit_code": "35",
+    "name_e": "Mansoura 2",
+    "name_a": "Mansoura 2",
+    "entry_user": "mohamed.ay",
+    "entry_date": "2022-10-16 14:11:04.287000",
+    "edit_user": null,
+    "edit_date": null,
+    "service_center": 1,
+    "location_id": 9
+  },
+  {
+    "unit_id": 34,
+    "unit_code": "34",
+    "name_e": "Mansoura 1",
+    "name_a": "Mansoura 1",
+    "entry_user": "mohamed.ay",
+    "entry_date": "2022-10-16 14:11:04.271000",
+    "edit_user": null,
+    "edit_date": null,
+    "service_center": 1,
+    "location_id": 9
+  },
+  {
+    "unit_id": 33,
+    "unit_code": "33",
+    "name_e": "Abo Rawash 5",
+    "name_a": "Abo Rawash 5",
+    "entry_user": "mohamed.ay",
+    "entry_date": "2022-10-16 14:10:27.151000",
+    "edit_user": null,
+    "edit_date": null,
+    "service_center": 1,
+    "location_id": 8
+  },
+  {
+    "unit_id": 32,
+    "unit_code": "32",
+    "name_e": "Abo Rawash 4",
+    "name_a": "Abo Rawash 4",
+    "entry_user": "mohamed.ay",
+    "entry_date": "2022-10-16 14:10:27.132000",
+    "edit_user": null,
+    "edit_date": null,
+    "service_center": 1,
+    "location_id": 8
+  }
+]

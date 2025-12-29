@@ -1,0 +1,117 @@
+TABLE: DBA.veh_check
+ORDER_BY: (none)
+COLUMNS: car_code, check_ser, check_name, check_type, check_status, check_note, log_store, brand, check_name_a
+ROWS: 10
+---
+[
+  {
+    "car_code": "@",
+    "check_ser": 23,
+    "check_name": "Front Right Rim",
+    "check_type": 2,
+    "check_status": 1,
+    "check_note": null,
+    "log_store": 0,
+    "brand": 1,
+    "check_name_a": "����� ������� ����"
+  },
+  {
+    "car_code": "@",
+    "check_ser": 24,
+    "check_name": "Front Left Rim",
+    "check_type": 2,
+    "check_status": 1,
+    "check_note": null,
+    "log_store": 0,
+    "brand": 1,
+    "check_name_a": "����� ������� ����"
+  },
+  {
+    "car_code": "@",
+    "check_ser": 25,
+    "check_name": "Rear Right Rim",
+    "check_type": 2,
+    "check_status": 1,
+    "check_note": null,
+    "log_store": 0,
+    "brand": 1,
+    "check_name_a": "����� ������ ����"
+  },
+  {
+    "car_code": "@",
+    "check_ser": 26,
+    "check_name": "Rear Left Rim",
+    "check_type": 2,
+    "check_status": 1,
+    "check_note": null,
+    "log_store": 0,
+    "brand": 1,
+    "check_name_a": "����� ������ ����"
+  },
+  {
+    "car_code": "@",
+    "check_ser": 27,
+    "check_name": "Hood",
+    "check_type": 2,
+    "check_status": 1,
+    "check_note": null,
+    "log_store": 0,
+    "brand": 1,
+    "check_name_a": "����"
+  },
+  {
+    "car_code": "@",
+    "check_ser": 28,
+    "check_name": "Rear Wiper",
+    "check_type": 2,
+    "check_status": 1,
+    "check_note": null,
+    "log_store": 0,
+    "brand": 1,
+    "check_name_a": "����� �����"
+  },
+  {
+    "car_code": "@",
+    "check_ser": 29,
+    "check_name": "Trunk",
+    "check_type": 2,
+    "check_status": 1,
+    "check_note": null,
+    "log_store": 0,
+    "brand": 1,
+    "check_name_a": "���� �����"
+  },
+  {
+    "car_code": "@",
+    "check_ser": 30,
+    "check_name": "sunroof",
+    "check_type": 2,
+    "check_status": 1,
+    "check_note": null,
+    "log_store": 0,
+    "brand": 1,
+    "check_name_a": "���� ���"
+  },
+  {
+    "car_code": "@",
+    "check_ser": 31,
+    "check_name": "Right Front Door handle",
+    "check_type": 2,
+    "check_status": 1,
+    "check_note": null,
+    "log_store": 0,
+    "brand": 1,
+    "check_name_a": "���� ��� ����� ����"
+  },
+  {
+    "car_code": "@",
+    "check_ser": 32,
+    "check_name": "Left Front Door handle",
+    "check_type": 2,
+    "check_status": 1,
+    "check_note": null,
+    "log_store": 0,
+    "brand": 1,
+    "check_name_a": "���� ��� ����� ����"
+  }
+]

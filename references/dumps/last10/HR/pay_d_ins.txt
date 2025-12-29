@@ -1,0 +1,35 @@
+TABLE: HR.pay_d_ins
+ORDER_BY: entry_date
+COLUMNS: ins_code, in_ser, emp_in_code, emp_income_deduction, comp_in_code, comp_income_deduction, ins_desc, in_fix_var, in_emp_per, in_comp_per, entry_date, user_id
+ROWS: 2
+---
+[
+  {
+    "ins_code": 2,
+    "in_ser": 1,
+    "emp_in_code": 8,
+    "emp_income_deduction": "D",
+    "comp_in_code": 29,
+    "comp_income_deduction": "D",
+    "ins_desc": "����� �����",
+    "in_fix_var": "F",
+    "in_emp_per": 0,
+    "in_comp_per": 2,
+    "entry_date": null,
+    "user_id": "1"
+  },
+  {
+    "ins_code": 1,
+    "in_ser": 1,
+    "emp_in_code": 8,
+    "emp_income_deduction": "D",
+    "comp_in_code": 29,
+    "comp_income_deduction": "D",
+    "ins_desc": "Fixed Insurance",
+    "in_fix_var": "F",
+    "in_emp_per": 11,
+    "in_comp_per": 18.75,
+    "entry_date": null,
+    "user_id": "hr"
+  }
+]

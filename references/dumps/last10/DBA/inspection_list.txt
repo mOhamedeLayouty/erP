@@ -1,0 +1,20 @@
+TABLE: DBA.inspection_list
+ORDER_BY: entry_date
+COLUMNS: list_id, list_code, list_name, list_name_a, IsActive, notes, service_center, entry_user, entry_date, edit_user, edit_date
+ROWS: 1
+---
+[
+  {
+    "list_id": 1,
+    "list_code": "1",
+    "list_name": "Standard Vehicle Health Check",
+    "list_name_a": "Standard Vehicle Health Check",
+    "IsActive": "Y",
+    "notes": "Standard Vehicle Health Check",
+    "service_center": 1,
+    "entry_user": "1",
+    "entry_date": null,
+    "edit_user": "11",
+    "edit_date": "2020-10-21 16:07:47.370000"
+  }
+]

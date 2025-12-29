@@ -1,0 +1,137 @@
+TABLE: DBA.ws_reservationoperationitem
+ORDER_BY: entry_date
+COLUMNS: reservationid, operationid, itemid, qty, cost, user_id, entry_date, partnumber, service_center, location_id, non_taxable
+ROWS: 10
+---
+[
+  {
+    "reservationid": "-144372313",
+    "operationid": 3182,
+    "itemid": "4703",
+    "qty": 1,
+    "cost": 99,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:18:50.123000",
+    "partnumber": "L0305",
+    "service_center": 1,
+    "location_id": 4,
+    "non_taxable": "N"
+  },
+  {
+    "reservationid": "-144372313",
+    "operationid": 3182,
+    "itemid": "4669",
+    "qty": 1,
+    "cost": 92,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:18:49.963000",
+    "partnumber": "L00248",
+    "service_center": 1,
+    "location_id": 4,
+    "non_taxable": "N"
+  },
+  {
+    "reservationid": "-144372313",
+    "operationid": 3182,
+    "itemid": "4664",
+    "qty": 1,
+    "cost": 31,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:18:49.793000",
+    "partnumber": "L00042",
+    "service_center": 1,
+    "location_id": 4,
+    "non_taxable": "N"
+  },
+  {
+    "reservationid": "-144372313",
+    "operationid": 3182,
+    "itemid": "4651",
+    "qty": 5,
+    "cost": 430,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:18:49.643000",
+    "partnumber": "FO361",
+    "service_center": 1,
+    "location_id": 4,
+    "non_taxable": "N"
+  },
+  {
+    "reservationid": "-144372313",
+    "operationid": 3182,
+    "itemid": "3203",
+    "qty": 1,
+    "cost": 890,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:18:49.493000",
+    "partnumber": "77364561",
+    "service_center": 1,
+    "location_id": 4,
+    "non_taxable": "N"
+  },
+  {
+    "reservationid": "-144372313",
+    "operationid": 3182,
+    "itemid": "2391",
+    "qty": 1,
+    "cost": 635,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:18:49.323000",
+    "partnumber": "52069663",
+    "service_center": 1,
+    "location_id": 4,
+    "non_taxable": "N"
+  },
+  {
+    "reservationid": "-144372313",
+    "operationid": 3182,
+    "itemid": "22",
+    "qty": 1,
+    "cost": 410,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:18:49.166000",
+    "partnumber": "7087808",
+    "service_center": 1,
+    "location_id": 4,
+    "non_taxable": "N"
+  },
+  {
+    "reservationid": "-144472313",
+    "operationid": 3177,
+    "itemid": "4708",
+    "qty": 4,
+    "cost": 143,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:18:03.970000",
+    "partnumber": "L0360",
+    "service_center": 1,
+    "location_id": 4,
+    "non_taxable": "N"
+  },
+  {
+    "reservationid": "-144472313",
+    "operationid": 3177,
+    "itemid": "4669",
+    "qty": 1,
+    "cost": 92,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:18:03.803000",
+    "partnumber": "L00248",
+    "service_center": 1,
+    "location_id": 4,
+    "non_taxable": "N"
+  },
+  {
+    "reservationid": "-144472313",
+    "operationid": 3177,
+    "itemid": "4664",
+    "qty": 1,
+    "cost": 31,
+    "user_id": "ahmed.salah",
+    "entry_date": "2025-12-23 09:18:03.642000",
+    "partnumber": "L00042",
+    "service_center": 1,
+    "location_id": 4,
+    "non_taxable": "N"
+  }
+]

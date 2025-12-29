@@ -1,0 +1,6 @@
+TABLE: CRM.client_customer_followup
+ORDER_BY: assign_date
+COLUMNS: client_code, serial, customer_code, account_no, assigned_by, assigned_from, assigned_to, status, assign_date
+ROWS: 0
+---
+[]

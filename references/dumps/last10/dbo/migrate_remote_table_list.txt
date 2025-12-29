@@ -1,0 +1,6 @@
+TABLE: dbo.migrate_remote_table_list
+ORDER_BY: table_id
+COLUMNS: table_id, server_name, database_name, owner_name, table_name, table_type, created_proxy, created_real, dropped, data_migrated
+ROWS: 0
+---
+[]

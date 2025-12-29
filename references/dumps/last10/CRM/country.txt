@@ -1,0 +1,14 @@
+TABLE: CRM.country
+ORDER_BY: (none)
+COLUMNS: country_code, description, description_a, cbe_active, country_key
+ROWS: 1
+---
+[
+  {
+    "country_code": "1",
+    "description": "Egypt",
+    "description_a": "��������",
+    "cbe_active": 0,
+    "country_key": "00966"
+  }
+]

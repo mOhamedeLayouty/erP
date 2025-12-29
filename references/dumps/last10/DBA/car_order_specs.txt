@@ -1,0 +1,6 @@
+TABLE: DBA.car_order_specs
+ORDER_BY: specs_id
+COLUMNS: buy_header, buy_detail, specs_id, log_stock, brand
+ROWS: 0
+---
+[]

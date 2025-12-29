@@ -1,0 +1,28 @@
+TABLE: DBA.FX_LOCATION
+ORDER_BY: entry_date
+COLUMNS: LOCATION_id, description_a, description_e, user_id, entry_date
+ROWS: 3
+---
+[
+  {
+    "LOCATION_id": "3",
+    "description_a": "������",
+    "description_e": "Dammam",
+    "user_id": "1",
+    "entry_date": "2014-05-27 11:32:05.769000"
+  },
+  {
+    "LOCATION_id": "2",
+    "description_a": "���",
+    "description_e": "Jeddah",
+    "user_id": "1",
+    "entry_date": "2014-05-27 11:31:46.008000"
+  },
+  {
+    "LOCATION_id": "1",
+    "description_a": "������",
+    "description_e": "Riyadh",
+    "user_id": "1",
+    "entry_date": "2014-05-14 11:47:20.212000"
+  }
+]

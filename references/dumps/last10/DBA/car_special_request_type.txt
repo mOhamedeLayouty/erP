@@ -1,0 +1,12 @@
+TABLE: DBA.car_special_request_type
+ORDER_BY: (none)
+COLUMNS: value, name, name_e
+ROWS: 1
+---
+[
+  {
+    "value": 5000,
+    "name": "Extended Warranty",
+    "name_e": "Extended Warranty"
+  }
+]

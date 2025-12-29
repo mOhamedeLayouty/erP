@@ -1,0 +1,25 @@
+{
+  "roles": {
+    "Admin": [
+      "*"
+    ],
+    "Receptionist": [
+      "auth.token",
+      "master_data.read",
+      "master_data.create",
+      "job_order.read",
+      "job_order.create",
+      "invoicing.read",
+      "invoicing.create",
+      "inventory.write"
+    ],
+    "Controller": [
+      "job_order.read",
+      "audit.read"
+    ],
+    "Storekeeper": [
+      "inventory.read",
+      "inventory.write"
+    ]
+  }
+}

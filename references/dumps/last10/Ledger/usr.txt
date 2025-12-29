@@ -1,0 +1,103 @@
+TABLE: Ledger.usr
+ORDER_BY: usr_id
+COLUMNS: usr_id, passwd, usr_level, usr_name, usr_type, usr_per, company_code, all_comp, all_account, all_cost
+ROWS: 8
+---
+[
+  {
+    "usr_id": "NB",
+    "passwd": "1234",
+    "usr_level": "ZZ",
+    "usr_name": "Nabil Badr",
+    "usr_type": "ZZ",
+    "usr_per": "AL",
+    "company_code": 3,
+    "all_comp": 1,
+    "all_account": 1,
+    "all_cost": 1
+  },
+  {
+    "usr_id": "MM",
+    "passwd": "123",
+    "usr_level": "ZZ",
+    "usr_name": "Mina Maged",
+    "usr_type": "ZZ",
+    "usr_per": "AL",
+    "company_code": 3,
+    "all_comp": 1,
+    "all_account": 1,
+    "all_cost": 1
+  },
+  {
+    "usr_id": "MG",
+    "passwd": "1",
+    "usr_level": "ZZ",
+    "usr_name": "Mohamed Galal",
+    "usr_type": "ZZ",
+    "usr_per": "AL",
+    "company_code": 3,
+    "all_comp": 1,
+    "all_account": 1,
+    "all_cost": 1
+  },
+  {
+    "usr_id": "MD",
+    "passwd": "2018",
+    "usr_level": "ZZ",
+    "usr_name": "Mohamed El Desoky",
+    "usr_type": "ZZ",
+    "usr_per": "AL",
+    "company_code": 3,
+    "all_comp": 1,
+    "all_account": 1,
+    "all_cost": 1
+  },
+  {
+    "usr_id": "KS",
+    "passwd": "123",
+    "usr_level": "ZZ",
+    "usr_name": "Khaled Salama",
+    "usr_type": "ZZ",
+    "usr_per": "AL",
+    "company_code": 3,
+    "all_comp": 1,
+    "all_account": 1,
+    "all_cost": 1
+  },
+  {
+    "usr_id": "HA",
+    "passwd": "1",
+    "usr_level": "ZZ",
+    "usr_name": "hany",
+    "usr_type": "ZZ",
+    "usr_per": "AL",
+    "company_code": 2,
+    "all_comp": 1,
+    "all_account": 1,
+    "all_cost": 1
+  },
+  {
+    "usr_id": "GE",
+    "passwd": "123",
+    "usr_level": "ZZ",
+    "usr_name": "George Edward",
+    "usr_type": "ZZ",
+    "usr_per": "AL",
+    "company_code": 4,
+    "all_comp": 1,
+    "all_account": 1,
+    "all_cost": 1
+  },
+  {
+    "usr_id": "AS",
+    "passwd": "3172016",
+    "usr_level": "ZZ",
+    "usr_name": "Aly Salah",
+    "usr_type": "ZZ",
+    "usr_per": "AL",
+    "company_code": 3,
+    "all_comp": 1,
+    "all_account": 1,
+    "all_cost": 1
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: CRM.client_form_feedback
+ORDER_BY: form_Date
+COLUMNS: client_code, form_serial, form_index, agent_name, form_Date, action_taken, form_status, product, next_action, status_date, allianz_agent, notes, reason
+ROWS: 0
+---
+[]

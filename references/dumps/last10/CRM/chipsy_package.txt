@@ -1,0 +1,6 @@
+TABLE: CRM.chipsy_package
+ORDER_BY: (none)
+COLUMNS: call_no, client_no, line_no, brand_type, size, flavor, product_category, item
+ROWS: 0
+---
+[]

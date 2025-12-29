@@ -1,0 +1,97 @@
+TABLE: Ledger.my_menu
+ORDER_BY: menu_id
+COLUMNS: menu_id, menu_parent, menu_name, menu_arrange, company_code, menu_parent_a, menu_name_a
+ROWS: 10
+---
+[
+  {
+    "menu_id": "00088",
+    "menu_parent": "������ ������",
+    "menu_name": "Review&post owned ",
+    "menu_arrange": "321",
+    "company_code": 1,
+    "menu_parent_a": "������ ������",
+    "menu_name_a": "����� ��� �� �����"
+  },
+  {
+    "menu_id": "00087",
+    "menu_parent": "JV",
+    "menu_name": "Not Posting Report",
+    "menu_arrange": "354",
+    "company_code": 1,
+    "menu_parent_a": "������ �������",
+    "menu_name_a": "���� ��� �����"
+  },
+  {
+    "menu_id": "00086",
+    "menu_parent": "JV",
+    "menu_name": "Car Rental JV",
+    "menu_arrange": "353",
+    "company_code": 1,
+    "menu_parent_a": "������ �������",
+    "menu_name_a": "���� ����� �������"
+  },
+  {
+    "menu_id": "00085",
+    "menu_parent": "JV",
+    "menu_name": "PO and FA JV",
+    "menu_arrange": "352",
+    "company_code": 1,
+    "menu_parent_a": "������ �������",
+    "menu_name_a": "���� ������ ������"
+  },
+  {
+    "menu_id": "00084",
+    "menu_parent": "JV",
+    "menu_name": "Car sales JV",
+    "menu_arrange": "351",
+    "company_code": 1,
+    "menu_parent_a": "������ �������",
+    "menu_name_a": "���� ��������"
+  },
+  {
+    "menu_id": "00083",
+    "menu_parent": "JV",
+    "menu_name": "WS and Stock JV",
+    "menu_arrange": "350",
+    "company_code": 1,
+    "menu_parent_a": "������ �������",
+    "menu_name_a": "����� ����������"
+  },
+  {
+    "menu_id": "00082",
+    "menu_parent": "������ ������",
+    "menu_name": "������ ������",
+    "menu_arrange": "320",
+    "company_code": 1,
+    "menu_parent_a": "������ ������",
+    "menu_name_a": "������ ������"
+  },
+  {
+    "menu_id": "00081",
+    "menu_parent": "������� ���������",
+    "menu_name": "����� ���",
+    "menu_arrange": "154",
+    "company_code": 1,
+    "menu_parent_a": "������� ���������",
+    "menu_name_a": "����� ���"
+  },
+  {
+    "menu_id": "00080",
+    "menu_parent": "������� ���������",
+    "menu_name": "��� �������",
+    "menu_arrange": "153",
+    "company_code": 1,
+    "menu_parent_a": "������� ���������",
+    "menu_name_a": "��� �������"
+  },
+  {
+    "menu_id": "00079",
+    "menu_parent": "������� ���������",
+    "menu_name": "����� �����",
+    "menu_arrange": "152",
+    "company_code": 1,
+    "menu_parent_a": "������� ���������",
+    "menu_name_a": "����� �����"
+  }
+]

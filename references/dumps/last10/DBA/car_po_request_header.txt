@@ -1,0 +1,6 @@
+TABLE: DBA.car_po_request_header
+ORDER_BY: store_id
+COLUMNS: buy_header, log_store, vend_code, store_id, manual_number, order_date, exp_date, notes, currency_id, payment_terms, ship_via, shipping_acc_no, fob, reseller_id
+ROWS: 0
+---
+[]

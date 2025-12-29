@@ -1,0 +1,147 @@
+TABLE: DBA.sc_transfer_detail
+ORDER_BY: item_id
+COLUMNS: credit_header, qty, item_id, credit_detail, price, notes, exp, service_center, location_id, location_id_to, official_price, item_cost
+ROWS: 10
+---
+[
+  {
+    "credit_header": 13041,
+    "qty": 2,
+    "item_id": "999",
+    "credit_detail": 158,
+    "price": 1333.04,
+    "notes": null,
+    "exp": "1900-01-01",
+    "service_center": 1,
+    "location_id": 1,
+    "location_id_to": 14,
+    "official_price": 1363.523,
+    "item_cost": 1333.04
+  },
+  {
+    "credit_header": 11276,
+    "qty": 2,
+    "item_id": "999",
+    "credit_detail": 534,
+    "price": 1333.04,
+    "notes": null,
+    "exp": "1900-01-01",
+    "service_center": 1,
+    "location_id": 1,
+    "location_id_to": 1,
+    "official_price": 1363.523,
+    "item_cost": 1333.04
+  },
+  {
+    "credit_header": 4008,
+    "qty": 1,
+    "item_id": "999",
+    "credit_detail": 1,
+    "price": 1898.4,
+    "notes": "",
+    "exp": "1900-01-01",
+    "service_center": 1,
+    "location_id": 1,
+    "location_id_to": 2,
+    "official_price": 1898.4,
+    "item_cost": 1898.4
+  },
+  {
+    "credit_header": 12783,
+    "qty": 1,
+    "item_id": "998",
+    "credit_detail": 248,
+    "price": 1436.907,
+    "notes": null,
+    "exp": "1900-01-01",
+    "service_center": 1,
+    "location_id": 1,
+    "location_id_to": 14,
+    "official_price": 1429.079,
+    "item_cost": 1436.907
+  },
+  {
+    "credit_header": 11707,
+    "qty": 1,
+    "item_id": "998",
+    "credit_detail": 3,
+    "price": 1436.907,
+    "notes": null,
+    "exp": "1900-01-01",
+    "service_center": 1,
+    "location_id": 1,
+    "location_id_to": 1,
+    "official_price": 1429.079,
+    "item_cost": 1436.907
+  },
+  {
+    "credit_header": 13,
+    "qty": 1,
+    "item_id": "998",
+    "credit_detail": 1,
+    "price": 655.5,
+    "notes": null,
+    "exp": "1900-01-01",
+    "service_center": 1,
+    "location_id": 3,
+    "location_id_to": 1,
+    "official_price": 655.5,
+    "item_cost": 655.5
+  },
+  {
+    "credit_header": 11967,
+    "qty": 1,
+    "item_id": "997",
+    "credit_detail": 21,
+    "price": 3595.482,
+    "notes": null,
+    "exp": "1900-01-01",
+    "service_center": 1,
+    "location_id": 1,
+    "location_id_to": 4,
+    "official_price": 3455.8,
+    "item_cost": 3595.482
+  },
+  {
+    "credit_header": 10980,
+    "qty": 1,
+    "item_id": "997",
+    "credit_detail": 3,
+    "price": 926.46,
+    "notes": null,
+    "exp": "1900-01-01",
+    "service_center": 1,
+    "location_id": 1,
+    "location_id_to": 2,
+    "official_price": 926.46,
+    "item_cost": 926.46
+  },
+  {
+    "credit_header": 13041,
+    "qty": 1,
+    "item_id": "996",
+    "credit_detail": 17,
+    "price": 2087.723,
+    "notes": null,
+    "exp": "1900-01-01",
+    "service_center": 1,
+    "location_id": 1,
+    "location_id_to": 14,
+    "official_price": 1903.799,
+    "item_cost": 2087.723
+  },
+  {
+    "credit_header": 11196,
+    "qty": 1,
+    "item_id": "996",
+    "credit_detail": 202,
+    "price": 2087.723,
+    "notes": null,
+    "exp": "1900-01-01",
+    "service_center": 1,
+    "location_id": 1,
+    "location_id_to": 1,
+    "official_price": 1903.799,
+    "item_cost": 2087.723
+  }
+]

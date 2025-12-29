@@ -1,0 +1,6 @@
+TABLE: DBA.ws_claim_detail
+ORDER_BY: entry_date
+COLUMNS: claim_id, detail_id, operation_id, item_id, qty, price, notes, status_id, entry_user, entry_date, edit_user, edit_date, service_center, location_id
+ROWS: 0
+---
+[]

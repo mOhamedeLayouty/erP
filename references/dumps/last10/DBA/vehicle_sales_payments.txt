@@ -1,0 +1,6 @@
+TABLE: DBA.vehicle_sales_payments
+ORDER_BY: currency_id
+COLUMNS: order_code, payment_no, payment_amount, payment_date, paid_amount, paid_date, log_store, splited, split_ref, currency_id, payment_case, brand
+ROWS: 0
+---
+[]

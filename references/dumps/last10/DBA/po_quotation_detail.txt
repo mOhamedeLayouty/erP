@@ -1,0 +1,6 @@
+TABLE: DBA.po_quotation_detail
+ORDER_BY: quotationdetail_id
+COLUMNS: quotationdetail_id, quotation_id, item_id, qty, price, notes
+ROWS: 0
+---
+[]

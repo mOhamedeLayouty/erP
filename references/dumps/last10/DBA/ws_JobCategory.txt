@@ -1,0 +1,6 @@
+TABLE: DBA.ws_JobCategory
+ORDER_BY: location_id
+COLUMNS: CategoryId, name_a, name_e, family_code, entryUserId, entryDate, editUserId, editDate, service_center, location_id
+ROWS: 0
+---
+[]

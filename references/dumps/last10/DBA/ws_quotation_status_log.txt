@@ -1,0 +1,79 @@
+TABLE: DBA.ws_quotation_status_log
+ORDER_BY: entry_date
+COLUMNS: id, quotation_id, status, notes, entry_user, entry_date, service_center, location_id, to_service_center, to_location_id
+ROWS: 6
+---
+[
+  {
+    "id": 6,
+    "quotation_id": "1017",
+    "status": "7",
+    "notes": null,
+    "entry_user": "mahmoud.k",
+    "entry_date": "2025-09-22 07:51:54.399000",
+    "service_center": 1,
+    "location_id": 2,
+    "to_service_center": null,
+    "to_location_id": null
+  },
+  {
+    "id": 5,
+    "quotation_id": "1017",
+    "status": "6",
+    "notes": "15115511",
+    "entry_user": "mahmoud.k",
+    "entry_date": "2025-09-22 07:51:33.116000",
+    "service_center": 1,
+    "location_id": 2,
+    "to_service_center": null,
+    "to_location_id": null
+  },
+  {
+    "id": 4,
+    "quotation_id": "938",
+    "status": "6",
+    "notes": "رقم938\r\n",
+    "entry_user": "mahmoud.k",
+    "entry_date": "2025-06-11 14:41:30.446000",
+    "service_center": 1,
+    "location_id": 2,
+    "to_service_center": null,
+    "to_location_id": null
+  },
+  {
+    "id": 3,
+    "quotation_id": "437",
+    "status": "8",
+    "notes": "كم",
+    "entry_user": "nourhan.soliman",
+    "entry_date": "2023-11-05 16:26:15.510000",
+    "service_center": 1,
+    "location_id": 2,
+    "to_service_center": null,
+    "to_location_id": null
+  },
+  {
+    "id": 2,
+    "quotation_id": "2858",
+    "status": "7",
+    "notes": null,
+    "entry_user": "ahmed.hamed",
+    "entry_date": "2023-10-25 09:48:21.575000",
+    "service_center": 1,
+    "location_id": 4,
+    "to_service_center": null,
+    "to_location_id": null
+  },
+  {
+    "id": 1,
+    "quotation_id": "342",
+    "status": "8",
+    "notes": ".منك",
+    "entry_user": "ahmed.gaber",
+    "entry_date": "2023-08-07 08:34:26.256000",
+    "service_center": 1,
+    "location_id": 2,
+    "to_service_center": null,
+    "to_location_id": null
+  }
+]

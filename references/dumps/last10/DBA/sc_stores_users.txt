@@ -1,0 +1,77 @@
+TABLE: DBA.sc_stores_users
+ORDER_BY: store_id
+COLUMNS: user_name, store_id, service_center, location_id, isdefault
+ROWS: 10
+---
+[
+  {
+    "user_name": "mohamed.barbary",
+    "store_id": 5,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "tamer.gabr",
+    "store_id": 5,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "aly.reda",
+    "store_id": 5,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "tamer.t",
+    "store_id": 5,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "tamer.g",
+    "store_id": 5,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "mansour.a",
+    "store_id": 5,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "camp",
+    "store_id": 4,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "mansour.a",
+    "store_id": 4,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "mohamed.barbary",
+    "store_id": 4,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  },
+  {
+    "user_name": "tamer.gabr",
+    "store_id": 4,
+    "service_center": 1,
+    "location_id": 1,
+    "isdefault": "N"
+  }
+]

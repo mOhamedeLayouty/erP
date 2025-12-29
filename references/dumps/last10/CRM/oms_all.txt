@@ -1,0 +1,6 @@
+TABLE: CRM.oms_all
+ORDER_BY: (none)
+COLUMNS: CorporationName, ContactFirstName, ContactLastName, Title, CorporationPhone, CorporationFax, Address, BusinessType, CorporationType, CorporationSize, SalesPerson, Email, Fax, Phone
+ROWS: 0
+---
+[]

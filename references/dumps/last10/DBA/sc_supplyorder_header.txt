@@ -1,0 +1,6 @@
+TABLE: DBA.sc_supplyorder_header
+ORDER_BY: entry_date
+COLUMNS: supplyorder_header, manual_number, cust_ordernumber, supplyorder_date, supplyorder_time, receipt_date, start_date, quotation_no, invoice_number, confirm_date, cust_code, customer_name, supplyorder_flag, status, sell_way, trade_tax, sales_tax, addedtax, discount, discount_amount, curr_id, curr_rate, total_price, notes, entry_user, entry_date, edit_user, edit_date, store_id, service_center, location_id
+ROWS: 0
+---
+[]

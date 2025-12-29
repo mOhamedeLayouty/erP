@@ -1,0 +1,6 @@
+TABLE: CRM.web_visitors
+ORDER_BY: d_date
+COLUMNS: serial_no, customer_name, phone, notes, status, d_date, agent_notes, agent, in_call, busy, wrong_number, call_date, email
+ROWS: 0
+---
+[]

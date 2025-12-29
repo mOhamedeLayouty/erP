@@ -1,0 +1,67 @@
+TABLE: HR.dbs_s_section_managers
+ORDER_BY: (none)
+COLUMNS: dep_code, section_code, emp_code, head_of_section
+ROWS: 10
+---
+[
+  {
+    "dep_code": 14,
+    "section_code": 1,
+    "emp_code": "5436",
+    "head_of_section": "Y"
+  },
+  {
+    "dep_code": 14,
+    "section_code": 2,
+    "emp_code": "5436",
+    "head_of_section": "Y"
+  },
+  {
+    "dep_code": 15,
+    "section_code": 7,
+    "emp_code": "5312",
+    "head_of_section": "Y"
+  },
+  {
+    "dep_code": 14,
+    "section_code": 3,
+    "emp_code": "5363",
+    "head_of_section": "Y"
+  },
+  {
+    "dep_code": 14,
+    "section_code": 4,
+    "emp_code": "5363",
+    "head_of_section": "Y"
+  },
+  {
+    "dep_code": 14,
+    "section_code": 5,
+    "emp_code": "5436",
+    "head_of_section": "Y"
+  },
+  {
+    "dep_code": 1,
+    "section_code": 8,
+    "emp_code": "5396",
+    "head_of_section": "Y"
+  },
+  {
+    "dep_code": 1,
+    "section_code": 19,
+    "emp_code": "5363",
+    "head_of_section": "Y"
+  },
+  {
+    "dep_code": 1,
+    "section_code": 19,
+    "emp_code": "5436",
+    "head_of_section": "N"
+  },
+  {
+    "dep_code": 1,
+    "section_code": 19,
+    "emp_code": "5051",
+    "head_of_section": "N"
+  }
+]

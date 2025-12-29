@@ -1,0 +1,25 @@
+TABLE: HR.dbs_s_company
+ORDER_BY: entry_date
+COLUMNS: comp_code, ccy_code, acc_no, comp_name_e, comp_name_a, comp_address_e, comp_address_a, comp_mnth_wk_d, comp_mnth_wk_h, comp_mnth_st_d, comp_mnth_en_d, comp_year, comp_month, company_logo, entry_date, user_id
+ROWS: 1
+---
+[
+  {
+    "comp_code": 1,
+    "ccy_code": 1,
+    "acc_no": "1",
+    "comp_name_e": "Dynamics",
+    "comp_name_a": "Dynamics",
+    "comp_address_e": null,
+    "comp_address_a": null,
+    "comp_mnth_wk_d": 30,
+    "comp_mnth_wk_h": 192,
+    "comp_mnth_st_d": 1,
+    "comp_mnth_en_d": 30,
+    "comp_year": 2017,
+    "comp_month": 7,
+    "company_logo": null,
+    "entry_date": null,
+    "user_id": "1"
+  }
+]

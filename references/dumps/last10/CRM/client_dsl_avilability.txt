@@ -1,0 +1,6 @@
+TABLE: CRM.client_dsl_avilability
+ORDER_BY: (none)
+COLUMNS: client_code, from_no, to_no, code, Echange_Name, Governerate, line_no
+ROWS: 0
+---
+[]

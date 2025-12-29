@@ -1,0 +1,16 @@
+TABLE: CRM.call_status
+ORDER_BY: (none)
+COLUMNS: client_code, status_code, description, status_color, description_a, due_hr, due_min
+ROWS: 1
+---
+[
+  {
+    "client_code": "1",
+    "status_code": "1",
+    "description": "FIAT",
+    "status_color": null,
+    "description_a": "FIAT",
+    "due_hr": null,
+    "due_min": null
+  }
+]

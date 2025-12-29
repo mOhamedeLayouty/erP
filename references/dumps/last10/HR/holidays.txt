@@ -1,0 +1,87 @@
+TABLE: HR.holidays
+ORDER_BY: (none)
+COLUMNS: holiday_code, holiday_desc, holiday_desc_a, d, n, DeptID
+ROWS: 10
+---
+[
+  {
+    "holiday_code": "1",
+    "holiday_desc": "��� ������ �������",
+    "holiday_desc_a": "��� ������ �������",
+    "d": 100.22,
+    "n": 1000.22,
+    "DeptID": 1
+  },
+  {
+    "holiday_code": "2",
+    "holiday_desc": "��� �����  �������",
+    "holiday_desc_a": "��� �����  �������",
+    "d": null,
+    "n": null,
+    "DeptID": 1
+  },
+  {
+    "holiday_code": "3",
+    "holiday_desc": "����� ������",
+    "holiday_desc_a": "����� ������",
+    "d": null,
+    "n": null,
+    "DeptID": 1
+  },
+  {
+    "holiday_code": "4",
+    "holiday_desc": "���� 23 �����",
+    "holiday_desc_a": "���� 23 �����",
+    "d": null,
+    "n": null,
+    "DeptID": 1
+  },
+  {
+    "holiday_code": "5",
+    "holiday_desc": "���� 30 �����",
+    "holiday_desc_a": "���� 30 �����",
+    "d": null,
+    "n": null,
+    "DeptID": 1
+  },
+  {
+    "holiday_code": "6",
+    "holiday_desc": "25 �����",
+    "holiday_desc_a": "25 �����",
+    "d": null,
+    "n": null,
+    "DeptID": 1
+  },
+  {
+    "holiday_code": "7",
+    "holiday_desc": "��� �������",
+    "holiday_desc_a": "��� �������",
+    "d": null,
+    "n": null,
+    "DeptID": 1
+  },
+  {
+    "holiday_code": "8",
+    "holiday_desc": "��� ����� �����",
+    "holiday_desc_a": "��� ����� �����",
+    "d": null,
+    "n": null,
+    "DeptID": 1
+  },
+  {
+    "holiday_code": "9",
+    "holiday_desc": "�� ������",
+    "holiday_desc_a": "�� ������",
+    "d": null,
+    "n": null,
+    "DeptID": 1
+  },
+  {
+    "holiday_code": "10",
+    "holiday_desc": "��� ������",
+    "holiday_desc_a": "��� ������",
+    "d": null,
+    "n": null,
+    "DeptID": 1
+  }
+]

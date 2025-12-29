@@ -1,0 +1,27 @@
+TABLE: Ledger.about
+ORDER_BY: (none)
+COLUMNS: code, my_val
+ROWS: 5
+---
+[
+  {
+    "code": "active_for",
+    "my_val": "auto"
+  },
+  {
+    "code": "def_comp",
+    "my_val": "5"
+  },
+  {
+    "code": "m_account",
+    "my_val": "yes"
+  },
+  {
+    "code": "m_comp",
+    "my_val": "yes"
+  },
+  {
+    "code": "post_edit",
+    "my_val": "N"
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: DBA.pay_type
+ORDER_BY: (none)
+COLUMNS: code, description, interest, install_count, install_duration
+ROWS: 0
+---
+[]

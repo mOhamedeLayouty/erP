@@ -1,0 +1,6 @@
+TABLE: DBA.car_customer_care
+ORDER_BY: customer_id
+COLUMNS: debit_header, customer_id, call_date, call_time, follow_up, followup_notes, notes, agent_name, brand, log_store
+ROWS: 0
+---
+[]

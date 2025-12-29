@@ -1,0 +1,6 @@
+TABLE: HR.userupdates
+ORDER_BY: updateid
+COLUMNS: updateid, badgenumber
+ROWS: 0
+---
+[]

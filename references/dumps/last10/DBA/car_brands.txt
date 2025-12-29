@@ -1,0 +1,25 @@
+TABLE: DBA.car_brands
+ORDER_BY: id
+COLUMNS: id, name_e, name_a, company_code, main_brand, db_user, cost_center, type_code, activity_code, commercial_register, file_tax, salesTax_registration, accredit_no, logo_path, logo_path2, center_id
+ROWS: 1
+---
+[
+  {
+    "id": 1,
+    "name_e": "�������� ������� �.�.�",
+    "name_a": "�������� ������� �.�.�",
+    "company_code": 4,
+    "main_brand": "Y",
+    "db_user": "HQ",
+    "cost_center": "21",
+    "type_code": "B",
+    "activity_code": "4510",
+    "commercial_register": null,
+    "file_tax": null,
+    "salesTax_registration": "473092387",
+    "accredit_no": null,
+    "logo_path": null,
+    "logo_path2": null,
+    "center_id": 1
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: DBA.kpi_monthly_h
+ORDER_BY: location_id
+COLUMNS: kpi_code, year, service_center, location_id, m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12
+ROWS: 0
+---
+[]

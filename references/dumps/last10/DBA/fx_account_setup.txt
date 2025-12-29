@@ -1,0 +1,6 @@
+TABLE: DBA.fx_account_setup
+ORDER_BY: (none)
+COLUMNS: ser_no, description, acc_no
+ROWS: 0
+---
+[]

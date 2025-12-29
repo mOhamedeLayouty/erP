@@ -1,0 +1,1764 @@
+TABLE: DBA.sc_item
+COLUMNS(69): item_id, unit_id, notes, item_type, reorder, description, item_percent, item_group_id, item_name, buying_type, max, min, item_price, item_nature, ItemType, SparePart, location, item_sell_way, item_name_e, vend_id, description_e, item_grp_code, item_request_type, weight, qty_factor, storage_cost, shipment_method, seasonal_item, pmc, safety_stock_qty, vendor_disc, discontinued_date, barcode, sales_tax, service_center, non_taxable, defined_user, defined_date, from_upload, item_image1, official_price, edit_user, edit_date, edit_pc, custom_duties_percent, non_discounted, item_grp_code3, item_grp_code4, item_grp_code5, item_grp_code6, non_addedtax, can_sold, can_purch, lead_time, fob_price, cost, custom_tariff, HasSerials, lcf, fob_curr_id, genuine, second_edit_user, location_id, store_id, code_type, code, min_price, car_model_code, car_category_id
+
+PRIMARY_KEY:
+  (none)
+
+UNIQUE_CONSTRAINTS:
+  (none)
+
+FOREIGN_KEYS:
+  (none or not readable via INFORMATION_SCHEMA)
+
+INDEXES:
+  - sc_item (unique: 2)
+    columns: max, min, notes, notes, notes, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, vend_id, ItemType, location, item_name, buying_type, item_percent, item_group_id, item_sell_way, item_sell_way, item_request_type, max, max, max, max, max, max, max, min, min, min, min, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, weight, weight, edit_pc, item_id, item_id, item_id, item_id, item_id, item_id, item_id, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, vend_id, vend_id, ItemType, ItemType, ItemType, ItemType, ItemType, ItemType, location, location, location, location, location, SparePart, item_name, item_name, item_name, item_name, item_name, item_name, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_price, item_price, item_price, qty_factor, buying_type, buying_type, buying_type, buying_type, buying_type, description, description, description, description, description, description, description, description, from_upload, item_name_e, item_name_e, item_name_e, item_name_e, item_nature, item_nature, item_nature, item_nature, item_nature, item_nature, item_nature, item_percent, item_percent, item_percent, item_percent, item_percent, item_percent, item_percent, storage_cost, storage_cost, description_e, description_e, description_e, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_grp_code, item_grp_code, item_grp_code, item_grp_code, official_price, official_price, service_center, service_center, safety_stock_qty, safety_stock_qty, max, max, max, max, max, max, max, min, min, min, min, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, barcode, item_id, reorder, reorder, reorder, reorder, reorder, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, vend_id, vend_id, vend_id, vend_id, ItemType, ItemType, ItemType, ItemType, location, location, location, location, SparePart, SparePart, SparePart, SparePart, SparePart, SparePart, SparePart, edit_date, item_name, item_name, item_name, item_name, item_name, item_name, item_name, item_name, item_name, item_name, item_name, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, sales_tax, sales_tax, sales_tax, sales_tax, sales_tax, item_price, item_price, item_price, item_price, item_price, qty_factor, buying_type, buying_type, buying_type, buying_type, buying_type, buying_type, buying_type, buying_type, buying_type, buying_type, buying_type, buying_type, buying_type, description, description, description, description, description, item_image1, item_name_e, item_name_e, item_nature, item_nature, item_nature, item_nature, non_taxable, vendor_disc, vendor_disc, item_percent, item_percent, item_percent, item_percent, item_percent, item_percent, item_percent, item_percent, item_percent, item_percent, item_percent, item_percent, description_e, description_e, description_e, description_e, description_e, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_grp_code, item_grp_code, item_grp_code, item_grp_code, item_sell_way, item_sell_way, item_sell_way, item_sell_way, item_sell_way, item_sell_way, item_grp_code5, shipment_method, shipment_method, safety_stock_qty, safety_stock_qty, item_request_type, item_request_type, item_request_type, item_request_type, item_request_type, item_request_type, item_request_type, item_request_type, custom_duties_percent, max, max, max, max, max, max, max, min, min, min, min, min, min, min, edit_pc, item_id, reorder, reorder, reorder, reorder, reorder, unit_id, unit_id, vend_id, ItemType, location, location, location, SparePart, SparePart, SparePart, edit_user, edit_user, item_name, item_name, item_name, item_name, item_name, item_name, item_name, item_name, item_name, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_price, item_price, qty_factor, buying_type, buying_type, buying_type, buying_type, buying_type, buying_type, buying_type, description, description, from_upload, item_nature, non_taxable, non_taxable, vendor_disc, vendor_disc, defined_date, defined_date, item_percent, item_percent, item_percent, item_percent, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_group_id, item_grp_code, item_grp_code, item_sell_way, official_price, shipment_method, max, max, max, min, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, ItemType, location, location, item_name, item_name, item_name, item_type, item_type, buying_type, item_image1, item_nature, item_percent, storage_cost, item_sell_way, description, description, item_group_id, item_name, buying_type
+  - SparePart (unique: 4)
+    columns: max, max, max, pmc, notes, notes, notes, notes, notes, notes, notes, weight, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, reorder, reorder, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, SparePart, item_name, item_name, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_price, description, description, description, item_image1, vendor_disc, defined_date, defined_user, item_percent, item_percent, item_percent, item_group_id, item_group_id, item_group_id, max, min, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, notes, item_id, item_id, reorder, reorder, reorder, reorder, reorder, reorder, reorder, reorder, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, vend_id, ItemType, ItemType, location, location, location, item_name, item_name, item_type, item_type, item_type, item_type, item_price, item_price, buying_type, buying_type, buying_type, description, item_name_e, item_nature, defined_date, item_percent, item_percent, description_e, description_e, description_e, description_e, item_group_id, item_group_id, max, max, max, min, notes, notes, notes, item_id, ItemType, SparePart, item_name, item_type, item_type, item_type, item_type, item_type, item_type, item_type, item_type, sales_tax, item_price, item_price, buying_type, description, item_percent, item_percent, item_group_id, item_group_id, item_grp_code, item_grp_code, item_sell_way, item_sell_way, safety_stock_qty, vend_id, location, item_name, item_type, item_type, buying_type, vendor_disc, min, reorder, SparePart, description, location, item_percent
+  - PK+SparePart (unique: 4)
+    columns: notes, notes, notes, notes, notes, notes, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, reorder, reorder, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, ItemType, SparePart, item_type, item_type, item_type, item_type, buying_type, description, description, item_name_e, item_name_e, item_nature, item_percent, item_percent, item_group_id, discontinued_date, min, notes, notes, notes, notes, notes, unit_id, unit_id, unit_id, ItemType, location, location, SparePart, SparePart, item_name, item_name, item_type, item_price, item_price, buying_type, buying_type, buying_type, buying_type, defined_user, item_percent, description_e, description_e, item_group_id, item_group_id, item_grp_code, safety_stock_qty, notes, weight, location, item_name, item_type, item_type, item_nature, vendor_disc, item_grp_code, safety_stock_qty, item_type, vendor_disc, reorder
+  - sc_item_index (unique: 4)
+    columns: min, min, notes, notes, notes, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, item_id, reorder, unit_id, unit_id, unit_id, vend_id, ItemType, item_type, description, description, description, item_group_id, item_group_id, notes, reorder, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, unit_id, ItemType, ItemType, ItemType, location, item_price, item_percent, storage_cost, description_e, item_group_id, item_grp_code, notes, weight, ItemType, SparePart, item_name, item_nature, shipment_method, safety_stock_qty, safety_stock_qty, vendor_disc, vendor_disc, ItemType, sales_tax
+
+SYS_FALLBACK_RAW:
+{
+  "sysfkey": [
+    {
+      "foreign_table_id": 7,
+      "foreign_index_id": 1,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 70,
+      "foreign_index_id": 1,
+      "primary_table_id": 7,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 9,
+      "foreign_index_id": 2,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 79,
+      "foreign_index_id": 3,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 80,
+      "foreign_index_id": 1,
+      "primary_table_id": 79,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 72,
+      "foreign_index_id": 2,
+      "primary_table_id": 7,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 72,
+      "foreign_index_id": 3,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 91,
+      "foreign_index_id": 4,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 91,
+      "foreign_index_id": 5,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 5,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 6,
+      "primary_table_id": 91,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 7,
+      "primary_table_id": 91,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 92,
+      "foreign_index_id": 8,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 14,
+      "foreign_index_id": 6,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 14,
+      "foreign_index_id": 9,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 15,
+      "foreign_index_id": 1,
+      "primary_table_id": 14,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 15,
+      "foreign_index_id": 2,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 16,
+      "foreign_index_id": 7,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 16,
+      "foreign_index_id": 8,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 16,
+      "foreign_index_id": 9,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 17,
+      "foreign_index_id": 10,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 17,
+      "foreign_index_id": 11,
+      "primary_table_id": 14,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 25,
+      "foreign_index_id": 8,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 44,
+      "foreign_index_id": 1,
+      "primary_table_id": 25,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 45,
+      "foreign_index_id": 1,
+      "primary_table_id": 44,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 45,
+      "foreign_index_id": 11,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 18,
+      "foreign_index_id": 9,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 18,
+      "foreign_index_id": 12,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 19,
+      "foreign_index_id": 1,
+      "primary_table_id": 18,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 19,
+      "foreign_index_id": 9,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 20,
+      "foreign_index_id": 1,
+      "primary_table_id": 19,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 20,
+      "foreign_index_id": 2,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 21,
+      "foreign_index_id": 13,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 21,
+      "foreign_index_id": 14,
+      "primary_table_id": 25,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 22,
+      "foreign_index_id": 2,
+      "primary_table_id": 18,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 22,
+      "foreign_index_id": 14,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 23,
+      "foreign_index_id": 15,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 24,
+      "foreign_index_id": 16,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 24,
+      "foreign_index_id": 17,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 27,
+      "foreign_index_id": 18,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 46,
+      "foreign_index_id": 3,
+      "primary_table_id": 18,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 64,
+      "foreign_index_id": 10,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 64,
+      "foreign_index_id": 11,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 64,
+      "foreign_index_id": 12,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 28,
+      "foreign_index_id": 13,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 48,
+      "foreign_index_id": 17,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 48,
+      "foreign_index_id": 18,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 49,
+      "foreign_index_id": 2,
+      "primary_table_id": 48,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 66,
+      "foreign_index_id": 19,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 66,
+      "foreign_index_id": 20,
+      "primary_table_id": 65,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 29,
+      "foreign_index_id": 20,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 30,
+      "foreign_index_id": 21,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 30,
+      "foreign_index_id": 22,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 53,
+      "foreign_index_id": 1,
+      "primary_table_id": 52,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 67,
+      "foreign_index_id": 22,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 33,
+      "foreign_index_id": 23,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 33,
+      "foreign_index_id": 24,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 42,
+      "foreign_index_id": 25,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 82,
+      "foreign_index_id": 23,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 82,
+      "foreign_index_id": 24,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 84,
+      "foreign_index_id": 24,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 84,
+      "foreign_index_id": 25,
+      "primary_table_id": 82,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 84,
+      "foreign_index_id": 26,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 85,
+      "foreign_index_id": 25,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 54,
+      "foreign_index_id": 26,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 50,
+      "foreign_index_id": 3,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 56,
+      "foreign_index_id": 27,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 56,
+      "foreign_index_id": 28,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 58,
+      "foreign_index_id": 29,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 59,
+      "foreign_index_id": 30,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 59,
+      "foreign_index_id": 31,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 61,
+      "foreign_index_id": 32,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 62,
+      "foreign_index_id": 33,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 68,
+      "foreign_index_id": 34,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 68,
+      "foreign_index_id": 35,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 69,
+      "foreign_index_id": 35,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 69,
+      "foreign_index_id": 36,
+      "primary_table_id": 68,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 78,
+      "foreign_index_id": 1,
+      "primary_table_id": 69,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 78,
+      "foreign_index_id": 10,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 89,
+      "foreign_index_id": 36,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 90,
+      "foreign_index_id": 1,
+      "primary_table_id": 89,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 93,
+      "foreign_index_id": 37,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 93,
+      "foreign_index_id": 38,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 94,
+      "foreign_index_id": 1,
+      "primary_table_id": 93,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 94,
+      "foreign_index_id": 39,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 94,
+      "foreign_index_id": 40,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1,
+      "foreign_index_id": 3,
+      "primary_table_id": 7,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1,
+      "foreign_index_id": 41,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1,
+      "foreign_index_id": 42,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 11,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 19,
+      "primary_table_id": 8,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 43,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 2,
+      "foreign_index_id": 44,
+      "primary_table_id": 24,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 3,
+      "foreign_index_id": 12,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 3,
+      "foreign_index_id": 44,
+      "primary_table_id": 60,
+      "primary_index_id": 0,
+      "match_type": 130,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 3,
+      "foreign_index_id": 45,
+      "primary_table_id": 4,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 5,
+      "foreign_index_id": 10,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 5,
+      "foreign_index_id": 11,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 6,
+      "foreign_index_id": 11,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 6,
+      "foreign_index_id": 12,
+      "primary_table_id": 3,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 9,
+      "foreign_index_id": 4,
+      "primary_table_id": 79,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 10,
+      "foreign_index_id": 13,
+      "primary_table_id": 1,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 10,
+      "foreign_index_id": 42,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 10,
+      "foreign_index_id": 43,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 11,
+      "foreign_index_id": 12,
+      "primary_table_id": 2,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 11,
+      "foreign_index_id": 44,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 11,
+      "foreign_index_id": 45,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 12,
+      "foreign_index_id": 46,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 13,
+      "foreign_index_id": 47,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 13,
+      "foreign_index_id": 48,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 14,
+      "foreign_index_id": 26,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 15,
+      "foreign_index_id": 45,
+      "primary_table_id": 24,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 28,
+      "foreign_index_id": 49,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 30,
+      "foreign_index_id": 23,
+      "primary_table_id": 31,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 31,
+      "foreign_index_id": 1,
+      "primary_table_id": 29,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 57,
+      "foreign_index_id": 2,
+      "primary_table_id": 56,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 63,
+      "foreign_index_id": 50,
+      "primary_table_id": 9,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 67,
+      "foreign_index_id": 27,
+      "primary_table_id": 32,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 641,
+      "foreign_index_id": 1,
+      "primary_table_id": 640,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 664,
+      "foreign_index_id": 1,
+      "primary_table_id": 663,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 665,
+      "foreign_index_id": 1,
+      "primary_table_id": 664,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 666,
+      "foreign_index_id": 2,
+      "primary_table_id": 664,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 667,
+      "foreign_index_id": 2,
+      "primary_table_id": 663,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 668,
+      "foreign_index_id": 1,
+      "primary_table_id": 667,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 669,
+      "foreign_index_id": 3,
+      "primary_table_id": 664,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 670,
+      "foreign_index_id": 3,
+      "primary_table_id": 663,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 678,
+      "foreign_index_id": 1,
+      "primary_table_id": 676,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 678,
+      "foreign_index_id": 2,
+      "primary_table_id": 677,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 676,
+      "foreign_index_id": 1,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 675,
+      "foreign_index_id": 1,
+      "primary_table_id": 674,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 680,
+      "foreign_index_id": 3,
+      "primary_table_id": 677,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 684,
+      "foreign_index_id": 2,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 685,
+      "foreign_index_id": 1,
+      "primary_table_id": 684,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 687,
+      "foreign_index_id": 1,
+      "primary_table_id": 685,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 687,
+      "foreign_index_id": 2,
+      "primary_table_id": 687,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 687,
+      "foreign_index_id": 3,
+      "primary_table_id": 686,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 686,
+      "foreign_index_id": 2,
+      "primary_table_id": 684,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 688,
+      "foreign_index_id": 3,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 1,
+      "primary_table_id": 673,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 2,
+      "primary_table_id": 676,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 4,
+      "primary_table_id": 675,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 677,
+      "foreign_index_id": 5,
+      "primary_table_id": 674,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 738,
+      "foreign_index_id": 1,
+      "primary_table_id": 736,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 739,
+      "foreign_index_id": 1,
+      "primary_table_id": 735,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 743,
+      "foreign_index_id": 1,
+      "primary_table_id": 737,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 743,
+      "foreign_index_id": 2,
+      "primary_table_id": 734,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 762,
+      "foreign_index_id": 1,
+      "primary_table_id": 761,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 801,
+      "foreign_index_id": 1,
+      "primary_table_id": 798,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 856,
+      "foreign_index_id": 1,
+      "primary_table_id": 855,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 873,
+      "foreign_index_id": 1,
+      "primary_table_id": 871,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 917,
+      "foreign_index_id": 1,
+      "primary_table_id": 774,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 939,
+      "foreign_index_id": 1,
+      "primary_table_id": 771,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 939,
+      "foreign_index_id": 2,
+      "primary_table_id": 773,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 939,
+      "foreign_index_id": 3,
+      "primary_table_id": 771,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1473,
+      "foreign_index_id": 2,
+      "primary_table_id": 1472,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "Y",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1035,
+      "foreign_index_id": 1,
+      "primary_table_id": 1034,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1056,
+      "foreign_index_id": 1,
+      "primary_table_id": 977,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1100,
+      "foreign_index_id": 1,
+      "primary_table_id": 983,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1100,
+      "foreign_index_id": 2,
+      "primary_table_id": 983,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1148,
+      "foreign_index_id": 1,
+      "primary_table_id": 762,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1148,
+      "foreign_index_id": 2,
+      "primary_table_id": 1145,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1149,
+      "foreign_index_id": 1,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1150,
+      "foreign_index_id": 2,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1151,
+      "foreign_index_id": 3,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1159,
+      "foreign_index_id": 1,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1185,
+      "foreign_index_id": 1,
+      "primary_table_id": 1184,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1299,
+      "foreign_index_id": 1,
+      "primary_table_id": 1245,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1329,
+      "foreign_index_id": 1,
+      "primary_table_id": 1327,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1353,
+      "foreign_index_id": 1,
+      "primary_table_id": 1352,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1364,
+      "foreign_index_id": 1,
+      "primary_table_id": 1363,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 723,
+      "foreign_index_id": 4,
+      "primary_table_id": 771,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 723,
+      "foreign_index_id": 5,
+      "primary_table_id": 809,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 723,
+      "foreign_index_id": 6,
+      "primary_table_id": 724,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 724,
+      "foreign_index_id": 3,
+      "primary_table_id": 983,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 728,
+      "foreign_index_id": 4,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 728,
+      "foreign_index_id": 5,
+      "primary_table_id": 892,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 729,
+      "foreign_index_id": 2,
+      "primary_table_id": 747,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 737,
+      "foreign_index_id": 1,
+      "primary_table_id": 888,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 743,
+      "foreign_index_id": 5,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 746,
+      "foreign_index_id": 4,
+      "primary_table_id": 747,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 831,
+      "foreign_index_id": 2,
+      "primary_table_id": 847,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 846,
+      "foreign_index_id": 6,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 847,
+      "foreign_index_id": 7,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 847,
+      "foreign_index_id": 8,
+      "primary_table_id": 892,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 863,
+      "foreign_index_id": 8,
+      "primary_table_id": 929,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 863,
+      "foreign_index_id": 9,
+      "primary_table_id": 892,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1146,
+      "foreign_index_id": 4,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1147,
+      "foreign_index_id": 5,
+      "primary_table_id": 1148,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1148,
+      "foreign_index_id": 3,
+      "primary_table_id": 1152,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1173,
+      "foreign_index_id": 1,
+      "primary_table_id": 1231,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1183,
+      "foreign_index_id": 1,
+      "primary_table_id": 1185,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    },
+    {
+      "foreign_table_id": 1191,
+      "foreign_index_id": 2,
+      "primary_table_id": 1231,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "N"
+    },
+    {
+      "foreign_table_id": 1248,
+      "foreign_index_id": 1,
+      "primary_table_id": 1249,
+      "primary_index_id": 0,
+      "match_type": 0,
+      "check_on_commit": "N",
+      "nulls": "Y"
+    }
+  ]
+}

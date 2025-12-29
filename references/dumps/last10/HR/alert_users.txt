@@ -1,0 +1,6 @@
+TABLE: HR.alert_users
+ORDER_BY: (none)
+COLUMNS: alert_code, user_name
+ROWS: 0
+---
+[]

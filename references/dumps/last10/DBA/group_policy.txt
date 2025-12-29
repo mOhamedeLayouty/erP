@@ -1,0 +1,57 @@
+TABLE: DBA.group_policy
+ORDER_BY: (none)
+COLUMNS: group_code, group_name_e, group_name_a
+ROWS: 10
+---
+[
+  {
+    "group_code": "1",
+    "group_name_e": "Spare Parts Manager",
+    "group_name_a": "���� ��� ������"
+  },
+  {
+    "group_code": "10",
+    "group_name_e": "Cars Cacher",
+    "group_name_a": "����� ������"
+  },
+  {
+    "group_code": "11",
+    "group_name_e": "Car Sales Managers",
+    "group_name_a": "���� ������ ������"
+  },
+  {
+    "group_code": "12",
+    "group_name_e": "Car Sales Man",
+    "group_name_a": "����� ������ ��������"
+  },
+  {
+    "group_code": "13",
+    "group_name_e": "Cars Import",
+    "group_name_a": "���������_������"
+  },
+  {
+    "group_code": "15",
+    "group_name_e": "Standard Edition",
+    "group_name_a": "Standard Edition"
+  },
+  {
+    "group_code": "16",
+    "group_name_e": "Spare Parts Sales",
+    "group_name_a": "������ ��� ����"
+  },
+  {
+    "group_code": "17",
+    "group_name_e": "WS Managers",
+    "group_name_a": "���� ����"
+  },
+  {
+    "group_code": "18",
+    "group_name_e": "After Sales Cashier",
+    "group_name_a": "����� ���� �� ��� �����"
+  },
+  {
+    "group_code": "19",
+    "group_name_e": "After Sales Manager",
+    "group_name_a": "���� ���� ����� �����"
+  }
+]

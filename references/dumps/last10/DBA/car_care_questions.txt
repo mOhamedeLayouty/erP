@@ -1,0 +1,49 @@
+TABLE: DBA.car_care_questions
+ORDER_BY: question_id
+COLUMNS: question_id, text_e, text_a, question_date, user_id
+ROWS: 6
+---
+[
+  {
+    "question_id": "6",
+    "text_e": "How can we improve our services? Do you have any suggestions?",
+    "text_a": "��� ������ ����� ������� ��� ���� �� ������ʿ",
+    "question_date": "2014-10-21",
+    "user_id": "1"
+  },
+  {
+    "question_id": "5",
+    "text_e": "Have you received the car clean and on time?",
+    "text_a": "�� �� ������ ������� ����� ��� ��� ������ �����Ͽ ",
+    "question_date": "2014-10-21",
+    "user_id": "1"
+  },
+  {
+    "question_id": "4",
+    "text_e": "Have they explained the maintenance schedule, location and phone numbers?",
+    "text_a": "�� �� ��� ���� ������� ����� ������ ������ �����ݿ",
+    "question_date": "2014-10-21",
+    "user_id": "1"
+  },
+  {
+    "question_id": "3",
+    "text_e": "Does the salesman explain the insurance of the cars and roadside assistance?",
+    "text_a": "�� ������ ��� ���� �� �� ��������� ��� �����޿",
+    "question_date": "2014-10-21",
+    "user_id": "1"
+  },
+  {
+    "question_id": "2",
+    "text_e": "Does the salesman explain the monthly installments clearly?",
+    "text_a": "�� ��� ������ ���� ������ ������� ������� ����� �",
+    "question_date": "2014-10-21",
+    "user_id": "1"
+  },
+  {
+    "question_id": "1",
+    "text_e": "Does the salesman explain the advantages and the benefits of the cars?",
+    "text_a": "�� ��� �������� ���� ������� �������� ������ ������߿",
+    "question_date": "2014-05-20",
+    "user_id": "1"
+  }
+]

@@ -1,0 +1,6 @@
+TABLE: DBA.car_request_refund_detail
+ORDER_BY: refund_id
+COLUMNS: refund_id, log_store, detail_id, invoice_no, collected_amount, prerefund_amount, refund_amount, brand
+ROWS: 0
+---
+[]

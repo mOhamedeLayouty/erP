@@ -1,0 +1,6 @@
+TABLE: DBA.sc_location_change
+ORDER_BY: location_id
+COLUMNS: trans_serial, trans_date, trans_old_location, trans_new_location, trans_item, trans_user, service_center, location_id
+ROWS: 0
+---
+[]

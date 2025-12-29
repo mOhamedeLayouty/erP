@@ -1,0 +1,6 @@
+TABLE: Ledger.recurring_entry_detail
+ORDER_BY: (none)
+COLUMNS: entry_code, line_no, company_code, acc_no, debit, credit, cost_center, notes, cost_no_2, cost_no_3, cost_no_4
+ROWS: 0
+---
+[]

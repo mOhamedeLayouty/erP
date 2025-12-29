@@ -1,0 +1,14 @@
+TABLE: CRM.service_center_makes
+ORDER_BY: id
+COLUMNS: client_code, id, service_center, make_id, certified
+ROWS: 1
+---
+[
+  {
+    "client_code": "1",
+    "id": "1",
+    "service_center": "1",
+    "make_id": "1",
+    "certified": "1"
+  }
+]

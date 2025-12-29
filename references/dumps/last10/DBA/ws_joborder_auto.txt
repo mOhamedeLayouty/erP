@@ -1,0 +1,6 @@
+TABLE: DBA.ws_joborder_auto
+ORDER_BY: entry_date
+COLUMNS: joborderid, starttime, ordertype, voucherid, eqptid, customerid, orderstatus, endtime, jobdate, user_id, entry_date, reorderflag, reorderref, control_ok, control_date, reasonid, notes, deleteflag, deleteuser, deletetime, deletereason, control_comment, job_ser, service_center, location_id
+ROWS: 0
+---
+[]

@@ -1,0 +1,53 @@
+TABLE: HR.emp_loan
+ORDER_BY: from_date
+COLUMNS: p_serial, emp_code, total_loan, monthly_share, no_of_shares, p_type, from_date, to_date, notes, user_name, confirmed_by, delete_flag, deleted_by, delete_reason, approved, request_status, request_user, request_note, reject_reason, request_date, bank_code
+ROWS: 2
+---
+[
+  {
+    "p_serial": "2",
+    "emp_code": "5402",
+    "total_loan": 5000,
+    "monthly_share": 5,
+    "no_of_shares": 1000,
+    "p_type": 1,
+    "from_date": "2024-08-01",
+    "to_date": null,
+    "notes": null,
+    "user_name": "loay.s",
+    "confirmed_by": "5185",
+    "delete_flag": "N",
+    "deleted_by": null,
+    "delete_reason": null,
+    "approved": "0",
+    "request_status": "R",
+    "request_user": "5185",
+    "request_note": null,
+    "reject_reason": null,
+    "request_date": null,
+    "bank_code": null
+  },
+  {
+    "p_serial": "1",
+    "emp_code": "5124",
+    "total_loan": 1,
+    "monthly_share": 1,
+    "no_of_shares": 1,
+    "p_type": null,
+    "from_date": "2023-04-09",
+    "to_date": "2023-04-09",
+    "notes": null,
+    "user_name": "loay.s",
+    "confirmed_by": null,
+    "delete_flag": "Y",
+    "deleted_by": "loay.s",
+    "delete_reason": "���",
+    "approved": "0",
+    "request_status": "R",
+    "request_user": "5124",
+    "request_note": null,
+    "reject_reason": "كدا",
+    "request_date": "2023-04-09 00:00:00.000000",
+    "bank_code": null
+  }
+]

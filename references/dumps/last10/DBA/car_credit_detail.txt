@@ -1,0 +1,107 @@
+TABLE: DBA.car_credit_detail
+ORDER_BY: vehicle_id
+COLUMNS: credit_detail, credit_header, vin, log_stock, description, brand, vehicle_id, cost
+ROWS: 10
+---
+[
+  {
+    "credit_detail": 152,
+    "credit_header": 180,
+    "vin": "ZFAAF8AP2M6U21273",
+    "log_stock": 3,
+    "description": null,
+    "brand": 1,
+    "vehicle_id": "9999",
+    "cost": 185161.8362
+  },
+  {
+    "credit_detail": 151,
+    "credit_header": 180,
+    "vin": "ZFAAF8AP4M6U22991",
+    "log_stock": 3,
+    "description": null,
+    "brand": 1,
+    "vehicle_id": "9998",
+    "cost": 185161.8362
+  },
+  {
+    "credit_detail": 150,
+    "credit_header": 180,
+    "vin": "ZFAAF8AP2M6U21287",
+    "log_stock": 3,
+    "description": null,
+    "brand": 1,
+    "vehicle_id": "9997",
+    "cost": 185161.8362
+  },
+  {
+    "credit_detail": 149,
+    "credit_header": 180,
+    "vin": "ZFAAF8AP0M6U12619",
+    "log_stock": 3,
+    "description": null,
+    "brand": 1,
+    "vehicle_id": "9996",
+    "cost": 185161.8362
+  },
+  {
+    "credit_detail": 147,
+    "credit_header": 180,
+    "vin": "ZFAAF8APXM6U23515",
+    "log_stock": 3,
+    "description": null,
+    "brand": 1,
+    "vehicle_id": "9994",
+    "cost": 185161.8362
+  },
+  {
+    "credit_detail": 146,
+    "credit_header": 180,
+    "vin": "ZFAAF8AP6M6U23589",
+    "log_stock": 3,
+    "description": null,
+    "brand": 1,
+    "vehicle_id": "9993",
+    "cost": 185161.8362
+  },
+  {
+    "credit_detail": 145,
+    "credit_header": 180,
+    "vin": "ZFAAF8AP5M6U23597",
+    "log_stock": 3,
+    "description": null,
+    "brand": 1,
+    "vehicle_id": "9992",
+    "cost": 185161.8362
+  },
+  {
+    "credit_detail": 144,
+    "credit_header": 180,
+    "vin": "ZFAAF8AP9M6U23599",
+    "log_stock": 3,
+    "description": null,
+    "brand": 1,
+    "vehicle_id": "9991",
+    "cost": 185161.8362
+  },
+  {
+    "credit_detail": 143,
+    "credit_header": 180,
+    "vin": "ZFAAF8AP7M6U21432",
+    "log_stock": 3,
+    "description": null,
+    "brand": 1,
+    "vehicle_id": "9990",
+    "cost": 185161.8362
+  },
+  {
+    "credit_detail": 48,
+    "credit_header": 4,
+    "vin": "ZFA35600006S15667",
+    "log_stock": 3,
+    "description": null,
+    "brand": 1,
+    "vehicle_id": "999",
+    "cost": 211679
+  }
+]

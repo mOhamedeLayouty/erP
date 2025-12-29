@@ -1,0 +1,6 @@
+TABLE: CRM.status_color
+ORDER_BY: (none)
+COLUMNS: c_no, c_color
+ROWS: 0
+---
+[]

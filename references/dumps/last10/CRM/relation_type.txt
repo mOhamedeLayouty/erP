@@ -1,0 +1,6 @@
+TABLE: CRM.relation_type
+ORDER_BY: id
+COLUMNS: id, description, description_a
+ROWS: 0
+---
+[]

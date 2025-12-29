@@ -1,0 +1,6 @@
+TABLE: Ledger.usr_cost
+ORDER_BY: entry_date
+COLUMNS: cost_no, usr_id, company_code, notes, entry_user, edit_user, entry_date, edit_date
+ROWS: 0
+---
+[]

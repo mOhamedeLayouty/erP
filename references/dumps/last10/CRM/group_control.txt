@@ -1,0 +1,117 @@
+TABLE: CRM.group_control
+ORDER_BY: control_id
+COLUMNS: group_code, control_id, c_view, c_insert, c_delete, c_update, c_print, parent_id, c_saveas
+ROWS: 10
+---
+[
+  {
+    "group_code": "8",
+    "control_id": "u_ws_reservation_times_monitor",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "Y",
+    "c_update": "Y",
+    "c_print": "Y",
+    "parent_id": "CRM",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "1",
+    "control_id": "u_ws_reservation_times_monitor",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "Y",
+    "c_update": "Y",
+    "c_print": "Y",
+    "parent_id": "CRM",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "8",
+    "control_id": "u_ws_reservation_monitor",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "Y",
+    "c_update": "Y",
+    "c_print": "Y",
+    "parent_id": "CRM",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "7",
+    "control_id": "u_ws_reservation_monitor",
+    "c_view": "Y",
+    "c_insert": "N",
+    "c_delete": "N",
+    "c_update": "N",
+    "c_print": "N",
+    "parent_id": "CRM",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "4",
+    "control_id": "u_ws_reservation_monitor",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "Y",
+    "c_update": "Y",
+    "c_print": "Y",
+    "parent_id": "CRM",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "1",
+    "control_id": "u_ws_reservation_monitor",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "Y",
+    "c_update": "Y",
+    "c_print": "Y",
+    "parent_id": "CRM",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "1",
+    "control_id": "u_ws_reservation",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "Y",
+    "c_update": "Y",
+    "c_print": "Y",
+    "parent_id": "CRM",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "4",
+    "control_id": "u_ws_reservation",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "Y",
+    "c_update": "Y",
+    "c_print": "Y",
+    "parent_id": "CRM",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "7",
+    "control_id": "u_ws_reservation",
+    "c_view": "Y",
+    "c_insert": "N",
+    "c_delete": "N",
+    "c_update": "N",
+    "c_print": "N",
+    "parent_id": "CRM",
+    "c_saveas": "N"
+  },
+  {
+    "group_code": "8",
+    "control_id": "u_ws_reservation",
+    "c_view": "Y",
+    "c_insert": "Y",
+    "c_delete": "N",
+    "c_update": "N",
+    "c_print": "N",
+    "parent_id": "CRM",
+    "c_saveas": "N"
+  }
+]

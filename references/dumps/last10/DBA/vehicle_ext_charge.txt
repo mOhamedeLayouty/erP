@@ -1,0 +1,23 @@
+TABLE: DBA.vehicle_ext_charge
+ORDER_BY: entry_date
+COLUMNS: expenses_code, log_store, vehicle_vin, expenses_date, vendor_code, invoice_no, invoice_date, brand, chargeable, vehicle_id, entry_user, entry_date, edit_user, edit_date
+ROWS: 1
+---
+[
+  {
+    "expenses_code": "1",
+    "log_store": 3,
+    "vehicle_vin": "ZFA26300006S88411",
+    "expenses_date": "2020-12-03",
+    "vendor_code": null,
+    "invoice_no": null,
+    "invoice_date": null,
+    "brand": 1,
+    "chargeable": "Y",
+    "vehicle_id": "4036",
+    "entry_user": null,
+    "entry_date": null,
+    "edit_user": null,
+    "edit_date": null
+  }
+]

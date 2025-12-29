@@ -1,0 +1,77 @@
+TABLE: DBA.taxsubtype_code
+ORDER_BY: (none)
+COLUMNS: code, name_e, name_a, taxtype_code, isactive
+ROWS: 10
+---
+[
+  {
+    "code": "V001",
+    "name_e": "Export",
+    "name_a": "����� ������",
+    "taxtype_code": "T1",
+    "isactive": null
+  },
+  {
+    "code": "V002",
+    "name_e": "Export to free areas and other areas",
+    "name_a": "����� ����� ��� �����",
+    "taxtype_code": "T1",
+    "isactive": null
+  },
+  {
+    "code": "V003",
+    "name_e": "Exempted good or service",
+    "name_a": "���� �� ���� �����",
+    "taxtype_code": "T1",
+    "isactive": null
+  },
+  {
+    "code": "V004",
+    "name_e": "A non-taxable good or service",
+    "name_a": "���� �� ���� ��� ����� �������",
+    "taxtype_code": "T1",
+    "isactive": null
+  },
+  {
+    "code": "V005",
+    "name_e": "Exemptions for diplomats, consulates and embassies",
+    "name_a": "������� ��������� ���������� ���������",
+    "taxtype_code": "T1",
+    "isactive": null
+  },
+  {
+    "code": "V006",
+    "name_e": "Defence and National security Exemptions",
+    "name_a": "������� ������ ������ ������",
+    "taxtype_code": "T1",
+    "isactive": null
+  },
+  {
+    "code": "V007",
+    "name_e": "Agreements exemptions",
+    "name_a": "������� ��������",
+    "taxtype_code": "T1",
+    "isactive": null
+  },
+  {
+    "code": "V008",
+    "name_e": "Special Exemptios and other reasons",
+    "name_a": "������� ���� � ����",
+    "taxtype_code": "T1",
+    "isactive": null
+  },
+  {
+    "code": "W001",
+    "name_e": "Contracting and supplies",
+    "name_a": "��������� ����������",
+    "taxtype_code": "T4",
+    "isactive": null
+  },
+  {
+    "code": "W002",
+    "name_e": "Services",
+    "name_a": "�������",
+    "taxtype_code": "T4",
+    "isactive": "Y"
+  }
+]

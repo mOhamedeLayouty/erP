@@ -1,0 +1,71 @@
+TABLE: Ledger.cr_report
+ORDER_BY: (none)
+COLUMNS: report_type, line_type, line_no, db_cr, acc_from, acc_to, acc_name, amount_type, add_or, formula, company_code, design_code, design_type, accout_calc_type
+ROWS: 4
+---
+[
+  {
+    "report_type": "TB",
+    "line_type": "TIT",
+    "line_no": 1,
+    "db_cr": "CR",
+    "acc_from": "",
+    "acc_to": "",
+    "acc_name": "����� ���� ����",
+    "amount_type": "PR",
+    "add_or": "+",
+    "formula": null,
+    "company_code": 2,
+    "design_code": "1",
+    "design_type": "L",
+    "accout_calc_type": 0
+  },
+  {
+    "report_type": "TB",
+    "line_type": "ACC",
+    "line_no": 2,
+    "db_cr": "CR",
+    "acc_from": "10101",
+    "acc_to": "10109",
+    "acc_name": "���� �����",
+    "amount_type": "PR",
+    "add_or": "+",
+    "formula": null,
+    "company_code": 2,
+    "design_code": "1",
+    "design_type": "L",
+    "accout_calc_type": 0
+  },
+  {
+    "report_type": "TB",
+    "line_type": "ACC",
+    "line_no": 3,
+    "db_cr": "CR",
+    "acc_from": "1020101",
+    "acc_to": "1020101",
+    "acc_name": "�������",
+    "amount_type": "PR",
+    "add_or": "+",
+    "formula": null,
+    "company_code": 2,
+    "design_code": "1",
+    "design_type": "L",
+    "accout_calc_type": 0
+  },
+  {
+    "report_type": "TB",
+    "line_type": "COM",
+    "line_no": 4,
+    "db_cr": "CR",
+    "acc_from": "",
+    "acc_to": "",
+    "acc_name": "��������",
+    "amount_type": "TO",
+    "add_or": "+",
+    "formula": "+002+003",
+    "company_code": 2,
+    "design_code": "1",
+    "design_type": "L",
+    "accout_calc_type": 0
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "description": "Map service_center (center_id) -> ODBC connection string for that branch DB.",
+  "service_centers": [
+    {
+      "service_center": 1,
+      "name": "Katameya 1",
+      "odbc_connection_string": "DSN=YOUR_DSN_NAME;UID=dba;PWD=sql;DBN=proactive_k1;HOST=127.0.0.1:2638"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+TABLE: DBA.car_request_refund_header
+ORDER_BY: entry_date
+COLUMNS: refund_id, log_store, refund_date, refund_currency, refund_amount, customer_id, cash_id, checkno, bankname, checkduedate, delete_flag, delete_user, paymenttype, refund_type, post_flag, notes, brand, curr_rate, quotation_header, approval, done_refund_id, check_id, customer_type, entry_user, entry_date, edit_user, edit_date, create_user, create_date
+ROWS: 0
+---
+[]

@@ -1,0 +1,6 @@
+TABLE: DBA.sc_item_price_update
+ORDER_BY: (none)
+COLUMNS: line_no, price_month, price_year, pn, kv, sspn, desc_a, desc_e, sc, dc, model, price
+ROWS: 0
+---
+[]
