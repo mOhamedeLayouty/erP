@@ -1,12 +1,13 @@
-import { connectDb } from '../../shared/db/odbc.js';
+import { applyPagination, connectDb } from '../../shared/db/odbc.js';
 
 const CUSTOMERS_TABLE = process.env.CRM_CUSTOMERS_TABLE ?? 'DBA.Customer';
 const FOLLOWUPS_TABLE = process.env.CRM_FOLLOWUPS_TABLE ?? 'DBA.client_customer_followup';
 
-export async function listCustomers(limit = 200) {
+export async function listCustomers(limit = 200, offset = 0) {
   const db = await connectDb();
   try {
-    return await db.query(`SELECT TOP ${limit} * FROM ${CUSTOMERS_TABLE}`);
+    const sql = applyPagination(`SELECT * FROM ${CUSTOMERS_TABLE}`, { limit, offset });
+    return await db.query(sql);
   } finally {
     await db.close();
   }
@@ -26,10 +27,11 @@ export async function getCustomer(id: string) {
   }
 }
 
-export async function listCustomerFollowups(limit = 200) {
+export async function listCustomerFollowups(limit = 200, offset = 0) {
   const db = await connectDb();
   try {
-    return await db.query(`SELECT TOP ${limit} * FROM ${FOLLOWUPS_TABLE} ORDER BY 1 DESC`);
+    const sql = applyPagination(`SELECT * FROM ${FOLLOWUPS_TABLE} ORDER BY 1 DESC`, { limit, offset });
+    return await db.query(sql);
   } finally {
     await db.close();
   }

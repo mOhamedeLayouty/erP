@@ -1,14 +1,16 @@
-import { connectDb } from '../../shared/db/odbc.js';
+import { applyPagination, connectDb } from '../../shared/db/odbc.js';
 
 const T_CUSTOMER = 'DBA.Customer';
 const T_EQPT = 'DBA.ws_Eqpt';
 
-export async function listCustomers(limit = 200) {
+export async function listCustomers(limit = 200, offset = 0) {
   const db = await connectDb();
   try {
-    return await db.query(
-      `SELECT TOP ${limit} customer_id, customer_name_a, customer_name_e, GSM, email, address FROM ${T_CUSTOMER} ORDER BY customer_id`
+    const sql = applyPagination(
+      `SELECT customer_id, customer_name_a, customer_name_e, GSM, email, address FROM ${T_CUSTOMER} ORDER BY customer_id`,
+      { limit, offset }
     );
+    return await db.query(sql);
   } finally { await db.close(); }
 }
 
@@ -56,11 +58,13 @@ export async function createCustomer(input: any, actor_user_id: string) {
   } finally { await db.close(); }
 }
 
-export async function listEquipment(limit = 200) {
+export async function listEquipment(limit = 200, offset = 0) {
   const db = await connectDb();
   try {
-    return await db.query(
-      `SELECT TOP ${limit} eqpt_id, licence_no, vin_no, year, eqpt_number, service_center FROM ${T_EQPT} ORDER BY eqpt_id`
+    const sql = applyPagination(
+      `SELECT eqpt_id, licence_no, vin_no, year, eqpt_number, service_center FROM ${T_EQPT} ORDER BY eqpt_id`,
+      { limit, offset }
     );
+    return await db.query(sql);
   } finally { await db.close(); }
 }

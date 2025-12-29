@@ -2,7 +2,7 @@ import { Router } from 'express';
 import type { PermissionGuardFactory } from '../../shared/rbac.js';
 import { validateBody } from '../../shared/validation.js';
 import { z } from 'zod';
-import { connectDb } from '../../shared/db/odbc.js';
+import { withTransaction } from '../../shared/db/odbc.js';
 import { listInvoices, listInvoiceDetails, createInvoiceHeader, createInvoiceDetail } from './invoicing.repo.js';
 
 const anyObject = z.record(z.any());
@@ -15,13 +15,21 @@ const createFullSchema = z.object({
 export function invoicingRouter(guard: PermissionGuardFactory) {
   const r = Router();
 
-  r.get('/invoices', guard('invoice.read'), async (_req, res, next) => {
-    try { return res.json({ ok: true, data: await listInvoices(200) }); }
+  r.get('/invoices', guard('invoice.read'), async (req, res, next) => {
+    try {
+      const limit = req.query.limit ? Number(req.query.limit) : 200;
+      const offset = req.query.offset ? Number(req.query.offset) : 0;
+      return res.json({ ok: true, data: await listInvoices(limit, offset) });
+    }
     catch (e) { return next(e); }
   });
 
   r.get('/invoices/:InvoiceID/details', guard('invoice.read'), async (req, res, next) => {
-    try { return res.json({ ok: true, data: await listInvoiceDetails(req.params.InvoiceID, 500) }); }
+    try {
+      const limit = req.query.limit ? Number(req.query.limit) : 500;
+      const offset = req.query.offset ? Number(req.query.offset) : 0;
+      return res.json({ ok: true, data: await listInvoiceDetails(req.params.InvoiceID, limit, offset) });
+    }
     catch (e) { return next(e); }
   });
 
@@ -42,21 +50,18 @@ export function invoicingRouter(guard: PermissionGuardFactory) {
 
   // Transactional create (best-effort; if driver supports)
   r.post('/invoice-full', guard('invoice.write'), validateBody(createFullSchema), async (req, res, next) => {
-    const db = await connectDb();
     try {
       const { header, details } = req.body as any;
-      await db.exec('BEGIN TRANSACTION');
-      const hAffected = await createInvoiceHeader(header);
-      let dAffected = 0;
-      for (const d of (details ?? [])) {
-        dAffected += await createInvoiceDetail(d);
-      }
-      await db.exec('COMMIT');
-      return res.json({ ok: true, data: { header_affected: hAffected, detail_affected: dAffected } });
-    } catch (e) {
-      try { await db.exec('ROLLBACK'); } catch {}
-      return next(e);
-    } finally { await db.close(); }
+      const result = await withTransaction(async (db) => {
+        const hAffected = await createInvoiceHeader(header, db);
+        let dAffected = 0;
+        for (const d of (details ?? [])) {
+          dAffected += await createInvoiceDetail(d, db);
+        }
+        return { header_affected: hAffected, detail_affected: dAffected };
+      });
+      return res.json({ ok: true, data: result });
+    } catch (e) { return next(e); }
   });
 
   return r;
