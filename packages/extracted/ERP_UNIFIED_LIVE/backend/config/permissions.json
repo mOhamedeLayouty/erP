@@ -4,7 +4,11 @@
       "*",
       "inventory.post",
       "invoice.write",
-      "job_order.update"
+      "job_order.update",
+      "crm.read",
+      "cars.read",
+      "hr.read",
+      "gl.read"
     ],
     "Receptionist": [
       "auth.token",
@@ -17,21 +21,33 @@
       "inventory.write",
       "inventory.post",
       "invoice.write",
-      "job_order.update"
+      "job_order.update",
+      "crm.read",
+      "cars.read",
+      "hr.read",
+      "gl.read"
     ],
     "Controller": [
       "job_order.read",
       "audit.read",
       "inventory.post",
       "invoice.write",
-      "job_order.update"
+      "job_order.update",
+      "crm.read",
+      "cars.read",
+      "hr.read",
+      "gl.read"
     ],
     "Storekeeper": [
       "inventory.read",
       "inventory.write",
       "inventory.post",
       "invoice.write",
-      "job_order.update"
+      "job_order.update",
+      "crm.read",
+      "cars.read",
+      "hr.read",
+      "gl.read"
     ]
   }
 }
