@@ -2,7 +2,7 @@ import { Router } from 'express';
 import type { PermissionGuardFactory } from '../../shared/rbac.js';
 import fs from 'node:fs';
 import path from 'node:path';
-import { connectDb } from '../../shared/db/odbc.js';
+import { listDbAuditRows } from './control-audit.repo.js';
 
 export function auditRouter(guard: PermissionGuardFactory) {
   const r = Router();
@@ -25,12 +25,12 @@ export function auditRouter(guard: PermissionGuardFactory) {
     const t = process.env.AUDIT_DB_TABLE;
     if (!t) return res.status(404).json({ ok: false, code: 'NOT_CONFIGURED', message: 'AUDIT_DB_TABLE not set' });
 
-    const db = await connectDb();
     try {
-      const rows = await db.query(`SELECT TOP 200 * FROM ${t} ORDER BY 1 DESC`);
+      const limit = _req.query.limit ? Number(_req.query.limit) : 200;
+      const offset = _req.query.offset ? Number(_req.query.offset) : 0;
+      const rows = await listDbAuditRows(t, limit, offset);
       return res.json({ ok: true, data: rows });
     } catch (e) { return next(e); }
-    finally { await db.close(); }
   });
 
   return r;

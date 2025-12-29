@@ -11,7 +11,8 @@ export function crmRouter(guard: PermissionGuardFactory) {
   r.get('/customers', guard('crm.read'), async (req, res, next) => {
     try {
       const limit = req.query.limit ? Number(req.query.limit) : 200;
-      return res.json({ ok: true, data: await listCustomers(limit) });
+      const offset = req.query.offset ? Number(req.query.offset) : 0;
+      return res.json({ ok: true, data: await listCustomers(limit, offset) });
     } catch (e) { return next(e); }
   });
 
@@ -25,7 +26,8 @@ export function crmRouter(guard: PermissionGuardFactory) {
   r.get('/followups', guard('crm.read'), async (req, res, next) => {
     try {
       const limit = req.query.limit ? Number(req.query.limit) : 200;
-      return res.json({ ok: true, data: await listCustomerFollowups(limit) });
+      const offset = req.query.offset ? Number(req.query.offset) : 0;
+      return res.json({ ok: true, data: await listCustomerFollowups(limit, offset) });
     } catch (e) { return next(e); }
   });
 

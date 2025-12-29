@@ -74,23 +74,39 @@ export function inventoryRouter(guardFactory: PermissionGuardFactory) {
   const guard = guardFactory;
 
   // Reads
-  r.get('/stores', guard('inventory.read'), async (_req, res, next) => {
-    try { return res.json({ ok: true, data: await listStores(200) }); }
+  r.get('/stores', guard('inventory.read'), async (req, res, next) => {
+    try {
+      const limit = req.query.limit ? Number(req.query.limit) : 200;
+      const offset = req.query.offset ? Number(req.query.offset) : 0;
+      return res.json({ ok: true, data: await listStores(limit, offset) });
+    }
     catch (e) { return next(e); }
   });
 
-  r.get('/items', guard('inventory.read'), async (_req, res, next) => {
-    try { return res.json({ ok: true, data: await listItems(200) }); }
+  r.get('/items', guard('inventory.read'), async (req, res, next) => {
+    try {
+      const limit = req.query.limit ? Number(req.query.limit) : 200;
+      const offset = req.query.offset ? Number(req.query.offset) : 0;
+      return res.json({ ok: true, data: await listItems(limit, offset) });
+    }
     catch (e) { return next(e); }
   });
 
-  r.get('/transfers', guard('inventory.read'), async (_req, res, next) => {
-    try { return res.json({ ok: true, data: await listTransfers(200) }); }
+  r.get('/transfers', guard('inventory.read'), async (req, res, next) => {
+    try {
+      const limit = req.query.limit ? Number(req.query.limit) : 200;
+      const offset = req.query.offset ? Number(req.query.offset) : 0;
+      return res.json({ ok: true, data: await listTransfers(limit, offset) });
+    }
     catch (e) { return next(e); }
   });
 
-  r.get('/transfer-details', guard('inventory.read'), async (_req, res, next) => {
-    try { return res.json({ ok: true, data: await listTransferDetails(500) }); }
+  r.get('/transfer-details', guard('inventory.read'), async (req, res, next) => {
+    try {
+      const limit = req.query.limit ? Number(req.query.limit) : 500;
+      const offset = req.query.offset ? Number(req.query.offset) : 0;
+      return res.json({ ok: true, data: await listTransferDetails(limit, offset) });
+    }
     catch (e) { return next(e); }
   });
 

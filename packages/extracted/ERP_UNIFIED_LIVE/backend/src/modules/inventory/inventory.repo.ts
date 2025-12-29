@@ -1,43 +1,47 @@
-import { connectDb } from '../../shared/db/odbc.js';
+import { applyPagination, connectDb } from '../../shared/db/odbc.js';
 import { INVENTORY_TABLES } from './inventory.tables.js';
 
 function colsCsv(cols: readonly string[]) {
   return cols.join(', ');
 }
 
-export async function listStores(limit = 200) {
+export async function listStores(limit = 200, offset = 0) {
   const db = await connectDb();
   try {
     // Use SELECT * for demo robustness: some deployments use different store tables/columns.
     // (Front-end renders columns dynamically.)
     const t = INVENTORY_TABLES.stores.table;
-    return await db.query(`SELECT TOP ${limit} * FROM ${t}`);
+    const sql = applyPagination(`SELECT * FROM ${t}`, { limit, offset });
+    return await db.query(sql);
   } finally { await db.close(); }
 }
 
-export async function listItems(limit = 200) {
+export async function listItems(limit = 200, offset = 0) {
   const db = await connectDb();
   try {
     const t = INVENTORY_TABLES.items.table;
-    return await db.query(`SELECT TOP ${limit} * FROM ${t}`);
+    const sql = applyPagination(`SELECT * FROM ${t}`, { limit, offset });
+    return await db.query(sql);
   } finally { await db.close(); }
 }
 
-export async function listTransfers(limit = 200) {
+export async function listTransfers(limit = 200, offset = 0) {
   const db = await connectDb();
   try {
     const t = INVENTORY_TABLES.transfer_header.table;
     const cols = colsCsv(INVENTORY_TABLES.transfer_header.columns);
-    return await db.query(`SELECT TOP ${limit} ${cols} FROM ${t}`);
+    const sql = applyPagination(`SELECT ${cols} FROM ${t}`, { limit, offset });
+    return await db.query(sql);
   } finally { await db.close(); }
 }
 
-export async function listTransferDetails(limit = 500) {
+export async function listTransferDetails(limit = 500, offset = 0) {
   const db = await connectDb();
   try {
     const t = INVENTORY_TABLES.transfer_detail.table;
     const cols = colsCsv(INVENTORY_TABLES.transfer_detail.columns);
-    return await db.query(`SELECT TOP ${limit} ${cols} FROM ${t}`);
+    const sql = applyPagination(`SELECT ${cols} FROM ${t}`, { limit, offset });
+    return await db.query(sql);
   } finally { await db.close(); }
 }
 

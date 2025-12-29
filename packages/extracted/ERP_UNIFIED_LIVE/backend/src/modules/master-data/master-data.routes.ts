@@ -18,7 +18,9 @@ export function masterDataRouter(guard: PermissionGuardFactory) {
 
   r.get('/customers', guard('master_data.read'), async (req, res, next) => {
     try {
-      const data = await listCustomers(200);
+      const limit = req.query.limit ? Number(req.query.limit) : 200;
+      const offset = req.query.offset ? Number(req.query.offset) : 0;
+      const data = await listCustomers(limit, offset);
       return res.json({ ok: true, data });
     } catch (e) { return next(e); }
   });
@@ -32,7 +34,9 @@ export function masterDataRouter(guard: PermissionGuardFactory) {
 
   r.get('/equipment', guard('master_data.read'), async (req, res, next) => {
     try {
-      const data = await listEquipment(200);
+      const limit = req.query.limit ? Number(req.query.limit) : 200;
+      const offset = req.query.offset ? Number(req.query.offset) : 0;
+      const data = await listEquipment(limit, offset);
       return res.json({ ok: true, data });
     } catch (e) { return next(e); }
   });
